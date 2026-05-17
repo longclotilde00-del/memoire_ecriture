@@ -1,0 +1,9 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'document_maitre (1).blg'
+[76] biber:342> INFO - === Sun May 17, 2026, 11:30:13
+[90] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
+[142] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[153] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
+[153] bbl.pm:779> INFO - Output to document_maitre (1).bbl
+[153] Biber.pm:132> WARN - The file 'document_maitre (1).bcf' does not contain any citations!
+[153] Biber.pm:134> INFO - WARNINGS: 1
