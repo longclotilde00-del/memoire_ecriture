@@ -16,5 +16,1577 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{2021}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{abstract}{AI tools are entering the world of audiovisual archives in great variety, serving different needs and reflecting different approaches. This blog post looks primarily at the AI tools being used for metadata creation. It includes a basic overview of algorithms, data sets, and the options for open-sour}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{{{AI}} in {{Audiovisual Archives}} | {{Sound}} \& {{Vision}}}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/S2F9IITH/2021 - AI in Audiovisual Archives Sound & Vision.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.beeldengeluid.nl/en/research/blog/ai-audiovisual-archives
+      \endverb
+      \verb{url}
+      \verb https://www.beeldengeluid.nl/en/research/blog/ai-audiovisual-archives
+      \endverb
+      \keyw{à lire}
+    \endentry
+    \entry{zotero-item-42}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Google Docs}
+      \field{title}{{{APA GenAI Best Practices}}\_{{Sept2024}}.Pdf}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/8M4M4QZ7/APA GenAI Best Practices_Sept2024.pdf.html
+      \endverb
+      \verb{urlraw}
+      \verb https://drive.google.com/file/d/1WS4iZ2Wi_wft5x54RG-hYb45sf10W8nV/view?usp=embed_facebook
+      \endverb
+      \verb{url}
+      \verb https://drive.google.com/file/d/1WS4iZ2Wi_wft5x54RG-hYb45sf10W8nV/view?usp=embed_facebook
+      \endverb
+    \endentry
+    \entry{arnab2021}{misc}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=a4cc19a9b2b2a4333ac5365d6f7c40a5}{%
+           family={Arnab},
+           familyi={A\bibinitperiod},
+           given={Anurag},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=965baf6fa5686a42b1564330c5e11f2f}{%
+           family={Dehghani},
+           familyi={D\bibinitperiod},
+           given={Mostafa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c95269b4a2e23e1e526be521c7ec6ad4}{%
+           family={Heigold},
+           familyi={H\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7437556e576c6f4e2ade58a9aa980ec5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4d5818a6677e2935af06184ad55c72a}{%
+           family={Lučić},
+           familyi={L\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58e4a9845eac42a4b0e5205cf0970fc0}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Cordelia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{9c773be7d421a5c671208f6e3e9b9ac9}
+      \strng{fullhash}{3f9cfecd2391ea89adb39d3c8565e47d}
+      \strng{fullhashraw}{3f9cfecd2391ea89adb39d3c8565e47d}
+      \strng{bibnamehash}{3f9cfecd2391ea89adb39d3c8565e47d}
+      \strng{authorbibnamehash}{3f9cfecd2391ea89adb39d3c8565e47d}
+      \strng{authornamehash}{9c773be7d421a5c671208f6e3e9b9ac9}
+      \strng{authorfullhash}{3f9cfecd2391ea89adb39d3c8565e47d}
+      \strng{authorfullhashraw}{3f9cfecd2391ea89adb39d3c8565e47d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We present pure-transformer based models for video classification, drawing upon the recent success of such models in image classification. Our model extracts spatio-temporal tokens from the input video, which are then encoded by a series of transformer layers. In order to handle the long sequences of tokens encountered in video, we propose several, efficient variants of our model which factorise the spatial- and temporal-dimensions of the input. Although transformer-based models are known to only be effective when large training datasets are available, we show how we can effectively regularise the model during training and leverage pretrained image models to be able to train on comparatively small datasets. We conduct thorough ablation studies, and achieve state-of-the-art results on multiple video classification benchmarks including Kinetics 400 and 600, Epic Kitchens, Something-Something v2 and Moments in Time, outperforming prior methods based on deep 3D convolutional networks. To facilitate further research, we release code at https://github.com/google-research/scenic/tree/main/scenic/projects/vivit}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{month}{11}
+      \field{number}{arXiv:2103.15691}
+      \field{shorttitle}{{{ViViT}}}
+      \field{title}{{{ViViT}}: {{A Video Vision Transformer}}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2103.15691
+      \endverb
+      \verb{eprint}
+      \verb 2103.15691
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/8WH9XDH9/Arnab et al. - 2021 - ViViT A Video Vision Transformer.pdf;/home/clotilde/Zotero/storage/98SK39KC/Arnab et al. - 2021 - ViViT A Video Vision Transformer.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2103.15691
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2103.15691
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{attard2025}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=faf90bc31c18f2a48dde9d4f03ea987b}{%
+           family={Attard},
+           familyi={A\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4c1c8ed3c5c46703693dcbf1621a286}{%
+           family={Seychell},
+           familyi={S\bibinitperiod},
+           given={Dylan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{8774b73b1dd9c3cde8bce230d1273188}
+      \strng{fullhash}{8774b73b1dd9c3cde8bce230d1273188}
+      \strng{fullhashraw}{8774b73b1dd9c3cde8bce230d1273188}
+      \strng{bibnamehash}{8774b73b1dd9c3cde8bce230d1273188}
+      \strng{authorbibnamehash}{8774b73b1dd9c3cde8bce230d1273188}
+      \strng{authornamehash}{8774b73b1dd9c3cde8bce230d1273188}
+      \strng{authorfullhash}{8774b73b1dd9c3cde8bce230d1273188}
+      \strng{authorfullhashraw}{8774b73b1dd9c3cde8bce230d1273188}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{News videos require efficient content organisation and retrieval systems, but their unstructured nature poses significant challenges for automated processing. This paper presents a comprehensive comparative analysis of image, video, and audio classifiers for automated news video segmentation. This work presents the development and evaluation of multiple deep learning approaches, including ResNet, ViViT, AST, and multimodal architectures, to classify five distinct segment types: advertisements, stories, studio scenes, transitions, and visualisations. Using a custom-annotated dataset of 41 news videos comprising 1,832 scene clips, our experiments demonstrate that image-based classifiers achieve superior performance (84.34\textbackslash\% accuracy) compared to more complex temporal models. Notably, the ResNet architecture outperformed state-of-the-art video classifiers while requiring significantly fewer computational resources. Binary classification models achieved high accuracy for transitions (94.23\textbackslash\%) and advertisements (92.74\textbackslash\%). These findings advance the understanding of effective architectures for news video segmentation and provide practical insights for implementing automated content organisation systems in media applications. These include media archiving, personalised content delivery, and intelligent video search.}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{month}{3}
+      \field{number}{arXiv:2503.21848}
+      \field{title}{Comparative {{Analysis}} of {{Image}}, {{Video}}, and {{Audio Classifiers}} for {{Automated News Video Segmentation}}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2503.21848
+      \endverb
+      \verb{eprint}
+      \verb 2503.21848
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/X3GIQ5AN/Attard and Seychell - 2025 - Comparative Analysis of Image, Video, and Audio Cl.pdf;/home/clotilde/Zotero/storage/WUVD2DWQ/Attard and Seychell - 2025 - Comparative Analysis of Image, Video, and Audio Cl.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2503.21848
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2503.21848
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{bassaisteguy2025}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2babcae46f1e5f5a756e7e17fb8ab4f0}{%
+           family={Bassaïsteguy},
+           familyi={B\bibinitperiod},
+           given={Sidonie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2babcae46f1e5f5a756e7e17fb8ab4f0}
+      \strng{fullhash}{2babcae46f1e5f5a756e7e17fb8ab4f0}
+      \strng{fullhashraw}{2babcae46f1e5f5a756e7e17fb8ab4f0}
+      \strng{bibnamehash}{2babcae46f1e5f5a756e7e17fb8ab4f0}
+      \strng{authorbibnamehash}{2babcae46f1e5f5a756e7e17fb8ab4f0}
+      \strng{authornamehash}{2babcae46f1e5f5a756e7e17fb8ab4f0}
+      \strng{authorfullhash}{2babcae46f1e5f5a756e7e17fb8ab4f0}
+      \strng{authorfullhashraw}{2babcae46f1e5f5a756e7e17fb8ab4f0}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Are we in a cultural crisis? As generative AI and consumption society are in full swing, cultural institutions are reconsidering their ways. How does one ensure the integrity of cultural collections in the virtual era? Those questions are especially relevant for the Institut national de l’audiovisuel, which currently experiences deep changes in its practices and its raisons d’être. In the context of a project mapping documentary processes within the institute, this study returns to Marshall McLuhan’s infamous statement: if the medium is the message, then as far as cultural institutions are concerned, the medium is the memory. This dissertation explores three phases embodying three different epochs in the INA’s documentary history: a first, physical and ideological era that follows the establishment of television as a mass medium; a computerised era that incorporates the televisual document within the new paradigm of the information society; and a digital era in an increasingly virtual society where points of reference must be recreated lest they are lost.}
+      \field{month}{9}
+      \field{shorttitle}{Le Médium, c'est La Mémoire}
+      \field{title}{Le Médium, c'est La Mémoire : Archivages Du Document à l'{{Institut}} National de l'audiovisuel}
+      \field{type}{mathesis}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/B67VMZCT/Bassaïsteguy - 2025 - Le médium, c'est la mémoire archivages du docume.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-05384062
+      \endverb
+      \verb{url}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-05384062
+      \endverb
+      \keyw{Audiovisuel,Bases de données,Bibliothèque,Collections patrimoniales,Document audiovisuel,Documentation,Institut national de l'audiovisuel,Institution culturelle,Institution patrimoniale,Intelligence artificielle,Internet,Interopérabilité,Télévision,Web}
+    \endentry
+    \entry{2021b}{misc}{}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This blog explores key considerations for audiovisual archives working on AI projects. It covers institutional factors, technology integration, and storage of machine-generated data, highlighting use cases from Vanderbilt University, AMPPD, and the Netherlands Institute for Sound \& Vision.}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{Bringing {{AI}} into the {{Audiovisual Archive}} | {{Sound}} \& {{Vision}}}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/KM9PXNAU/2021 - Bringing AI into the Audiovisual Archive Sound &.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.beeldengeluid.nl/en/research/blog/bringing-ai-audiovisual-archive
+      \endverb
+      \verb{url}
+      \verb https://www.beeldengeluid.nl/en/research/blog/bringing-ai-audiovisual-archive
+      \endverb
+    \endentry
+    \entry{2025}{misc}{}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The FIAT/IFTA Archive Achievement Awards 2019 were presented in Dubrovnik, Croatia at the FIAT/IFTA World Conference 2019.}
+      \field{langid}{british}
+      \field{month}{9}
+      \field{title}{{{FIAT}}/{{IFTA Archive Achievement Awards}} 2019}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/EXJBJMDH/2025 - FIAT_IFTA Archive Achievement Awards 2019.html
+      \endverb
+      \verb{urlraw}
+      \verb https://fiatifta.org/awards-editions/awards-2019/
+      \endverb
+      \verb{url}
+      \verb https://fiatifta.org/awards-editions/awards-2019/
+      \endverb
+    \endentry
+    \entry{gong2021}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=001add0b14cdbd927a79bb51b1e48332}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdea592e6f06a6643e4763fc7ab2c550}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Yu-An},
+           giveni={Y\bibinithyphendelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=079738ec97fefceec5036d7c3657c667}{%
+           family={Glass},
+           familyi={G\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{711323b8553fac66ea5d54ad914cc923}
+      \strng{fullhash}{711323b8553fac66ea5d54ad914cc923}
+      \strng{fullhashraw}{711323b8553fac66ea5d54ad914cc923}
+      \strng{bibnamehash}{711323b8553fac66ea5d54ad914cc923}
+      \strng{authorbibnamehash}{711323b8553fac66ea5d54ad914cc923}
+      \strng{authornamehash}{711323b8553fac66ea5d54ad914cc923}
+      \strng{authorfullhash}{711323b8553fac66ea5d54ad914cc923}
+      \strng{authorfullhashraw}{711323b8553fac66ea5d54ad914cc923}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In the past decade, convolutional neural networks (CNNs) have been widely adopted as the main building block for end-to-end audio classification models, which aim to learn a direct mapping from audio spectrograms to corresponding labels. To better capture long-range global context, a recent trend is to add a self-attention mechanism on top of the CNN, forming a CNN-attention hybrid model. However, it is unclear whether the reliance on a CNN is necessary, and if neural networks purely based on attention are sufficient to obtain good performance in audio classification. In this paper, we answer the question by introducing the Audio Spectrogram Transformer (AST), the first convolution-free, purely attention-based model for audio classification. We evaluate AST on various audio classification benchmarks, where it achieves new state-of-the-art results of 0.485 mAP on AudioSet, 95.6\% accuracy on ESC-50, and 98.1\% accuracy on Speech Commands V2.}
+      \field{eprintclass}{cs.SD}
+      \field{eprinttype}{arXiv}
+      \field{month}{7}
+      \field{number}{arXiv:2104.01778}
+      \field{shorttitle}{{{AST}}}
+      \field{title}{{{AST}}: {{Audio Spectrogram Transformer}}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2104.01778
+      \endverb
+      \verb{eprint}
+      \verb 2104.01778
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/ACSG2486/Gong et al. - 2021 - AST Audio Spectrogram Transformer.pdf;/home/clotilde/Zotero/storage/6RDUKGAH/Gong et al. - 2021 - AST Audio Spectrogram Transformer.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2104.01778
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2104.01778
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Sound}
+    \endentry
+    \entry{husson2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d1542084df41de78edb36720873b03b}{%
+           family={Husson},
+           familyi={H\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d1542084df41de78edb36720873b03b}
+      \strng{fullhash}{9d1542084df41de78edb36720873b03b}
+      \strng{fullhashraw}{9d1542084df41de78edb36720873b03b}
+      \strng{bibnamehash}{9d1542084df41de78edb36720873b03b}
+      \strng{authorbibnamehash}{9d1542084df41de78edb36720873b03b}
+      \strng{authornamehash}{9d1542084df41de78edb36720873b03b}
+      \strng{authorfullhash}{9d1542084df41de78edb36720873b03b}
+      \strng{authorfullhashraw}{9d1542084df41de78edb36720873b03b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Ce mémoire s’inscrit dans le cadre du projet IconographIA, mené par l’Institut national d’histoire de l’art en collaboration avec le consortium Huma-Num Pictoria. Ce projet a pour objectif d’indexer les œuvres recensées dans le RETIF (Répertoire des tableaux italiens dans les collections publiques françaises), en mobilisant les technologies relevant de l’intelligence artificielle et de la vision par ordinateur. L’indexation iconographique s’appuie sur le thésaurus Garnier et est destinée à être intégrée dans la plateforme AGORHA. Au cours de cette étude, une réflexion est d’abord conduite sur les enjeux de cette pratique documentaire, en particulier pour la description des œuvres picturales, ainsi que sur ses instruments et son rôle dans l’exploration des bases de données. Les expérimentations menées pour automatiser cette tâche sont ensuite exposées, en détaillant les pistes envisagées, les défis rencontrés et les limites de cette méthode. Enfin, ce mémoire expose des approches alternatives à l’automatisation du processus, s’appuyant sur la vision par ordinateur pour faciliter le travail de l’indexeur ou pour repenser l’exploration au sein des bases de données.}
+      \field{langid}{french}
+      \field{month}{10}
+      \field{shorttitle}{{Indexation iconographique et intelligence artificielle}}
+      \field{title}{{Indexation iconographique et intelligence artificielle : expérimentations autour du Répertoire des tableaux italiens dans les collections publiques françaises (RETIF)}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{xviii}
+      \range{pages}{1}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/SX59WS5J/Husson - 2025 - Indexation iconographique et intelligence artifici.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-05387482
+      \endverb
+      \verb{url}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-05387482
+      \endverb
+    \endentry
+    \entry{leber2025}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=06bf779c52b25930c31d49bbad2b18fb}{%
+           family={Le\bibnamedelima Ber},
+           familyi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Fantin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{fullhash}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{fullhashraw}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{bibnamehash}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{authorbibnamehash}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{authornamehash}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{authorfullhash}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{authorfullhashraw}{06bf779c52b25930c31d49bbad2b18fb}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This work is the result of a 6 months internship experience in the ANR Highvision project, dedicated to automatic study of the circulation of press photographs in the early XXth century, and in the PictorIA consortium, an initiative dedicated to the study of AI possibilities for image analysis in Digital Humanities. The said mémoire mainly studies the impact of machine learning technologies in historical research and LAM institutions. It also presents a protocol used for automatic segmentation of newpaper pages based on a custom YOLO model and pero-ocr, and an attempt to tackle the trials of image-text links in the context of press, through the CLIP model.}
+      \field{month}{9}
+      \field{shorttitle}{{{IA}} et Patrimoine, Un Changement Dans La Continuité}
+      \field{title}{{{IA}} et Patrimoine, Un Changement Dans La Continuité : L'exemple Du Projet {{Highvision}}}
+      \field{type}{mathesis}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/GFWPDDXM/Le Ber - 2025 - IA et patrimoine, un changement dans la continuité.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-05387596
+      \endverb
+      \verb{url}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-05387596
+      \endverb
+      \keyw{AI,Art History,Heritage,Histoire de l'art,Histoire de la presse,Historical newspapers,IA,Machine-learning,Patrimoine,Segmentation}
+    \endentry
+    \entry{zotero-item-52}{misc}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ISO}
+      \field{langid}{french}
+      \field{title}{{Les secrets du traitement du langage naturel décryptés}}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/4QP3MPXR/Les secrets du traitement du langage naturel décry.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.iso.org/fr/intelligence-artificielle/traitement-langage-naturel
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/fr/intelligence-artificielle/traitement-langage-naturel
+      \endverb
+    \endentry
+    \entry{longpre2025}{misc}{}{}
+      \name{author}{43}{}{%
+        {{un=0,uniquepart=base,hash=2e8c6baaa8411d8bda3b277ca6ff2db5}{%
+           family={Longpre},
+           familyi={L\bibinitperiod},
+           given={Shayne},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8127a65f8940dd80aea68c681b9c3be}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Nikhil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f2c8abcd651e78b8cee13f260e5b13b}{%
+           family={Cherep},
+           familyi={C\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3126d76cd0271da07054e630875281e7}{%
+           family={Tiwary},
+           familyi={T\bibinitperiod},
+           given={Kushagra},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53ad5691c4778df5d30d8074dfd10c1a}{%
+           family={Materzynska},
+           familyi={M\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6af8157cf1d54fba1dd6cfebd78cff75}{%
+           family={Brannon},
+           familyi={B\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3225567878eafc9a7b1b3da4da7c1799}{%
+           family={Mahari},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21b8bd84c29e96cf997340aba5d65094}{%
+           family={{Obeng-Marnu}},
+           familyi={O\bibinitperiod},
+           given={Naana},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4c5e162e471d5b16c1ae030c76eda96}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Manan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b1243af8eb11788724bc2fba8f5b75d}{%
+           family={Hamdy},
+           familyi={H\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a84ad5fcfb576534ed38ba35321fbe2d}{%
+           family={Saxena},
+           familyi={S\bibinitperiod},
+           given={Nayan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3695136a8d59909cd2a83685979fd5a}{%
+           family={Anis},
+           familyi={A\bibinitperiod},
+           given={Ahmad\bibnamedelima Mustafa},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e00f1eb08ab59cef62aa5e51b58cb1e}{%
+           family={Alghamdi},
+           familyi={A\bibinitperiod},
+           given={Emad\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7c22fa8759a46abf77899c3e1639e1b}{%
+           family={Chien},
+           familyi={C\bibinitperiod},
+           given={Vu\bibnamedelima Minh},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebd9e379c8da5767029e08693ce44f22}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Da},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5273a7d424da234bdc94a77e1ea5b44b}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f8018e05c00723a4e99a7d87403cd86}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yizhi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6851d4449c12175c3a4bc12c82b9462f}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Minnie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c7e8d86f366d720a1acbfa34d8dfaab}{%
+           family={Dinh},
+           familyi={D\bibinitperiod},
+           given={An},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8538c37edaf1bb41b01f3b0fab9e523}{%
+           family={Mohanty},
+           familyi={M\bibinitperiod},
+           given={Shrestha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=400f1400ac0b4a8c911afb00ff6a4aa6}{%
+           family={Mataciunas},
+           familyi={M\bibinitperiod},
+           given={Deividas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43678d891d7c21e2710cfd79e24bc271}{%
+           family={South},
+           familyi={S\bibinitperiod},
+           given={Tobin},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08c0cbde5dac1f82840aa81ae8a112fc}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jianguo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2caa00158fee1c19242a5769625db736}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Ariel\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0dc170359866ae57b7b61f67e96d726}{%
+           family={Lund},
+           familyi={L\bibinitperiod},
+           given={Campbell\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3e853211016a2d4f248389d826c5e5c}{%
+           family={Klamm},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bf14bff7a186b433e6618de13a74c44}{%
+           family={Sileo},
+           familyi={S\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=148e56face00c11b6b4ce8047454cbee}{%
+           family={Misra},
+           familyi={M\bibinitperiod},
+           given={Diganta},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57f551d6a0540cadf640186534986a27}{%
+           family={Shippole},
+           familyi={S\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19236862d60dbfcd453f6e1ebbe69c14}{%
+           family={Klyman},
+           familyi={K\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1d5351e765b1ac6611a975d1e939807}{%
+           family={Miranda},
+           familyi={M\bibinitperiod},
+           given={Lester\bibnamedelima JV},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2deb8466aa6f0edfe3cc805f9d776d8}{%
+           family={Muennighoff},
+           familyi={M\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=008bb0964aa3a44d7fddefd1ad89b675}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Seonghyeon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bff0730b751bd0c704fb41abc4604d73}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seungone},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49b25161b246104086508ee2725849ac}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Vipul},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43d1d04a463298dd32099a4010ebb82b}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Vivek},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba22c75d7aa23d8ca51f50038d130ed6}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xuhui},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fa4dfdd5ecf049d39575fe7ba1ec9f3}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Caiming},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34471e283d57df9eb0facf85a9586224}{%
+           family={Villa},
+           familyi={V\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=865b3a07920bcd999406ae3062b413fa}{%
+           family={Biderman},
+           familyi={B\bibinitperiod},
+           given={Stella},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfeba84379500ca15113b46bf96d3c2a}{%
+           family={Pentland},
+           familyi={P\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c26c60500cfffd20972310345c0a7a96}{%
+           family={Hooker},
+           familyi={H\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3266c485ab018d7bfb49a7ae1448a402}{%
+           family={Kabbara},
+           familyi={K\bibinitperiod},
+           given={Jad},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{5e506996a15a07ef753dc1a4ee2010f3}
+      \strng{fullhash}{eae1019bccee50b843285ac351c4b1c2}
+      \strng{fullhashraw}{eae1019bccee50b843285ac351c4b1c2}
+      \strng{bibnamehash}{5e506996a15a07ef753dc1a4ee2010f3}
+      \strng{authorbibnamehash}{5e506996a15a07ef753dc1a4ee2010f3}
+      \strng{authornamehash}{5e506996a15a07ef753dc1a4ee2010f3}
+      \strng{authorfullhash}{eae1019bccee50b843285ac351c4b1c2}
+      \strng{authorfullhashraw}{eae1019bccee50b843285ac351c4b1c2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Progress in AI is driven largely by the scale and quality of training data. Despite this, there is a deficit of empirical analysis examining the attributes of well-established datasets beyond text. In this work we conduct the largest and first-of-its-kind longitudinal audit across modalities--popular text, speech, and video datasets--from their detailed sourcing trends and use restrictions to their geographical and linguistic representation. Our manual analysis covers nearly 4000 public datasets between 1990-2024, spanning 608 languages, 798 sources, 659 organizations, and 67 countries. We find that multimodal machine learning applications have overwhelmingly turned to web-crawled, synthetic, and social media platforms, such as YouTube, for their training sets, eclipsing all other sources since 2019. Secondly, tracing the chain of dataset derivations we find that while less than 33\% of datasets are restrictively licensed, over 80\% of the source content in widely-used text, speech, and video datasets, carry non-commercial restrictions. Finally, counter to the rising number of languages and geographies represented in public AI training datasets, our audit demonstrates measures of relative geographical and multilingual representation have failed to significantly improve their coverage since 2013. We believe the breadth of our audit enables us to empirically examine trends in data sourcing, restrictions, and Western-centricity at an ecosystem-level, and that visibility into these questions are essential to progress in responsible AI. As a contribution to ongoing improvements in dataset transparency and responsible use, we release our entire multimodal audit, allowing practitioners to trace data provenance across text, speech, and video.}
+      \field{eprintclass}{cs.AI}
+      \field{eprinttype}{arXiv}
+      \field{month}{2}
+      \field{number}{arXiv:2412.17847}
+      \field{title}{Bridging the {{Data Provenance Gap Across Text}}, {{Speech}} and {{Video}}}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2412.17847
+      \endverb
+      \verb{eprint}
+      \verb 2412.17847
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/CGXMF9FC/Longpre et al. - 2025 - Bridging the Data Provenance Gap Across Text, Spee.pdf;/home/clotilde/Zotero/storage/5KFATP2S/Longpre et al. - 2025 - Bridging the Data Provenance Gap Across Text, Spee.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2412.17847
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2412.17847
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computers and Society,Computer Science - Machine Learning,Computer Science - Multimedia}
+    \endentry
+    \entry{mahdi2014}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=307ca9541b2e9a8707a0eb397b2d94b1}{%
+           family={Mahdi},
+           familyi={M\bibinitperiod},
+           given={Walid},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d23544114c262eacea8622ab3277e05}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Liming},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3654cde95d4a6fbe98121898140065de}{%
+           family={Ardebilian},
+           familyi={A\bibinitperiod},
+           given={Mohsen},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{b349b4190c27e625dcc46126ff1c15bf}
+      \strng{fullhash}{b349b4190c27e625dcc46126ff1c15bf}
+      \strng{fullhashraw}{b349b4190c27e625dcc46126ff1c15bf}
+      \strng{bibnamehash}{b349b4190c27e625dcc46126ff1c15bf}
+      \strng{authorbibnamehash}{b349b4190c27e625dcc46126ff1c15bf}
+      \strng{authornamehash}{b349b4190c27e625dcc46126ff1c15bf}
+      \strng{authorfullhash}{b349b4190c27e625dcc46126ff1c15bf}
+      \strng{authorfullhashraw}{b349b4190c27e625dcc46126ff1c15bf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With ever increasing computing power and data storage capacity, the potential for large digital video libraries is growing rapidly.However, the massive use of video for the moment is limited by its opaque characteristics. Indeed, a user who has to handle and retrieve sequentially needs too much time in order to find out segments of interest within a video. Therefore, providing an environment both convenient and efficient for video storing and retrieval, especially for content-based searching as this exists in traditional textbased database systems, has been the focus of recent and important efforts of a large research community In this paper, we propose a new automatic video scene segmentation method that explores two main video features; these are spatial-temporal relationship and rhythm of shots. The experimental evidence we obtained from a 80 minutevideo showed that our prototype provides very high accuracy for video segmentation.}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{month}{12}
+      \field{number}{arXiv:1412.4470}
+      \field{title}{Automatic Video Scene Segmentation Based on Spatial-Temporal Clues and Rhythm}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.1412.4470
+      \endverb
+      \verb{eprint}
+      \verb 1412.4470
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/BSGITJE4/Mahdi et al. - 2014 - Automatic video scene segmentation based on spatia.pdf;/home/clotilde/Zotero/storage/FBMGP4R9/Mahdi et al. - 2014 - Automatic video scene segmentation based on spatia.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1412.4470
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1412.4470
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{zotero-item-84}{misc}{}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wapikoni mobile}
+      \field{langid}{canadian}
+      \field{title}{Notre Vision}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://evenementswapikoni.ca/vision
+      \endverb
+      \verb{url}
+      \verb https://evenementswapikoni.ca/vision
+      \endverb
+    \endentry
+    \entry{patton2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e2e50b743b8efcf9f35743056372dc1f}{%
+           family={Patton},
+           familyi={P\bibinitperiod},
+           given={Stacey},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e2e50b743b8efcf9f35743056372dc1f}
+      \strng{fullhash}{e2e50b743b8efcf9f35743056372dc1f}
+      \strng{fullhashraw}{e2e50b743b8efcf9f35743056372dc1f}
+      \strng{bibnamehash}{e2e50b743b8efcf9f35743056372dc1f}
+      \strng{authorbibnamehash}{e2e50b743b8efcf9f35743056372dc1f}
+      \strng{authornamehash}{e2e50b743b8efcf9f35743056372dc1f}
+      \strng{authorfullhash}{e2e50b743b8efcf9f35743056372dc1f}
+      \strng{authorfullhashraw}{e2e50b743b8efcf9f35743056372dc1f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Jane Winters is a professor of Digital Humanities at the School of Advanced Study, University of London. As artificial intelligence continues to revolutionize various fields, its applications in the cultural heritage sector, particularly for archives and special collections, are advancing at an astonishing pace. For GLAMS professionals these technologies offer transformative possibilities—if we can overcome Read More}
+      \field{journaltitle}{CLIR}
+      \field{langid}{american}
+      \field{month}{10}
+      \field{shorttitle}{{{AI Meets Archives}}}
+      \field{title}{{{AI Meets Archives}}: {{The Future}} of {{Machine Learning}} in {{Cultural Heritage}}}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/JPQAGSDC/Patton - 2024 - AI Meets Archives The Future of Machine Learning.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.clir.org/2024/10/ai-meets-archives-the-future-of-machine-learning-in-cultural-heritage/
+      \endverb
+      \verb{url}
+      \verb https://www.clir.org/2024/10/ai-meets-archives-the-future-of-machine-learning-in-cultural-heritage/
+      \endverb
+    \endentry
+    \entry{posts2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a39977243d98833808eb55f1b277f567}{%
+           family={{posts}},
+           familyi={p\bibinitperiod},
+           given={View\bibnamedelimb all\bibnamedelimb of\bibnamedelimb Tord\bibnamedelima Nilsen's},
+           giveni={V\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a39977243d98833808eb55f1b277f567}
+      \strng{fullhash}{a39977243d98833808eb55f1b277f567}
+      \strng{fullhashraw}{a39977243d98833808eb55f1b277f567}
+      \strng{bibnamehash}{a39977243d98833808eb55f1b277f567}
+      \strng{authorbibnamehash}{a39977243d98833808eb55f1b277f567}
+      \strng{authornamehash}{a39977243d98833808eb55f1b277f567}
+      \strng{authorfullhash}{a39977243d98833808eb55f1b277f567}
+      \strng{authorfullhashraw}{a39977243d98833808eb55f1b277f567}
+      \field{sortinit}{p}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{british}
+      \field{month}{12}
+      \field{title}{Semantic Search in an Online Collection – {{Nasjonalmuseet}} Beta}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/KRBSKZAP/posts - 2023 - Semantic search in an online collection – Nasjonal.html
+      \endverb
+      \verb{urlraw}
+      \verb https://beta.nasjonalmuseet.no/2023/08/add-semantic-search-to-a-online-collection/
+      \endverb
+      \verb{url}
+      \verb https://beta.nasjonalmuseet.no/2023/08/add-semantic-search-to-a-online-collection/
+      \endverb
+    \endentry
+    \entry{rattinger2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=f918b793b2652602e38d235be0d71cd3}{%
+           family={Rattinger},
+           familyi={R\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d450b8f98b6a54cd7be8bdcd5c21db38}{%
+           family={Alliata},
+           familyi={A\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25c512857186fd4ebd37444bf545e4ba}{%
+           family={Benzi},
+           familyi={B\bibinitperiod},
+           given={Kirell},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31d456f056497f47699108216e786538}{%
+           family={Kenderdine},
+           familyi={K\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d450b8f98b6a54cd7be8bdcd5c21db38}{%
+           family={Alliata},
+           familyi={A\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25c512857186fd4ebd37444bf545e4ba}{%
+           family={Benzi},
+           familyi={B\bibinitperiod},
+           given={Kirell},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31d456f056497f47699108216e786538}{%
+           family={Kenderdine},
+           familyi={K\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad945cc0281e794dae23e9a6eb8f4325}
+      \strng{fullhash}{7d4490b47c45eda0cdcb4801f8d9102d}
+      \strng{fullhashraw}{7d4490b47c45eda0cdcb4801f8d9102d}
+      \strng{bibnamehash}{7d4490b47c45eda0cdcb4801f8d9102d}
+      \strng{authorbibnamehash}{7d4490b47c45eda0cdcb4801f8d9102d}
+      \strng{authornamehash}{ad945cc0281e794dae23e9a6eb8f4325}
+      \strng{authorfullhash}{7d4490b47c45eda0cdcb4801f8d9102d}
+      \strng{authorfullhashraw}{7d4490b47c45eda0cdcb4801f8d9102d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract ArchiveVault is a next-generation digital archiving system designed to enhance access to audiovisual collections through automated metadata extraction and advanced retrieval mechanisms. Traditional archiving methods are labor-intensive, requiring extensive manual annotation that often leads to incomplete and inconsistent metadata. ArchiveVault addresses this challenge by employing AI-based transcription, named entity recognition (NER), speaker diarization, and pose detection to extract structured metadata from audiovisual archives. This allows for rich, searchable metadata that improves retrieval precision beyond traditional keyword-based approaches. By leveraging state-of-the-art AI techniques, ArchiveVault enables researchers, archivists, and content creators to perform semantic searches across large collections, discovering moments of interest more effectively. Our deployments in a national broadcast archive (RTS) and the Olympic Games media collection demonstrate how AI-driven processing unlocks previously inaccessible content, from spoken-word analysis to pose-based retrieval for sports footage.}
+      \field{issn}{2161-8798}
+      \field{journaltitle}{Archiving Conference}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{{{AI-driven Metadata Extraction}} and {{Semantic Search}} for {{Audiovisual Archives}}}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{22}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{112\bibrangedash 116}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.2352/issn.2168-3204.2025.22.1.21
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/7PQS5IA9/Rattinger et al. - 2025 - AI-driven Metadata Extraction and Semantic Search.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://library.imaging.org/archiving/articles/22/1/21
+      \endverb
+      \verb{url}
+      \verb https://library.imaging.org/archiving/articles/22/1/21
+      \endverb
+    \endentry
+    \entry{reignier2022}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5f81a1e8ace2720860fcae49c626682f}{%
+           family={Reignier},
+           familyi={R\bibinitperiod},
+           given={Virgile},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5f81a1e8ace2720860fcae49c626682f}
+      \strng{fullhash}{5f81a1e8ace2720860fcae49c626682f}
+      \strng{fullhashraw}{5f81a1e8ace2720860fcae49c626682f}
+      \strng{bibnamehash}{5f81a1e8ace2720860fcae49c626682f}
+      \strng{authorbibnamehash}{5f81a1e8ace2720860fcae49c626682f}
+      \strng{authornamehash}{5f81a1e8ace2720860fcae49c626682f}
+      \strng{authorfullhash}{5f81a1e8ace2720860fcae49c626682f}
+      \strng{authorfullhashraw}{5f81a1e8ace2720860fcae49c626682f}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Ce mémoire a été réalisé à la suite d’un stage de 4 mois à l’Institut de Recherche et d’Histoire des Textes, au sein de la section de paléographie latine. Il s’inscrit dans la continuité du projet Himanis visant à rendre disponible le contenu des registres du Trésor des chartes en développant des techniques de lecture automatique. L’objectif de notre travail consiste à poursuivre le développement de ces techniques par l’apprentissage du liage d’entités. Ce procédé vise à mettre en lien les entités nommées reconnues préalablement avec le contenu d’un référentiel et à résoudre les ambiguïtés existantes entre ces entités. Ce mémoire s’attache donc à décrire les différents travaux que nous avons réalisés pour explorer l’utilisation de cette technique dans le cadre du Trésor des chartes. Il s’intéresse principalement à la construction d’un référentiel à partir d’instruments de recherche utilisés comme legacy medatada. Il présente les nombreuses problématiques auxquelles nous avons été confrontés par l’utilisation de ces legacy data, que ce soit pour le traitement des données, leur alignement ou l’anticipation de leurs usages. Il rend également compte des essais réalisés pour mettre en œuvre le liage d’entités et propose des perspectives pour améliorer les résultats obtenus.}
+      \field{month}{10}
+      \field{shorttitle}{Vers l'indexation Automatique Du {{Trésor}} Des Chartes}
+      \field{title}{Vers l'indexation Automatique Du {{Trésor}} Des Chartes : Constitution, Alignement et Utilisation d'un Référentiel d'entités Nommées Au Sein Du Projet {{Himanis}}}
+      \field{type}{mathesis}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/FQBVZFR6/Reignier - 2022 - Vers l'indexation automatique du Trésor des charte.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-04538777
+      \endverb
+      \verb{url}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-04538777
+      \endverb
+      \keyw{Alignement de référentiels,Archives nationales,Entity linking,Himanis,Intelligence artificielle,IRHT,Machine learning,Numérisation d'instruments de recherche,Reconnaissance d'écritures manuscrites,REM,REN,ROC,TNAH,Trésor des chartes}
+    \endentry
+    \entry{suominen2019a}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=42edae00950633991c0c437b4ce4b384}{%
+           family={Suominen},
+           familyi={S\bibinitperiod},
+           given={Osma},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{42edae00950633991c0c437b4ce4b384}
+      \strng{fullhash}{42edae00950633991c0c437b4ce4b384}
+      \strng{fullhashraw}{42edae00950633991c0c437b4ce4b384}
+      \strng{bibnamehash}{42edae00950633991c0c437b4ce4b384}
+      \strng{authorbibnamehash}{42edae00950633991c0c437b4ce4b384}
+      \strng{authornamehash}{42edae00950633991c0c437b4ce4b384}
+      \strng{authorfullhash}{42edae00950633991c0c437b4ce4b384}
+      \strng{authorfullhashraw}{42edae00950633991c0c437b4ce4b384}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Les bibliothèques gèrent un grand nombre de métadonnées, pour différents types de documents. Le plus souvent, ces documents sont indexés à l’aide de mots sujets sélectionnés au sein d’un vocabulaire contrôlé, afin d’être recherchés plus tard. L’indexation manuelle de documents est un travail intellectuel très consommateur de temps. Par ailleurs, aujourd’hui, de nombreux documents sont disponibles sous forme numérique. Il devient dès lors possible d’automatiser ce travail d’indexation, à parti...}
+      \field{issn}{2108-7016}
+      \field{journaltitle}{Arabesques}
+      \field{langid}{french}
+      \field{month}{7}
+      \field{number}{94}
+      \field{title}{{Annif, l’indexation automatique à la Bibliothèque nationale de Finlande}}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{21\bibrangedash 23}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.35562/arabesques.605
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/MD666PQT/Suominen - 2019 - Annif, l’indexation automatique à la Bibliothèque.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://publications-prairial.fr/arabesques/index.php?id=605
+      \endverb
+      \verb{url}
+      \verb https://publications-prairial.fr/arabesques/index.php?id=605
+      \endverb
+    \endentry
+    \entry{tannier2006}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7610665c421663c53179571c4b6ddc22}{%
+           family={Tannier},
+           familyi={T\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Ecole Nationale Supérieure des Mines de Saint-Etienne}%
+      }
+      \strng{namehash}{7610665c421663c53179571c4b6ddc22}
+      \strng{fullhash}{7610665c421663c53179571c4b6ddc22}
+      \strng{fullhashraw}{7610665c421663c53179571c4b6ddc22}
+      \strng{bibnamehash}{7610665c421663c53179571c4b6ddc22}
+      \strng{authorbibnamehash}{7610665c421663c53179571c4b6ddc22}
+      \strng{authornamehash}{7610665c421663c53179571c4b6ddc22}
+      \strng{authorfullhash}{7610665c421663c53179571c4b6ddc22}
+      \strng{authorfullhashraw}{7610665c421663c53179571c4b6ddc22}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{La recherche d'information (RI) dans des documents semi-structurés{$<$}br /{$>$}(écrits en XML en pratique) combine des aspects de la RI{$<$}br /{$>$}traditionnelle et ceux de l'interrogation de bases de données. La{$<$}br /{$>$}structure a une importance primordiale, mais le besoin d'information{$<$}br /{$>$}reste vague. L'unité de recherche est variable (un paragraphe, une{$<$}br /{$>$}figure, un article complet\textbackslash dots). Par ailleurs, la flexibilité du{$<$}br /{$>$}langage XML autorise des manipulations du contenu qui provoquent{$<$}br /{$>$}parfois des ruptures arbitraires dans le flot naturel du texte.{$<$}br /{$><$}br /{$>$}Les problèmes posés par ces caractéristiques sont nombreux, que ce{$<$}br /{$>$}soit au niveau du pré-traitement des documents ou de leur{$<$}br /{$>$}interrogation. Face à ces problèmes, nous avons étudié les solutions{$<$}br /{$>$}spécifiques que pouvait apporter le traitement automatique de la{$<$}br /{$>$}langue (TAL). Nous avons ainsi proposé un cadre théorique et une{$<$}br /{$>$}approche pratique pour permettre l'utilisation des techniques{$<$}br /{$>$}d'analyse textuelle en faisant abstraction de la structure. Nous avons{$<$}br /{$>$}également conçu une interface d'interrogation en langage naturel pour{$<$}br /{$>$}la RI dans les documents XML, et proposé des méthodes tirant profit de{$<$}br /{$>$}la structure pour améliorer la recherche des éléments pertinents.}
+      \field{langid}{french}
+      \field{month}{9}
+      \field{title}{{Extraction et recherche d'information en langage naturel dans les documents semi-structurés}}
+      \field{type}{phdthesis}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/GA9X3CI5/Tannier - 2006 - Extraction et recherche d'information en langage n.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://theses.hal.science/tel-00121721
+      \endverb
+      \verb{url}
+      \verb https://theses.hal.science/tel-00121721
+      \endverb
+    \endentry
+    \entry{team2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2c5c8d6bcec812a386723e687b7980e8}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={ReelMind},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2c5c8d6bcec812a386723e687b7980e8}
+      \strng{fullhash}{2c5c8d6bcec812a386723e687b7980e8}
+      \strng{fullhashraw}{2c5c8d6bcec812a386723e687b7980e8}
+      \strng{bibnamehash}{2c5c8d6bcec812a386723e687b7980e8}
+      \strng{authorbibnamehash}{2c5c8d6bcec812a386723e687b7980e8}
+      \strng{authornamehash}{2c5c8d6bcec812a386723e687b7980e8}
+      \strng{authorfullhash}{2c5c8d6bcec812a386723e687b7980e8}
+      \strng{authorfullhashraw}{2c5c8d6bcec812a386723e687b7980e8}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Automated Video Scene Detection: AI for Seamless Editing Abstract Automated video scene detection represents a groundbreaking advancement in AI-powered}
+      \field{langid}{french}
+      \field{month}{6}
+      \field{shorttitle}{{Automated Video Scene Detection}}
+      \field{title}{{Automated Video Scene Detection: AI for Seamless Editing}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/BCVP7CAM/Team - 2025 - Automated Video Scene Detection AI for Seamless E.html
+      \endverb
+      \verb{urlraw}
+      \verb https://reelmind.ai/blog/automated-video-scene-detection-ai-for-seamless-editing
+      \endverb
+      \verb{url}
+      \verb https://reelmind.ai/blog/automated-video-scene-detection-ai-for-seamless-editing
+      \endverb
+    \endentry
+    \entry{zotero-item-53}{misc}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Cette technologie alimente votre assistant intelligent, traduit des langues en temps réel et termine vos phrases. Dans notre guide clair et simple sur le NLP, cette IA invisible qui apprend aux ordinateurs à vraiment nous comprendre, vous apprendrez comment cela fonctionne.}
+      \field{langid}{french}
+      \field{shorttitle}{{Traitement du langage naturel}}
+      \field{title}{{Traitement du langage naturel : découvrez comment les machines lisent et écrivent}}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/BRINC4TQ/Traitement du langage naturel découvrez comment.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.oracle.com/fr/artificial-intelligence/natural-language-processing/
+      \endverb
+      \verb{url}
+      \verb https://www.oracle.com/fr/artificial-intelligence/natural-language-processing/
+      \endverb
+    \endentry
+    \entry{trojahn2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c26d24233b07a97ff41f4dd30a06740d}{%
+           family={Trojahn},
+           familyi={T\bibinitperiod},
+           given={Tiago\bibnamedelima Henrique},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e6b84c8d56009829f02c50f948dd518}{%
+           family={Goularte},
+           familyi={G\bibinitperiod},
+           given={Rudinei},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{fullhash}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{fullhashraw}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{bibnamehash}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{authorbibnamehash}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{authornamehash}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{authorfullhash}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{authorfullhashraw}{86d09f86e348118b3fae22eec62d8f94}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The automatic temporal video scene segmentation (also known as video story segmentation) is still an open problem without definite solutions in most cases. Among the available techniques, the ones which shows better results are multimodal using features extracted from multiple modalities. Multimodal fusion may be performed to fuse each modality as a single representation (early fusion) or by each modality segmentation (late fusion), the latter been widely due to multimodal fusion simplicity. Recently, deep learning techniques such as convolutional neural networks (CNN) has been successfully employed to extract features from multiple data sources, easing the development of early fusion methods. However, CNNs cannot adequately learn cues which are temporally distributed along the video due to difficulties to model temporal features data dependencies. A particular deep learning approach which can learn such cues is the recurrent neural network (RNN). Successfully employed on text processing, RNNs are fitted to analyze sequences of data of variable length and may better grasp the temporal relationship among low-level features of video segments, hopefully obtaining more accurate scene boundary detection. This paper goes beyond direct applying RNNs and proposes a new multimodal approach to temporally segment a video into scenes. This approach builds a new architecture carefully combining CNN and RNN capabilities, obtaining better efficacy results on the task when compared with related techniques on a public video dataset.}
+      \field{issn}{1573-7721}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{12}
+      \field{title}{Temporal Video Scene Segmentation Using Deep-Learning}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{80}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{17487\bibrangedash 17513}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/s11042-020-10450-2
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/5DFPCHQN/Trojahn and Goularte - 2021 - Temporal video scene segmentation using deep-learn.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11042-020-10450-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11042-020-10450-2
+      \endverb
+      \keyw{Deep learning,Multimedia,Scene boundary detection,Temporal scene segmentation,Video}
+    \endentry
+    \entry{ullberg2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb18f8029f52eba0b97ec00d858885e8}{%
+           family={Ullberg},
+           familyi={U\bibinitperiod},
+           given={Rielle},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fb18f8029f52eba0b97ec00d858885e8}
+      \strng{fullhash}{fb18f8029f52eba0b97ec00d858885e8}
+      \strng{fullhashraw}{fb18f8029f52eba0b97ec00d858885e8}
+      \strng{bibnamehash}{fb18f8029f52eba0b97ec00d858885e8}
+      \strng{authorbibnamehash}{fb18f8029f52eba0b97ec00d858885e8}
+      \strng{authornamehash}{fb18f8029f52eba0b97ec00d858885e8}
+      \strng{authorfullhash}{fb18f8029f52eba0b97ec00d858885e8}
+      \strng{authorfullhashraw}{fb18f8029f52eba0b97ec00d858885e8}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Stockholm, Sweden, 25 March 2026 – Axiell, the world’s leading software and services provider for...}
+      \field{journaltitle}{Axiell}
+      \field{langid}{american}
+      \field{month}{3}
+      \field{title}{Axiell {{Pilots}} Its {{AI Tool}} for {{Catalogue Discovery}} at {{Nacka Libraries}}}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/GI8R75D5/Ullberg - 2026 - Axiell Pilots its AI Tool for Catalogue Discovery.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.axiell.com/blog-post/axiell-pilots-its-ai-tool-for-catalogue-discovery-at-nacka-libraries/
+      \endverb
+      \verb{url}
+      \verb https://www.axiell.com/blog-post/axiell-pilots-its-ai-tool-for-catalogue-discovery-at-nacka-libraries/
+      \endverb
+    \endentry
+    \entry{vasseur2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5461edba191f8be76a45dc1ca3e78c0c}{%
+           family={Vasseur},
+           familyi={V\bibinitperiod},
+           given={Édouard},
+           giveni={É\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5461edba191f8be76a45dc1ca3e78c0c}
+      \strng{fullhash}{5461edba191f8be76a45dc1ca3e78c0c}
+      \strng{fullhashraw}{5461edba191f8be76a45dc1ca3e78c0c}
+      \strng{bibnamehash}{5461edba191f8be76a45dc1ca3e78c0c}
+      \strng{authorbibnamehash}{5461edba191f8be76a45dc1ca3e78c0c}
+      \strng{authornamehash}{5461edba191f8be76a45dc1ca3e78c0c}
+      \strng{authorfullhash}{5461edba191f8be76a45dc1ca3e78c0c}
+      \strng{authorfullhashraw}{5461edba191f8be76a45dc1ca3e78c0c}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2260-166X}
+      \field{journaltitle}{Archimag}
+      \field{langid}{french}
+      \field{month}{12}
+      \field{number}{hs81}
+      \field{shorttitle}{{L’IA}}
+      \field{title}{{L’IA : quels défis pour le monde des archives ?}}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{8\bibrangedash 9}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.3917/arma.hs81.0008
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/4UZDR5WG/Vasseur - 2025 - L’IA quels défis pour le monde des archives .html
+      \endverb
+      \verb{urlraw}
+      \verb https://shs-cairn-info.portail.psl.eu/magazine-archimag-2025-hs81-page-8
+      \endverb
+      \verb{url}
+      \verb https://shs-cairn-info.portail.psl.eu/magazine-archimag-2025-hs81-page-8
+      \endverb
+    \endentry
+    \entry{wang2026}{misc}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0afd7ad2d1c9bbdbd5d2e48b07ecf641}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yiyuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ca2dc3a73fa23719e932b3b765a5a6b}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a9719e1b1ddf4fc02999d78bd6b488b}{%
+           family={Sadokierski},
+           familyi={S\bibinitperiod},
+           given={Zoë},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e9afc4642279c5c8180412cbc9685e7}{%
+           family={Stephens},
+           familyi={S\bibinitperiod},
+           given={Rhiannon},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aab5e5a5dc19be4128a6fce762b12f6d}{%
+           family={Ahyong},
+           familyi={A\bibinitperiod},
+           given={Shane\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{8b90106f5fdffb421102b2bd2ea225b2}
+      \strng{fullhash}{3bef635e08b7289004849301dd6967a1}
+      \strng{fullhashraw}{3bef635e08b7289004849301dd6967a1}
+      \strng{bibnamehash}{3bef635e08b7289004849301dd6967a1}
+      \strng{authorbibnamehash}{3bef635e08b7289004849301dd6967a1}
+      \strng{authornamehash}{8b90106f5fdffb421102b2bd2ea225b2}
+      \strng{authorfullhash}{3bef635e08b7289004849301dd6967a1}
+      \strng{authorfullhashraw}{3bef635e08b7289004849301dd6967a1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent digitisation efforts in natural history museums have produced large volumes of collection data, yet their scale and scientific complexity often hinder public access and understanding. Conventional data management tools, such as databases, restrict exploration through keyword-based search or require specialised schema knowledge. This paper presents a system design that uses conversational AI to query nearly 1.7 million digitised specimen records from the life-science collections of the Australian Museum. Designed and developed through a human-centred design process, the system contains an interactive map for visual-spatial exploration and a natural-language conversational agent that retrieves detailed specimen data and answers collection-specific questions. The system leverages function-calling capabilities of contemporary large language models to dynamically retrieve structured data from external APIs, enabling fast, real-time interaction with extensive yet frequently updated datasets. Our work provides a new approach of connecting large museum collections with natural language-based queries and informs future designs of scientific AI agents for natural history museums.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{month}{3}
+      \field{number}{arXiv:2603.10285}
+      \field{title}{Conversational {{AI-Enhanced Exploration System}} to {{Query Large-Scale Digitised Collections}} of {{Natural History Museums}}}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2603.10285
+      \endverb
+      \verb{eprint}
+      \verb 2603.10285
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/4KMJS73G/Wang et al. - 2026 - Conversational AI-Enhanced Exploration System to Q.pdf;/home/clotilde/Zotero/storage/RTIFB9QD/Wang et al. - 2026 - Conversational AI-Enhanced Exploration System to Q.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2603.10285
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2603.10285
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computers and Society,Computer Science - Digital Libraries,Computer Science - Emerging Technologies,Computer Science - Human-Computer Interaction}
+    \endentry
+    \entry{xin2023}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d4fb376b548f77bc1d72051b3be16702}{%
+           family={Xin},
+           familyi={X\bibinitperiod},
+           given={Yuelin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b561b56d2add31ee8a8e9cbe71a9333}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zihan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3407b5811c19a160e8ee513b20111899}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yuxuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{12d50d2de0d0ddbd0d08617e516b5d0d}
+      \strng{fullhash}{12d50d2de0d0ddbd0d08617e516b5d0d}
+      \strng{fullhashraw}{12d50d2de0d0ddbd0d08617e516b5d0d}
+      \strng{bibnamehash}{12d50d2de0d0ddbd0d08617e516b5d0d}
+      \strng{authorbibnamehash}{12d50d2de0d0ddbd0d08617e516b5d0d}
+      \strng{authornamehash}{12d50d2de0d0ddbd0d08617e516b5d0d}
+      \strng{authorfullhash}{12d50d2de0d0ddbd0d08617e516b5d0d}
+      \strng{authorfullhashraw}{12d50d2de0d0ddbd0d08617e516b5d0d}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We present 2SDS (Scene Separation and Data Selection algorithm), a temporal segmentation algorithm used in real-time video stream interpretation. It complements CNN-based models to make use of temporal information in videos. 2SDS can detect the change between scenes in a video stream by com-paring the image difference between two frames. It separates a video into segments (scenes), and by combining itself with a CNN model, 2SDS can select the optimal result for each scene. In this paper, we will be discussing some basic methods and concepts behind 2SDS, as well as presenting some preliminary experiment results regarding 2SDS. During these experiments, 2SDS has achieved an overall accuracy of over 90\%.}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{month}{8}
+      \field{number}{arXiv:2308.00210}
+      \field{shorttitle}{Scene {{Separation}} \& {{Data Selection}}}
+      \field{title}{Scene {{Separation}} \& {{Data Selection}}: {{Temporal Segmentation Algorithm}} for {{Real-Time Video Stream Analysis}}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2308.00210
+      \endverb
+      \verb{eprint}
+      \verb 2308.00210
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/TWMDRGTS/Xin et al. - 2023 - Scene Separation & Data Selection Temporal Segmen.pdf;/home/clotilde/Zotero/storage/7RJM78T5/Xin et al. - 2023 - Scene Separation & Data Selection Temporal Segmen.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2308.00210
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2308.00210
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{yuan2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a8efffbec6501e1b5522430d9b74c31a}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Haochen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=872a0d44fbeee6c853942164673b8ea0}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Junjie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d82d2ff002325f506b1daca2e567e0d}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Zesu},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2c97f9ec50c5951627d63f97d5807295}
+      \strng{fullhash}{2c97f9ec50c5951627d63f97d5807295}
+      \strng{fullhashraw}{2c97f9ec50c5951627d63f97d5807295}
+      \strng{bibnamehash}{2c97f9ec50c5951627d63f97d5807295}
+      \strng{authorbibnamehash}{2c97f9ec50c5951627d63f97d5807295}
+      \strng{authornamehash}{2c97f9ec50c5951627d63f97d5807295}
+      \strng{authorfullhash}{2c97f9ec50c5951627d63f97d5807295}
+      \strng{authorfullhashraw}{2c97f9ec50c5951627d63f97d5807295}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Video semantic segmentation (VSS) is a fundamental machine vision task with various practical applications, such as autonomous driving and automated surveillance. Current studies mainly utilize temporal features based on optical flow and the self-attention mechanism to improve VSS accuracy. However, these studies still face challenges like reduced accuracy and computational overhead due to inaccurate optical flow and the computational cost of the self-attention mechanism. To solve these problems, we propose a Temporal Difference Segmentation Net (TDSNet). Additionally, to improve accuracy and keep low computational costs, TDSNet employs temporal-difference-based temporal feature through the Temporal Feature Refine Module (TFRM). To further improve the accuracy of VSS, TDSNet adaptively fuses temporal features of varied motion magnitude with the Motion Magnitude Refine Module (MMRM). This module weighs and fuses temporal features of different magnitudes between frames. Extensive experimental results demonstrate that the comprehensive performance of TDSNet outperforms that of State-Of-The-Art (SOTA) VSS models on two large-scale public datasets: VSPW and Cityscapes. For instance, on VSPW, TDSNet achieves higher faster FPS than the SOTA model CFFM++ does by 13.2 frames per second, while the mIoU of the proposed model is only 0.7\% lower than that of CFFM++. These results indicate promising performance in VSS applications.}
+      \field{issn}{0020-0255}
+      \field{journaltitle}{Information Sciences}
+      \field{month}{1}
+      \field{shorttitle}{{{TDSNet}}}
+      \field{title}{{{TDSNet}}: {{A}} Temporal Difference Based Network for Video Semantic Segmentation}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{686}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{121335}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ins.2024.121335
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/64PHDM9D/Yuan et al. - 2025 - TDSNet A temporal difference based network for vi.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0020025524012490
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0020025524012490
+      \endverb
+      \keyw{Semantic segmentaion,Temporal difference,Video processing,Video semantic segmentation}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

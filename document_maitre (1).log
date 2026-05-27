@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  17 MAY 2026 11:37
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  23 MAY 2026 14:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -792,16 +792,59 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 [4
 
 ]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 236.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 236.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 236.
 
-LaTeX Warning: Empty bibliography on input line 235.
+Overfull \hbox (13.40034pt too wide) in paragraph at lines 237--237
+[][][][][][][][][] [] [][][][][][][][][] [][] [][][][][][][][][][][][][] [] [][
+][][] [] [][][] [] [][][][][] [] [][][][][][][][]$[] \TU/lmr/m/n/12 (visité le 
+12/05/2026). 
+ []
 
 
 
 [5
 
 ]
+Overfull \hbox (6.02444pt too wide) in paragraph at lines 237--237
+[][][]\TU/lmr/m/sc/12 Longpre[]\TU/lmr/m/n/12 ​ (Shayne), []\TU/lmr/m/sc/12 Sin
+gh[]\TU/lmr/m/n/12 ​ (Nikhil), []\TU/lmr/m/sc/12 Cherep[]\TU/lmr/m/n/12 ​ (Manu
+el), []\TU/lmr/m/sc/12 Tiwary[]\TU/lmr/m/n/12 ​ (Kushagra), []\TU/lmr/m/sc/12 M
+aterzynska[]\TU/lmr/m/n/12 ​
+ []
 
-[6
+
+Overfull \hbox (5.9788pt too wide) in paragraph at lines 237--237
+\TU/lmr/m/n/12 Etienne, 2006, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][
+] [] [] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][] [][] [][][][][][]
+[][]$[] (visité le 06/05/2026). 
+ []
+
+
+
+[6]
+Overfull \hbox (17.96452pt too wide) in paragraph at lines 237--237
+[][][]\TU/lmr/m/sc/12 Wang[]\TU/lmr/m/n/12 ​ (Yiyuan), []\TU/lmr/m/sc/12 Johnst
+on[]\TU/lmr/m/n/12 ​ (Andrew), []\TU/lmr/m/sc/12 Sadokierski[]\TU/lmr/m/n/12 ​ 
+(Zoë), []\TU/lmr/m/sc/12 Stephens[]\TU/lmr/m/n/12 ​ (Rhiannon) et []\TU/lmr/m/s
+c/12 Ahyong[]\TU/lmr/m/n/12 ​
+ []
+
+
+
+[7]
+
+[8
+
+]
+
+[9]
+
+[10
 
 ]
 
@@ -856,17 +899,26 @@ Annexe A.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                "document_maitre (1)"
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 \openout1 = `"document_maitre (1).run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23796 strings out of 468389
- 464078 string characters out of 5440619
- 1299574 words of memory out of 5000000
- 52111 multiletter control sequences out of 15000+600000
- 628225 words of font info for 59 fonts, out of 8000000 for 9000
+ 24182 strings out of 468389
+ 474391 string characters out of 5440619
+ 1322578 words of memory out of 5000000
+ 52483 multiletter control sequences out of 15000+600000
+ 630985 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,12n,79p,773b,4090s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,12n,79p,1889b,5068s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (19 pages).
+Output written on document_maitre (1).pdf (23 pages).

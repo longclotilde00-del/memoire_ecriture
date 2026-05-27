@@ -1,9 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'document_maitre (1).blg'
-[76] biber:342> INFO - === Sun May 17, 2026, 11:30:13
-[90] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
-[142] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
-[153] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
-[153] bbl.pm:779> INFO - Output to document_maitre (1).bbl
-[153] Biber.pm:132> WARN - The file 'document_maitre (1).bcf' does not contain any citations!
-[153] Biber.pm:134> INFO - WARNINGS: 1
+[157] biber:342> INFO - === Sat May 23, 2026, 14:08:29
+[186] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
+[328] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[350] Biber.pm:4487> INFO - Processing section 0
+[367] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
+[372] bibtex.pm:1713> INFO - LaTeX decoding ...
+[480] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
+[923] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[923] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[923] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[924] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
+[994] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
+[1029] bbl.pm:779> INFO - Output to document_maitre (1).bbl
