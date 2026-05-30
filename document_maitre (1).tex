@@ -225,15 +225,28 @@
 	\textbf{Informations bibliographiques:} Prénom Nom, \textit{Titre du mémoire. Sous-titre du mémoire}, mémoire de master \enquote{Technologies numériques appliquées à l'histoire}, dir. [Noms des directeurs.trices], École nationale des chartes, 20245.
 	
 		\newpage{\pagestyle{empty}\cleardoublepage}
-	
+		\chapter{Brouillon}
+	\input{chapitres/notions_indexation.tex}
+	\input{chapitres/notions_NLP.tex}
 	\chapter{Remerciements}
 	
 \lettrine{M}es remerciements vont tout d'abord à\dots
 	\newpage{\pagestyle{empty}\cleardoublepage}
 	
 %%%%%%%%%%%% \bibliographie ici (normes de l'EnC)
-\nocite{*}
+\nocite{*} %pour afficher la bibliographie sans que les sources soient citées dans le texte%
 \printbibliography
+
+\chapter*{Sources par notions} %impression de la bibliographie par mots clés défiis dans zotero%
+
+\printbibliography[keyword=indexation,
+heading=subbibliography,
+title={Indexation automatique}]
+
+\printbibliography[keyword=nlp,
+heading=subbibliography,
+title={NLP}]
+
 
 	
 \chapter{Introduction}	

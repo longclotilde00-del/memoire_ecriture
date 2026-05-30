@@ -149,6 +149,77 @@
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
     \endentry
+    \entry{asperti2025}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=97340df96bec6014ee65c30ac5781c04}{%
+           family={Asperti},
+           familyi={A\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fe027c8b41d140582f5bafbb9b36b4c}{%
+           family={Dessì},
+           familyi={D\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08af2a511748f8d81226cb5d80421528}{%
+           family={Tonetti},
+           familyi={T\bibinitperiod},
+           given={Maria\bibnamedelima Chiara},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38e7e65ed47e8305972c9a4503ba5c8b}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Nico},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{2362c68810f3294564bc8ba5ae44202e}
+      \strng{fullhash}{bc439caaec956b3f602ca5955b88da0a}
+      \strng{fullhashraw}{bc439caaec956b3f602ca5955b88da0a}
+      \strng{bibnamehash}{bc439caaec956b3f602ca5955b88da0a}
+      \strng{authorbibnamehash}{bc439caaec956b3f602ca5955b88da0a}
+      \strng{authornamehash}{2362c68810f3294564bc8ba5ae44202e}
+      \strng{authorfullhash}{bc439caaec956b3f602ca5955b88da0a}
+      \strng{authorfullhashraw}{bc439caaec956b3f602ca5955b88da0a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{CLIP has emerged as a powerful multimodal model capable of connecting images and text through joint embeddings, but to what extent does it 'see' the same way humans do - especially when interpreting artworks? In this paper, we investigate CLIP's ability to extract high-level semantic and stylistic information from paintings, including both human-created and AI-generated imagery. We evaluate its perception across multiple dimensions: content, scene understanding, artistic style, historical period, and the presence of visual deformations or artifacts. By designing targeted probing tasks and comparing CLIP's responses to human annotations and expert benchmarks, we explore its alignment with human perceptual and contextual understanding. Our findings reveal both strengths and limitations in CLIP's visual representations, particularly in relation to aesthetic cues and artistic intent. We further discuss the implications of these insights for using CLIP as a guidance mechanism during generative processes, such as style transfer or prompt-based image synthesis. Our work highlights the need for deeper interpretability in multimodal systems, especially when applied to creative domains where nuance and subjectivity play a central role.}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{month}{10}
+      \field{number}{arXiv:2505.05229}
+      \field{title}{Does {{CLIP}} Perceive Art the Same Way We Do?}
+      \field{urlday}{23}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2505.05229
+      \endverb
+      \verb{eprint}
+      \verb 2505.05229
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/8RDPR7N5/Asperti et al. - 2025 - Does CLIP perceive art the same way we do.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2505.05229
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2505.05229
+      \endverb
+      \keyw{à lire,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Multimedia}
+    \endentry
     \entry{attard2025}{misc}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=faf90bc31c18f2a48dde9d4f03ea987b}{%
@@ -251,6 +322,53 @@
       \endverb
       \keyw{Audiovisuel,Bases de données,Bibliothèque,Collections patrimoniales,Document audiovisuel,Documentation,Institut national de l'audiovisuel,Institution culturelle,Institution patrimoniale,Intelligence artificielle,Internet,Interopérabilité,Télévision,Web}
     \endentry
+    \entry{bermes2025}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e030e2b20e092b3fabbe90ad5fc15c0d}{%
+           family={Bermès},
+           familyi={B\bibinitperiod},
+           given={Emmanuelle},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66d506534e99b9c37c2c4ce4d06d2684}{%
+           family={Charpier},
+           familyi={C\bibinitperiod},
+           given={Marion},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Dijon, France}%
+      }
+      \strng{namehash}{bdef962ad531917b338efde208ebad57}
+      \strng{fullhash}{bdef962ad531917b338efde208ebad57}
+      \strng{fullhashraw}{bdef962ad531917b338efde208ebad57}
+      \strng{bibnamehash}{bdef962ad531917b338efde208ebad57}
+      \strng{authorbibnamehash}{bdef962ad531917b338efde208ebad57}
+      \strng{authornamehash}{bdef962ad531917b338efde208ebad57}
+      \strng{authorfullhash}{bdef962ad531917b338efde208ebad57}
+      \strng{authorfullhashraw}{bdef962ad531917b338efde208ebad57}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The TORNE-H project explores the integration of AI in the documentary and scientific processing of museum collections. Focused on the Henrot collection at the musée des Arts décoratifs (MAD), it aims to optimize the inventory, indexing, and promotion of artworks through advanced image analysis techniques. Led by MAD, the École nationale des chartes, and the BnF, the project seeks to rethink human-machine collaboration and develop reproducible processes for other heritage institutions.}
+      \field{booktitle}{Conférence {{Nationale}} Sur Les {{Applications}} de l'{{Intelligence Artificielle}}}
+      \field{title}{Repenser Les Collections Patrimoniales Par Le Prisme de l'{{IA}} 2025}
+      \field{urlday}{23}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://hal.science/hal-05138697
+      \endverb
+      \verb{url}
+      \verb https://hal.science/hal-05138697
+      \endverb
+      \keyw{à lire,Collections patrimoniales,Computer vision,Coopération humain-machine,Heritage collections,Humanmachine cooperation,Musée,Museum,Vision par ordinateur}
+    \endentry
     \entry{2021b}{misc}{}{}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
@@ -298,6 +416,55 @@
       \verb{url}
       \verb https://fiatifta.org/awards-editions/awards-2019/
       \endverb
+    \endentry
+    \entry{gervereau2020}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=16547ad45e5abc80cfec99c8ceea5d32}{%
+           family={Gervereau},
+           familyi={G\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {La Découverte}%
+      }
+      \strng{namehash}{16547ad45e5abc80cfec99c8ceea5d32}
+      \strng{fullhash}{16547ad45e5abc80cfec99c8ceea5d32}
+      \strng{fullhashraw}{16547ad45e5abc80cfec99c8ceea5d32}
+      \strng{bibnamehash}{16547ad45e5abc80cfec99c8ceea5d32}
+      \strng{authorbibnamehash}{16547ad45e5abc80cfec99c8ceea5d32}
+      \strng{authornamehash}{16547ad45e5abc80cfec99c8ceea5d32}
+      \strng{authorfullhash}{16547ad45e5abc80cfec99c8ceea5d32}
+      \strng{authorfullhashraw}{16547ad45e5abc80cfec99c8ceea5d32}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Repères}
+      \field{isbn}{978-2-348-06022-9}
+      \field{langid}{french}
+      \field{month}{7}
+      \field{title}{{Voir, comprendre, analyser les images}}
+      \field{urlday}{23}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.3917/dec.gerv.2020.01
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/4WG6KATD/Gervereau - 2020 - Voir, comprendre, analyser les images.html
+      \endverb
+      \verb{urlraw}
+      \verb https://shs.cairn.info/voir-comprendre-analyser-les-images--9782348060229
+      \endverb
+      \verb{url}
+      \verb https://shs.cairn.info/voir-comprendre-analyser-les-images--9782348060229
+      \endverb
+      \keyw{à lire}
     \endentry
     \entry{gong2021}{misc}{}{}
       \name{author}{3}{}{%
@@ -409,6 +576,27 @@
       \verb https://dumas.ccsd.cnrs.fr/dumas-05387482
       \endverb
     \endentry
+    \entry{zotero-item-572}{misc}{}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{title}{{{INDEXATION}} : {{Définition}} de {{INDEXATION}}}
+      \field{urlday}{30}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/JJBDIV66/indexation.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cnrtl.fr/definition/indexation
+      \endverb
+      \verb{url}
+      \verb https://www.cnrtl.fr/definition/indexation
+      \endverb
+      \keyw{Indexation}
+    \endentry
     \entry{leber2025}{thesis}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=06bf779c52b25930c31d49bbad2b18fb}{%
@@ -473,6 +661,77 @@
       \verb{url}
       \verb https://www.iso.org/fr/intelligence-artificielle/traitement-langage-naturel
       \endverb
+    \endentry
+    \entry{liu2023}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a580d4b27cb901a9aa355d400bd9c16e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Haotian},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=307cd2ff14b0ecd5a0ae2ca42e7c71b2}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Chunyuan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b8f0b5eb82125a35828b30dbefc78ef}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Qingyang},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0058780d2044b7ad95d263c45e1a1b15}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yong\bibnamedelima Jae},
+           giveni={Y\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{5210b7379e6d782545413890e930fb8d}
+      \strng{fullhash}{6db541ecf0741fe14b8b2a6452dc056f}
+      \strng{fullhashraw}{6db541ecf0741fe14b8b2a6452dc056f}
+      \strng{bibnamehash}{6db541ecf0741fe14b8b2a6452dc056f}
+      \strng{authorbibnamehash}{6db541ecf0741fe14b8b2a6452dc056f}
+      \strng{authornamehash}{5210b7379e6d782545413890e930fb8d}
+      \strng{authorfullhash}{6db541ecf0741fe14b8b2a6452dc056f}
+      \strng{authorfullhashraw}{6db541ecf0741fe14b8b2a6452dc056f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Instruction tuning large language models (LLMs) using machine-generated instruction-following data has improved zero-shot capabilities on new tasks, but the idea is less explored in the multimodal field. In this paper, we present the first attempt to use language-only GPT-4 to generate multimodal language-image instruction-following data. By instruction tuning on such generated data, we introduce LLaVA: Large Language and Vision Assistant, an end-to-end trained large multimodal model that connects a vision encoder and LLM for general-purpose visual and language understanding.Our early experiments show that LLaVA demonstrates impressive multimodel chat abilities, sometimes exhibiting the behaviors of multimodal GPT-4 on unseen images/instructions, and yields a 85.1\% relative score compared with GPT-4 on a synthetic multimodal instruction-following dataset. When fine-tuned on Science QA, the synergy of LLaVA and GPT-4 achieves a new state-of-the-art accuracy of 92.53\%. We make GPT-4 generated visual instruction tuning data, our model and code base publicly available.}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{month}{12}
+      \field{number}{arXiv:2304.08485}
+      \field{title}{Visual {{Instruction Tuning}}}
+      \field{urlday}{23}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2304.08485
+      \endverb
+      \verb{eprint}
+      \verb 2304.08485
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/7AHPV76I/Liu et al. - 2023 - Visual Instruction Tuning.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2304.08485
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2304.08485
+      \endverb
+      \keyw{à lire,Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
     \endentry
     \entry{longpre2025}{misc}{}{}
       \name{author}{43}{}{%
@@ -844,6 +1103,49 @@
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
     \endentry
+    \entry{norindr2023}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd4c57abb382b5eb6b7c5bac75893abd}{%
+           family={Norindr},
+           familyi={N\bibinitperiod},
+           given={Jade},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Observatoire de Paris - PSL, 61 avenue de l’Observatoire, 75014 Paris}%
+      }
+      \strng{namehash}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{fullhash}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{fullhashraw}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{bibnamehash}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{authorbibnamehash}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{authornamehash}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{authorfullhash}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{authorfullhashraw}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Ce mémoire a été réalisé dans le cadre du Master Technologies numériques appliquées à l’histoire de l’École nationale des chartes. Il est rédigé suite à un stage de quatre mois à l’Observatoire de Paris au sein du projet EIDA, portant sur les diagrammes astronomiques de tradition ptoléméenne du VIIIe au XVIIIe siècle et intégrant des techniques de vision artificielle pour le traitement de ses sources. Ce mémoire expose le développement d’outils pour cette intégration, et la conception d’une chaîne de traitement accompagnée de normes et de méthodes pour l’application d’algorithmes de vision dans le cadre d’un projet de recherche en humanités.}
+      \field{langid}{french}
+      \field{month}{9}
+      \field{shorttitle}{{Le traitement des sources historiques par la vision artificielle}}
+      \field{title}{{Le traitement des sources historiques par la vision artificielle : l'exemple des manuscrits d'astronomie de tradition ptoléméenne}}
+      \field{type}{{other}}
+      \field{urlday}{30}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-04255677
+      \endverb
+      \verb{url}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-04255677
+      \endverb
+    \endentry
     \entry{zotero-item-84}{misc}{}{}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
@@ -862,6 +1164,44 @@
       \verb{url}
       \verb https://evenementswapikoni.ca/vision
       \endverb
+    \endentry
+    \entry{num}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c825d87af9048b7fac66a4d5070409d}{%
+           family={Num},
+           familyi={N\bibinitperiod},
+           given={France},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5c825d87af9048b7fac66a4d5070409d}
+      \strng{fullhash}{5c825d87af9048b7fac66a4d5070409d}
+      \strng{fullhashraw}{5c825d87af9048b7fac66a4d5070409d}
+      \strng{bibnamehash}{5c825d87af9048b7fac66a4d5070409d}
+      \strng{authorbibnamehash}{5c825d87af9048b7fac66a4d5070409d}
+      \strng{authornamehash}{5c825d87af9048b7fac66a4d5070409d}
+      \strng{authorfullhash}{5c825d87af9048b7fac66a4d5070409d}
+      \strng{authorfullhashraw}{5c825d87af9048b7fac66a4d5070409d}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Pourquoi et comment utiliser un chatbot ? Quels avantages ? Un agent conversationnel (dit "chatbot") répond aux questions des internautes et assure des services simples comme la prise de rendez-vous. Il permet d'assurer une relation client en continu.}
+      \field{langid}{french}
+      \field{shorttitle}{{Comment faciliter la gestion de votre relation client avec un chatbot ?}}
+      \field{title}{{Comment faciliter la gestion de votre relation client avec un chatbot ? - francenum.gouv.fr}}
+      \field{urlday}{27}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.francenum.gouv.fr/guides-et-conseils/intelligence-artificielle/agents-conversationnels-et-assistants-virtuels/comment
+      \endverb
+      \verb{url}
+      \verb https://www.francenum.gouv.fr/guides-et-conseils/intelligence-artificielle/agents-conversationnels-et-assistants-virtuels/comment
+      \endverb
+      \keyw{chatbot,NLP}
     \endentry
     \entry{patton2024}{misc}{}{}
       \name{author}{1}{}{%
@@ -945,6 +1285,29 @@
       \verb{url}
       \verb https://beta.nasjonalmuseet.no/2023/08/add-semantic-search-to-a-online-collection/
       \endverb
+    \endentry
+    \entry{2023a}{misc}{}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{La conception de chatbot intègre la conception d’expérience utilisateur, la conception d’interface utilisateur, la rédaction, l’IA conversationnelle et le machine learning dans le déploiement de chatbots et d’agents conversationnels.}
+      \field{langid}{french}
+      \field{month}{8}
+      \field{shorttitle}{{Qu’est-ce que la conception de chatbot ?}}
+      \field{title}{{Qu’est-ce que la conception de chatbot ? | IBM}}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/chatbot-design
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/chatbot-design
+      \endverb
+      \keyw{chatbot,NLP,UI,UX}
     \endentry
     \entry{rattinger2025}{article}{}{}
       \name{author}{7}{}{%
@@ -1074,6 +1437,50 @@
       \endverb
       \keyw{Alignement de référentiels,Archives nationales,Entity linking,Himanis,Intelligence artificielle,IRHT,Machine learning,Numérisation d'instruments de recherche,Reconnaissance d'écritures manuscrites,REM,REN,ROC,TNAH,Trésor des chartes}
     \endentry
+    \entry{staff2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0647960ed41328f21b9e478d684a86d5}{%
+           family={Staff},
+           familyi={S\bibinitperiod},
+           given={Coursera},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0647960ed41328f21b9e478d684a86d5}
+      \strng{fullhash}{0647960ed41328f21b9e478d684a86d5}
+      \strng{fullhashraw}{0647960ed41328f21b9e478d684a86d5}
+      \strng{bibnamehash}{0647960ed41328f21b9e478d684a86d5}
+      \strng{authorbibnamehash}{0647960ed41328f21b9e478d684a86d5}
+      \strng{authornamehash}{0647960ed41328f21b9e478d684a86d5}
+      \strng{authorfullhash}{0647960ed41328f21b9e478d684a86d5}
+      \strng{authorfullhashraw}{0647960ed41328f21b9e478d684a86d5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{La recherche UX est un élément important de la conception de produits pour vos clients.}
+      \field{journaltitle}{Coursera}
+      \field{langid}{french}
+      \field{month}{6}
+      \field{shorttitle}{{Recherche sur l'expérience utilisateur}}
+      \field{title}{{Recherche sur l'expérience utilisateur : méthodes et carrières}}
+      \field{urlday}{23}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/WLZBYQIX/user-experience-research.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.coursera.org/fr-FR/articles/user-experience-research
+      \endverb
+      \verb{url}
+      \verb https://www.coursera.org/fr-FR/articles/user-experience-research
+      \endverb
+      \keyw{à lire}
+    \endentry
     \entry{suominen2019a}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=42edae00950633991c0c437b4ce4b384}{%
@@ -1107,7 +1514,6 @@
       \field{urlyear}{2026}
       \field{year}{2019}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{21\bibrangedash 23}
       \range{pages}{3}
       \verb{doi}
@@ -1122,6 +1528,7 @@
       \verb{url}
       \verb https://publications-prairial.fr/arabesques/index.php?id=605
       \endverb
+      \keyw{Indexation}
     \endentry
     \entry{tannier2006}{thesis}{}{}
       \name{author}{1}{}{%
