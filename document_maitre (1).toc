@@ -1,10 +1,15 @@
 \xpg@aux {}{french}
 \contentsline {chapter}{Résumé}{i}{chapter*.1}%
 \contentsline {chapter}{Brouillon}{iii}{chapter*.2}%
-\contentsline {chapter}{Remerciements}{v}{chapter*.5}%
-\contentsline {chapter}{Introduction}{xiii}{chapter*.8}%
+\contentsline {subsection}{\numberline {1.}Problématique}{iii}{subsection.0.0.1}%
+\contentsline {subsection}{\numberline {2.}limites}{vii}{subsection.0.0.2}%
+\contentsline {subsection}{\numberline {3.}IA générale}{vii}{subsection.0.0.3}%
+\contentsline {subsection}{\numberline {4.}Experience utilisateur}{vii}{subsection.0.0.4}%
+\contentsline {subsection}{\numberline {5.}IA et cinéma}{viii}{subsection.0.0.5}%
+\contentsline {chapter}{Remerciements}{xi}{chapter*.6}%
+\contentsline {chapter}{Introduction}{xix}{chapter*.10}%
 \contentsline {part}{I\hspace {1em}Une partie}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Mon premier chapitre}{3}{chapter.1}%
 \contentsline {part}{II\hspace {1em}Une autre partie}{5}{part.2}%
-\contentsline {chapter}{Conclusion}{7}{chapter*.9}%
+\contentsline {chapter}{Conclusion}{7}{chapter*.11}%
 \contentsline {chapter}{\numberline {A}Titre court}{9}{appendix.A}%

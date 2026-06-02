@@ -32,7 +32,6 @@
       \field{urlyear}{2026}
       \field{year}{2021}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/S2F9IITH/2021 - AI in Audiovisual Archives Sound & Vision.html
       \endverb
@@ -148,6 +147,69 @@
       \verb http://arxiv.org/abs/2103.15691
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{arnold2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=db8b037fbb6203579f889c8ae85328bb}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={Taylor},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f604608795c61c5e27016400c74559fe}{%
+           family={Tilton},
+           familyi={T\bibinitperiod},
+           given={Lauren},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bb15dc872b75781f2e5584a2f944b83}{%
+           family={Berke},
+           familyi={B\bibinitperiod},
+           given={Annie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Center for Digital Humanities, Princeton University}%
+      }
+      \strng{namehash}{a39e7e04932c9b89c8f3293db85eede9}
+      \strng{fullhash}{a39e7e04932c9b89c8f3293db85eede9}
+      \strng{fullhashraw}{a39e7e04932c9b89c8f3293db85eede9}
+      \strng{bibnamehash}{a39e7e04932c9b89c8f3293db85eede9}
+      \strng{authorbibnamehash}{a39e7e04932c9b89c8f3293db85eede9}
+      \strng{authornamehash}{a39e7e04932c9b89c8f3293db85eede9}
+      \strng{authorfullhash}{a39e7e04932c9b89c8f3293db85eede9}
+      \strng{authorfullhashraw}{a39e7e04932c9b89c8f3293db85eede9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Extensive scholarship in media studies has established how formal elements ofmoving images—such as camera angles, sound, and framing—reflect, establish,and challenge cultural norms. Prior computational analyses attempting to ana-lyze these elements have primarily relied on summarizing relatively low-level fea-tures.}
+      \field{issn}{2371-4549}
+      \field{journaltitle}{Journal of Cultural Analytics}
+      \field{langid}{None}
+      \field{month}{7}
+      \field{number}{2}
+      \field{title}{{Visual Style in Two Network Era Sitcoms}}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{4}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.22148/16.043
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/QWZDCYF4/Arnold et al. - 2019 - Visual Style in Two Network Era Sitcoms.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://culturalanalytics.org/article/id/1194/
+      \endverb
+      \verb{url}
+      \verb https://culturalanalytics.org/article/id/1194/
+      \endverb
+      \keyw{AI,Audiovisuel}
     \endentry
     \entry{asperti2025}{misc}{}{}
       \name{author}{4}{}{%
@@ -382,7 +444,6 @@
       \field{urlyear}{2026}
       \field{year}{2021}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/KM9PXNAU/2021 - Bringing AI into the Audiovisual Archive Sound &.html
       \endverb
@@ -392,6 +453,35 @@
       \verb{url}
       \verb https://www.beeldengeluid.nl/en/research/blog/bringing-ai-audiovisual-archive
       \endverb
+    \endentry
+    \entry{cordell}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b081d7929c3a1fa384b51168ed849fc}{%
+           family={Cordell},
+           familyi={C\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b081d7929c3a1fa384b51168ed849fc}
+      \strng{fullhash}{8b081d7929c3a1fa384b51168ed849fc}
+      \strng{fullhashraw}{8b081d7929c3a1fa384b51168ed849fc}
+      \strng{bibnamehash}{8b081d7929c3a1fa384b51168ed849fc}
+      \strng{authorbibnamehash}{8b081d7929c3a1fa384b51168ed849fc}
+      \strng{authornamehash}{8b081d7929c3a1fa384b51168ed849fc}
+      \strng{authorfullhash}{8b081d7929c3a1fa384b51168ed849fc}
+      \strng{authorfullhashraw}{8b081d7929c3a1fa384b51168ed849fc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Final-2020-02-13.pdf. 4Newspaper Navigator experiment: https://labs.loc.gov/work/experiments/newspaper-navigator/.}
+      \field{langid}{english}
+      \field{title}{Machine {{Learning}} + {{Libraries}}}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/TR3FPU8D/Cordell - Machine Learning + Libraries.pdf
+      \endverb
+      \keyw{cinema,indexation}
     \endentry
     \entry{2025}{misc}{}{}
       \field{sortinit}{F}
@@ -563,7 +653,6 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{xviii}
       \range{pages}{1}
       \verb{file}
@@ -585,7 +674,6 @@
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/JJBDIV66/indexation.html
       \endverb
@@ -1285,6 +1373,23 @@
       \verb{url}
       \verb https://beta.nasjonalmuseet.no/2023/08/add-semantic-search-to-a-online-collection/
       \endverb
+    \endentry
+    \entry{zotero-item-574}{misc}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{Principles for {{Accountable Algorithms}} and a {{Social Impact Statement}} for {{Algorithms}} :: {{FAT ML}}}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.fatml.org/resources/principles-for-accountable-algorithms
+      \endverb
+      \verb{url}
+      \verb https://www.fatml.org/resources/principles-for-accountable-algorithms
+      \endverb
+      \keyw{éthique}
     \endentry
     \entry{2023a}{misc}{}{}
       \field{sortinit}{Q}

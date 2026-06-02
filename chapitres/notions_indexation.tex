@@ -35,7 +35,30 @@
 	
 	\item \textbf{IA et vision par ordinateur (Arnab (ViViT), Gong (AST), Trojahn, Yuan)}
 	
+	\item \textbf{Pipeline}
+	
+	Mise en place d'une pipeline IA : 
+	Ce sont plusieurs outils combinés qui créent l'indexation : analyse audio avec l'ASR et la segmentation, analyse de l'image avec la computer vision et shot detection, le NLP avec le NER et term extraction. Cette pipeline permet d'extraire des métadonnées en lien avec des vocabulaires contrôlés et ainsi d'indexer les images. 
+	«Each tool specializes in a single task, and is brought together with other tools in pipelines. Technologies can be layered upon one another in order to more meaningfully annotate content.»
+	\footcite{2021}
+	
+	\item Outils
+	
+	Trint : automatic speech recognition 
+	FasterR CNN et Farec CNN : face detection models 
+	
+	\item Cas d'indexation
+
+	The vanderbilt university television news archive : ils utilisent Trint pour transcrire les discours et engagent des étudiants pour corriger les transcriptions sur l'interface de l'outil Trint : 
+	
+	"students also note the start and stop time of segments, and write relevant on-screen information such as names into the transcript. Each 30-minute program takes one hour of student worker time to correct. When the transcript is complete, it is exported to Amazon’s Named Entity Recognition service on the cloud, where information such as person, location, or topic is pulled out. That information is then brought back into the workflow with scripts written in Python that turn the information into individual titles for each news segment. Additional information such as reporter or location are added to database fields, and duplicate records are kept in PBCore for future use when more of the information from the Named Entity Recognition system might be stored in the database."
+	\footcite{2021b}
+	
 	\end{itemize}
+
+\subsection{limites}
+«How to give context to the machines? To give common sense? It's a problem of artificial intelligence from the beginning.»
+\footcite{2021}
 	
 
 

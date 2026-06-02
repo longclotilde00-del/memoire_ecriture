@@ -1,0 +1,40 @@
+\subsection{IA et cinéma}
+
+\begin{itemize}
+	\item Archives audiovisuelles  
+	
+	"When you start looking at moving images and doing ML on them, your object of study
+	is no longer an entire film but shots or scenes or still images. And that suddenly brings
+	in important questions for archives and libraries. When the record itself changes…that
+	raises huge questions that folks are not grappling with. Not just enriching a particular
+	object but changing the object". 
+	\footcite{cordell}
+	
+	Difficultés de ce type de contenu : 
+	"moving image data, which is a particularly difficult data type to atomize."
+	\footcite{cordell}
+	
+	\item Cas d'usage 
+	
+	Exemple de projet d'extraction d'entités depuis des images en mouvement : \footcite{arnold2019}
+	méthode du distant viewing: reconnaissance des visages, classification des plans. Le montage et le cadrage servent à costruire la place des personnages dans le récit. 
+	"« One of the first tasks in understanding a video file is to break up the sequence of frames into distinct units known as shots ».
+	« We first split an input video file into individual shots, then locate faces within every frame, identify the faces in a frame, and finally put all of the information together to cluster shots based on camera angles and distances ».\footcite{arnold2019} 
+	Shot boundary detection : détection automatique des coupures entre les plans dans une vidéo 
+	Shot semantics : description de ce qui est présent dans l'image et à quel endroit de l'image et ainsi relier l'image à des catégories de plan (shot type).
+	
+	problématique principale pour indexer : il faut déjà séparer la vidéo en tous les plans qui la composent pour en extraire les éléments : 
+	"One of the first tasks in understanding a video file is to break up the sequence of frames into distinct units known as shots—or uninterrupted footage between
+	cuts—in a process known as shot boundary detection."\footcite{arnold2019}
+	
+	exemple de pipeline pour détecter les coupures entre les plans : 
+	"the vast majority of cuts in most film and television
+	episodes consist of abrupt transitions between alternative camera shots. These are both easy to define and relatively easy to detect. The algorithm we use in our analysis uses a combination of histogram differences and down sampled pixel intensities. Our method functions by measuring the extent to which two successive shots are different from one another in terms of the general color palette and the distribution of brightness over the frame. If these differences fall above a specified threshold, we indicate the presence of a cut.22 We also added special logic to avoid erroneous cuts during fade-in and fade-out events." \footcite{arnold2019}
+	
+	face detection models : Faster R-CNN and FAREC-CNN \footcite{arnold2019}
+	
+	shot classification : il est possible de classifier le type de plan à l'image en utilisant le placement des visages : "In this final step we no longer work directly with the visual materials and build a meta-algorithm that takes detected shot breaks and faces as input and outputs categorical predictions for each shot". \footcite{arnold2019}
+	Il s'agit de définr tous les types de plans età partir de ces définitions, construire un jeu de donnes qui sera testé : close-up, over the shoulder...
+	
+	
+\end{itemize}
