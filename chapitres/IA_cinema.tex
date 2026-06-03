@@ -34,7 +34,39 @@
 	face detection models : Faster R-CNN and FAREC-CNN \footcite{arnold2019}
 	
 	shot classification : il est possible de classifier le type de plan à l'image en utilisant le placement des visages : "In this final step we no longer work directly with the visual materials and build a meta-algorithm that takes detected shot breaks and faces as input and outputs categorical predictions for each shot". \footcite{arnold2019}
-	Il s'agit de définr tous les types de plans età partir de ces définitions, construire un jeu de donnes qui sera testé : close-up, over the shoulder...
+	Il s'agit de définir tous les types de plans età partir de ces définitions, construire un jeu de donnes qui sera testé : close-up, over the shoulder...
 	
+	Audiovisuel Processing (AVP) : ensemble de technologies appliquées à l'analyse de contenus vidéos et audio (comprend computer vision et ASR automatic speech recognition) 
+	\footcite{noord2021}
 	
+	constat : malgré de grandes avancées dans le processing audiovisuel, ces outils restent largement inaccessibles et ne sont pas donc pas adoptés dans le milieu des archives : « Despite the massive progress made in the performance levels and overall availability of Audiovisual Processing (AVP) technologies, such as Computer Vision (CV) and Automatic Speech Recognition (ASR), the availability of these tools for heritage institutions is still lagging behind. »
+	\footcite{noord2021}
+	
+	ImageJ : open source visual analysis software suite 
+	\footcite{noord2021}
+	Detectron2 : détection de poins corporels dans l'image \footcite{noord2021}
+	
+	les AVP ne sont pas accessible en libre accès aux chercheurs en humanité numériques. Les algorithmes ont besoin d'un accès direct aux données, or, pour des raisons de sécurité des données et des droits de propriétés intelectuelles auxquels sont soumis les archives, les données des archives ne peuven tpas quitter leur environnement numérique. 
+	donc : "A side effect of this is that for the analysis of AV material commercially available tools cannot be used, as these are primarily cloud based. To tackle this challenge it is necessary that any AVP infrastructure can
+	be integrated with a local archival infrastructure, i.e.,
+	we need to bring the algorithms to the data, rather than
+	the data to the algorithms"
+	\footcite{noord2021}
+	
+	au lieu de transférer les fichiers vers un serviec externe, l'algorithme doit être déployé localement au sien même de l'ifrastructure de l'archive. 
+	
+	exemple de l'architecture DANe au sien du projet CLARIAH : l'architecture est divisée en plusieurs "workers" et une file d'attete. si l'u des worers s'arrêtent de fonctionner, les autres continuent leur tâche. 
+	Cette architecture produit deux types de données : des métadonnées structurées directement epxloitables, et des vecturs de caractéristiques (= représentations abstraites des données utilisables pour des requêtes de similarité : ouvre des possibilité de recherche par ressemblance son et vidéo.)
+	\footcite{noord2021}
+	
+	"there is a near-linear relationship between quality of transcriptions and search performance.» : importance de la qualité de la transcription audiovisuelle pour améliorer la recherche.
+	\footcite{noord2021}
+	
+	"the application of AVP tools to large image datasets significantly scales up the level of analysis from ‘close’ to ‘distant’ viewing, allowing scholars to observe patterns in the data that are invisible in the traditional, interpretative analyses of small sample sets.» 
+	le distant viewing permet de passer d'une lecture individuelle d'items à une analyse d'éléments à l'échelle d'un corpus. 
+	\footcite{noord2021}
+	
+	"« Digital tools for paper resources have tended not to consider the strong presence of visual elements in them. Due to the lack of practically available AVP tools to digital humanities, scholarly research has ‘grossly neglected visual content, causing a lopsided representation of all sorts of digitized archives’. »
+	Sous représentation des éléments visuels dans l'indexation, même pour une collection audidiovisuelle. Les métadonnées textuelles liéees aux films sont nsuffisantes pour enrichir leurs métadonnées : titre, synopsis...
+	\footcite{noord2021}
 \end{itemize}

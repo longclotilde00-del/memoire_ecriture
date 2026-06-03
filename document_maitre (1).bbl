@@ -1191,6 +1191,56 @@
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
     \endentry
+    \entry{noord2021}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9ca204e1ae2afc3202253ec54b1f797c}{%
+           family={Noord},
+           familyi={N\bibinitperiod},
+           given={Nanne},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6ebe8f26fd43f977f196a7617140580}{%
+           family={Olesen},
+           familyi={O\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3edbfcd40dfc7f94d5989489dab2f59d}{%
+           family={Ordelman},
+           familyi={O\bibinitperiod},
+           given={Roeland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c3f6e84b0b275871610d4595339ac4d}{%
+           family={Noordegraaf},
+           familyi={N\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abfcf451663d316c8172f6cf89e0a091}
+      \strng{fullhash}{d841feb782bc071f3f5e6f119641c68c}
+      \strng{fullhashraw}{d841feb782bc071f3f5e6f119641c68c}
+      \strng{bibnamehash}{d841feb782bc071f3f5e6f119641c68c}
+      \strng{authorbibnamehash}{d841feb782bc071f3f5e6f119641c68c}
+      \strng{authornamehash}{abfcf451663d316c8172f6cf89e0a091}
+      \strng{authorfullhash}{d841feb782bc071f3f5e6f119641c68c}
+      \strng{authorfullhashraw}{d841feb782bc071f3f5e6f119641c68c}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Automatic {{Annotations}} and {{Enrichments}} for {{Audiovisual Archives}}}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{633\bibrangedash 640}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.5220/0010387706330640
+      \endverb
+      \keyw{audiovisual,AVP,cinema,indexation}
+    \endentry
     \entry{norindr2023}{thesis}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dd4c57abb382b5eb6b7c5bac75893abd}{%
