@@ -69,4 +69,55 @@
 	"« Digital tools for paper resources have tended not to consider the strong presence of visual elements in them. Due to the lack of practically available AVP tools to digital humanities, scholarly research has ‘grossly neglected visual content, causing a lopsided representation of all sorts of digitized archives’. »
 	Sous représentation des éléments visuels dans l'indexation, même pour une collection audidiovisuelle. Les métadonnées textuelles liéees aux films sont nsuffisantes pour enrichir leurs métadonnées : titre, synopsis...
 	\footcite{noord2021}
+	
+	
+	\item Indexation des archives audiovisuelles 
+	
+	Premier outil d'indexation des images : Perzeptron de Franz Rozenblatt en 1957 : machine de reconnaissance d'images.
+	
+	Pour l'indexation des archives audiovisuelles : apprentissage supervisé, non supervisé ou en profondeur : sont appliqués ou combinés. 
+	
+	"Dans le cas des archives audiovisuelles, on voit en outre très clairement	comment les besoins des utilisateur·rice·s sont pris en compte lors de la conception de	l'indexation automatique en profondeur et comment les données et les traces des	utilisateur·rice·s sont utilisées pour optimiser l'accès aux archives audiovisuelles (mot-clé :	système de recommandation)."
+	\footcite{zotero-item-584}
+	
+	"L'indexation, la recherche et le filtrage basés sur le texte de	contenus audiovisuels pertinents se heurtent par nature à des limites : Les contenus	audiovisuels doivent également pouvoir être recherchés à l'aide de méthodes audiovisuelles	(par exemple la navigation par images, Query by Example)."
+	\footcite{zotero-item-584}
+	
+	"L'identification de contenus simples d'images ou de sons basée sur des descripteurs
+	techniques ou des attributs dérivés a tendance à être de plus en plus laissée à la machine
+	apprenante (par exemple « photo de groupe », « personne avec un casque sur la tête »,
+	termes parlés), tandis que l'identification plus poussée de personnes, de corps, de lieux,
+	d'événements ou de sujets concrets est encore très sujette à erreurs."
+	\footcite{zotero-item-584}
+	
+	"When it comes to processing
+	image-based records in archives archives, supervised learning models can be	helpful for identification and classification, while unsupervised learning	models are best suited for processing large amounts of data for creating	generic descriptions, and highlighting possible connections between records."
+	\footcite{fewster}
+	
+	\item Outils 
+	
+	YOLO (you only look once)
+	Algorithme qui utilise CNNs pour entourer des objets dans des images et les classer dans des catégories 
+	il s'agit d'un single shot object detector : il se base sur une seule analyse de l'image dans sa globalité 
+	facial recognition, scene analysis, object tracking \footcite{fewster}
+	
+	two shot objects detector : multiple image reviews 
+	Exemple : Mask	Region-based CNN (R-CNN) algorithm. "uses deep neural networks to	identify regions of interest in the photograph and build boxes around objects	found throughout the image" \footcite{fewster}
+	Cette manière de faire est appelée "semantic segmentation" : "identifies semantic objects	without specifying how many instances of that object are present in the	image" \footcite{fewster}
+	Par exemple, s'il y a 5 personnes dans une image, la segmentation sémantique les identifie comme un même objet sémantique dans l'image.
+	
+	Instance segmentation : "identifies all the semantic objects in	an image and segments them into specific instances to accurately distinguish	between each object of a similar semantic category" (c'est ce que fait Mask RCNN)\footcite{fewster}
+	
+	Computer–Aided Metadata generation for Photo Archives Initiative (CAMPI) \footcite{fewster} production de tags sur des images et recommandation d'images similaires 
+	
+	
+	\item Biais et limites 
+	
+	"For instance, racial bias has been an ongoing challenge with	computer vision tools, particularly with facial recognition software. A study	published by MIT Media Lab in 2018 found that facial recognition software	had an average error rate of 0.8 percent for light-skinned men, versus a 34.7 percent	error rate for darker-skinned women" \footcite{fewster}
+	"societal biases are often engrained in	AI model training datasets, which lead to the models reproducing those	biases in their outputs" \footcite{fewster}
+	"In addition to this, the training data of computer	vision models has relied mostly on visual content available to be harvested	from the Internet, which in its majority corresponds to content developed	during the last three decades. These models would underperform on images	that are of a more historical character, commonly found in visual archives,	since they are underrepresented in the training data" \footcite{fewster}
+	
+	IL est important pour les archivistes de savoir comment ont été entraînés les modèles qu'ils utilisent, sur quelles données.
+	
+	
 \end{itemize}

@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'document_maitre (1).blg'
-[112] biber:342> INFO - === Wed Jun  3, 2026, 08:29:31
-[136] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
-[244] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[264] Biber.pm:4487> INFO - Processing section 0
-[279] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
-[283] bibtex.pm:1713> INFO - LaTeX decoding ...
-[394] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
-[933] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[933] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[933] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
-[933] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
-[1006] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
-[1049] bbl.pm:779> INFO - Output to document_maitre (1).bbl
+[133] biber:342> INFO - === Fri Jun  5, 2026, 12:25:54
+[157] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
+[272] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[292] Biber.pm:4487> INFO - Processing section 0
+[307] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
+[311] bibtex.pm:1713> INFO - LaTeX decoding ...
+[440] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
+[1042] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1042] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1042] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[1043] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
+[1136] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
+[1187] bbl.pm:779> INFO - Output to document_maitre (1).bbl

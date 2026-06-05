@@ -148,14 +148,66 @@
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
     \endentry
+    \entry{zotero-item-584}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=581fdb9738940d5a08bac997ae102f4a}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=aec844feeddee1023878e5e76a4816e4}{%
+           family={Lûpold},
+           familyi={L\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f1f5db4df32a43df70ecdbaad62493a}{%
+           family={Theilkäs},
+           familyi={T\bibinitperiod},
+           given={Lorenz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae295161b937fb4257f1da56ec0be1c6}{%
+           family={Kansy},
+           familyi={K\bibinitperiod},
+           given={Lambert},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association des archivistes suisses}%
+      }
+      \strng{namehash}{ef343a2f59ecdfa0d45a27661045680d}
+      \strng{fullhash}{471f37e1a3e50ebafb02e4ffb49f2f58}
+      \strng{fullhashraw}{471f37e1a3e50ebafb02e4ffb49f2f58}
+      \strng{bibnamehash}{471f37e1a3e50ebafb02e4ffb49f2f58}
+      \strng{authorbibnamehash}{471f37e1a3e50ebafb02e4ffb49f2f58}
+      \strng{authornamehash}{ef343a2f59ecdfa0d45a27661045680d}
+      \strng{authorfullhash}{471f37e1a3e50ebafb02e4ffb49f2f58}
+      \strng{authorfullhashraw}{471f37e1a3e50ebafb02e4ffb49f2f58}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Livre Blanc {{L}}'apprentissage Automatique Dans Les Archives : L'indexation En Profondeur Au Service de l'accès Aux Archives}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://vsa-aas.ch/wp-content/uploads/2024/08/MachineLearning_im_Archiv_Whitepaper_2024-08-08_fr.pdf
+      \endverb
+      \verb{url}
+      \verb https://vsa-aas.ch/wp-content/uploads/2024/08/MachineLearning_im_Archiv_Whitepaper_2024-08-08_fr.pdf
+      \endverb
+    \endentry
     \entry{arnold2019}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=db8b037fbb6203579f889c8ae85328bb}{%
+        {{un=1,uniquepart=given,hash=db8b037fbb6203579f889c8ae85328bb}{%
            family={Arnold},
            familyi={A\bibinitperiod},
            given={Taylor},
            giveni={T\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=f604608795c61c5e27016400c74559fe}{%
            family={Tilton},
            familyi={T\bibinitperiod},
@@ -341,6 +393,47 @@
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition}
     \endentry
+    \entry{zotero-item-582}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=321b0ae46329e91dd558c72555696ccc}{%
+           family={Bachimont},
+           familyi={B\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{fullhash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{fullhashraw}{321b0ae46329e91dd558c72555696ccc}
+      \strng{bibnamehash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{authorbibnamehash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{authornamehash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{authorfullhash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{authorfullhashraw}{321b0ae46329e91dd558c72555696ccc}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{L'indexation consiste à caractériser le contenu d'un document et l'information qu'il détient de manière à le retrouver quand on effectue des recherches sur l'un des sujets dont il traite. Mais que devient-elle quand d'une part on la met en œuvre sur des documents informatisés ou électroniques, et d'autre part quand on considère des contenus non textuels comme les vidéos ou les sons~? Outils techniques pour la sémantique, instruments pour l'interprétation et la recherche, les techniques d...}
+      \field{journaltitle}{Techniques de l'Ingénieur}
+      \field{langid}{french}
+      \field{title}{{Indexation et archivage de contenus multimédias}}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/WETIWTF6/indexation-et-archivage-de-contenus-multimedias-h7500.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.techniques-ingenieur.fr/base-documentaire/technologies-de-l-information-th9/gestion-de-contenus-numeriques-42311210/indexation-et-archivage-de-contenus-multimedias-h7500/
+      \endverb
+      \verb{url}
+      \verb https://www.techniques-ingenieur.fr/base-documentaire/technologies-de-l-information-th9/gestion-de-contenus-numeriques-42311210/indexation-et-archivage-de-contenus-multimedias-h7500/
+      \endverb
+      \keyw{cinema,Indexation}
+    \endentry
     \entry{bassaisteguy2025}{thesis}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2babcae46f1e5f5a756e7e17fb8ab4f0}{%
@@ -482,6 +575,39 @@
       \verb /home/clotilde/Zotero/storage/TR3FPU8D/Cordell - Machine Learning + Libraries.pdf
       \endverb
       \keyw{cinema,indexation}
+    \endentry
+    \entry{fewster}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8cba3ea02c04158fdb0fff2a1e210e17}{%
+           family={Fewster},
+           familyi={F\bibinitperiod},
+           given={Kaila},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c67e307d816fe0efb27a340a7f88bcb}{%
+           family={Arias},
+           familyi={A\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ae423eaa75d53413189598640fca1e3}
+      \strng{fullhash}{4ae423eaa75d53413189598640fca1e3}
+      \strng{fullhashraw}{4ae423eaa75d53413189598640fca1e3}
+      \strng{bibnamehash}{4ae423eaa75d53413189598640fca1e3}
+      \strng{authorbibnamehash}{4ae423eaa75d53413189598640fca1e3}
+      \strng{authornamehash}{4ae423eaa75d53413189598640fca1e3}
+      \strng{authorfullhash}{4ae423eaa75d53413189598640fca1e3}
+      \strng{authorfullhashraw}{4ae423eaa75d53413189598640fca1e3}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Teachable {{AI}} for the {{Archival Professions}} – {{Module}} 4:}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/3Z9KR8XN/Fewster and Arias - Teachable AI for the Archival Professions – Module 4.pdf
+      \endverb
     \endentry
     \entry{2025}{misc}{}{}
       \field{sortinit}{F}
@@ -1233,7 +1359,6 @@
       \field{month}{1}
       \field{title}{Automatic {{Annotations}} and {{Enrichments}} for {{Audiovisual Archives}}}
       \field{year}{2021}
-      \true{nocite}
       \field{pages}{633\bibrangedash 640}
       \range{pages}{8}
       \verb{doi}

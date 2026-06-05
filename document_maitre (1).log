@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  3 JUN 2026 08:30
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  5 JUN 2026 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -782,7 +782,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
 [3
 
-]) (./chapitres/notions_indexation.tex
+]
+
+[4]) (./chapitres/notions_indexation.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -795,37 +797,43 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 8.
 
 
-[4]
+[5]
 
-[5]) (./chapitres/notions_NLP.tex
-Underfull \vbox (badness 1097) has occurred while \output is active []
+[6]) (./chapitres/notions_NLP.tex
 
+[7]) (./chapitres/IA_generale.tex) (./chapitres/experience_utilisateur.tex
 
-
-[6]) (./chapitres/IA_generale.tex) (./chapitres/experience_utilisateur.tex)
-(./chapitres/IA_cinema.tex
-
-[7]
-
-[8])
+[8]) (./chapitres/IA_cinema.tex
 
 [9]
 
-[10
+[10]
+
+[11]
+
+[12]) (./chapitres/notions_IA.tex
+
+[13]
+
+[14])
+
+[15]
+
+[16
 
 ]
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (M);
-(lettrine.sty)             reported on input line 237.
+(lettrine.sty)             reported on input line 238.
 
 
-[11]
+[17]
 
-[12
+[18
 
 ]
-Overfull \hbox (13.40034pt too wide) in paragraph at lines 243--243
+Overfull \hbox (13.40034pt too wide) in paragraph at lines 244--244
 [][][][][][][][][] [] [][][][][][][][][] [][] [][][][][][][][][][][][][] [] [][
 ][][] [] [][][] [] [][][][][] [] [][][][][][][][]$[] \TU/lmr/m/n/12 (visité le 
 12/05/2026). 
@@ -833,10 +841,10 @@ Overfull \hbox (13.40034pt too wide) in paragraph at lines 243--243
 
 
 
-[13
+[19
 
 ]
-Overfull \hbox (6.02444pt too wide) in paragraph at lines 243--243
+Overfull \hbox (6.02444pt too wide) in paragraph at lines 244--244
 [][][]\TU/lmr/m/sc/12 Longpre[]\TU/lmr/m/n/12 ​ (Shayne), []\TU/lmr/m/sc/12 Sin
 gh[]\TU/lmr/m/n/12 ​ (Nikhil), []\TU/lmr/m/sc/12 Cherep[]\TU/lmr/m/n/12 ​ (Manu
 el), []\TU/lmr/m/sc/12 Tiwary[]\TU/lmr/m/n/12 ​ (Kushagra), []\TU/lmr/m/sc/12 M
@@ -845,8 +853,8 @@ aterzynska[]\TU/lmr/m/n/12 ​
 
 
 
-[14]
-Overfull \hbox (5.9788pt too wide) in paragraph at lines 243--243
+[20]
+Overfull \hbox (5.9788pt too wide) in paragraph at lines 244--244
 \TU/lmr/m/n/12 Etienne, 2006, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][
 ] [] [] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][] [][] [][][][][][]
 [][]$[] (visité le 06/05/2026). 
@@ -854,8 +862,8 @@ Overfull \hbox (5.9788pt too wide) in paragraph at lines 243--243
 
 
 
-[15]
-Overfull \hbox (17.96452pt too wide) in paragraph at lines 243--243
+[21]
+Overfull \hbox (17.96452pt too wide) in paragraph at lines 244--244
 [][][]\TU/lmr/m/sc/12 Wang[]\TU/lmr/m/n/12 ​ (Yiyuan), []\TU/lmr/m/sc/12 Johnst
 on[]\TU/lmr/m/n/12 ​ (Andrew), []\TU/lmr/m/sc/12 Sadokierski[]\TU/lmr/m/n/12 ​ 
 (Zoë), []\TU/lmr/m/sc/12 Stephens[]\TU/lmr/m/n/12 ​ (Rhiannon) et []\TU/lmr/m/s
@@ -864,26 +872,26 @@ c/12 Ahyong[]\TU/lmr/m/n/12 ​
 
 
 
-[16]
+[22]
 
-Package biblatex Warning: Keyword 'nlp' not found on input line 250.
-
-
-LaTeX Warning: Empty bibliography on input line 250.
+Package biblatex Warning: Keyword 'nlp' not found on input line 251.
 
 
+LaTeX Warning: Empty bibliography on input line 251.
 
-[17
 
-]
 
-[18
+[23
 
 ]
 
-[19]
+[24
 
-[20
+]
+
+[25]
+
+[26
 
 ]
 
@@ -952,12 +960,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24396 strings out of 468389
- 479535 string characters out of 5440619
- 1325408 words of memory out of 5000000
- 52668 multiletter control sequences out of 15000+600000
+ 24458 strings out of 468389
+ 480814 string characters out of 5440619
+ 1325829 words of memory out of 5000000
+ 52727 multiletter control sequences out of 15000+600000
  631033 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,13n,83p,1889b,5504s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (33 pages).
+Output written on document_maitre (1).pdf (39 pages).
