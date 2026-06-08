@@ -2,13 +2,13 @@
 \contentsline {chapter}{Résumé}{i}{chapter*.1}%
 \contentsline {chapter}{Brouillon}{iii}{chapter*.2}%
 \contentsline {subsection}{\numberline {1.}Problématique}{iii}{subsection.0.0.1}%
-\contentsline {subsection}{\numberline {2.}limites}{vii}{subsection.0.0.2}%
-\contentsline {subsection}{\numberline {3.}IA générale}{viii}{subsection.0.0.3}%
-\contentsline {subsection}{\numberline {4.}Experience utilisateur}{viii}{subsection.0.0.4}%
-\contentsline {subsection}{\numberline {5.}IA et cinéma}{ix}{subsection.0.0.5}%
-\contentsline {subsection}{\numberline {6.}IA}{xiv}{subsection.0.0.6}%
-\contentsline {chapter}{Remerciements}{xvii}{chapter*.6}%
-\contentsline {chapter}{Introduction}{xxv}{chapter*.10}%
+\contentsline {subsection}{\numberline {2.}limites}{ix}{subsection.0.0.2}%
+\contentsline {subsection}{\numberline {3.}IA générale}{ix}{subsection.0.0.3}%
+\contentsline {subsection}{\numberline {4.}Experience utilisateur}{ix}{subsection.0.0.4}%
+\contentsline {subsection}{\numberline {5.}IA et cinéma}{x}{subsection.0.0.5}%
+\contentsline {subsection}{\numberline {6.}IA}{xvii}{subsection.0.0.6}%
+\contentsline {chapter}{Remerciements}{xxi}{chapter*.6}%
+\contentsline {chapter}{Introduction}{xxxi}{chapter*.10}%
 \contentsline {part}{I\hspace {1em}Une partie}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Mon premier chapitre}{3}{chapter.1}%
 \contentsline {part}{II\hspace {1em}Une autre partie}{5}{part.2}%

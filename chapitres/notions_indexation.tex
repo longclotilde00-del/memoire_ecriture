@@ -12,25 +12,31 @@
 	notions résultant de l’analyse du contenu d’un document en vue d’en faciliter la recherche”
 	\footcite{husson2025}
 	
-	«Les bibliothèques gèrent un grand nombre de métadonnées, pour différents types de documents. Le plus souvent, ces documents sont indexés à l'aide de mots sujets sélectionnés au sein d'un vocabulaire contrôlé, afin d'être recherchés plus tard. L'indexation manuelle de documents est un travail intellectuel très consommateur de temps.»
-	\footcite[p.~21]{suominen2019a}
-	
 	définition de l'indexation :
 	"L'indexation est cette technique consistant à caractériser le contenu d'un document et l'information qu'il détient de manière à le retrouver quand on effectue des recherches sur l'un des sujets dont il traite. La difficulté est donc de savoir caractériser et représenter l'information documentaire pour qu'il soit aisé de la mettre en rapport avec des sujets d'investigation. Mise en rapport d'une requête et d'un contenu représenté et synthétisé, l'indexation permet de s'orienter dans la masse des documents et d'organiser ses connaissances. L'indexation appartient donc à ce qu'on appelle depuis quelques années les techniques intellectuelles Indexation et archivage de contenus multimédias"
 	\footcite{zotero-item-582}
 	
-	contrairement aux documents textuels qui comportent souvent des éléments d'indexation dans leur forme (couverture de livre, ) les archives audiovisuelles n'en contiennent peu ou pas, ce qui les rend opaques et peu récéptives aux pratiques d'indexation. Il s'agit alors de mettre en place une « l'indexation par le contenu ». \footcite{zotero-item-582}
+	
+	contrairement aux documents textuels qui comportent souvent des éléments d'indexation dans leur forme (couverture de livre, ) les archives audiovisuelles n'en contiennent peu ou pas, ce qui les rend opaques et peu réceptives aux pratiques d'indexation. Il s'agit alors de mettre en place une « indexation par le contenu ». \footcite{zotero-item-582} (aussi placé dans IAcinema)
 	
 	
 	\item \textbf{Indexation automatique}
 	
+		Pour justifier l'indexation automatique : 
+	«Les bibliothèques gèrent un grand nombre de métadonnées, pour différents types de documents. Le plus souvent, ces documents sont indexés à l'aide de mots sujets sélectionnés au sein d'un vocabulaire contrôlé, afin d'être recherchés plus tard. L'indexation manuelle de documents est un travail intellectuel très consommateur de temps.»
+	\footcite[p.~21]{suominen2019a}
+
+	« Incomplete descriptive metadata often hinder their access by the public. \footcite{sullivan2025}
+	Légitime la mise en place d'une indexation automatique car elle servirait à compléter des métadonnées manquantes et donc à rendre accès les collections plus facilement au public. Le manque de métadonnées et d'informations, d'indexation est souvent un frein lors de la publication en ligne, de l'accès au public (car pas de contexte : risque de contradictions historiques). 
+	
 	«Les systèmes d'indexation automatique suivent généralement un processus dans lequel les documents textuels sont, dans un premier temps, "préparés" [...] les documents sont convertis dans une représentation vectorielle de leur fréquence d'apparition, ce qui, à l'aide d'un algorithme, permet d'établir des comparaisons entre les mots-sujets utilisés.»
 	\footcite[p.~21]{suominen2019a}
+	Pour les images : comparaison des objets. La différence de médium modifie les outils utilisés et la manière de les utiliser pour en tirer des infos. 
 	
 	«Les algorithmes d'indexation automatique se répartissent selon deux types d'approche : lexicale et associative.»
 	\footcite[p.~21]{suominen2019a}
 	
-	Pour les archives audiovisuelles, des processus techniques s'ajoutent : extraction d'entités depuis l'images, extraction d'entités depuis le son. La forme du médium cinématographique crée une opacité et une complexité pour l'instauration de pipeline algorithmiques.
+	Pour les archives audiovisuelles, des processus techniques s'ajoutent : extraction d'entités depuis l'image, extraction d'entités depuis le son. La forme du médium cinématographique crée une opacité et une complexité pour l'instauration de pipeline algorithmiques.
 	
 	\item \textbf{Indexation iconographique}
 	
@@ -58,6 +64,7 @@
 	Trint : automatic speech recognition 
 	FasterR CNN et Farec CNN : face detection models 
 	YOLO : outil opensource de détection d'objets et d'identification
+	
 	\item Cas d'indexation
 
 	The vanderbilt university television news archive : ils utilisent Trint pour transcrire les discours et engagent des étudiants pour corriger les transcriptions sur l'interface de l'outil Trint : 
@@ -65,11 +72,29 @@
 	"students also note the start and stop time of segments, and write relevant on-screen information such as names into the transcript. Each 30-minute program takes one hour of student worker time to correct. When the transcript is complete, it is exported to Amazon’s Named Entity Recognition service on the cloud, where information such as person, location, or topic is pulled out. That information is then brought back into the workflow with scripts written in Python that turn the information into individual titles for each news segment. Additional information such as reporter or location are added to database fields, and duplicate records are kept in PBCore for future use when more of the information from the Named Entity Recognition system might be stored in the database."
 	\footcite{2021b}
 	
+	\item Indexation audio
+	
+	automatic speech recognition and speech translation
+	
+	Selon une expérimentaton de Sullivan et Abdul-Mageed en 2025 sur des archives de l'unesco, Whisper V3 est le modèle le plus convaincant pour identifier la langue dans une piste audio (LID), avec 91,13 pourcent de précision. En revanche, MMS (massively multilingual speech) de Meta obtient uen précisiond e seulement 11 pourcent. Cela s'explique car MMS a été entrainé sur des données trop homogènes (enregistrements de la bible). 
+	\footcite{sullivan2025}
+	
+	les embedding de locuteurs (représentations vectorielle sde voix) se dégradent dans deux cas : si un locuteur parle plusieurs langues différentes, ce sont plusieurs locuteurs qui sont reconnus. Si un long moment sépare deux enregistrements d'un même locuteur, il est également interprété comme deux personnes différentes. « Speaker embeddings remain a fragile component of speech processing pipelines that is prone to biases related to the channel, age, and language. »\footcite{sullivan2025}
+	
 	\end{itemize}
 
 \subsection{limites}
+
 «How to give context to the machines? To give common sense? It's a problem of artificial intelligence from the beginning.»
 \footcite{2021}
+
+sur l'indexation automatique audio :
+« Audio archives present a complex terrain for contemporary speech processing technologies, owing to the varied domains these recordings encapsulate. » \footcite{sullivan2025} : deux problèmes sur un corpus d'archives anciennes : variabilité linguistiques (multilingues, accents différents), variabilité temporelle (vieillissement des voix).
+les archives audiovisuelles sont un matériau hétérogène : opacité du médium. 
+
+limites de l'automatisation : 
+"l’intégration de la vision artificielle aux méthodes des historiens n’existe que conjointement à des
+interventions humaines, qui assurent la pertinence des traitements effectués et apportentune analyse nécessaire." \footcite{norindr2023}
 	
 
 

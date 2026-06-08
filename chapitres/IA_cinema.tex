@@ -119,5 +119,34 @@
 	
 	IL est important pour les archivistes de savoir comment ont été entraînés les modèles qu'ils utilisent, sur quelles données.
 	
+	la vidéo : souvent de moins bonne qualité que l'image fixe, donc les résultats d'indexation automatique peuvent être moins bons
+	
+	contrairement aux documents textuels qui comportent souvent des éléments d'indexation dans leur forme (couverture de livre, ) les archives audiovisuelles n'en contiennent peu ou pas, ce qui les rend opaques et peu réceptives aux pratiques d'indexation. Il s'agit alors de mettre en place une « indexation par le contenu ». \footcite{zotero-item-582} 
+	
+	Une vidéo doit être segmentée avant de pouvoir être indexée : 
+	« One of the most common initial steps for video content organisation is segmenting the video into different meaningful parts. Proper segmentation facilitates content organisation, improves accessibility, and enhances the ability to perform analytics on large video datasets. »\footcite{attard2025}
+	
+	Une idée de pipeline de segmentation : est la détection de scènes avec pyscenedetect (découpage d'une vidéo en segments en détectant les coupes visuelle), puis classification des segments. D'un côté la segmentation syntaxique et de l'autre la classification sémantique. \footcite{attard2025}
+	
+	le meilleur classifieur d'images avec le plus haut résultat de précision selon attard 2025 est ResNet
+ \footcite{attard2025}
+ 
+l'article de attard souligne que  « The study underscores the lack of specialised annotation tools and the high resource demands of sophisticated models, which could present significant obstacles for future research with limited computational resources. » \footcite{attard2025} c'est une limite surtout pour les isntitutions. REjoint l'argument et les limites exposées par \footcite{sullivan2025}
+
+pour justifier la mise en place d'une segmentation : « Automated segmentation accelerates the processing of large volumes of video content and ensures consistency and accuracy in the segmentation process. » \footcite{attard2025} la mise en place d'une automatisation de la segmentation permettrait d'homogénéiser l'indexationdocumentataire : un algorithme segmente les vidéos de la même façon, pas les humains. Mais les vidéos sont toutes différentes : est ce qu'on peut garder la même pratique de segmentation sur des corpus vidéo différents ?
+
+les modèles multimodaux qui combinent audio et vidéo (vivit-ast) ne donnent pas les meilleurs résultats. Il faudrait donc adopter des architectures plus simples, qui demandent moins de calcul d'usage et qui séparent les pipelines. \footcite{attard2025}
+
+absence d'outils d'annotation spécialisés dans la segmentation vidéo. Attard adapte label studio, un outil généraliste. \footcite{attard2025}
+
+le modele ViViT, modèle basé sur des transformers, capture les caractéristiques spatio temporelles de la vidéo, contrairement à Resnet qui analyse chaque image d'un vidéo indépendemment. ViViT extrait "extracts spatio-temporal tokens from the input video, which are then encoded by a series of transformer layers. » \footcite{arnab2021}. C'est un modèle qui tete d'analyser l'espace et le temps dans une vidéo donnée. Vivit adopte donc une approche "video-native". 
+Le modèle à choisir dépend de la nature du corpus audiovisuel que l'on souhaite indexer. Si les archives sont des plans fixes qui ne changent que très peu, resnet suffit. 
+
+« ViT has been shown to only be effective when trained on large-scale datasets, as transformers lack some of the inductive biases of convolutional networks, and thus require datasets larger than the common ImageNet ILSRVC dataset to train. » \footcite{arnab2021}. : les transformers n'ont pas les biais des CNN qui leur permettraient de faire des généralisations et de reconnaître un objet où qu'il soit dans l'image. Ils ont donc besoin d'être entrainés sur beaucoup plus de données : c'est une grande limite. Une approhe par calssifieurs d'images plus légers comme ResNet peut donc être préférable. ViViT obtient de très bons résultats mais entraînés sur des corpus vidéos contemporains : vidéos youtube. Diffiilement adaptable à un corpus d'archives historique sauf pré entraînement massif. 
+
+Récemment, une transition architecturale des modèles a produit un basculement vers des modèles basés sur les transformers en vision par ordinateur, remplaçant prograssivement les CNN. Cela explique pourquoi les outils actuellement disponibles comme CLIP, ViViT, AT, sont tous basés sur cette architecture. 
+
+la qualité des images est absolument primordiale et déterminante dans la mise en place d'un pipeline d'indexation automatique : "La question de la qualité des images est
+cruciale dans le cadre d’un projet de recherche en vision artificielle, puisque celle-ci a la possiblité d’impacter les performances de l’algorithme utilisé, et d’affecter négativement les interprétations du modèle". \footcite{norindr2023}
 	
 \end{itemize}

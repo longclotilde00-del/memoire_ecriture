@@ -477,6 +477,48 @@
       \endverb
       \keyw{Audiovisuel,Bases de données,Bibliothèque,Collections patrimoniales,Document audiovisuel,Documentation,Institut national de l'audiovisuel,Institution culturelle,Institution patrimoniale,Intelligence artificielle,Internet,Interopérabilité,Télévision,Web}
     \endentry
+    \entry{bergmann2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb71d3b9a4c9e4abb8da0034e197db9a}{%
+           family={Bergmann},
+           familyi={B\bibinitperiod},
+           given={Cole\bibnamedelima Stryker},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0,
+           suffix={Dave},
+           suffixi={D\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{fullhash}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{fullhashraw}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{bibnamehash}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{authorbibnamehash}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{authornamehash}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{authorfullhash}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{authorfullhashraw}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Un transformer est un type de modèle d’apprentissage profond qui est rapidement devenu essentiel dans le traitement automatique du langage naturel (NLP) et d’autres tâches de machine learning (ML).}
+      \field{langid}{french}
+      \field{month}{3}
+      \field{shorttitle}{{Qu’est-ce qu’un modèle transformer ?}}
+      \field{title}{{Qu’est-ce qu’un modèle transformer ? | IBM}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/transformer-model
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/transformer-model
+      \endverb
+    \endentry
     \entry{bermes2025}{inproceedings}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e030e2b20e092b3fabbe90ad5fc15c0d}{%
@@ -524,6 +566,63 @@
       \endverb
       \keyw{à lire,Collections patrimoniales,Computer vision,Coopération humain-machine,Heritage collections,Humanmachine cooperation,Musée,Museum,Vision par ordinateur}
     \endentry
+    \entry{brachmann2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c11f4ab746855d0f43916ac5b4fbfb9a}{%
+           family={Brachmann},
+           familyi={B\bibinitperiod},
+           given={Anselm},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00bdc98f1a4a8bf6588b46ae162d9030}{%
+           family={Redies},
+           familyi={R\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers}%
+      }
+      \strng{namehash}{6047fe8ae926daf9c8628241f362c4a1}
+      \strng{fullhash}{6047fe8ae926daf9c8628241f362c4a1}
+      \strng{fullhashraw}{6047fe8ae926daf9c8628241f362c4a1}
+      \strng{bibnamehash}{6047fe8ae926daf9c8628241f362c4a1}
+      \strng{authorbibnamehash}{6047fe8ae926daf9c8628241f362c4a1}
+      \strng{authornamehash}{6047fe8ae926daf9c8628241f362c4a1}
+      \strng{authorfullhash}{6047fe8ae926daf9c8628241f362c4a1}
+      \strng{authorfullhashraw}{6047fe8ae926daf9c8628241f362c4a1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Aesthetics has been the subject of long-standing debates by philosophers and psychologists alike. In psychology, it is generally agreed that aesthetic experience results from an interaction between perception, cognition, and emotion. By experimental means, this triad has been studied in the field of experimental aesthetics, which aims to gain a better understanding of how aesthetic experience relates to fundamental principles of human visual perception and brain processes. Recently, researchers in computer vision have also gained interest in the topic, giving rise to the field of computational aesthetics. With computing hardware and methodology developing at a high pace, the modelling of perceptually relevant aspect of aesthetic stimuli has a huge potential. In this review, we present an overview of recent developments in computational aesthetics and how they relate to experimental studies. In the first part, we cover topics such as the prediction of ratings, style and artist identification as well as computational methods in art history, such as the detection of influences among artists or forgeries. We also describe currently used computational algorithms, such as classifiers and deep neural networks. In the second part, we summarize results from the field of experimental aesthetics and cover several isolated image properties that are believed to have a effect on the aesthetic appeal of visual stimuli. Their relation to each other and to findings from computational aesthetics are discussed. Moreover, we compare the strategies in the two fields of research and suggest that both fields would greatly profit from a joined research effort. We hope to encourage researchers from both disciplines to work more closely together in order to understand visual aesthetics from an integrated point of view.}
+      \field{issn}{1662-5188}
+      \field{journaltitle}{Frontiers in Computational Neuroscience}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{Computational and {{Experimental Approaches}} to {{Visual Aesthetics}}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{11}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.3389/fncom.2017.00102
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/8C49QUX4/Brachmann and Redies - 2017 - Computational and Experimental Approaches to Visual Aesthetics.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2017.00102/full
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2017.00102/full
+      \endverb
+      \keyw{AI,art history,Artist identification,Computational aesthetics,Experimental aesthetics,image features,statistical image properties,Style identification,visual preference}
+    \endentry
     \entry{2021b}{misc}{}{}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
@@ -546,6 +645,94 @@
       \verb{url}
       \verb https://www.beeldengeluid.nl/en/research/blog/bringing-ai-audiovisual-archive
       \endverb
+    \endentry
+    \entry{caron2018}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3edb601111e59d5826c21f2b90550b2d}{%
+           family={Caron},
+           familyi={C\bibinitperiod},
+           given={Mathilde},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfd2b635b41689b48c4b81ce769b940b}{%
+           family={Bojanowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=977d047821122d1c2e7aa855c30c8cf2}{%
+           family={Joulin},
+           familyi={J\bibinitperiod},
+           given={Armand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9190eb3cfa416148f38314a0698d592}{%
+           family={Douze},
+           familyi={D\bibinitperiod},
+           given={Matthijs},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=2d9b2bb140830bf8f7f642c17692a8e4}{%
+           family={Ferrari},
+           familyi={F\bibinitperiod},
+           given={Vittorio},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c4c76fca369ecb436d9729820e745123}{%
+           family={Hebert},
+           familyi={H\bibinitperiod},
+           given={Martial},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bd7af1e31d4938e27dbc867b4bb71e9d}{%
+           family={Sminchisescu},
+           familyi={S\bibinitperiod},
+           given={Cristian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=214a71ab353c5570ed4acb95cf84f539}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Yair},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{08b206d39c68e0a891bf9c793db0530c}
+      \strng{fullhash}{633f78aa4d40bf7b23388f041528f1e5}
+      \strng{fullhashraw}{633f78aa4d40bf7b23388f041528f1e5}
+      \strng{bibnamehash}{633f78aa4d40bf7b23388f041528f1e5}
+      \strng{authorbibnamehash}{633f78aa4d40bf7b23388f041528f1e5}
+      \strng{authornamehash}{08b206d39c68e0a891bf9c793db0530c}
+      \strng{authorfullhash}{633f78aa4d40bf7b23388f041528f1e5}
+      \strng{authorfullhashraw}{633f78aa4d40bf7b23388f041528f1e5}
+      \strng{editorbibnamehash}{0d71006df560b3f7aa8fdb55efa8491f}
+      \strng{editornamehash}{55075d71201f5d17a91f0ae9d748d278}
+      \strng{editorfullhash}{0d71006df560b3f7aa8fdb55efa8491f}
+      \strng{editorfullhashraw}{0d71006df560b3f7aa8fdb55efa8491f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Clustering is a class of unsupervised learning methods that has been extensively applied and studied in computer vision. Little work has been done to adapt it to the end-to-end training of visual features on large-scale datasets. In this work, we present DeepCluster, a clustering method that jointly learns the parameters of a neural network and the cluster assignments of the resulting features. DeepCluster iteratively groups the features with a standard clustering algorithm, k-means, and uses the subsequent assignments as supervision to update the weights of the network. We apply DeepCluster to the unsupervised training of convolutional neural networks on large datasets like ImageNet and YFCC100M. The resulting model outperforms the current state of the art by a significant margin on all the standard benchmarks.}
+      \field{booktitle}{Computer {{Vision}} – {{ECCV}} 2018}
+      \field{isbn}{978-3-030-01264-9}
+      \field{langid}{english}
+      \field{title}{Deep {{Clustering}} for {{Unsupervised Learning}} of {{Visual Features}}}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{139\bibrangedash 156}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/978-3-030-01264-9_9
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/IRXFWKIS/Caron et al. - 2018 - Deep Clustering for Unsupervised Learning of Visual Features.pdf
+      \endverb
+      \keyw{Clustering,Unsupervised learning}
     \endentry
     \entry{cordell}{article}{}{}
       \name{author}{1}{}{%
@@ -575,6 +762,45 @@
       \verb /home/clotilde/Zotero/storage/TR3FPU8D/Cordell - Machine Learning + Libraries.pdf
       \endverb
       \keyw{cinema,indexation}
+    \endentry
+    \entry{delua2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f09c3706ae1f1d7379cfda8cf8dc6da5}{%
+           family={Delua},
+           familyi={D\bibinitperiod},
+           given={Julianna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f09c3706ae1f1d7379cfda8cf8dc6da5}
+      \strng{fullhash}{f09c3706ae1f1d7379cfda8cf8dc6da5}
+      \strng{fullhashraw}{f09c3706ae1f1d7379cfda8cf8dc6da5}
+      \strng{bibnamehash}{f09c3706ae1f1d7379cfda8cf8dc6da5}
+      \strng{authorbibnamehash}{f09c3706ae1f1d7379cfda8cf8dc6da5}
+      \strng{authornamehash}{f09c3706ae1f1d7379cfda8cf8dc6da5}
+      \strng{authorfullhash}{f09c3706ae1f1d7379cfda8cf8dc6da5}
+      \strng{authorfullhashraw}{f09c3706ae1f1d7379cfda8cf8dc6da5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this article, we’ll explore the basics of two data science approaches: supervised and unsupervised. Find out which approach is right for your situation. The world is getting “smarter” every day, and to keep up with consumer expectations, companies are increasingly using machine learning algorithms to make things easier.}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shorttitle}{Supervised vs. {{Unsupervised Learning}}}
+      \field{title}{Supervised vs. {{Unsupervised Learning}}: {{What}}’s the {{Difference}}? | {{IBM}}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning
+      \endverb
     \endentry
     \entry{fewster}{article}{}{}
       \name{author}{2}{}{%
@@ -875,6 +1101,78 @@
       \verb{url}
       \verb https://www.iso.org/fr/intelligence-artificielle/traitement-langage-naturel
       \endverb
+    \endentry
+    \entry{lin2024}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7f21a54173b70852115573759f09a60c}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Xinyu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2184fbfb16600c1f882f938b43572f5}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yingjie},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0dc086693fd30a6d071c743d2571b2f4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yipeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ccfb24569f380ea56f5ecd4a363bef6}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Ce},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{a40634959fa72a5c331f22da8a6051b6}
+      \strng{fullhash}{19eed1f209e9f1794b4bec5ba3a31f21}
+      \strng{fullhashraw}{19eed1f209e9f1794b4bec5ba3a31f21}
+      \strng{bibnamehash}{19eed1f209e9f1794b4bec5ba3a31f21}
+      \strng{authorbibnamehash}{19eed1f209e9f1794b4bec5ba3a31f21}
+      \strng{authornamehash}{a40634959fa72a5c331f22da8a6051b6}
+      \strng{authorfullhash}{19eed1f209e9f1794b4bec5ba3a31f21}
+      \strng{authorfullhashraw}{19eed1f209e9f1794b4bec5ba3a31f21}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{An image line segment is a fundamental low-level visual feature that delineates straight, slender, and uninterrupted portions of objects and scenarios within images. Detection and description of line segments lay the basis for numerous vision tasks. Although many studies have aimed to detect and describe line segments, a comprehensive review is lacking, obstructing their progress. This study fills the gap by comprehensively reviewing related studies on detecting and describing two-dimensional image line segments to provide researchers with an overall picture and deep understanding. Based on their mechanisms, two taxonomies for line segment detection and description are presented to introduce, analyze, and summarize these studies, facilitating researchers to learn about them quickly and extensively. The key issues, core ideas, advantages and disadvantages of existing methods, and their potential applications for each category are analyzed and summarized, including previously unknown findings. The challenges in existing methods and corresponding insights for potentially solving them are also provided to inspire researchers. In addition, some state-of-the-art line segment detection and description algorithms are evaluated without bias, and the evaluation code will be publicly available. The theoretical analysis, coupled with the experimental results, can guide researchers in selecting the best method for their intended vision applications. Finally, this study provides insights for potentially interesting future research directions to attract more attention from researchers to this field.}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{month}{5}
+      \field{number}{arXiv:2305.00264}
+      \field{shorttitle}{A {{Comprehensive Review}} of {{Image Line Segment Detection}} and {{Description}}}
+      \field{title}{A {{Comprehensive Review}} of {{Image Line Segment Detection}} and {{Description}}: {{Taxonomies}}, {{Comparisons}}, and {{Challenges}}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2305.00264
+      \endverb
+      \verb{eprint}
+      \verb 2305.00264
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/L95WF3WH/Lin et al. - 2024 - A Comprehensive Review of Image Line Segment Detection and Description Taxonomies, Comparisons, and.pdf;/home/clotilde/Zotero/storage/38ZC8D9D/2305.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2305.00264
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2305.00264
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition}
     \endentry
     \entry{liu2023}{misc}{}{}
       \name{author}{4}{}{%
@@ -1317,6 +1615,124 @@
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
     \endentry
+    \entry{moiraghi2018}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af26c2ece86542733e95704d8f9165b3}{%
+           family={Moiraghi},
+           familyi={M\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{af26c2ece86542733e95704d8f9165b3}
+      \strng{fullhash}{af26c2ece86542733e95704d8f9165b3}
+      \strng{fullhashraw}{af26c2ece86542733e95704d8f9165b3}
+      \strng{bibnamehash}{af26c2ece86542733e95704d8f9165b3}
+      \strng{authorbibnamehash}{af26c2ece86542733e95704d8f9165b3}
+      \strng{authornamehash}{af26c2ece86542733e95704d8f9165b3}
+      \strng{authorfullhash}{af26c2ece86542733e95704d8f9165b3}
+      \strng{authorfullhashraw}{af26c2ece86542733e95704d8f9165b3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Suite aux ateliers « Décrire, transcrire et diffuser un corpus documentaire hétérogène : méthodes, formats, outils » et «~Géolocalisation et spatialisation de documents patrimoniaux~», une troisième demi-journée d’étude a été organisée dans le cadre du programme de recherche CORPUS, inscrit au plan quadriennal de la recherche 2016-2019 de la Bibliothèque nationale de France (BnF). Dans…}
+      \field{issn}{2493-4437}
+      \field{journaltitle}{Carnet de recherche}
+      \field{langid}{french}
+      \field{month}{4}
+      \field{title}{{Explorer des corpus d’images. L’IA au service du patrimoine}}
+      \field{type}{{Billet}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.58079/m3cp
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/YMELYWUH/2809.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bnf.hypotheses.org/2809
+      \endverb
+      \verb{url}
+      \verb https://bnf.hypotheses.org/2809
+      \endverb
+    \endentry
+    \entry{monnier2021}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5c623ab3c147298244eae05925a77640}{%
+           family={Monnier},
+           familyi={M\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=edd9b56e6a0b458b246cfbd667c991dc}{%
+           family={Vincent},
+           familyi={V\bibinitperiod},
+           given={Elliot},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee672c13ddea8aa3bc5a45024cfd7354}{%
+           family={Ponce},
+           familyi={P\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9520cf3d326610c36a727c2b40c80c7b}{%
+           family={Aubry},
+           familyi={A\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{3e5d3a8dcfe1795bbced025a1117c7e2}
+      \strng{fullhash}{81c2f2bd94439a0263c13af22c650eb6}
+      \strng{fullhashraw}{81c2f2bd94439a0263c13af22c650eb6}
+      \strng{bibnamehash}{81c2f2bd94439a0263c13af22c650eb6}
+      \strng{authorbibnamehash}{81c2f2bd94439a0263c13af22c650eb6}
+      \strng{authornamehash}{3e5d3a8dcfe1795bbced025a1117c7e2}
+      \strng{authorfullhash}{81c2f2bd94439a0263c13af22c650eb6}
+      \strng{authorfullhashraw}{81c2f2bd94439a0263c13af22c650eb6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present an unsupervised learning framework for decomposing images into layers of automatically discovered object models. Contrary to recent approaches that model image layers with autoencoder networks, we represent them as explicit transformations of a small set of prototypical images. Our model has three main components: (i) a set of object prototypes in the form of learnable images with a transparency channel, which we refer to as sprites; (ii) differentiable parametric functions predicting occlusions and transformation parameters necessary to instantiate the sprites in a given image; (iii) a layered image formation model with occlusion for compositing these instances into complete images including background. By jointly learning the sprites and occlusion/transformation predictors to reconstruct images, our approach not only yields accurate layered image decompositions, but also identifies object categories and instance parameters. We first validate our approach by providing results on par with the state of the art on standard multi-object synthetic benchmarks (Tetrominoes, Multi-dSprites, CLEVR6). We then demonstrate the applicability of our model to real images in tasks that include clustering (SVHN, GTSRB), cosegmentation (Weizmann Horse) and object discovery from unfiltered social network images. To the best of our knowledge, our approach is the first layered image decomposition algorithm that learns an explicit and shared concept of object type, and is robust enough to be applied to real images.}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{month}{8}
+      \field{number}{arXiv:2104.14575}
+      \field{title}{Unsupervised {{Layered Image Decomposition}} into {{Object Prototypes}}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2104.14575
+      \endverb
+      \verb{eprint}
+      \verb 2104.14575
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/L6YF23PK/Monnier et al. - 2021 - Unsupervised Layered Image Decomposition into Object Prototypes.pdf;/home/clotilde/Zotero/storage/S2KYMJ68/2104.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2104.14575
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2104.14575
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
     \entry{noord2021}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=9ca204e1ae2afc3202253ec54b1f797c}{%
@@ -1566,6 +1982,28 @@
       \endverb
       \keyw{éthique}
     \endentry
+    \entry{2021c}{misc}{}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Les réseaux neuronaux convolutifs utilisent des données tridimensionnelles pour les tâches de classification d’images et de reconnaissance d’objets.}
+      \field{langid}{french}
+      \field{month}{10}
+      \field{shorttitle}{{Qu'est-ce qu'un réseau de neurones convolutifs ?}}
+      \field{title}{{Qu'est-ce qu'un réseau de neurones convolutifs ? | IBM}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/convolutional-neural-networks
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/convolutional-neural-networks
+      \endverb
+    \endentry
     \entry{2023a}{misc}{}{}
       \field{sortinit}{Q}
       \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
@@ -1717,6 +2155,49 @@
       \endverb
       \keyw{Alignement de référentiels,Archives nationales,Entity linking,Himanis,Intelligence artificielle,IRHT,Machine learning,Numérisation d'instruments de recherche,Reconnaissance d'écritures manuscrites,REM,REN,ROC,TNAH,Trésor des chartes}
     \endentry
+    \entry{robert2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f27e260005eff5d16f0153ac2ff1feb5}{%
+           family={Robert},
+           familyi={R\bibinitperiod},
+           given={Jérémy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f27e260005eff5d16f0153ac2ff1feb5}
+      \strng{fullhash}{f27e260005eff5d16f0153ac2ff1feb5}
+      \strng{fullhashraw}{f27e260005eff5d16f0153ac2ff1feb5}
+      \strng{bibnamehash}{f27e260005eff5d16f0153ac2ff1feb5}
+      \strng{authorbibnamehash}{f27e260005eff5d16f0153ac2ff1feb5}
+      \strng{authornamehash}{f27e260005eff5d16f0153ac2ff1feb5}
+      \strng{authorfullhash}{f27e260005eff5d16f0153ac2ff1feb5}
+      \strng{authorfullhashraw}{f27e260005eff5d16f0153ac2ff1feb5}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Dans cette partie, nous allons nous focaliser sur un des algorithmes les plus performants du Deep Learning : les Convolutional Neural Network (CNN) ou réseaux de neurones convolutifs en français. Ce sont des modèles de programmation puissants permettant notamment la reconnaissance d’images en attribuant automatiquement à chaque image fournie en entrée, une étiquette correspondant à sa classe}
+      \field{journaltitle}{Liora}
+      \field{langid}{french}
+      \field{month}{2}
+      \field{shorttitle}{{Convolutional Neural Network}}
+      \field{title}{{Convolutional Neural Network : Tout ce qu'il y a à savoir}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/5AQB9DFX/convolutional-neural-network.html
+      \endverb
+      \verb{urlraw}
+      \verb https://liora.io/convolutional-neural-network
+      \endverb
+      \verb{url}
+      \verb https://liora.io/convolutional-neural-network
+      \endverb
+    \endentry
     \entry{staff2025}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0647960ed41328f21b9e478d684a86d5}{%
@@ -1760,6 +2241,65 @@
       \verb https://www.coursera.org/fr-FR/articles/user-experience-research
       \endverb
       \keyw{à lire}
+    \endentry
+    \entry{sullivan2025}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a71ffc2f326830319d0d1854f53626d6}{%
+           family={Sullivan},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3522c0c4fc7aaee49b82b3098f4f03d}{%
+           family={{Abdul-Mageed}},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{92a9cdd577f4135094b3a4ed108cc9c5}
+      \strng{fullhash}{92a9cdd577f4135094b3a4ed108cc9c5}
+      \strng{fullhashraw}{92a9cdd577f4135094b3a4ed108cc9c5}
+      \strng{bibnamehash}{92a9cdd577f4135094b3a4ed108cc9c5}
+      \strng{authorbibnamehash}{92a9cdd577f4135094b3a4ed108cc9c5}
+      \strng{authornamehash}{92a9cdd577f4135094b3a4ed108cc9c5}
+      \strng{authorfullhash}{92a9cdd577f4135094b3a4ed108cc9c5}
+      \strng{authorfullhashraw}{92a9cdd577f4135094b3a4ed108cc9c5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this study, we leverage a unique UNESCO collection of mid-20th century radio recordings to probe the robustness of modern off-the-shelf language identification (LID) and speaker recognition (SR) methods, especially with respect to the impact of multilingual speakers and cross-age recordings. Our findings suggest that LID systems, such as Whisper, are increasingly adept at handling second-language and accented speech. However, speaker embeddings remain a fragile component of speech processing pipelines that is prone to biases related to the channel, age, and language. Issues which will need to be overcome should archives aim to employ SR methods for speaker indexing.}
+      \field{eprintclass}{cs.SD}
+      \field{eprinttype}{arXiv}
+      \field{month}{7}
+      \field{number}{arXiv:2507.08768}
+      \field{title}{On {{Barriers}} to {{Archival Audio Processing}}}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2507.08768
+      \endverb
+      \verb{eprint}
+      \verb 2507.08768
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/XTLKLJKI/Sullivan and Abdul-Mageed - 2025 - On Barriers to Archival Audio Processing.pdf;/home/clotilde/Zotero/storage/MZPNNDX3/2507.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2507.08768
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2507.08768
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Sound,Electrical Engineering and Systems Science - Audio and Speech Processing}
     \endentry
     \entry{suominen2019a}{article}{}{}
       \name{author}{1}{}{%
@@ -2210,6 +2750,117 @@
       \verb http://arxiv.org/abs/2308.00210
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{2023b}{misc}{}{}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labeltitlesource}{title}
+      \field{abstract}{What is YOLO architecture and how does it work? Learn about different YOLO algorithm versions and start training your own YOLO object detection models.}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{{{YOLO Algorithm}} for {{Object Detection Explained}} [+{{Examples}}]}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.v7darwin.com/blog/yolo-object-detection
+      \endverb
+      \verb{url}
+      \verb https://www.v7darwin.com/blog/yolo-object-detection
+      \endverb
+      \keyw{IA,object detection}
+    \endentry
+    \entry{yoon2020}{misc}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=8ffb42a668361fc81dc2fa589a8ca601}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Sangwoong},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2de091596bf4c2779b18d696f2cd6c88}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Woo\bibnamedelima Young},
+           giveni={W\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4534ae3763f7e7dc90efbf2b9106e15e}{%
+           family={Jeon},
+           familyi={J\bibinitperiod},
+           given={Sungwook},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f628fb752853b1c0745355b54cf25149}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={SeongEun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c31e5526027b0252458f26b67250ed06}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Changjin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fd4fc4766fd6904e7ee17e0889cab35}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jonghun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=748e85c5d773eab7e71f252c496986b4}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Eun-Sol},
+           giveni={E\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{8f91b610ca86c9c489f7a937ac7c0df8}
+      \strng{fullhash}{54ace06bebe8160fc01c975903ff7724}
+      \strng{fullhashraw}{54ace06bebe8160fc01c975903ff7724}
+      \strng{bibnamehash}{54ace06bebe8160fc01c975903ff7724}
+      \strng{authorbibnamehash}{54ace06bebe8160fc01c975903ff7724}
+      \strng{authornamehash}{8f91b610ca86c9c489f7a937ac7c0df8}
+      \strng{authorfullhash}{54ace06bebe8160fc01c975903ff7724}
+      \strng{authorfullhashraw}{54ace06bebe8160fc01c975903ff7724}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As a scene graph compactly summarizes the high-level content of an image in a structured and symbolic manner, the similarity between scene graphs of two images reflects the relevance of their contents. Based on this idea, we propose a novel approach for image-to-image retrieval using scene graph similarity measured by graph neural networks. In our approach, graph neural networks are trained to predict the proxy image relevance measure, computed from human-annotated captions using a pre-trained sentence similarity model. We collect and publish the dataset for image relevance measured by human annotators to evaluate retrieval algorithms. The collected dataset shows that our method agrees well with the human perception of image similarity than other competitive baselines.}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{month}{12}
+      \field{number}{arXiv:2012.14700}
+      \field{title}{Image-to-{{Image Retrieval}} by {{Learning Similarity}} between {{Scene Graphs}}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2012.14700
+      \endverb
+      \verb{eprint}
+      \verb 2012.14700
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/JSMFWZZD/Yoon et al. - 2020 - Image-to-Image Retrieval by Learning Similarity between Scene Graphs.pdf;/home/clotilde/Zotero/storage/6PBCRMXD/2012.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2012.14700
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2012.14700
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition,Computer Science - Information Retrieval,Computer Science - Machine Learning}
     \endentry
     \entry{yuan2025}{article}{}{}
       \name{author}{3}{}{%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  5 JUN 2026 12:26
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  8 JUN 2026 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -799,41 +799,53 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [5]
 
-[6]) (./chapitres/notions_NLP.tex
+[6]
 
-[7]) (./chapitres/IA_generale.tex) (./chapitres/experience_utilisateur.tex
+[7]
+Underfull \vbox (badness 2717) has occurred while \output is active []
 
-[8]) (./chapitres/IA_cinema.tex
 
-[9]
+
+[8]) (./chapitres/notions_NLP.tex) (./chapitres/IA_generale.tex)
+(./chapitres/experience_utilisateur.tex
+
+[9]) (./chapitres/IA_cinema.tex
 
 [10]
 
 [11]
 
-[12]) (./chapitres/notions_IA.tex
+[12]
 
 [13]
 
-[14])
+[14]
 
 [15]
 
-[16
-
-]
-Package lettrine.sty Info: Targeted height = 24.16246pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 24.16241pt (M);
-(lettrine.sty)             reported on input line 238.
-
+[16]) (./chapitres/notions_IA.tex
 
 [17]
 
-[18
+[18]
+
+[19])
+
+[20]
+Package lettrine.sty Info: Targeted height = 24.16246pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 24.16241pt (M);
+(lettrine.sty)             reported on input line 240.
+
+
+[21
 
 ]
-Overfull \hbox (13.40034pt too wide) in paragraph at lines 244--244
+
+[22
+
+]
+Overfull \hbox (13.40034pt too wide) in paragraph at lines 246--246
 [][][][][][][][][] [] [][][][][][][][][] [][] [][][][][][][][][][][][][] [] [][
 ][][] [] [][][] [] [][][][][] [] [][][][][][][][]$[] \TU/lmr/m/n/12 (visité le 
 12/05/2026). 
@@ -841,10 +853,19 @@ Overfull \hbox (13.40034pt too wide) in paragraph at lines 244--244
 
 
 
-[19
+[23
 
 ]
-Overfull \hbox (6.02444pt too wide) in paragraph at lines 244--244
+Overfull \hbox (4.37076pt too wide) in paragraph at lines 246--246
+\TU/lmr/m/n/12 mars 2024, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][] []
+ [] [] [][][] [] [][][] [] [][][] [] [][][][][] [] [][][][][][] [] [][][][][][]
+[][][][] [][] [][] [][] [][][][][][][][][][][][] [][]
+ []
+
+
+
+[24]
+Overfull \hbox (6.02444pt too wide) in paragraph at lines 246--246
 [][][]\TU/lmr/m/sc/12 Longpre[]\TU/lmr/m/n/12 ​ (Shayne), []\TU/lmr/m/sc/12 Sin
 gh[]\TU/lmr/m/n/12 ​ (Nikhil), []\TU/lmr/m/sc/12 Cherep[]\TU/lmr/m/n/12 ​ (Manu
 el), []\TU/lmr/m/sc/12 Tiwary[]\TU/lmr/m/n/12 ​ (Kushagra), []\TU/lmr/m/sc/12 M
@@ -853,8 +874,8 @@ aterzynska[]\TU/lmr/m/n/12 ​
 
 
 
-[20]
-Overfull \hbox (5.9788pt too wide) in paragraph at lines 244--244
+[25]
+Overfull \hbox (5.9788pt too wide) in paragraph at lines 246--246
 \TU/lmr/m/n/12 Etienne, 2006, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][
 ] [] [] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][] [][] [][][][][][]
 [][]$[] (visité le 06/05/2026). 
@@ -862,8 +883,8 @@ Overfull \hbox (5.9788pt too wide) in paragraph at lines 244--244
 
 
 
-[21]
-Overfull \hbox (17.96452pt too wide) in paragraph at lines 244--244
+[26]
+Overfull \hbox (17.96452pt too wide) in paragraph at lines 246--246
 [][][]\TU/lmr/m/sc/12 Wang[]\TU/lmr/m/n/12 ​ (Yiyuan), []\TU/lmr/m/sc/12 Johnst
 on[]\TU/lmr/m/n/12 ​ (Andrew), []\TU/lmr/m/sc/12 Sadokierski[]\TU/lmr/m/n/12 ​ 
 (Zoë), []\TU/lmr/m/sc/12 Stephens[]\TU/lmr/m/n/12 ​ (Rhiannon) et []\TU/lmr/m/s
@@ -871,27 +892,37 @@ c/12 Ahyong[]\TU/lmr/m/n/12 ​
  []
 
 
-
-[22]
-
-Package biblatex Warning: Keyword 'nlp' not found on input line 251.
-
-
-LaTeX Warning: Empty bibliography on input line 251.
-
+Overfull \hbox (1.22043pt too wide) in paragraph at lines 246--246
+[][][]\TU/lmr/m/sc/12 Yoon[]\TU/lmr/m/n/12 ​ (Sangwoong), []\TU/lmr/m/sc/12 Kan
+g[]\TU/lmr/m/n/12 ​ (Woo Young), []\TU/lmr/m/sc/12 Jeon[]\TU/lmr/m/n/12 ​ (Sung
+wook), []\TU/lmr/m/sc/12 Lee[]\TU/lmr/m/n/12 ​ (SeongEun), []\TU/lmr/m/sc/12 Ha
+n[]\TU/lmr/m/n/12 ​ (Chang-
+ []
 
 
-[23
 
-]
+[27]
 
-[24
+[28
 
 ]
 
-[25]
+Package biblatex Warning: Keyword 'nlp' not found on input line 253.
 
-[26
+
+LaTeX Warning: Empty bibliography on input line 253.
+
+
+
+[29]
+
+[30
+
+]
+
+[31]
+
+[32
 
 ]
 
@@ -960,12 +991,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24458 strings out of 468389
- 480814 string characters out of 5440619
- 1325829 words of memory out of 5000000
- 52727 multiletter control sequences out of 15000+600000
+ 24572 strings out of 468389
+ 483950 string characters out of 5440619
+ 1328568 words of memory out of 5000000
+ 52841 multiletter control sequences out of 15000+600000
  631033 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,13n,83p,1889b,5504s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,13n,83p,1951b,5507s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (39 pages).
+Output written on document_maitre (1).pdf (45 pages).
