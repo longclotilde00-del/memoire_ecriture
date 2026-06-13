@@ -1,0 +1,62 @@
+\subsection{segmentation}
+
+\begin{itemize}
+
+\item pourquoi segmenter ?
+
+La segmentation comme logique documentaire : la segmentation d'une vidéo crée de nouveaux éléments indexables
+Cordell : "your object of study is no longer an entire film but shots or scenes" \footcite{cordell}
+
+Qu'est-ce que ça signifie pour l'institution de passer d'un objet-film à une collection de plans ? Quelles sont les implications pour le droit, pour l'accès public, pour la description archivistique ?
+
+La segmentation découle d'une logique et d'un objectif d'indexation : problématique principale pour indexer : il faut déjà séparer la vidéo en tous les plans qui la composent pour en extraire les éléments : 
+"One of the first tasks in understanding a video file is to break up the sequence of frames into distinct units known as shots—or uninterrupted footage between
+cuts—in a process known as shot boundary detection."\footcite{arnold2019}
+
+Une vidéo doit être segmentée avant de pouvoir être indexée : 
+« One of the most common initial steps for video content organisation is segmenting the video into different meaningful parts. Proper segmentation facilitates content organisation, improves accessibility, and enhances the ability to perform analytics on large video datasets. »\footcite{attard2025}
+
+pour justifier la mise en place d'une segmentation : « Automated segmentation accelerates the processing of large volumes of video content and ensures consistency and accuracy in the segmentation process. » \footcite{attard2025} la mise en place d'une automatisation de la segmentation permettrait d'homogénéiser l'indexation documentataire : un algorithme segmente les vidéos de la même façon, pas les humains. Mais les vidéos sont toutes différentes : est ce qu'on peut garder la même pratique de segmentation sur des corpus vidéo différents ?
+
+\item Pipelines de segmentation 
+
+\subitem Pyscenedetect 
+Une idée de pipeline de segmentation : est la détection de scènes avec pyscenedetect (découpage d'une vidéo en segments en détectant les coupes visuelle), puis classification des segments. D'un côté la segmentation syntaxique et de l'autre la classification sémantique. \footcite{attard2025}
+
+\subitem ResNet (pas de la segmentation : créer un fichier sur la classification ?)
+Le meilleur classifieur d'images avec le plus haut résultat de précision selon attard 2025 est ResNet
+\footcite{attard2025}
+
+Reccommandations : 
+Les modèles multimodaux qui combinent audio et vidéo (vivit-ast) ne donnent pas les meilleurs résultats. Il faudrait donc adopter des architectures plus simples, qui demandent moins de calcul d'usage et qui séparent les pipelines. \footcite{attard2025}
+
+\subitem ViViT
+Expérimentation avec ViViT : 
+le modele ViViT, modèle basé sur des transformers, capture les caractéristiques spatio temporelles de la vidéo, contrairement à Resnet qui analyse chaque image d'un vidéo indépendemment. ViViT extrait "extracts spatio-temporal tokens from the input video, which are then encoded by a series of transformer layers. » \footcite{arnab2021}. C'est un modèle qui tente d'analyser l'espace et le temps dans une vidéo donnée. Vivit adopte donc une approche "video-native". 
+Le modèle à choisir dépend de la nature du corpus audiovisuel que l'on souhaite indexer. Si les archives sont des plans fixes qui ne changent que très peu, resnet suffit. 
+
+Conclusion sur ViViT : 
+« ViT has been shown to only be effective when trained on large-scale datasets, as transformers lack some of the inductive biases of convolutional networks, and thus require datasets larger than the common ImageNet ILSRVC dataset to train. » \footcite{arnab2021}. : les transformers n'ont pas les biais des CNN qui leur permettraient de faire des généralisations et de reconnaître un objet où qu'il soit dans l'image. Ils ont donc besoin d'être entrainés sur beaucoup plus de données : c'est une grande limite. Une approhe par calssifieurs d'images plus légers comme ResNet peut donc être préférable. ViViT obtient de très bons résultats mais entraînés sur des corpus vidéos contemporains : vidéos youtube. Diffiilement adaptable à un corpus d'archives historique sauf pré entraînement massif. 
+
+\subitem 2SDS
+
+l'étude de xin2023 \footcite{xin2023} présente 2SDS, un algorithme de segmentation temporelle vidéo. Plutôt que d’utiliser un réseau de neurones pour détecter les changements de scènes, 2SDS compare des empreintes (hash) d’images successives. Si deux frames sont suffisamment différentes (distance de Hamming supérieure à un seuil), elles appartiennent à des scènes distinctes.
+« 2D CNNs only recognise a video as discrete images, rather than a continuous stream of images. This poses some issues. For example, a CNN model could not resolve the motion of a person because the person is stationary in every frame, and this will cause the loss of significant information in video analysis. »\footcite{xin2023} : un CNN 2D comme resnet analyse chaque plan de manière indépendante et ignore la logique temporelle de la vidéo. 2SDS résout ce problème en regroupant les plans similaires avant de les classifier. (à relier avec la notion de shot boundary detection). 
+« We need to devise an implementation that complements the CNN model to solve the continuity issue. This implementation should group the discrete frames (adjacent on the temporal axis) that look similar to each other into scenes, this procedure is what we call temporal segmentation. »\footcite{xin2023} : la segmentation temporelle : regrouper les plans qui se suivent et visuellement similaires : c'est ce que fait pyscene detect avec le content detector. 
+l'article explique aussi la mise en place d'un pipeline de détection de changement de plan : 
+4 étapes : 
+\subitem down sampling : miniaturisation du plan pour détecter les changements globaux, pas locaux
+\subitem conversion de l'image RGB en niveaux de gris 
+\subitem calcul d'une valeur de "hachage" de l'image : Chaque ligne de 9 pixels est convertie en 8 bits binaires comparant les pixels adjacents. Produit une « empreinte » numérique de la frame.
+\subitem distance de hamming : 
+comparaison des empreinte de deux frames consécutives. Si la distance est supérieure à 5, les deux plans apparatiennent à des scènes différentes. le seuil est paramétrable. pyscenedetect est l'implémentation concrète de ce processus. 
+
+les auteurs conseillent de ne pas utiliser des réseaux de neurones pour la segmentation vidéo : « The usage of RNN or even neural networks is not practical in time sensitive tasks like real-time object recognition and live video stream analysis, which requires fast responding algorithms, and RNNs usually cannot meet those requirements. »\footcite{xin2023}
+
+détecter les coupures entre es scènes est une analyse syntaxique et non sémantique : il suffit de détecter la différence visuelle. les meilleurs résutats de détection de coupures se font sur des plans fixes, avec des suets distants, des mouvements lents, docn plutot bien adaptées aux archives audiovisuelles. 
+
+l'article de \cite{xin2023} ne cherche pas à comprendre les scènes mais seulement à analyser leur syntaxe pour en détecter les coupures. 2SDS règle le problème de délimitation en séquence, mais ne décrit pas la vidéo comme d'autres outils peuvent le faire : CLIP, YOLO, BLIP. De plus, le corpus de tets ets réduit (6 vidéos issues de youtube), et en couleur. 
+\end{itemize}
+
+
+\end{itemize}

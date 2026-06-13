@@ -130,7 +130,6 @@
       \field{urlyear}{2026}
       \field{year}{2021}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2103.15691
       \endverb
@@ -375,7 +374,6 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2503.21848
       \endverb
@@ -511,7 +509,6 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/fr-fr/think/topics/transformer-model
       \endverb
@@ -1802,6 +1799,7 @@
       \strng{authornamehash}{dd4c57abb382b5eb6b7c5bac75893abd}
       \strng{authorfullhash}{dd4c57abb382b5eb6b7c5bac75893abd}
       \strng{authorfullhashraw}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \field{extraname}{1}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
@@ -1817,7 +1815,55 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-04255677
+      \endverb
+      \verb{url}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-04255677
+      \endverb
+    \endentry
+    \entry{norindr2023a}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd4c57abb382b5eb6b7c5bac75893abd}{%
+           family={Norindr},
+           familyi={N\bibinitperiod},
+           given={Jade},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Observatoire de Paris - PSL, 61 avenue de l’Observatoire, 75014 Paris}%
+      }
+      \strng{namehash}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{fullhash}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{fullhashraw}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{bibnamehash}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{authorbibnamehash}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{authornamehash}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{authorfullhash}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \strng{authorfullhashraw}{dd4c57abb382b5eb6b7c5bac75893abd}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Ce mémoire a été réalisé dans le cadre du Master Technologies numériques appliquées à l’histoire de l’École nationale des chartes. Il est rédigé suite à un stage de quatre mois à l’Observatoire de Paris au sein du projet EIDA, portant sur les diagrammes astronomiques de tradition ptoléméenne du VIIIe au XVIIIe siècle et intégrant des techniques de vision artificielle pour le traitement de ses sources. Ce mémoire expose le développement d’outils pour cette intégration, et la conception d’une chaîne de traitement accompagnée de normes et de méthodes pour l’application d’algorithmes de vision dans le cadre d’un projet de recherche en humanités.}
+      \field{langid}{french}
+      \field{month}{9}
+      \field{shorttitle}{{Le traitement des sources historiques par la vision artificielle}}
+      \field{title}{{Le traitement des sources historiques par la vision artificielle : l'exemple des manuscrits d'astronomie de tradition ptoléméenne}}
+      \field{type}{{other}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
       \true{nocite}
+      \field{pages}{152}
+      \range{pages}{1}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/F8UDHD4X/Norindr - 2023 - Le traitement des sources historiques par la vision artificielle l'exemple des manuscrits d'astron.pdf
+      \endverb
       \verb{urlraw}
       \verb https://dumas.ccsd.cnrs.fr/dumas-04255677
       \endverb
@@ -1996,7 +2042,6 @@
       \field{urlyear}{2026}
       \field{year}{2021}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/fr-fr/think/topics/convolutional-neural-networks
       \endverb
@@ -2187,7 +2232,6 @@
       \field{urlyear}{2026}
       \field{year}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/5AQB9DFX/convolutional-neural-network.html
       \endverb
@@ -2283,7 +2327,6 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2507.08768
       \endverb
@@ -2764,7 +2807,6 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.v7darwin.com/blog/yolo-object-detection
       \endverb

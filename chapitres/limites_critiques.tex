@@ -1,0 +1,62 @@
+\subsection{Limites et critiques}
+
+\begin{itemize}
+	
+	\item LImites contextuelles 
+
+«How to give context to the machines? To give common sense? It's a problem of artificial intelligence from the beginning.»
+\footcite{2021}
+
+\item limites de l'automatisation :
+ 
+"l’intégration de la vision artificielle aux méthodes des historiens n’existe que conjointement à des
+interventions humaines, qui assurent la pertinence des traitements effectués et apportentune analyse nécessaire." \footcite{norindr2023}
+
+\item sur l'indexation automatique audio :
+« Audio archives present a complex terrain for contemporary speech processing technologies, owing to the varied domains these recordings encapsulate. » \footcite{sullivan2025} : deux problèmes sur un corpus d'archives anciennes : variabilité linguistiques (multilingues, accents différents), variabilité temporelle (vieillissement des voix).
+les archives audiovisuelles sont un matériau hétérogène : opacité du médium. 
+
+\item sur l'indexation automatique des archives audiovisuelles 
+
+IL est important pour les archivistes de savoir comment ont été entraînés les modèles qu'ils utilisent, sur quelles données.
+
+la vidéo : souvent de moins bonne qualité que l'image fixe, donc les résultats d'indexation automatique peuvent être moins bons
+
+contrairement aux documents textuels qui comportent souvent des éléments d'indexation dans leur forme (couverture de livre, ) les archives audiovisuelles n'en contiennent peu ou pas, ce qui les rend opaques et peu réceptives aux pratiques d'indexation. Il s'agit alors de mettre en place une « indexation par le contenu ». \footcite{zotero-item-582} 
+
+\subitem Lacunes 
+
+l'article de attard souligne que  « The study underscores the lack of specialised annotation tools and the high resource demands of sophisticated models, which could present significant obstacles for future research with limited computational resources. » \footcite{attard2025} c'est une limite surtout pour les isntitutions. Rejoint l'argument et les limites exposées par \footcite{sullivan2025}
+ 
+Les modèles multimodaux qui combinent audio et vidéo (vivit-ast) ne donnent pas les meilleurs résultats. Il faudrait donc adopter des architectures plus simples, qui demandent moins de calcul d'usage et qui séparent les pipelines. \footcite{attard2025}
+
+Absence d'outils d'annotation spécialisés dans la segmentation vidéo. Attard adapte label studio, un outil généraliste.
+ \footcite{attard2025}
+ 
+Limites des transformers :
+« ViT has been shown to only be effective when trained on large-scale datasets, as transformers lack some of the inductive biases of convolutional networks, and thus require datasets larger than the common ImageNet ILSRVC dataset to train. » \footcite{arnab2021}. : les transformers n'ont pas les biais des CNN qui leur permettraient de faire des généralisations et de reconnaître un objet où qu'il soit dans l'image. Ils ont donc besoin d'être entrainés sur beaucoup plus de données : c'est une grande limite. Une approhe par calssifieurs d'images plus légers comme ResNet peut donc être préférable. ViViT obtient de très bons résultats mais entraînés sur des corpus vidéos contemporains : vidéos youtube. Diffiilement adaptable à un corpus d'archives historique sauf pré entraînement massif. 
+
+
+\item éthique de l'IA
+
+Sur l'éthique de l'exprience utilisateur : Principles for Accountable Algorithms : responsability, explainability, accuracy, auditability, fairness
+\footcite{zotero-item-574}
+
+	Limites du machine learning : 
+"Une répartition arbitraire des systèmes est toutefois limitée dans la mesure où, d’une part, les systèmes entraînés ont souvent un domaine d'application spécifique
+et, d’autre part, leurs capacités sont fortement liées aux jeux de données utilisés. Les algorithmes entraînés avec différents jeux de données produisent des résultats
+différents."
+\footcite{zotero-item-584}
+
+\item Biais de la computer vision appliquée aux images : 
+
+"For instance, racial bias has been an ongoing challenge with	computer vision tools, particularly with facial recognition software. A study	published by MIT Media Lab in 2018 found that facial recognition software	had an average error rate of 0.8 percent for light-skinned men, versus a 34.7 percent	error rate for darker-skinned women" \footcite{fewster}
+"societal biases are often engrained in	AI model training datasets, which lead to the models reproducing those	biases in their outputs" \footcite{fewster}
+"In addition to this, the training data of computer	vision models has relied mostly on visual content available to be harvested	from the Internet, which in its majority corresponds to content developed	during the last three decades. These models would underperform on images	that are of a more historical character, commonly found in visual archives,	since they are underrepresented in the training data" \footcite{fewster}
+
+Limite liée à la qualité des images : 
+la qualité des images est absolument primordiale et déterminante dans la mise en place d'un pipeline d'indexation automatique : "La question de la qualité des images est
+cruciale dans le cadre d’un projet de recherche en vision artificielle, puisque celle-ci a la possiblité d’impacter les performances de l’algorithme utilisé, et d’affecter négativement les interprétations du modèle". \footcite{norindr2023}
+Important dans le cadre d'une indexation d'archives audiovisuelles, qui sotn souvent de moins bonne qulité que les images car les fichiers sont plus lourds.
+
+\end{itemize}

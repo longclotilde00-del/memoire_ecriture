@@ -1,0 +1,55 @@
+\subsection{machine learning}
+
+\begin{itemize}
+
+	\item Machine learning 
+"Le ML est un domaine de l'IA qui regroupe les méthodes, les processus et les techniques nécessaires pour rendre une machine ou un système informatique plus « intelligent »."
+\footcite{zotero-item-584}
+c'est à cette étape que la machine apprend et est entrainée sur les techniques d'indexation à partir d'exemples humains : annotation de données. 
+
+"L'idée à la base du ML est qu'une machine peut résoudre des problèmes de la même manière que l'homme, en apprenant à partir d’« expériences » et d'exemples, sans être explicitement programmée pour la résolution spécifique du problème. Ainsi, au lieu d'implémenter un algorithme concret de résolution de problèmes dans une machine, les données sont transmises à un algorithme générique qui, par un « processus d'apprentissage », devient lui-même capable de résoudre les problèmes."
+\footcite{zotero-item-584}
+
+
+
+Il existe différentes méthodes de machine learning : 
+Apprentissage supervisé 
+Apprentissage non supervisé 
+Apprentissage profond et réseaux neuronaux artificiels (deep learning)
+
+
+"La raison pour laquelle telle ou telle fonction s'impose
+pendant le processus d'apprentissage ne peut être reconstituée que	rétrospectivement et favorise souvent des décisions curieuses de l'algorithme. L'un	des principaux problèmes réside dans le fait que les systèmes ne font pas la	distinction entre les corrélations et les causalités dans les ensembles de données.	L'exemple d'une « recherche de vaches sur des images » illustre bien cette situation	: les vaches se trouvent souvent dans des prairies ; le modèle commence alors à	ajouter « prairie » (couleur, formes, modèles d'images) au concept « vache ». L'algorithme n'a donc appris qu'une corrélation sur la base d'une probabilité statistique (vache et pré), mais n'a pas compris les relations."
+\footcite{zotero-item-584}
+
+Exemple de transcription basée sur le machine learning : Transkribus : peut aussi s'appliquer aux archives audiovisuelles.
+
+\item Deep learning 
+
+méthode dérivée du machine learning basée sur les réseaux de neurones. 
+
+"L’apprentissage profond permet d’envisager une redéfinition des méthodes des historiens et historiens de l’art, en intégrant une part d’automatisation dans le traitement des sources iconographiques, permettant ainsi
+d’envisager l’exploration de corpus bien plus vastes " \footcite{norindr2023}
+
+"La recherche de similarité compte parmi les applications les plus directes du deep learning", " elle permet de classifier les images en vue de leur étude en	constituant des séries iconographiques aux caractéristiques visuelles similaires, selon un	score de similarité calculé par l’algorithme" \footcite{norindr2023}
+
+\subitem Transformers 
+
+Récemment, une transition architecturale des modèles a produit un basculement vers des modèles basés sur les transformers en vision par ordinateur, remplaçant prograssivement les CNN. Cela explique pourquoi les outils actuellement disponibles comme CLIP, ViViT, AT, sont tous basés sur cette architecture. 
+
+"les vision transformers (ViT) s’avèrent souvent plus efficaces que les réseaux de neurones convolutifs (CNN) dans des domaines tels que la segmentation d’image, la détection d’objetss et les tâches connexes. L’architecture de type transformer alimente également de nombreux modèles de diffusion utilisés pour la génération d’images, le Text to Speech multimodal et les modèles vision-langage (VLM)." \footcite{bergmann2025}
+"En raison de leur capacité à comprendre la manière complexe dont chaque partie d’une séquence de données influence les autres et s’y rapporte, les modèles transformers permettent également un usage multimodal." \footcite{bergmann2025}
+"La fonctionnalité centrale des modèles transformers est leur mécanisme d’auto-attention, dont ils tirent leur incroyable capacité à détecter les relations (ou dépendances) entre les différentes partie d’une entrée. Contrairement aux architectures RNN et CNN qui l’ont précédée, l’architecture de type transformer utilise uniquement des couches d’attention et des couches de propagation standard." \footcite{bergmann2025}
+Les RNN et CNN analyse les données de façon "sérielle" \footcite{bergmann2025}, dans un ordre donné, les empêchant ainsi de saisir les "dépendances à longue portée". \footcite{bergmann2025}
+les tranformers : "Les mécanismes d’attention, quant à eux, examinent simultanément les séquences dans leur intégralité et décident de la manière et du moment où il convient de se concentrer sur certaines étapes de chaque séquence.", "En plus d’améliorer considérablement la capacité à comprendre les dépendances à longue portée, cette qualité des transformeurs permet également la parallélisation, qui consiste à réaliser plusieurs étapes de calcul simultanément, au lieu de les sérialiser." \footcite{bergmann2025}
+
+les transformers pour l'analyse d'image : 
+"Les transformeurs offrent également certains avantages par rapport aux réseaux de neurones, en particulier pour les données visuelles. Intrinsèquement locaux, les CNN utilisent des convolutions pour traiter successivement les sous-ensembles de données d’entrée.
+Par conséquent, les CNN peinent à discerner les dépendances à longue portée, telles que les corrélations entre les mots (dans un texte) ou les pixels (dans une image) qui ne sont pas voisins. Les mécanismes d’attention n’ont pas cette limitation." \footcite{bergmann2025}
+
+\subitem CNN : réseau de neurones convolutif 
+Outils de classification : 
+"modèles de programmation puissants permettant notamment la reconnaissance d’images en attribuant automatiquement à chaque image fournie en entrée, une étiquette correspondant à sa classe d’appartenance."\footcite{robert2026}
+l'un des principaux cas d'usages des CNN est la "reconnaissance d'images". "Dans une moindre mesure, on les utilise aussi pour l’analyse vidéo.". \footcite{robert2026}
+
+\end{itemize}

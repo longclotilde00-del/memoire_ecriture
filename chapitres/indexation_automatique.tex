@@ -1,0 +1,51 @@
+\subsection{Indexation automatique}
+
+\begin{itemize}
+	\item Pourquoi automatiser l'indexation ?
+
+Pour justifier l'indexation automatique : 
+«Les bibliothèques gèrent un grand nombre de métadonnées, pour différents types de documents. Le plus souvent, ces documents sont indexés à l'aide de mots sujets sélectionnés au sein d'un vocabulaire contrôlé, afin d'être recherchés plus tard. L'indexation manuelle de documents est un travail intellectuel très consommateur de temps.»
+\footcite[p.~21]{suominen2019a}
+
+« Incomplete descriptive metadata often hinder their access by the public. \footcite{sullivan2025}
+Légitime la mise en place d'une indexation automatique car elle servirait à compléter des métadonnées manquantes et donc à rendre accès les collections plus facilement au public. Le manque de métadonnées et d'informations, d'indexation est souvent un frein lors de la publication en ligne, de l'accès au public (car pas de contexte : risque de contradictions historiques). 
+
+«Les systèmes d'indexation automatique suivent généralement un processus dans lequel les documents textuels sont, dans un premier temps, "préparés" [...] les documents sont convertis dans une représentation vectorielle de leur fréquence d'apparition, ce qui, à l'aide d'un algorithme, permet d'établir des comparaisons entre les mots-sujets utilisés.»
+\footcite[p.~21]{suominen2019a}
+Pour les images : comparaison des objets. La différence de médium modifie les outils utilisés et la manière de les utiliser pour en tirer des infos. 
+
+«Les algorithmes d'indexation automatique se répartissent selon deux types d'approche : lexicale et associative.»
+\footcite[p.~21]{suominen2019a}
+
+Pour les archives audiovisuelles, des processus techniques s'ajoutent : extraction d'entités depuis l'image, extraction d'entités depuis le son. La forme du médium cinématographique crée une opacité et une complexité pour l'instauration de pipeline algorithmiques.
+
+\item \textbf{Pipeline}
+
+Mise en place d'une pipeline IA : 
+Ce sont plusieurs outils combinés qui créent l'indexation : analyse audio avec l'ASR et la segmentation, analyse de l'image avec la computer vision et shot detection, le NLP avec le NER et term extraction. Cette pipeline permet d'extraire des métadonnées en lien avec des vocabulaires contrôlés et ainsi d'indexer les images. 
+«Each tool specializes in a single task, and is brought together with other tools in pipelines. Technologies can be layered upon one another in order to more meaningfully annotate content.»
+\footcite{2021}
+
+Implémentation d'une combinaison d'outils différents pour l'indexation : 
+"La combinaison de différents outils et leur intégration dans des environnementslogiciels existants est un sujet important, pour lequel il existe désormais un large éventail de solutions, souvent open source"
+\footcite{zotero-item-584}
+
+\item Outils
+
+Trint : automatic speech recognition 
+FasterR CNN et Farec CNN : face detection models 
+YOLO : outil opensource de détection d'objets et d'identification
+
+\item Cas d'indexation
+
+The vanderbilt university television news archive : ils utilisent Trint pour transcrire les discours et engagent des étudiants pour corriger les transcriptions sur l'interface de l'outil Trint : 
+
+"students also note the start and stop time of segments, and write relevant on-screen information such as names into the transcript. Each 30-minute program takes one hour of student worker time to correct. When the transcript is complete, it is exported to Amazon’s Named Entity Recognition service on the cloud, where information such as person, location, or topic is pulled out. That information is then brought back into the workflow with scripts written in Python that turn the information into individual titles for each news segment. Additional information such as reporter or location are added to database fields, and duplicate records are kept in PBCore for future use when more of the information from the Named Entity Recognition system might be stored in the database."
+\footcite{2021b}
+
+
+\item Points d'attention
+la qualité des images est absolument primordiale et déterminante dans la mise en place d'un pipeline d'indexation automatique : "La question de la qualité des images est
+cruciale dans le cadre d’un projet de recherche en vision artificielle, puisque celle-ci a la possiblité d’impacter les performances de l’algorithme utilisé, et d’affecter négativement les interprétations du modèle". \footcite{norindr2023}
+
+\end{itemize}

@@ -1,0 +1,42 @@
+\subsection{computer vision}
+
+\begin{itemize}
+
+
+Branche de l'IA qui permet principalement d'extraire de l'information d'images ou de vidéos.
+Permet aux machines de "voir", comme les humains et ainsi d'extraire des données d'éléments visuels.
+
+Aujourd'hui, la computer vision se fait par machine learning.
+
+\item Définition
+	
+"La vision par ordinateur est un domaine d’intelligence artificielle (IA) qui permet aux ordinateurs et aux systèmes d’extraire des informations pertinentes à partir d’images, de vidéos et d’autres entrées visuelles numériques, pour prendre des mesures selon ces entrées. Cette capacité à fournir des recommandations la distingue des tâches de reconnaissance d’images." \footcite{2021c}
+
+les composants de la vsion par ordinateur ont été mis en place en partie pour l'analyse d'images et la détection d'objets dans l'image. \footcite{norindr2023}
+
+"La détection de contours (ou edge detection) est une étape fondamentale pour le traitement	des images en vision artificielle : combinée à des méthodes de détection des lignes il devient envisageable d’automatiser la transformation d’images au format .tiff ou .jpeg en	objets plus aisément manipulables" \footcite{norindr2023}
+
+Etapes d'entraînement d'un modèle : "prévoir un jeu de donnéesinitial, et d’évaluer les performances du modèle après ce premier entraînement. À partir	de ces résultats, il devient possible d’adapter les jeux de données suivants, pour pallier	aux faiblesses constatées." \footcite{norindr2023}
+
+"Pour des tâches classiques de vision artificielle, telles que la détection d’objet, des	modèles pré-entraînés performants existent en libre accès, qui ne nécessitent donc pas	autant de travail d’entraînement qu’un modèle créé dans son entièreté pour un projet.
+Des jeux de données en accès libre sont également disponibles pour l’entraînement de	modèles pour la détection automatique, tels que ImageNet 16, qui bien qu’ils ne soient	pas adaptés à des sources historiques, permettent d’effectuer un premier entraînement	d’un modèle sans mobiliser les moyens nécessaires à la création d’un jeu de données." \footcite{norindr2023}
+limites : est ce qu'il en existe tout autant pour les corpus vidéos ? à chercher
+
+\item cas d'application
+
+	\subitem Object detection : \footcite{2023b}
+single shot detector : YOLO, using CNN
+two stages detectors  : Deux analyses de l'image. Demande plus de puissance de calcul mais est plus efficace. 
+pour prédire, analysre et comparer la performance des différents modèles de détection d'objet, on a besoin de "sandard quantitative metrics". 
+Les plus communs "evaluation metrics" sont : INtersection over union (LOu) et average precision (AP) 
+
+YOLO : réseau de neurones qui fait des prédictions sur la détection d'objets et qui les classifie "all at once". (à placer aussi dans les cas d'usages sur les archives audiovisuelles)
+
+	\subitem Content-Based Image Retrieval : une des applications d la computer vision. Exemple de cas d'usage : Galt archives avec Archipanion \footcite{fewster}
+	
+	\subitem Visual language models (VLMs) : combinaison d'algorithmes de computer vision et de LLMs pour : "create visual outputs based on input text, or textual outputs based on images or video" / "VLMs are able to do a variety of vision language tasks like	captioning and summarization, image generation, search and retrieval, and	object detection and segmentation"
+	"However, there are still	challenges with these emerging models like biases, hallucinations, and overgeneralizations as well as concerns of cost and environmental impact	considering that VLMs combine two already complex AI architectures into one	even more complicated tool "
+	\footcite{fewster} 
+	exemple de VLM : CLIP : génère de la description en langage naturel à partir d'éléments visuels
+
+\end{itemize}

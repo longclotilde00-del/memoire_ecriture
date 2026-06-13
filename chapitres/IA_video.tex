@@ -1,0 +1,67 @@
+\subsection{IA appliquée à la vidéo}
+
+\begin{itemize}
+	
+	\item audiovisual processing 
+	Audiovisuel Processing (AVP) : ensemble de technologies appliquées à l'analyse de contenus vidéos et audio (comprend computer vision et ASR automatic speech recognition) 
+	\footcite{noord2021}
+	
+	constat : malgré de grandes avancées dans le processing audiovisuel, ces outils restent largement inaccessibles et ne sont pas donc pas adoptés dans le milieu des archives : « Despite the massive progress made in the performance levels and overall availability of Audiovisual Processing (AVP) technologies, such as Computer Vision (CV) and Automatic Speech Recognition (ASR), the availability of these tools for heritage institutions is still lagging behind. »
+	
+	autre constat : 
+	"« Digital tools for paper resources have tended not to consider the strong presence of visual elements in them. Due to the lack of practically available AVP tools to digital humanities, scholarly research has ‘grossly neglected visual content, causing a lopsided representation of all sorts of digitized archives’. »
+	Sous représentation des éléments visuels dans l'indexation, même pour une collection audidiovisuelle. Les métadonnées textuelles liéees aux films sont nsuffisantes pour enrichir leurs métadonnées : titre, synopsis...
+	\footcite{noord2021}
+	
+	\item Cas d'usage 
+	
+	\subitem Reconnaissance et extraction d'objets
+	
+	Exemple de projet d'extraction d'entités depuis des images en mouvement : \footcite{arnold2019}
+	Méthode du distant viewing: reconnaissance des visages, classification des plans. Le montage et le cadrage servent à construire la place des personnages dans le récit. 
+	« One of the first tasks in understanding a video file is to break up the sequence of frames into distinct units known as shots ».
+	« We first split an input video file into individual shots, then locate faces within every frame, identify the faces in a frame, and finally put all of the information together to cluster shots based on camera angles and distances ».\footcite{arnold2019} 
+	
+	\subitem Shot boundary detection
+	
+	Shot boundary detection : détection automatique des coupures entre les plans dans une vidéo 
+	Shot semantics : description de ce qui est présent dans l'image et à quel endroit de l'image et ainsi relier l'image à des catégories de plan (shot type).
+	
+	exemple de pipeline pour détecter les coupures entre les plans : 
+	"the vast majority of cuts in most film and television
+	episodes consist of abrupt transitions between alternative camera shots. These are both easy to define and relatively easy to detect. The algorithm we use in our analysis uses a combination of histogram differences and down sampled pixel intensities. Our method functions by measuring the extent to which two successive shots are different from one another in terms of the general color palette and the distribution of brightness over the frame. If these differences fall above a specified threshold, we indicate the presence of a cut.22 We also added special logic to avoid erroneous cuts during fade-in and fade-out events." \footcite{arnold2019}
+	
+	face detection models : Faster R-CNN and FAREC-CNN \footcite{arnold2019}
+	
+	\subitem Shot classification : 
+	il est possible de classifier le type de plan à l'image en utilisant le placement des visages : "In this final step we no longer work directly with the visual materials and build a meta-algorithm that takes detected shot breaks and faces as input and outputs categorical predictions for each shot". \footcite{arnold2019}
+	Il s'agit de définir tous les types de plans età partir de ces définitions, construire un jeu de donnes qui sera testé : close-up, over the shoulder...
+	
+	\subitem Outils AVP
+	
+	ImageJ : open source visual analysis software suite 
+	\footcite{noord2021}
+	Detectron2 : détection de points corporels dans l'image \footcite{noord2021}
+	
+	\item Limites et discussion
+	
+	les AVP ne sont pas accessible en libre accès aux chercheurs en humanité numériques. Les algorithmes ont besoin d'un accès direct aux données, or, pour des raisons de sécurité des données et des droits de propriétés intelectuelles auxquels sont soumis les archives, les données des archives ne peuvent pas quitter leur environnement numérique. 
+	donc : "A side effect of this is that for the analysis of AV material commercially available tools cannot be used, as these are primarily cloud based. To tackle this challenge it is necessary that any AVP infrastructure can
+	be integrated with a local archival infrastructure, i.e.,
+	we need to bring the algorithms to the data, rather than
+	the data to the algorithms"
+	\footcite{noord2021}
+	
+	au lieu de transférer les fichiers vers un serviec externe, l'algorithme doit être déployé localement au sien même de l'ifrastructure de l'archive. 
+	
+	exemple de l'architecture DANE au sein du projet CLARIAH : l'architecture est divisée en plusieurs "workers" et une file d'attente. si l'un des workers s'arrête de fonctionner, les autres continuent leur tâche. 
+	Cette architecture produit deux types de données : des métadonnées structurées directement epxloitables, et des vecteurs de caractéristiques (= représentations abstraites des données utilisables pour des requêtes de similarité : ouvre des possibilité de recherche par ressemblance son et vidéo.)
+	\footcite{noord2021}
+	
+	"there is a near-linear relationship between quality of transcriptions and search performance.» : importance de la qualité de la transcription audiovisuelle pour améliorer la recherche.
+	\footcite{noord2021}
+	
+	"the application of AVP tools to large image datasets significantly scales up the level of analysis from ‘close’ to ‘distant’ viewing, allowing scholars to observe patterns in the data that are invisible in the traditional, interpretative analyses of small sample sets.» 
+	le distant viewing permet de passer d'une lecture individuelle d'items à une analyse d'éléments à l'échelle d'un corpus. 
+	\footcite{noord2021}
+	

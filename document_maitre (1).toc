@@ -2,13 +2,20 @@
 \contentsline {chapter}{Résumé}{i}{chapter*.1}%
 \contentsline {chapter}{Brouillon}{iii}{chapter*.2}%
 \contentsline {subsection}{\numberline {1.}Problématique}{iii}{subsection.0.0.1}%
-\contentsline {subsection}{\numberline {2.}limites}{ix}{subsection.0.0.2}%
-\contentsline {subsection}{\numberline {3.}IA générale}{ix}{subsection.0.0.3}%
-\contentsline {subsection}{\numberline {4.}Experience utilisateur}{ix}{subsection.0.0.4}%
-\contentsline {subsection}{\numberline {5.}IA et cinéma}{x}{subsection.0.0.5}%
-\contentsline {subsection}{\numberline {6.}IA}{xvii}{subsection.0.0.6}%
-\contentsline {chapter}{Remerciements}{xxi}{chapter*.6}%
-\contentsline {chapter}{Introduction}{xxxi}{chapter*.10}%
+\contentsline {subsection}{\numberline {2.}Indexation automatique}{vi}{subsection.0.0.2}%
+\contentsline {subsection}{\numberline {3.}indexation iconographique}{viii}{subsection.0.0.3}%
+\contentsline {subsection}{\numberline {4.}indexation audio}{ix}{subsection.0.0.4}%
+\contentsline {subsection}{\numberline {5.}notions IA}{x}{subsection.0.0.5}%
+\contentsline {subsection}{\numberline {6.}machine learning}{x}{subsection.0.0.6}%
+\contentsline {subsection}{\numberline {7.}computer vision}{xii}{subsection.0.0.7}%
+\contentsline {subsection}{\numberline {8.}IA appliquée à la vidéo}{xiv}{subsection.0.0.8}%
+\contentsline {subsection}{\numberline {9.}segmentation}{xvii}{subsection.0.0.9}%
+\contentsline {subsection}{\numberline {10.}Limites et critiques}{xx}{subsection.0.0.10}%
+\contentsline {subsection}{\numberline {11.}Archives audiovisuelles}{xxiii}{subsection.0.0.11}%
+\contentsline {subsection}{\numberline {12.}Experience utilisateur}{xxiv}{subsection.0.0.12}%
+\contentsline {subsection}{\numberline {13.}Limites et critiques}{xxv}{subsection.0.0.13}%
+\contentsline {chapter}{Remerciements}{xxix}{chapter*.6}%
+\contentsline {chapter}{Introduction}{xxxix}{chapter*.10}%
 \contentsline {part}{I\hspace {1em}Une partie}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Mon premier chapitre}{3}{chapter.1}%
 \contentsline {part}{II\hspace {1em}Une autre partie}{5}{part.2}%
