@@ -59,4 +59,17 @@ la qualité des images est absolument primordiale et déterminante dans la mise 
 cruciale dans le cadre d’un projet de recherche en vision artificielle, puisque celle-ci a la possiblité d’impacter les performances de l’algorithme utilisé, et d’affecter négativement les interprétations du modèle". \footcite{norindr2023}
 Important dans le cadre d'une indexation d'archives audiovisuelles, qui sotn souvent de moins bonne qulité que les images car les fichiers sont plus lourds.
 
+limites des résraux de neurones profonds tels que les CNN pour l'analyse de l'esthétisme des images : « While hand-crafted features allow to quantify which feature contributes the most to an aesthetic rating, this interpretability is lost with generic features. [...] Deep neural networks and generic features basically represent a black-box approach that lacks this kind of interpretability. » \footcite{brachmann2017}
+"with deep learning models, their success comes at a cost. At present, the understanding of deep features and how they work in object or aesthetic recognition lacks behind. » \footcite{brachmann2017}
+Le problème est le suivant avec les CNN, les décisions qui sont prises sont obscures. Pour l'indexation des archives, c'est problématique si les archivistes ne sont pas capables d'expliquer pourquoi telle classification a été choisie par le modèle. Il faut maintenir une supervision humain dans le pipeline d'indexation. 
+La question de l'interopérabilité et de la transparence est aussi importante que la question de performance en sciences humaines et dans le milieu du patrimoine, car il s'agit de donner accès aux connaissances. (à relier avec l'éthique de l'IA : principes MA/ML : explainability)
+
+La machine analyse différemment de l'humain, de manière objective et précise et exhaustive, qu'apporte l'humain ? : "the computational analysis of paintings has several advantages compared to an analysis carried out by human experts. For example, a computational analysis can pick up very subtle relationships that may escape the attention by human observers; moreover, computational methods are objective in nature and are potentially non-exhaustive in the amount of detail analyzed. »\footcite{brachmann2017}
+
+\item Dépendance à la qualité de l'image
+
+Limite exprimée dans le cadre de l'utilisation de line segment detection : 
+"The first general challenge for line segment detection and description is that the endpoints of detected line segments are generally unstable due to many factors, such as image noise, occlusion, and illumination variance. This makes the line segment description and matching difficult since the corresponding line ROS (Region of Support) or neighborhood relationship among line segments is generated according to the line segment endpoints. »\footcite{lin2024}
+La compréhension et l'analyse de l'image dépend de la qualité de l'image, souvent réduite pour des raison de stockage de données, pendant l'entraînement. 
+
 \end{itemize}

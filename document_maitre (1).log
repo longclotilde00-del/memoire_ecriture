@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  13 JUN 2026 15:32
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  14 JUN 2026 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -803,74 +803,82 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [7]) (./chapitres/indexation_iconographique.tex
 
-[8]) (./chapitres/indexation_audio.tex
+[8]
 
-[9]) (./chapitres/IA_generale.tex) (./chapitres/machine_learning.tex
-
-[10]
-
-[11]) (./chapitres/computer_vision.tex
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \item D
-            éfinition
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Citation 'lin2024 ' on page 9 undefined on input line 38.
 
 
+
+[9]) (./chapitres/indexation_audio.tex) (./chapitres/IA_generale.tex
+
+[10]) (./chapitres/machine_learning.tex
+
+[11]
 
 [12]
 
-[13]) (./chapitres/IA_video.tex
+[13]) (./chapitres/computer_vision.tex
+Overfull \hbox (8.1275pt too wide) in paragraph at lines 5--8
+[]\TU/lmr/m/n/12 Définition Branche de l’IA qui permet principalement d’extrair
+e de l’information d’images
+ []
+
+
 
 [14]
 
-[15]) (./chapitres/segmentation.tex
+[15]) (./chapitres/IA_video.tex
 
 [16]
 
 [17]
 
-[18]
+[18]) (./chapitres/segmentation.tex
 
-[19]) (./chapitres/limites_critiques.tex
+[19]
 
 [20]
 
-[21]) (./chapitres/archives_audiovisuelles.tex
+[21]) (./chapitres/limites_critiques.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [22]
 
-[23]) (./chapitres/notions_NLP.tex) (./chapitres/experience_utilisateur.tex
+[23]
 
-[24]) (./chapitres/limites_critiques.tex
+[24]
 
-[25]
+[25]) (./chapitres/archives_audiovisuelles.tex
 
-[26])
+[26]) (./chapitres/notions_NLP.tex) (./chapitres/experience_utilisateur.tex
 
-[27]
+[27]) (./chapitres/limites_critiques.tex
 
-[28
-
-]
-Package lettrine.sty Info: Targeted height = 24.16246pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 24.16241pt (M);
-(lettrine.sty)             reported on input line 255.
-
+[28]
 
 [29]
 
-[30
+[30]
+
+[31])
+
+[32]
+Package lettrine.sty Info: Targeted height = 24.16246pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 24.16241pt (M);
+(lettrine.sty)             reported on input line 257.
+
+
+[33
 
 ]
-Overfull \hbox (13.40034pt too wide) in paragraph at lines 261--261
+
+[34
+
+]
+Overfull \hbox (13.40034pt too wide) in paragraph at lines 263--263
 [][][][][][][][][] [] [][][][][][][][][] [][] [][][][][][][][][][][][][] [] [][
 ][][] [] [][][] [] [][][][][] [] [][][][][][][][]$[] \TU/lmr/m/n/12 (visité le 
 12/05/2026). 
@@ -878,10 +886,10 @@ Overfull \hbox (13.40034pt too wide) in paragraph at lines 261--261
 
 
 
-[31
+[35
 
 ]
-Overfull \hbox (4.37076pt too wide) in paragraph at lines 261--261
+Overfull \hbox (4.37076pt too wide) in paragraph at lines 263--263
 \TU/lmr/m/n/12 mars 2024, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][] []
  [] [] [][][] [] [][][] [] [][][] [] [][][][][] [] [][][][][][] [] [][][][][][]
 [][][][] [][] [][] [][] [][][][][][][][][][][][] [][]
@@ -889,8 +897,8 @@ Overfull \hbox (4.37076pt too wide) in paragraph at lines 261--261
 
 
 
-[32]
-Overfull \hbox (6.02444pt too wide) in paragraph at lines 261--261
+[36]
+Overfull \hbox (6.02444pt too wide) in paragraph at lines 263--263
 [][][]\TU/lmr/m/sc/12 Longpre[]\TU/lmr/m/n/12 ​ (Shayne), []\TU/lmr/m/sc/12 Sin
 gh[]\TU/lmr/m/n/12 ​ (Nikhil), []\TU/lmr/m/sc/12 Cherep[]\TU/lmr/m/n/12 ​ (Manu
 el), []\TU/lmr/m/sc/12 Tiwary[]\TU/lmr/m/n/12 ​ (Kushagra), []\TU/lmr/m/sc/12 M
@@ -899,8 +907,8 @@ aterzynska[]\TU/lmr/m/n/12 ​
 
 
 
-[33]
-Overfull \hbox (5.9788pt too wide) in paragraph at lines 261--261
+[37]
+Overfull \hbox (5.9788pt too wide) in paragraph at lines 263--263
 \TU/lmr/m/n/12 Etienne, 2006, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][
 ] [] [] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][] [][] [][][][][][]
 [][]$[] (visité le 06/05/2026). 
@@ -908,8 +916,8 @@ Overfull \hbox (5.9788pt too wide) in paragraph at lines 261--261
 
 
 
-[34]
-Overfull \hbox (17.96452pt too wide) in paragraph at lines 261--261
+[38]
+Overfull \hbox (17.96452pt too wide) in paragraph at lines 263--263
 [][][]\TU/lmr/m/sc/12 Wang[]\TU/lmr/m/n/12 ​ (Yiyuan), []\TU/lmr/m/sc/12 Johnst
 on[]\TU/lmr/m/n/12 ​ (Andrew), []\TU/lmr/m/sc/12 Sadokierski[]\TU/lmr/m/n/12 ​ 
 (Zoë), []\TU/lmr/m/sc/12 Stephens[]\TU/lmr/m/n/12 ​ (Rhiannon) et []\TU/lmr/m/s
@@ -917,7 +925,7 @@ c/12 Ahyong[]\TU/lmr/m/n/12 ​
  []
 
 
-Overfull \hbox (1.22043pt too wide) in paragraph at lines 261--261
+Overfull \hbox (1.22043pt too wide) in paragraph at lines 263--263
 [][][]\TU/lmr/m/sc/12 Yoon[]\TU/lmr/m/n/12 ​ (Sangwoong), []\TU/lmr/m/sc/12 Kan
 g[]\TU/lmr/m/n/12 ​ (Woo Young), []\TU/lmr/m/sc/12 Jeon[]\TU/lmr/m/n/12 ​ (Sung
 wook), []\TU/lmr/m/sc/12 Lee[]\TU/lmr/m/n/12 ​ (SeongEun), []\TU/lmr/m/sc/12 Ha
@@ -926,28 +934,28 @@ n[]\TU/lmr/m/n/12 ​ (Chang-
 
 
 
-[35]
-
-[36
-
-]
-
-Package biblatex Warning: Keyword 'nlp' not found on input line 268.
-
-
-LaTeX Warning: Empty bibliography on input line 268.
-
-
-
-[37]
-
-[38
-
-]
-
 [39]
 
 [40
+
+]
+
+Package biblatex Warning: Keyword 'nlp' not found on input line 270.
+
+
+LaTeX Warning: Empty bibliography on input line 270.
+
+
+
+[41]
+
+[42
+
+]
+
+[43]
+
+[44
 
 ]
 
@@ -989,18 +997,28 @@ Annexe A.
 [10
 
 ] (./document_maitre (1).toc
-Overfull \hbox (0.33597pt too wide) detected at line 12
+Overfull \hbox (0.33597pt too wide) detected at line 11
  \TU/lmr/m/n/12 xvii
  []
 
 
-Overfull \hbox (3.59996pt too wide) detected at line 14
+Overfull \hbox (3.59996pt too wide) detected at line 13
  \TU/lmr/m/n/12 xxiii
  []
 
 
-Overfull \hbox (3.27597pt too wide) detected at line 15
- \TU/lmr/m/n/12 xxiv
+Overfull \hbox (3.27597pt too wide) detected at line 14
+ \TU/lmr/m/n/12 xxvi
+ []
+
+
+Overfull \hbox (9.80397pt too wide) detected at line 15
+ \TU/lmr/m/n/12 xxviii
+ []
+
+
+Overfull \hbox (9.80397pt too wide) detected at line 16
+ \TU/lmr/m/n/12 xxviii
  []
 
 
@@ -1033,12 +1051,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24666 strings out of 468389
- 486282 string characters out of 5440619
- 1326807 words of memory out of 5000000
- 52912 multiletter control sequences out of 15000+600000
- 631033 words of font info for 77 fonts, out of 8000000 for 9000
+ 24706 strings out of 468389
+ 487098 string characters out of 5440619
+ 1328054 words of memory out of 5000000
+ 52950 multiletter control sequences out of 15000+600000
+ 631041 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,13n,83p,1951b,5615s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,13n,83p,1951b,5613s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (54 pages).
+Output written on document_maitre (1).pdf (58 pages).

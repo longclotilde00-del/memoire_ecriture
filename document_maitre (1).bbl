@@ -605,7 +605,6 @@
       \field{volume}{11}
       \field{year}{2017}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.3389/fncom.2017.00102
       \endverb
@@ -618,7 +617,7 @@
       \verb{url}
       \verb https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2017.00102/full
       \endverb
-      \keyw{AI,art history,Artist identification,Computational aesthetics,Experimental aesthetics,image features,statistical image properties,Style identification,visual preference}
+      \keyw{AI,art history,Artist identification,Clustering,Computational aesthetics,Computer vision,Experimental aesthetics,image features,statistical image properties,Style identification,visual preference}
     \endentry
     \entry{2021b}{misc}{}{}
       \field{sortinit}{B}
@@ -791,7 +790,6 @@
       \field{urlyear}{2026}
       \field{year}{2024}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning
       \endverb
@@ -1098,78 +1096,6 @@
       \verb{url}
       \verb https://www.iso.org/fr/intelligence-artificielle/traitement-langage-naturel
       \endverb
-    \endentry
-    \entry{lin2024}{misc}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=7f21a54173b70852115573759f09a60c}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Xinyu},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e2184fbfb16600c1f882f938b43572f5}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Yingjie},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0dc086693fd30a6d071c743d2571b2f4}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Yipeng},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6ccfb24569f380ea56f5ecd4a363bef6}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Ce},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{a40634959fa72a5c331f22da8a6051b6}
-      \strng{fullhash}{19eed1f209e9f1794b4bec5ba3a31f21}
-      \strng{fullhashraw}{19eed1f209e9f1794b4bec5ba3a31f21}
-      \strng{bibnamehash}{19eed1f209e9f1794b4bec5ba3a31f21}
-      \strng{authorbibnamehash}{19eed1f209e9f1794b4bec5ba3a31f21}
-      \strng{authornamehash}{a40634959fa72a5c331f22da8a6051b6}
-      \strng{authorfullhash}{19eed1f209e9f1794b4bec5ba3a31f21}
-      \strng{authorfullhashraw}{19eed1f209e9f1794b4bec5ba3a31f21}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{An image line segment is a fundamental low-level visual feature that delineates straight, slender, and uninterrupted portions of objects and scenarios within images. Detection and description of line segments lay the basis for numerous vision tasks. Although many studies have aimed to detect and describe line segments, a comprehensive review is lacking, obstructing their progress. This study fills the gap by comprehensively reviewing related studies on detecting and describing two-dimensional image line segments to provide researchers with an overall picture and deep understanding. Based on their mechanisms, two taxonomies for line segment detection and description are presented to introduce, analyze, and summarize these studies, facilitating researchers to learn about them quickly and extensively. The key issues, core ideas, advantages and disadvantages of existing methods, and their potential applications for each category are analyzed and summarized, including previously unknown findings. The challenges in existing methods and corresponding insights for potentially solving them are also provided to inspire researchers. In addition, some state-of-the-art line segment detection and description algorithms are evaluated without bias, and the evaluation code will be publicly available. The theoretical analysis, coupled with the experimental results, can guide researchers in selecting the best method for their intended vision applications. Finally, this study provides insights for potentially interesting future research directions to attract more attention from researchers to this field.}
-      \field{eprintclass}{cs.CV}
-      \field{eprinttype}{arXiv}
-      \field{month}{5}
-      \field{number}{arXiv:2305.00264}
-      \field{shorttitle}{A {{Comprehensive Review}} of {{Image Line Segment Detection}} and {{Description}}}
-      \field{title}{A {{Comprehensive Review}} of {{Image Line Segment Detection}} and {{Description}}: {{Taxonomies}}, {{Comparisons}}, and {{Challenges}}}
-      \field{urlday}{8}
-      \field{urlmonth}{6}
-      \field{urlyear}{2026}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.48550/arXiv.2305.00264
-      \endverb
-      \verb{eprint}
-      \verb 2305.00264
-      \endverb
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/L95WF3WH/Lin et al. - 2024 - A Comprehensive Review of Image Line Segment Detection and Description Taxonomies, Comparisons, and.pdf;/home/clotilde/Zotero/storage/38ZC8D9D/2305.html
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2305.00264
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2305.00264
-      \endverb
-      \keyw{Computer Science - Computer Vision and Pattern Recognition}
     \endentry
     \entry{liu2023}{misc}{}{}
       \name{author}{4}{}{%
@@ -1629,6 +1555,7 @@
       \strng{authornamehash}{af26c2ece86542733e95704d8f9165b3}
       \strng{authorfullhash}{af26c2ece86542733e95704d8f9165b3}
       \strng{authorfullhashraw}{af26c2ece86542733e95704d8f9165b3}
+      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -1645,12 +1572,59 @@
       \field{urlyear}{2026}
       \field{year}{2018}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.58079/m3cp
       \endverb
       \verb{file}
       \verb /home/clotilde/Zotero/storage/YMELYWUH/2809.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bnf.hypotheses.org/2809
+      \endverb
+      \verb{url}
+      \verb https://bnf.hypotheses.org/2809
+      \endverb
+    \endentry
+    \entry{moiraghi2018a}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af26c2ece86542733e95704d8f9165b3}{%
+           family={Moiraghi},
+           familyi={M\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{af26c2ece86542733e95704d8f9165b3}
+      \strng{fullhash}{af26c2ece86542733e95704d8f9165b3}
+      \strng{fullhashraw}{af26c2ece86542733e95704d8f9165b3}
+      \strng{bibnamehash}{af26c2ece86542733e95704d8f9165b3}
+      \strng{authorbibnamehash}{af26c2ece86542733e95704d8f9165b3}
+      \strng{authornamehash}{af26c2ece86542733e95704d8f9165b3}
+      \strng{authorfullhash}{af26c2ece86542733e95704d8f9165b3}
+      \strng{authorfullhashraw}{af26c2ece86542733e95704d8f9165b3}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Suite aux ateliers « Décrire, transcrire et diffuser un corpus documentaire hétérogène : méthodes, formats, outils » et «~Géolocalisation et spatialisation de documents patrimoniaux~», une troisième demi-journée d’étude a été organisée dans le cadre du programme de recherche CORPUS, inscrit au plan quadriennal de la recherche 2016-2019 de la Bibliothèque nationale de France (BnF). Dans…}
+      \field{issn}{2493-4437}
+      \field{journaltitle}{Carnet de recherche}
+      \field{langid}{french}
+      \field{month}{4}
+      \field{title}{{Explorer des corpus d’images. L’IA au service du patrimoine}}
+      \field{type}{{Billet}}
+      \field{urlday}{14}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.58079/m3cp
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/WZV9T596/2809.html
       \endverb
       \verb{urlraw}
       \verb https://bnf.hypotheses.org/2809
@@ -2776,7 +2750,6 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2308.00210
       \endverb
@@ -2793,6 +2766,74 @@
       \verb http://arxiv.org/abs/2308.00210
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{lin2024}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c4cd7252163bc8ae874a21c52f7cab74}{%
+           family={{Xinyu Lin}},
+           familyi={X\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=e2184fbfb16600c1f882f938b43572f5}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yingjie},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0dc086693fd30a6d071c743d2571b2f4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yipeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ccfb24569f380ea56f5ecd4a363bef6}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Ce},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{f210afdafbb64bd5ba74eed2d3b5fb51}
+      \strng{fullhash}{66d0e05c9ac17898fadbd46a6e9b59e6}
+      \strng{fullhashraw}{66d0e05c9ac17898fadbd46a6e9b59e6}
+      \strng{bibnamehash}{66d0e05c9ac17898fadbd46a6e9b59e6}
+      \strng{authorbibnamehash}{66d0e05c9ac17898fadbd46a6e9b59e6}
+      \strng{authornamehash}{f210afdafbb64bd5ba74eed2d3b5fb51}
+      \strng{authorfullhash}{66d0e05c9ac17898fadbd46a6e9b59e6}
+      \strng{authorfullhashraw}{66d0e05c9ac17898fadbd46a6e9b59e6}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{An image line segment is a fundamental low-level visual feature that delineates straight, slender, and uninterrupted portions of objects and scenarios within images. Detection and description of line segments lay the basis for numerous vision tasks. Although many studies have aimed to detect and describe line segments, a comprehensive review is lacking, obstructing their progress. This study fills the gap by comprehensively reviewing related studies on detecting and describing two-dimensional image line segments to provide researchers with an overall picture and deep understanding. Based on their mechanisms, two taxonomies for line segment detection and description are presented to introduce, analyze, and summarize these studies, facilitating researchers to learn about them quickly and extensively. The key issues, core ideas, advantages and disadvantages of existing methods, and their potential applications for each category are analyzed and summarized, including previously unknown findings. The challenges in existing methods and corresponding insights for potentially solving them are also provided to inspire researchers. In addition, some state-of-the-art line segment detection and description algorithms are evaluated without bias, and the evaluation code will be publicly available. The theoretical analysis, coupled with the experimental results, can guide researchers in selecting the best method for their intended vision applications. Finally, this study provides insights for potentially interesting future research directions to attract more attention from researchers to this field.}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{month}{5}
+      \field{number}{arXiv:2305.00264}
+      \field{shorttitle}{A {{Comprehensive Review}} of {{Image Line Segment Detection}} and {{Description}}}
+      \field{title}{A {{Comprehensive Review}} of {{Image Line Segment Detection}} and {{Description}}: {{Taxonomies}}, {{Comparisons}}, and {{Challenges}}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2305.00264
+      \endverb
+      \verb{eprint}
+      \verb 2305.00264
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/L95WF3WH/Xinyu Lin et al. - 2024 - A Comprehensive Review of Image Line Segment Detection and Description Taxonomies, Comparisons, and.pdf;/home/clotilde/Zotero/storage/38ZC8D9D/2305.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2305.00264
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2305.00264
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition,line segmentation}
     \endentry
     \entry{2023b}{misc}{}{}
       \field{sortinit}{Y}
