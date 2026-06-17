@@ -969,6 +969,79 @@
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Sound}
     \endentry
+    \entry{herve2015}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0445d78c0525c264d604079564ea9d09}{%
+           family={Hervé},
+           familyi={H\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9606808c5ffe67b955b5fad0f5d46aa}{%
+           family={Letessier},
+           familyi={L\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1c37b7a00427fd2b4b4a1d8e0ecc475}{%
+           family={Derval},
+           familyi={D\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60f8f009f3afaab815bd9d3a0bf8301c}{%
+           family={Nabi},
+           familyi={N\bibinitperiod},
+           given={Hakim},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Brisbane Australia}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{fe2049d68c741d998802a50003022cb1}
+      \strng{fullhash}{bf8f04d01922d14f214797f7a95ed665}
+      \strng{fullhashraw}{bf8f04d01922d14f214797f7a95ed665}
+      \strng{bibnamehash}{bf8f04d01922d14f214797f7a95ed665}
+      \strng{authorbibnamehash}{bf8f04d01922d14f214797f7a95ed665}
+      \strng{authornamehash}{fe2049d68c741d998802a50003022cb1}
+      \strng{authorfullhash}{bf8f04d01922d14f214797f7a95ed665}
+      \strng{authorfullhashraw}{bf8f04d01922d14f214797f7a95ed665}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Amalia.js is a new extensible and versatile HTML5 multimedia player that allows you to view any type of metadata synchronized with your video or audio streams. It manages metadata that are localized both temporally and spatially. They can also be hierarchical. Several visualization plugins have already been developped, enabling amalia.js to be deployed in a huge variety of web applications. We believe it can be used in various research areas to quickly visualize analysis results and to share them with the community. Amalia.js is an open-source software under a GPL license. It is available for download at http://ina-foss.github.io/ amalia.js.}
+      \field{booktitle}{Proceedings of the 23rd {{ACM}} International Conference on {{Multimedia}}}
+      \field{isbn}{978-1-4503-3459-4}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shorttitle}{Amalia.Js}
+      \field{title}{Amalia.Js: {{An Open-Source Metadata Driven HTML5 Multimedia Player}}}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{709\bibrangedash 712}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1145/2733373.2807406
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/AAGYSVZS/Hervé et al. - 2015 - Amalia.js An Open-Source Metadata Driven HTML5 Multimedia Player.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/2733373.2807406
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/2733373.2807406
+      \endverb
+    \endentry
     \entry{husson2025}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9d1542084df41de78edb36720873b03b}{%
@@ -1095,6 +1168,91 @@
       \endverb
       \verb{url}
       \verb https://www.iso.org/fr/intelligence-artificielle/traitement-langage-naturel
+      \endverb
+    \endentry
+    \entry{letessier2015}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=f9606808c5ffe67b955b5fad0f5d46aa}{%
+           family={Letessier},
+           familyi={L\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0445d78c0525c264d604079564ea9d09}{%
+           family={Hervé},
+           familyi={H\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00a1863105df6fae815d632a91b43808}{%
+           family={Joly},
+           familyi={J\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60f8f009f3afaab815bd9d3a0bf8301c}{%
+           family={Nabi},
+           familyi={N\bibinitperiod},
+           given={Hakim},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1c37b7a00427fd2b4b4a1d8e0ecc475}{%
+           family={Derval},
+           familyi={D\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bca4e94adaa55de2c663957de8a7e59}{%
+           family={Buisson},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Shanghai China}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{62372d4a6a9afcdf0eef595655e19a0f}
+      \strng{fullhash}{3c3518a43bfbbc830dce92ab4329257b}
+      \strng{fullhashraw}{3c3518a43bfbbc830dce92ab4329257b}
+      \strng{bibnamehash}{3c3518a43bfbbc830dce92ab4329257b}
+      \strng{authorbibnamehash}{3c3518a43bfbbc830dce92ab4329257b}
+      \strng{authornamehash}{62372d4a6a9afcdf0eef595655e19a0f}
+      \strng{authorfullhash}{3c3518a43bfbbc830dce92ab4329257b}
+      \strng{authorfullhashraw}{3c3518a43bfbbc830dce92ab4329257b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper presents an automatic system able to identify visual named-entities appearing in images and videos, among a list of 25,000 entities, aggregated from Wikipedia lists, and more specific websites. DigInPix is a generic application designed to identify different kinds of entities. In this first attempt, we only focus on logo identification (more generally on legal persons). The identification process mainly relies on an efficient CBIR system, searching in an indexed image database composed of 600,000 weak-labelled images crawled from Google Images. DigInPix proposes a responsive-design html5 interface1 for testing purposes.}
+      \field{booktitle}{Proceedings of the 5th {{ACM}} on {{International Conference}} on {{Multimedia Retrieval}}}
+      \field{isbn}{978-1-4503-3274-3}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shorttitle}{{{DigInPix}}}
+      \field{title}{{{DigInPix}}: {{Visual Named-Entities Identification}} in {{Images}} and {{Videos}}}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{661\bibrangedash 664}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1145/2671188.2749369
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/R972FETB/Letessier et al. - 2015 - DigInPix Visual Named-Entities Identification in Images and Videos.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/2671188.2749369
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/2671188.2749369
       \endverb
     \endentry
     \entry{liu2023}{misc}{}{}

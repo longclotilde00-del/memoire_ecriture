@@ -65,3 +65,26 @@
 	le distant viewing permet de passer d'une lecture individuelle d'items à une analyse d'éléments à l'échelle d'un corpus. 
 	\footcite{noord2021}
 	
+\item Diginpix : système d'identification d'entités visuelles dans les images fixes et animées 
+Développé par l'INA et open source 
+pour les images animées : "L’image animée implique une problématique ultérieure par rapport à l’image fixe en raison de sa dimension temporelle. Un visualiseur spécifique a été aussi développé, dans une logique open source, pour permettre le repérage rapide des entités visuelles dans la temporalité de la vidéo."\footcite{moiraghi2018}
+
+impact de l'indexation automatique sur les données :
+"Comme le repérage d’entités visuelles demande énormément d’informations locales, les bases de données d’indexation constituées à partir de la reconnaissance des entités sont conséquentes (elles peuvent avoir une taille supérieure à celle des vidéos elles-mêmes) et font l’objet de recherches au sein de l’établissement pour en optimiser les temps de calcul.
+
+Dans ce contexte, la qualité et la modélisation des données jouent un rôle fondamental car c’est sur les bases de données que les algorithmes sont entrainés."\footcite{moiraghi2018}
+	
+Diginpix repose sur : "The identification process mainly relies
+on an efficient CBIR system, searching in an indexed image
+database composed of 600,000 weak-labelled images crawled
+from Google Images. DigInPix proposes a responsive-design
+html5 interface1 for testing purposes."\footcite{letessier2015}
+
+fonctionnement détaillé : "The core engine makes use of
+local descriptors hashing techniques and a scalable indexing and search structure based on hash tables. This allows matching all local descriptors one by one in the full index and favors a more precise matching of small objects in highly cluttered pictures. Using geometry in addition to this raw scheme further improves the search performances" \footcite{letessier2015}
+
+Diginpix produti une sorte de segmentation : "When dealing with videos, keyframes are first extracted whenever the content changes significantly, i.e. new shot, moving camera, new objects appearing, etc., thanks to a keyframe detector using grid-based histograms of LBP features. The time between two keyframes typically varies from 100ms to
+30s. All the detected keyframes are then processed one by one in the same way than single images."\footcite{letessier2015}
+
+\item Amalia.js
+\footcite{herve2015}
