@@ -63,6 +63,10 @@ Ils peuvent être séparés entre deux types de problèmes : classification and 
 Nécessite l'intervention humaine : 
 "In supervised learning, the algorithm “learns” from the training data set by iteratively making predictions on the data and adjusting for the correct answer. While supervised learning models tend to be more accurate than unsupervised learning models, they require upfront human intervention to label the data appropriately." \footcite{delua2024}
 
+appliqué aux images, l'apprentissage supervisé suppose que chaque image fournie à une machine soit annotée par un humain \footcite{caron2018}
+
+Cela suppose des heures de travail et des miliers d'annotations pour entraîner le modèle, ce que les institutions ne peuvent pas faire
+
 \item Unsupervised learning
 
 définition : 
@@ -70,5 +74,19 @@ définition :
 Unsupervised learning models are used for three main tasks: clustering, association and dimensionality reduction". \footcite{delua2024}
 
 "Unsupervised learning models, in contrast, work on their own to discover the inherent structure of unlabeled data. Note that they still require some human intervention for validating output variables."\footcite{delua2024}
+
+Un exemple de tentative de unsupervised learning est Deepcluster, une tentative d'entraîner un CNN sans annotations humaines, en générant des étiquettes automatiquement via un algorithme de clustering (k-means).\footcite{caron2018}
+
+Un modèle peut regrouper des images similaires et utiliser ces groupes comme étiquettes \footcite{caron2018}
+
+Deepcluster regroupe ainsi les similarités visuelles produites par le CNN en clusters avec k-means, et entraine le CNN à prédire ces clusters. 
+
+Deepcluster est performant même sur des images structurées différemment : « Even when trained on uncured Flickr images, DeepCluster outperforms the current state of the art by a significant margin on most tasks. This experiment validates that DeepCluster is robust to a change of image distribution. »\footcite{caron2018}. C'est intressant dans l'idée d'adapter un de ces outils à des archives patrimoniales spécifiques.
+
+Mais la limite est la suivante : « Replacing labels by raw metadata leads to biases in the visual representations with unpredictable consequences. ».\footcite{caron2018}. On donne des métadonnées brutes ou incomplètes à un CNN, donc il est possible que ce qu'il interprète soit biaisé. Un tel biais n'est pas acceptable dans un contexte archivistique. 
+
+autre limite, Deepcluster a été validé sur imageNet, qui compte 1.28 milions d'images, et YFCC100M, 1 milion d'images. Il est donc probable qu'il ne oit pas adapté à une collection réduite comme celles des institutions patrimoniales.
+
+
 
 \end{itemize}
