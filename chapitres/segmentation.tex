@@ -18,6 +18,14 @@ Une vidéo doit être segmentée avant de pouvoir être indexée :
 
 pour justifier la mise en place d'une segmentation : « Automated segmentation accelerates the processing of large volumes of video content and ensures consistency and accuracy in the segmentation process. » \footcite{attard2025} la mise en place d'une automatisation de la segmentation permettrait d'homogénéiser l'indexation documentataire : un algorithme segmente les vidéos de la même façon, pas les humains. Mais les vidéos sont toutes différentes : est ce qu'on peut garder la même pratique de segmentation sur des corpus vidéo différents ?
 
+\item Segmentation sémantique
+ 
+ La segmentation sémantique ets une tâche de la vision par ordinateur. 
+ 
+"Semantic segmentation is a fundamental task in computer vision. It aims to divide the image into multiple regions according to the class of the pixel, which is important for practical applications such as autonomous driving, automatic delivery sorting, and intelligent surveillance systems"\footcite{yuan2025}
+
+Importance de la segmentation sémantique pour les vidéos : "videos contain not only spatial features but also temporal features. This naturally results in lower accuracy of image-based segmentation models compared with video-based segmentation models for Video Semantic Segmentation (VSS)." \footcite{yuan2025}
+
 \item Pipelines de segmentation 
 
 \subitem Pyscenedetect 
@@ -58,11 +66,30 @@ détecter les coupures entre es scènes est une analyse syntaxique et non séman
 l'article de \cite{xin2023} ne cherche pas à comprendre les scènes mais seulement à analyser leur syntaxe pour en détecter les coupures. 2SDS règle le problème de délimitation en séquence, mais ne décrit pas la vidéo comme d'autres outils peuvent le faire : CLIP, YOLO, BLIP. De plus, le corpus de tets ets réduit (6 vidéos issues de youtube), et en couleur. 
 
 
-\item video semantic segmentation (VSS)
+\subitem video semantic segmentation (VSS) : TDNSNet
 
 "fundamental machine vision task with various practical applications, such as autonomous driving and automated surveillance. Current studies mainly utilize temporal features based on optical flow and the self-attention mechanism to improve VSS accuracy."\footcite{yuan2025}
 LImites : "reduced accuracy and computational overhead due to inaccurate optical flow and the computational cost of the self-attention mechanism."\footcite{yuan2025}
 L'outil temporal difference segmentation net se propose comme uen solution à ces limites sellon l'article de yuan \footcite{yuan2025}
+
+Limites identifiées par Yuan2025 des modèles de VSS existants : les modèles basés sur le flux optique (optical flow) sont dépendants de la prédiction du fluxet génèrent des erreurs, dégrandant ainsi la qualité de la segmentation (erro accumulation). Les modèles fondés sur les mécanismes d'auto attention capturent mieux les relations entre images mais leur complexité les rend difficilement applicables à des vidéos complexes elles mêmes.\footcite{yuan2025}
+
+TDSNet : "TDSNet employs temporal-difference-based temporal feature through the Temporal Feature Refine Module (TFRM). To further improve the accuracy of VSS, TDSNet adaptively fuses temporal features of varied motion magnitude with the Motion Magnitude Refine Module (MMRM). This module weighs and fuses temporal features of different magnitudes between frames." \footcite{yuan2025}
+
+TDSNet est donc un modèle qui se base sur la différence temporelle : 
+"the temporal-difference-based features are obtained by the subtraction of the features from two consecutive frames. As a result, the model activates the dynamic regions of the feature while deactivating the static regions, allowing it to capture temporal features effectively." \footcite{yuan2025} Le modèle soustrait les features de deux images consécutives pour en faire ressortir les régions dynamiques (en mouvement) et désactive les régions statiques. Ainsi il capture uniquement l'information temporelle, pour un faible cout computationnel. 
+
+TDSNet repose sur deux modules : 
+TFRM : temporal feature refine model : il extrait les features temporelles par différence entre l'image cible (target frame) et l'image de référence (reference frame). Il utilise ensuite l'information de mouvement retenue pour aligner et fusionner les features de la référence dans l'image cible.\footcite{yuan2025} 
+
+MMRM : Motion magnitude refine module 
+les features extraites par le TFRM contiennent des magnitudes de mouvements variés : ""we observe that motion magnitudes in the far frames are not necessarily larger than that of near frames. For example, with repetitive motion of the video, farther frames may exhibit smaller motion magnitudes.". Le MMRM calcule donc le poids adaptatif de chaque feature temporelle selon la magnitude de mouvement réellement observée dans la vidéo en entrée, puis les fusionne.\footcite{yuan2025}
+
+Le modèle est entraîné sur deux jeux de données : VSPW (13 images par secondes et un écart de mean Intersection over Union de 0.7 pourcent)
+
+
+
+
 
 \end{itemize}
 
