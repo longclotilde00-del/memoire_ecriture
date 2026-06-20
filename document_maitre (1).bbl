@@ -642,6 +642,66 @@
       \verb https://www.beeldengeluid.nl/en/research/blog/bringing-ai-audiovisual-archive
       \endverb
     \endentry
+    \entry{brostow2009}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=270235fe902d7b1c9fbc1ff59db7640c}{%
+           family={Brostow},
+           familyi={B\bibinitperiod},
+           given={Gabriel\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d19416c5d87d3a2ecfe1095e903a4ad}{%
+           family={Fauqueur},
+           familyi={F\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95c5bd0a1d6e6649ed56043a63268bfa}{%
+           family={Cipolla},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{14d208c9333d74020590b1de1dd70b3a}
+      \strng{fullhash}{14d208c9333d74020590b1de1dd70b3a}
+      \strng{fullhashraw}{14d208c9333d74020590b1de1dd70b3a}
+      \strng{bibnamehash}{14d208c9333d74020590b1de1dd70b3a}
+      \strng{authorbibnamehash}{14d208c9333d74020590b1de1dd70b3a}
+      \strng{authornamehash}{14d208c9333d74020590b1de1dd70b3a}
+      \strng{authorfullhash}{14d208c9333d74020590b1de1dd70b3a}
+      \strng{authorfullhashraw}{14d208c9333d74020590b1de1dd70b3a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Visual object analysis researchers are increasingly experimenting with video, because it is expected that motion cues should help with detection, recognition, and other analysis tasks. This paper presents the Cambridge-driving Labeled Video Database (CamVid) as the first collection of videos with object class semantic labels, complete with metadata. The database provides ground truth labels that associate each pixel with one of 32 semantic classes. The database addresses the need for experimental data to quantitatively evaluate emerging algorithms. While most videos are filmed with fixed-position CCTV-style cameras, our data was captured from the perspective of a driving automobile. The driving scenario increases the number and heterogeneity of the observed object classes. Over 10min of high quality 30Hz footage is being provided, with corresponding semantically labeled images at 1Hz and in part, 15Hz. The CamVid Database offers four contributions that are relevant to object analysis researchers. First, the per-pixel semantic segmentation of over 700 images was specified manually, and was then inspected and confirmed by a second person for accuracy. Second, the high-quality and large resolution color video images in the database represent valuable extended duration digitized footage to those interested in driving scenarios or ego-motion. Third, we filmed calibration sequences for the camera color response and intrinsics, and computed a 3D camera pose for each frame in the sequences. Finally, in support of expanding this or other databases, we present custom-made labeling software for assisting users who wish to paint precise class-labels for other images and videos. We evaluate the relevance of the database by measuring the performance of an algorithm from each of three distinct domains: multi-class object recognition, pedestrian detection, and label propagation.}
+      \field{issn}{0167-8655}
+      \field{journaltitle}{Pattern Recognition Letters}
+      \field{month}{1}
+      \field{number}{2}
+      \field{series}{Video-Based {{Object}} and {{Event Analysis}}}
+      \field{shorttitle}{Semantic Object Classes in Video}
+      \field{title}{Semantic Object Classes in Video: {{A}} High-Definition Ground Truth Database}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{30}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{88\bibrangedash 97}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.patrec.2008.04.005
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167865508001220
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167865508001220
+      \endverb
+      \keyw{Label propagation,Object recognition,Semantic segmentation,Video database,Video understanding}
+    \endentry
     \entry{caron2018}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=3edb601111e59d5826c21f2b90550b2d}{%
@@ -719,7 +779,6 @@
       \field{langid}{english}
       \field{title}{Deep {{Clustering}} for {{Unsupervised Learning}} of {{Visual Features}}}
       \field{year}{2018}
-      \true{nocite}
       \field{pages}{139\bibrangedash 156}
       \range{pages}{18}
       \verb{doi}
@@ -852,6 +911,28 @@
       \endverb
       \verb{url}
       \verb https://fiatifta.org/awards-editions/awards-2019/
+      \endverb
+    \endentry
+    \entry{zotero-item-636}{misc}{}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Le président de la République, Emmanuel Macron, dévoilait il y a deux ans le plan d’investissement France 2030. Avec 54 milliards d’euros, ce plan doit}
+      \field{langid}{french}
+      \field{shorttitle}{{France 2030}}
+      \field{title}{{France 2030 : un plan d'investissement pour la France | economie.gouv.fr}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/5UVVFI8N/france-2030.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.economie.gouv.fr/france-2030
+      \endverb
+      \verb{url}
+      \verb https://www.economie.gouv.fr/france-2030
       \endverb
     \endentry
     \entry{gervereau2020}{book}{}{}
@@ -1026,7 +1107,6 @@
       \field{urlyear}{2026}
       \field{year}{2015}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{709\bibrangedash 712}
       \range{pages}{4}
       \verb{doi}
@@ -1104,6 +1184,50 @@
       \verb https://www.cnrtl.fr/definition/indexation
       \endverb
       \keyw{Indexation}
+    \endentry
+    \entry{zotero-item-640}{misc}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Des responsables de musées et des développeurs d’intelligence artificielle se sont réunis à la Conférence générale de l’UNESCO pour imaginer comment l’intelligence artificielle peut transformer notre}
+      \field{langid}{french}
+      \field{title}{{L’UNESCO lance un dialogue mondial sur l’intelligence artificielle et}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/TIA8UF27/lunesco-lance-un-dialogue-mondial-sur-lintelligence-artificielle-et-lavenir-des-musees.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.unesco.org/fr/articles/lunesco-lance-un-dialogue-mondial-sur-lintelligence-artificielle-et-lavenir-des-musees
+      \endverb
+      \verb{url}
+      \verb https://www.unesco.org/fr/articles/lunesco-lance-un-dialogue-mondial-sur-lintelligence-artificielle-et-lavenir-des-musees
+      \endverb
+    \endentry
+    \entry{2025a}{misc}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Alors que les usages de l’intelligence artificielle (IA) se développent massivement, le ministère de la Culture présente sa stratégie d’action pour des intelligences artificielles culturelles et responsables. Cette stratégie accompagnera les mutations dans les secteurs culturels et garantir}
+      \field{langid}{french}
+      \field{month}{7}
+      \field{title}{{La stratégie du ministère pour des intelligences artificielles culturelles et responsables | Ministère de la Culture}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/STQKXGDF/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.culture.gouv.fr/thematiques/innovation-numerique/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables
+      \endverb
+      \verb{url}
+      \verb https://www.culture.gouv.fr/thematiques/innovation-numerique/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables
+      \endverb
     \endentry
     \entry{leber2025}{thesis}{}{}
       \name{author}{1}{}{%
@@ -1239,7 +1363,6 @@
       \field{urlyear}{2026}
       \field{year}{2015}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{661\bibrangedash 664}
       \range{pages}{4}
       \verb{doi}
@@ -2658,6 +2781,7 @@
       \strng{authornamehash}{86d09f86e348118b3fae22eec62d8f94}
       \strng{authorfullhash}{86d09f86e348118b3fae22eec62d8f94}
       \strng{authorfullhashraw}{86d09f86e348118b3fae22eec62d8f94}
+      \field{extraname}{1}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{labelnamesource}{author}
@@ -2675,7 +2799,6 @@
       \field{volume}{80}
       \field{year}{2021}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{17487\bibrangedash 17513}
       \range{pages}{27}
       \verb{doi}
@@ -2683,6 +2806,61 @@
       \endverb
       \verb{file}
       \verb /home/clotilde/Zotero/storage/5DFPCHQN/Trojahn and Goularte - 2021 - Temporal video scene segmentation using deep-learn.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11042-020-10450-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11042-020-10450-2
+      \endverb
+      \keyw{Deep learning,Multimedia,Scene boundary detection,Temporal scene segmentation,Video}
+    \endentry
+    \entry{trojahn2021a}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c26d24233b07a97ff41f4dd30a06740d}{%
+           family={Trojahn},
+           familyi={T\bibinitperiod},
+           given={Tiago\bibnamedelima Henrique},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e6b84c8d56009829f02c50f948dd518}{%
+           family={Goularte},
+           familyi={G\bibinitperiod},
+           given={Rudinei},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{fullhash}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{fullhashraw}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{bibnamehash}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{authorbibnamehash}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{authornamehash}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{authorfullhash}{86d09f86e348118b3fae22eec62d8f94}
+      \strng{authorfullhashraw}{86d09f86e348118b3fae22eec62d8f94}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The automatic temporal video scene segmentation (also known as video story segmentation) is still an open problem without definite solutions in most cases. Among the available techniques, the ones which shows better results are multimodal using features extracted from multiple modalities. Multimodal fusion may be performed to fuse each modality as a single representation (early fusion) or by each modality segmentation (late fusion), the latter been widely due to multimodal fusion simplicity. Recently, deep learning techniques such as convolutional neural networks (CNN) has been successfully employed to extract features from multiple data sources, easing the development of early fusion methods. However, CNNs cannot adequately learn cues which are temporally distributed along the video due to difficulties to model temporal features data dependencies. A particular deep learning approach which can learn such cues is the recurrent neural network (RNN). Successfully employed on text processing, RNNs are fitted to analyze sequences of data of variable length and may better grasp the temporal relationship among low-level features of video segments, hopefully obtaining more accurate scene boundary detection. This paper goes beyond direct applying RNNs and proposes a new multimodal approach to temporally segment a video into scenes. This approach builds a new architecture carefully combining CNN and RNN capabilities, obtaining better efficacy results on the task when compared with related techniques on a public video dataset.}
+      \field{issn}{1573-7721}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{12}
+      \field{title}{Temporal Video Scene Segmentation Using Deep-Learning}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{80}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{17487\bibrangedash 17513}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/s11042-020-10450-2
       \endverb
       \verb{urlraw}
       \verb https://doi.org/10.1007/s11042-020-10450-2
@@ -2868,12 +3046,12 @@
            given={Yuelin},
            giveni={Y\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=5b561b56d2add31ee8a8e9cbe71a9333}{%
+        {{un=1,uniquepart=given,hash=5b561b56d2add31ee8a8e9cbe71a9333}{%
            family={Zhou},
            familyi={Z\bibinitperiod},
            given={Zihan},
            giveni={Z\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=3407b5811c19a160e8ee513b20111899}{%
            family={Xia},
            familyi={X\bibinitperiod},
@@ -3148,7 +3326,6 @@
       \field{volume}{686}
       \field{year}{2025}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{121335}
       \range{pages}{1}
       \verb{doi}
@@ -3164,6 +3341,82 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0020025524012490
       \endverb
       \keyw{Semantic segmentaion,Temporal difference,Video processing,Video semantic segmentation}
+    \endentry
+    \entry{zhou2022}{misc}{}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=a67dc09f1a945d62e5a2835608f8c490}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Tianfei},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=614198715471d146b77068d419298d26}{%
+           family={Porikli},
+           familyi={P\bibinitperiod},
+           given={Fatih},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad088a3a3d223a5587599809f39cd1f7}{%
+           family={Crandall},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e3c4333156c93f2e568db6387d4c7f1}{%
+           family={Gool},
+           familyi={G\bibinitperiod},
+           given={Luc\bibnamedelima Van},
+           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1422e568eb32feb9f85af63cdb196905}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wenguan},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{f310ded12371bb10d9513865f936cac7}
+      \strng{fullhash}{396fbe47f3f21cb3be22ce08fa83fe3c}
+      \strng{fullhashraw}{396fbe47f3f21cb3be22ce08fa83fe3c}
+      \strng{bibnamehash}{396fbe47f3f21cb3be22ce08fa83fe3c}
+      \strng{authorbibnamehash}{396fbe47f3f21cb3be22ce08fa83fe3c}
+      \strng{authornamehash}{f310ded12371bb10d9513865f936cac7}
+      \strng{authorfullhash}{396fbe47f3f21cb3be22ce08fa83fe3c}
+      \strng{authorfullhashraw}{396fbe47f3f21cb3be22ce08fa83fe3c}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Video segmentation -- partitioning video frames into multiple segments or objects -- plays a critical role in a broad range of practical applications, from enhancing visual effects in movie, to understanding scenes in autonomous driving, to creating virtual background in video conferencing. Recently, with the renaissance of connectionism in computer vision, there has been an influx of deep learning based approaches for video segmentation that have delivered compelling performance. In this survey, we comprehensively review two basic lines of research -- generic object segmentation (of unknown categories) in videos, and video semantic segmentation -- by introducing their respective task settings, background concepts, perceived need, development history, and main challenges. We also offer a detailed overview of representative literature on both methods and datasets. We further benchmark the reviewed methods on several well-known datasets. Finally, we point out open issues in this field, and suggest opportunities for further research. We also provide a public website to continuously track developments in this fast advancing field: https://github.com/tfzhou/VS-Survey.}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{month}{11}
+      \field{number}{arXiv:2107.01153}
+      \field{title}{A {{Survey}} on {{Deep Learning Technique}} for {{Video Segmentation}}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2107.01153
+      \endverb
+      \verb{eprint}
+      \verb 2107.01153
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/AZ235AT7/Zhou et al. - 2022 - A Survey on Deep Learning Technique for Video Segmentation.pdf;/home/clotilde/Zotero/storage/UHRFDHAS/2107.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2107.01153
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2107.01153
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition}
     \endentry
   \enddatalist
 \endrefsection

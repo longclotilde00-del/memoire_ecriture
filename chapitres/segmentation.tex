@@ -2,6 +2,47 @@
 
 \begin{itemize}
 
+\item Segmentation d'images
+
+Consiste à segmenter l'image en groupes de pixels selon certains critères. 
+
+\item Segmentation vidéo
+
+Définition : "Video segmentation—partitioning video frames into multiple segments or objects" \footcite{zhou2022}
+
+La segmentation vidéo comprend à la fois la segmentation sémantique (objets dans l'image) et la segmentation temporelle, propre à la vidéo, qui segmente les différentes images dans le temps. 
+
+La segmentation vidéo sémantique se divise en deux branches : segmentation d'objets vidéos, et segmentation sémantique.\footcite{zhou2022}
+
+La segmentation d'objets vidéo se décline en trois mode : automatique, semi automatique, interactif. \footcite{zhou2022}
+
+La segmentation d'objets vidéo (video foreground/background segmentation) consiste à segmenter les objets dominants dans l'image. \footcite{zhou2022}
+(en quoi est ce différent d'une image fixe ? ça ne peut pas être appliqué aux images fixes ?). C'est plutot utilisé pour le montage : retirer des objets dans l'image par ex. Ca ne concerne pas la signification des images dans l'image, seulement leur place. 
+
+La segmentation sémantique extraie des objets qui apparatiennent à de scatégories sémantqiues prédéfinies : "VSS aims to extract objects within predefined semantic categories (e.g., car, building, pedestrian, road) from videos" \footcite{zhou2022}
+
+Le but de la segmentation sémantique est d'assigner des étiquettes à chaque pixel extrait de l'image. 
+
+Les grandes familles de modèles de vidéo semantic segmentation :
+ 
+\subitem les méthodes orientées précision
+
+Ces méthodes agrègent l'information temporelle entre les images pour améliorer la prédiction. Elles utilisent le flux optique ou des modles basés sur l'attention. Ex de méthodes : TDNET \footcite{zhou2022}
+
+\subitem méthodes orientées vitesse
+
+Elles réutilisent les features des images adjacentes au lieu de les recalculer à chaque fois, ex : approche des keyframes : calculer les features clés sur certaines images et les appliquer aux autres. Manque de précision. \footcite{zhou2022}
+
+Ex de résultats : Sur Cityscapes (VSS), la méthode EFC obtient les meilleures performances avec 83,5 pourcents d'IoUclass. \footcite{zhou2022}
+
+limites et manques : 
+Zhou et al identifient des secteurs manquants de la recherche sur la segmentation video sémantique : notamment la segmentation vidéo longue durée, la segmentation "open world" (les modèles actuels connaissent les catégories sémantqiues à l'avance et ne peuvent pas gérer ou reconnaitre des catégorie inconnues). Appliqué au contexte skinsoft, il faut faire un mapping des catégorie/champs.Les modèles atcuels sont entraînés sur des jeux de donénes qui comportent des catégories éloignées d'archives audiovisuelles. \footcite{zhou2022}
+Autre manque : solution d'anotations efficace : restent sous utilisées et explorées.\footcite{zhou2022}
+Il faudrait aussi adapter le calcul : adapter des parties du réseau selon le contenu de l'image pour éviter le gaspillage de calcul. \footcite{zhou2022}
+
+Segmentation guidée par le langage (LVOS)
+
+
 \item pourquoi segmenter ?
 
 La segmentation comme logique documentaire : la segmentation d'une vidéo crée de nouveaux éléments indexables
@@ -10,17 +51,16 @@ Cordell : "your object of study is no longer an entire film but shots or scenes"
 Qu'est-ce que ça signifie pour l'institution de passer d'un objet-film à une collection de plans ? Quelles sont les implications pour le droit, pour l'accès public, pour la description archivistique ?
 
 La segmentation découle d'une logique et d'un objectif d'indexation : problématique principale pour indexer : il faut déjà séparer la vidéo en tous les plans qui la composent pour en extraire les éléments : 
-"One of the first tasks in understanding a video file is to break up the sequence of frames into distinct units known as shots—or uninterrupted footage between
-cuts—in a process known as shot boundary detection."\footcite{arnold2019}
+"One of the first tasks in understanding a video file is to break up the sequence of frames into distinct units known as shots—or uninterrupted footage between cuts—in a process known as shot boundary detection."\footcite{arnold2019}
 
 Une vidéo doit être segmentée avant de pouvoir être indexée : 
 « One of the most common initial steps for video content organisation is segmenting the video into different meaningful parts. Proper segmentation facilitates content organisation, improves accessibility, and enhances the ability to perform analytics on large video datasets. »\footcite{attard2025}
 
-pour justifier la mise en place d'une segmentation : « Automated segmentation accelerates the processing of large volumes of video content and ensures consistency and accuracy in the segmentation process. » \footcite{attard2025} la mise en place d'une automatisation de la segmentation permettrait d'homogénéiser l'indexation documentataire : un algorithme segmente les vidéos de la même façon, pas les humains. Mais les vidéos sont toutes différentes : est ce qu'on peut garder la même pratique de segmentation sur des corpus vidéo différents ?
+Pour justifier la mise en place d'une segmentation : « Automated segmentation accelerates the processing of large volumes of video content and ensures consistency and accuracy in the segmentation process. » \footcite{attard2025} la mise en place d'une automatisation de la segmentation permettrait d'homogénéiser l'indexation documentataire : un algorithme segmente les vidéos de la même façon, pas les humains. Mais les vidéos sont toutes différentes : est ce qu'on peut garder la même pratique de segmentation sur des corpus vidéo différents ?
 
 \item Segmentation sémantique
  
- La segmentation sémantique ets une tâche de la vision par ordinateur. 
+ La segmentation sémantique est une tâche de la vision par ordinateur. 
  
 "Semantic segmentation is a fundamental task in computer vision. It aims to divide the image into multiple regions according to the class of the pixel, which is important for practical applications such as autonomous driving, automatic delivery sorting, and intelligent surveillance systems"\footcite{yuan2025}
 
@@ -88,8 +128,22 @@ les features extraites par le TFRM contiennent des magnitudes de mouvements vari
 Le modèle est entraîné sur deux jeux de données : VSPW (13 images par secondes et un écart de mean Intersection over Union de 0.7 pourcent)
 
 
+\subitem CamVid
 
+Cambridge driving : base de données vidéo etiquetée par des classes sémantiques d'objets. \footcite{brostow2009} : 2009 donc trop vieux 
+ce qui est intéressant, c'est que en 2009, il y a moins d'algorithmes puissants et précis qui existent, donc c'est la vé
 
+\item Automatic temporal vidéo scene segmentation (ou video story segmentation)
+
+"The automatic temporal video scene segmentation (also known as video story segmentation) is still an open problem without definite solutions in most cases." \footcite{trojahn2021}
+les meilleurs solutions et qui donnent les meilleurs résultats qui existent sont les techniques mutlimodales utilisant les caractérstiques de plusieurs outils : "Among the available techniques, the ones which shows better results are multimodal using features extracted from multiple modalities."\footcite{trojahn2021}
+La fusion multimodale peut se faire de deux façon, fusion en une seule représentation, fusion par segmentation de chaque modalité : "Multimodal fusion may be performed to fuse each modality as a single representation (early fusion) or by each modality segmentation (late fusion), the latter been widely due to multimodal fusion simplicity."\footcite{trojahn2021}. C'est la seconde approche qui est privilégiée. 
+
+limites des CNN : "CNNs cannot adequately learn cues which are temporally distributed along the video due to difficulties to model temporal features data dependencies."\footcite{trojahn2021}
+
+RNNs : "Successfully employed on text processing, RNNs are fitted to analyze sequences of data of variable length and may better grasp the temporal relationship among low-level features of video segments, hopefully obtaining more accurate scene boundary detection."\footcite{trojahn2021}. Les RNN permettent de mieux capturer les relations temporelles. 
+
+Une des solutions serait de combiner CNN et RNN : complémentaires. 
 
 \end{itemize}
 
