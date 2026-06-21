@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  20 JUN 2026 15:58
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  21 JUN 2026 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -795,9 +795,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 17.
 
 
-[4]) (./chapitres/problematique.tex
+[4]
 
-[5]
+[5]) (./chapitres/problematique.tex
 
 [6]
 
@@ -832,9 +832,9 @@ e de l’information d’images
 
 [18]
 
-[19]) (./chapitres/IA_video.tex
+[19]
 
-[20]
+[20]) (./chapitres/IA_video.tex
 
 [21]
 
@@ -855,51 +855,55 @@ e de l’information d’images
 [29]
 
 [30]
-Overfull \hbox (8.0635pt too wide) in paragraph at lines 125--127
+Overfull \hbox (8.0635pt too wide) in paragraph at lines 136--138
 []\TU/lmr/m/n/12 MMRM : Motion magnitude refine module les features extraites p
 ar le TFRM contiennent
  []
 
 
 
-[31]) (./chapitres/limites_critiques.tex
+[31]
 
 [32]
 
-[33]
+[33]) (./chapitres/limites_critiques.tex
 
-[34]) (./chapitres/archives_audiovisuelles.tex
+[34]
 
 [35]
 
-[36]) (./chapitres/notions_NLP.tex) (./chapitres/experience_utilisateur.tex
+[36]
 
-[37]
+[37]) (./chapitres/archives_audiovisuelles.tex
 
-[38]) (./chapitres/limites_critiques.tex
+[38]
 
-[39]
+[39]) (./chapitres/notions_NLP.tex) (./chapitres/experience_utilisateur.tex
 
 [40]
 
 [41]
 
-[42])
+[42]) (./chapitres/limites_critiques.tex
 
 [43]
 
-[44
+[44]
 
-]
+[45])
+
+[46]
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (M);
 (lettrine.sty)             reported on input line 260.
 
 
-[45]
+[47
 
-[46
+]
+
+[48
 
 ]
 Overfull \hbox (13.40034pt too wide) in paragraph at lines 266--266
@@ -910,7 +914,7 @@ Overfull \hbox (13.40034pt too wide) in paragraph at lines 266--266
 
 
 
-[47
+[49
 
 ]
 Overfull \hbox (2.77263pt too wide) in paragraph at lines 266--266
@@ -928,7 +932,7 @@ Overfull \hbox (4.37076pt too wide) in paragraph at lines 266--266
 
 
 
-[48]
+[50]
 Overfull \hbox (6.02444pt too wide) in paragraph at lines 266--266
 [][][]\TU/lmr/m/sc/12 Longpre[]\TU/lmr/m/n/12 ​ (Shayne), []\TU/lmr/m/sc/12 Sin
 gh[]\TU/lmr/m/n/12 ​ (Nikhil), []\TU/lmr/m/sc/12 Cherep[]\TU/lmr/m/n/12 ​ (Manu
@@ -938,9 +942,9 @@ aterzynska[]\TU/lmr/m/n/12 ​
 
 
 
-[49]
+[51]
 
-[50]
+[52]
 Overfull \hbox (5.9788pt too wide) in paragraph at lines 266--266
 \TU/lmr/m/n/12 Etienne, 2006, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][
 ] [] [] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][] [][] [][][][][][]
@@ -948,6 +952,8 @@ Overfull \hbox (5.9788pt too wide) in paragraph at lines 266--266
  []
 
 
+
+[53]
 Overfull \hbox (17.96452pt too wide) in paragraph at lines 266--266
 [][][]\TU/lmr/m/sc/12 Wang[]\TU/lmr/m/n/12 ​ (Yiyuan), []\TU/lmr/m/sc/12 Johnst
 on[]\TU/lmr/m/n/12 ​ (Andrew), []\TU/lmr/m/sc/12 Sadokierski[]\TU/lmr/m/n/12 ​ 
@@ -956,8 +962,6 @@ c/12 Ahyong[]\TU/lmr/m/n/12 ​
  []
 
 
-
-[51]
 Overfull \hbox (1.22043pt too wide) in paragraph at lines 266--266
 [][][]\TU/lmr/m/sc/12 Yoon[]\TU/lmr/m/n/12 ​ (Sangwoong), []\TU/lmr/m/sc/12 Kan
 g[]\TU/lmr/m/n/12 ​ (Woo Young), []\TU/lmr/m/sc/12 Jeon[]\TU/lmr/m/n/12 ​ (Sung
@@ -967,7 +971,7 @@ n[]\TU/lmr/m/n/12 ​ (Chang-
 
 
 
-[52]
+[54]
 
 Package biblatex Warning: Keyword 'nlp' not found on input line 273.
 
@@ -976,17 +980,17 @@ LaTeX Warning: Empty bibliography on input line 273.
 
 
 
-[53
+[55
 
 ]
-
-[54
-
-]
-
-[55]
 
 [56
+
+]
+
+[57]
+
+[58
 
 ]
 
@@ -1038,23 +1042,13 @@ Overfull \hbox (3.27597pt too wide) detected at line 14
  []
 
 
-Overfull \hbox (6.53996pt too wide) detected at line 15
- \TU/lmr/m/n/12 xxxii
+Overfull \hbox (9.47997pt too wide) detected at line 15
+ \TU/lmr/m/n/12 xxxiv
  []
 
 
-Overfull \hbox (6.21596pt too wide) detected at line 16
- \TU/lmr/m/n/12 xxxv
- []
-
-
-Overfull \hbox (12.74396pt too wide) detected at line 17
+Overfull \hbox (12.74396pt too wide) detected at line 16
  \TU/lmr/m/n/12 xxxvii
- []
-
-
-Overfull \hbox (9.47997pt too wide) detected at line 18
- \TU/lmr/m/n/12 xxxix
  []
 
 
@@ -1087,12 +1081,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24835 strings out of 468389
- 490149 string characters out of 5440619
- 1328835 words of memory out of 5000000
- 53075 multiletter control sequences out of 15000+600000
+ 24868 strings out of 468389
+ 490877 string characters out of 5440619
+ 1327065 words of memory out of 5000000
+ 53108 multiletter control sequences out of 15000+600000
  631033 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,13n,83p,2020b,5523s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (70 pages).
+Output written on document_maitre (1).pdf (72 pages).

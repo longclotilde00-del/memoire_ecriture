@@ -12,12 +12,12 @@
 \contentsline {subsection}{\numberline {9.}computer vision}{xviii}{subsection.0.0.9}%
 \contentsline {subsection}{\numberline {10.}IA appliquée à la vidéo}{xxi}{subsection.0.0.10}%
 \contentsline {subsection}{\numberline {11.}segmentation}{xxiv}{subsection.0.0.11}%
-\contentsline {subsection}{\numberline {12.}Limites et critiques}{xxxii}{subsection.0.0.12}%
-\contentsline {subsection}{\numberline {13.}Archives audiovisuelles}{xxxv}{subsection.0.0.13}%
-\contentsline {subsection}{\numberline {14.}Experience utilisateur}{xxxvii}{subsection.0.0.14}%
-\contentsline {subsection}{\numberline {15.}Limites et critiques}{xxxix}{subsection.0.0.15}%
-\contentsline {chapter}{Remerciements}{xlv}{chapter*.6}%
-\contentsline {chapter}{Introduction}{lv}{chapter*.10}%
+\contentsline {subsection}{\numberline {12.}Limites et critiques}{xxxiv}{subsection.0.0.12}%
+\contentsline {subsection}{\numberline {13.}Archives audiovisuelles}{xxxviii}{subsection.0.0.13}%
+\contentsline {subsection}{\numberline {14.}Experience utilisateur}{xli}{subsection.0.0.14}%
+\contentsline {subsection}{\numberline {15.}Limites et critiques}{xliii}{subsection.0.0.15}%
+\contentsline {chapter}{Remerciements}{xlvii}{chapter*.6}%
+\contentsline {chapter}{Introduction}{lvii}{chapter*.10}%
 \contentsline {part}{I\hspace {1em}Une partie}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Mon premier chapitre}{3}{chapter.1}%
 \contentsline {part}{II\hspace {1em}Une autre partie}{5}{part.2}%

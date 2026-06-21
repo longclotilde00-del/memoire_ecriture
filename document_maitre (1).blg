@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [1] Config.pm:331> INFO - Logfile is 'document_maitre (1).blg'
-[204] biber:342> INFO - === Sat Jun 20, 2026, 15:57:54
-[242] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
-[459] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[491] Biber.pm:4487> INFO - Processing section 0
-[516] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
-[527] bibtex.pm:1713> INFO - LaTeX decoding ...
-[789] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
-[2140] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2141] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2141] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
-[2141] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
-[2346] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
-[2459] bbl.pm:779> INFO - Output to document_maitre (1).bbl
+[219] biber:342> INFO - === Sun Jun 21, 2026, 10:48:00
+[276] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
+[542] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[578] Biber.pm:4487> INFO - Processing section 0
+[612] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
+[625] bibtex.pm:1713> INFO - LaTeX decoding ...
+[958] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
+[2875] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2876] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2876] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[2876] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
+[3112] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
+[3233] bbl.pm:779> INFO - Output to document_maitre (1).bbl

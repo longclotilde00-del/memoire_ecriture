@@ -4,24 +4,43 @@
 
 \item Segmentation d'images
 
-Consiste à segmenter l'image en groupes de pixels selon certains critères. 
+La segmentation appliquée à l'image en général, y compris l'image fixe, consiste à diviser l'image en groupes de pixels selon certains critères. 
 
 \item Segmentation vidéo
 
-Définition : "Video segmentation—partitioning video frames into multiple segments or objects" \footcite{zhou2022}
+Appliquée à l'image animée, la segmentation peut vouloir dire plusieurs choses différentes. En effet, l'image audiovisuelle comporte une valeur ajoutée à l'image fixe : celle de la dimension temporelle d'une succession d'images fixes créant une animation de l'image. Elle peut aussi comporter une piste audio, dans la plupart des cas, puisque le son est intégré au cinéma dès 1932. Il faut tout de même noter que toutes les images animées ne comportent pas de son (films de famille, films expérimentaux, films muets). Dans notre analyse, le son sera tout de même pris en compte dans la mise en place d'un pipeline de segmentation pour prévoir le cas fréquent d'une bande sonore. 
 
+Une fois ceci expliqué, la segmentation peut être  appliquée à l'image audiovisuelle de manières différentes. Généralement, elle peut être définie comme une division d'une vidéo en plusieurs segments ou objets.\footcite{zhou2022} 
+Plus spécifiquement, elle peut désigner la segmentation d'une séquence en différents plans, ou d'un film en différentes séquences, on parlera alors de segmentation temporelle. 
+Elle peut aussi désigner la segmentation des objets "dominants" \footcite{zhou2022 }dans l'image selon des critères visuels.\footcite{carrive2014} Ce type de segmentation cherche seulement à analyser la place des objets dans l'image, et non leur signification. \footcite{zhou2022}. 
+On parle de segmentation sémantique lorsque que survient une extraction des objets qui apparatiennent à des catégories sémantqiues prédéfinies. \footcite{zhou2022} AInsi la segmentation sémantique prépare l'indexation en assignant des étiquettes à chaque pixel extrait de l'image. Elle est aussi applicable à l'image fixe, puisqu'elle ne prend pas en compte la dimension temporelle de l'image anme, contrairement à la segmentation temporelle. 
+Enfin, elle peut désigner la segmentation de la bande sonore d'une image animée, on parlera alors de segmentation audio, par exemple entre des paroles et de la musique. \footcite{carrive2014}
+
+%revoir la différence entre segmentation sémantique, segmentation d'objets, segmentation temporelle : pas très clair%
+
+%déjà intégrée dans la rédaction plus haut 
+Les diférents types d'algorithmes de segmentation qui peuvent être appliqués à la vidéo sont : l'identification des coupures de plans, la segmentation selon des critères visuels, la segmentation du son entre les paroles et la musique par exemple. \footcite{carrive2014}
+
+problématiques liées à la nature de la vidéo : "C’est donc un problème de segmentation, qui est posé parce que les divisions "calculables"d’une vidéo (les plans et les segments de parole ou de musique), n’ont pas de valeur documentaire. En revanche, les divisions documentaires "naturelles" (sujets d’un journal, numéros d’unspectacle de variétés, scènes d’un ﬁlm) ne sont pas directement calculables"\footcite{zotero-item-644}
+
+%déjà rédigé plus haut
 La segmentation vidéo comprend à la fois la segmentation sémantique (objets dans l'image) et la segmentation temporelle, propre à la vidéo, qui segmente les différentes images dans le temps. 
 
+%déjà rédigé plus haut
 La segmentation vidéo sémantique se divise en deux branches : segmentation d'objets vidéos, et segmentation sémantique.\footcite{zhou2022}
 
 La segmentation d'objets vidéo se décline en trois mode : automatique, semi automatique, interactif. \footcite{zhou2022}
 
+%déjà rédigé plus haut
 La segmentation d'objets vidéo (video foreground/background segmentation) consiste à segmenter les objets dominants dans l'image. \footcite{zhou2022}
+
 (en quoi est ce différent d'une image fixe ? ça ne peut pas être appliqué aux images fixes ?). C'est plutot utilisé pour le montage : retirer des objets dans l'image par ex. Ca ne concerne pas la signification des images dans l'image, seulement leur place. 
 
+%déjà mis dans la rédaction plus haut%
 La segmentation sémantique extraie des objets qui apparatiennent à de scatégories sémantqiues prédéfinies : "VSS aims to extract objects within predefined semantic categories (e.g., car, building, pedestrian, road) from videos" \footcite{zhou2022}
-
 Le but de la segmentation sémantique est d'assigner des étiquettes à chaque pixel extrait de l'image. 
+
+%à rédiger 
 
 Les grandes familles de modèles de vidéo semantic segmentation :
  
@@ -44,6 +63,8 @@ Segmentation guidée par le langage (LVOS)
 
 
 \item pourquoi segmenter ?
+
+"La première étape du processus d’analyse des documents audiovisuels est bien souvent une étape de segmentation temporelle qui consiste à identifier dans le document des séquences possédant des caractéristiques communes ou des ruptures entre ces séquences."\footcite{carrive2014}
 
 La segmentation comme logique documentaire : la segmentation d'une vidéo crée de nouveaux éléments indexables
 Cordell : "your object of study is no longer an entire film but shots or scenes" \footcite{cordell}
@@ -144,6 +165,37 @@ limites des CNN : "CNNs cannot adequately learn cues which are temporally distri
 RNNs : "Successfully employed on text processing, RNNs are fitted to analyze sequences of data of variable length and may better grasp the temporal relationship among low-level features of video segments, hopefully obtaining more accurate scene boundary detection."\footcite{trojahn2021}. Les RNN permettent de mieux capturer les relations temporelles. 
 
 Une des solutions serait de combiner CNN et RNN : complémentaires. 
+
+\subitem DIVAN - INA
+mise en place d'un système expérimental d'indexation semi automatique des archives audiovisuelles, conçu en trois étapes : segmenter, classifier, composer. \footcite{zotero-item-644}. les évènements détectés dans l'image sont annotés et validés par les archivistes.
+
+\item segmentation audio 
+la segmentation audio peut ête divisée en différentes sous tâches : 
+la transcrpiption de la parole ("Les performances de ces systèmes peuvent être très bonnes lorsque de bonnes conditions sont réunies : bonnes conditions d’enregistrement, élocution claire, syntaxe correcte, noms propres connus du système en particulier." \footcite{carrive2014}), l'alignement audio/texte, indexation ("identification des termes les plus importants (mots clés), identification des sujets traités ou segmentation thématique" \footcite{carrive2014})
+
+Une autre tâche de la segmentation audio et de l'analyse audio est l'identification des locuteurs. "Pour cela, il est nécessaire de posséder une référence pour chacun des locuteurs à reconnaître. Une référence peut consister en un ensemble d’échantillons de la voix de la personne à reconnaître"\footcite{carrive2014}
+
+\item analyse des visages 
+l'analyse des visages dans une vidéo se divise en plusieurs sous tâches : détection, suivi, caractérisation, reconnaissance. \footcite{carrive2014}
+
+\item autres tâches de la segmantation 
+Recherche d'instance (instance search) : "À partir d’un plan vidéo cible et d’un ensemble de thèmes qui délimitent la requête, il s’agit de retrouver dans une collection les plans les plus pertinents correspondant à la requête." \footcite{carrive2014}
+
+Indexation sémantique : "Il s’agit de caractériser des plans vidéo en leur assignant des étiquettes (tags) représentant des caractéristiques abstraites (appelées « concepts »)." \footcite{carrive2014}
+
+\item Découverte d'objets visuels 
+"La découverte d’objets visuels consiste à rechercher automatiquement les objets apparaissant le plus fréquemment dans une collection d’images ou de vidéos" \footcite{carrive2014}
+
+\item data mining 
+
+"La fouille de données, ou data mining, recouvre un « ensemble de techniques ayant pour objet l’extraction d’un savoir à partir de grandes quantités de données, par des méthodes automatiques ou semi-automatiques » [14]. Les outils informatiques cherchent à découvrir, à faire émerger, à dégager, dévoiler des informations qu’il n’aurait pas été possible d’obtenir manuellement, parce que la quantité de documents à analyser est trop importante ou parce que les informations cherchées ne sont pas explicites et n’apparaissent en quelque sorte que statistiquement."\footcite{carrive2014}
+
+Les archives audiovisuelles s'appliquent mal à ce concept puisque ce sont des archives : on veut pouvoir les décrire à la pièce, comme le ferait l'archiviste. One n eveut pas extraire de statistiques mais des descriptions précises. 
+
+\item fossé sémantique 
+désigne le fossé entre ce que les algorithmes savent détecter et ce que les utilisateurs recherchent. 
+
+
 
 \end{itemize}
 
