@@ -14,72 +14,88 @@ Une fois ceci expliqué, la segmentation peut être  appliquée à l'image audio
 Plus spécifiquement, elle peut désigner la segmentation d'une séquence en différents plans, ou d'un film en différentes séquences, on parlera alors de segmentation temporelle. 
 Elle peut aussi désigner la segmentation des objets "dominants" \footcite{zhou2022 }dans l'image selon des critères visuels.\footcite{carrive2014} Ce type de segmentation cherche seulement à analyser la place des objets dans l'image, et non leur signification. \footcite{zhou2022}. 
 On parle de segmentation sémantique lorsque que survient une extraction des objets qui apparatiennent à des catégories sémantqiues prédéfinies. \footcite{zhou2022} AInsi la segmentation sémantique prépare l'indexation en assignant des étiquettes à chaque pixel extrait de l'image. Elle est aussi applicable à l'image fixe, puisqu'elle ne prend pas en compte la dimension temporelle de l'image anme, contrairement à la segmentation temporelle. 
-Enfin, elle peut désigner la segmentation de la bande sonore d'une image animée, on parlera alors de segmentation audio, par exemple entre des paroles et de la musique. \footcite{carrive2014}
+Enfin, peut être appliquée à une vidéo une segmentation de la bande sonore, qu'on désignera sous le nom de segmentation audio, par exemple entre des paroles et de la musique. \footcite{carrive2014}
+
+\item la segmentation sémantique 
+Concentrons nous ici sur la segmentation sémantique. Deux modèles de segmentation sémantique se distinguent. Les méthodes orientées pécision, qui agrgègent l'information temporelle entre les images our améliorer la prédiction. (Elles utilisent le flux optique ou des modles basés sur l'attention. Ex de méthodes : TDNET) \footcite{zhou2022}
+Les méthodes orientées vitesse, qui réutilisent les caractéristiquesdes images adjacentes pour ne pas les recalculer à chaque image. (ex : approche des keyframes : calculer les features clés sur certaines images et les appliquer aux autres. Manque de précision. \footcite{zhou2022})
+La segmentation sémantique reste toutefois lacunaire sur des vidéos longue durée, ou sur des vidéos dont les catégories sémantiques sont inconnues, ce qu'on apelle la segmentation "open world". \footcite{zhou2022} (les modèles actuels connaissent les catégories sémantiques à l'avance et ne peuvent pas gérer ou reconnaitre des catégorie inconnues). Zhou et al coseillent également d'adapter le calcul en fonciton du contenu de l'image, pour adapter des parties du réseau au contexte de l'image pour éviter un gaspillage de calcul. \footcite{zhou2022} 
+
+Adapté au contexte skinsoft, il faudrait donc produire un mapping des champs utilisés pour décrire un film, une archive audiovisuelle, ou annoter des archives avec les champs dédiés. Les corpus sur lesquels sont entraînés les modèles sont bien loin de la complexité des archives audiovisuelles. 
+
+
+%\subitem les méthodes orientées précision
+
+%Ces méthodes agrègent l'information temporelle entre les images pour améliorer la prédiction. Elles utilisent le flux optique ou des modles basés sur l'attention. Ex de méthodes : TDNET \footcite{zhou2022}
+
+%\subitem méthodes orientées vitesse
+
+%Elles réutilisent les features des images adjacentes au lieu de les recalculer à chaque fois, ex : approche des keyframes : calculer les features clés sur certaines images et les appliquer aux autres. Manque de précision. \footcite{zhou2022}
+
+Ex de résultats : Sur Cityscapes (VSS), la méthode EFC obtient les meilleures performances avec 83,5 pourcents d'IoUclass. \footcite{zhou2022}
+
+%limites et manques : 
+%Zhou et al identifient des secteurs manquants de la recherche sur la segmentation video sémantique : notamment la segmentation vidéo longue durée, la segmentation "open world" (les modèles actuels connaissent les catégories sémantqiues à l'avance et ne peuvent pas gérer ou reconnaitre des catégorie inconnues). Appliqué au contexte skinsoft, il faut faire un mapping des catégorie/champs.Les modèles atcuels sont entraînés sur des jeux de donénes qui comportent des catégories éloignées d'archives audiovisuelles. \footcite{zhou2022}
+%Autre manque : solution d'anotations efficace : restent sous utilisées et explorées.\footcite{zhou2022}
+%Il faudrait aussi adapter le calcul : adapter des parties du réseau selon le contenu de l'image pour éviter le gaspillage de calcul. \footcite{zhou2022}
+
+Segmentation guidée par le langage (LVOS)
 
 %revoir la différence entre segmentation sémantique, segmentation d'objets, segmentation temporelle : pas très clair%
 
 %déjà intégrée dans la rédaction plus haut 
-Les diférents types d'algorithmes de segmentation qui peuvent être appliqués à la vidéo sont : l'identification des coupures de plans, la segmentation selon des critères visuels, la segmentation du son entre les paroles et la musique par exemple. \footcite{carrive2014}
+%Les diférents types d'algorithmes de segmentation qui peuvent être appliqués à la vidéo sont : l'identification des coupures de plans, la segmentation selon des critères visuels, la segmentation du son entre les paroles et la musique par exemple. \footcite{carrive2014}
 
 problématiques liées à la nature de la vidéo : "C’est donc un problème de segmentation, qui est posé parce que les divisions "calculables"d’une vidéo (les plans et les segments de parole ou de musique), n’ont pas de valeur documentaire. En revanche, les divisions documentaires "naturelles" (sujets d’un journal, numéros d’unspectacle de variétés, scènes d’un ﬁlm) ne sont pas directement calculables"\footcite{zotero-item-644}
 
 %déjà rédigé plus haut
-La segmentation vidéo comprend à la fois la segmentation sémantique (objets dans l'image) et la segmentation temporelle, propre à la vidéo, qui segmente les différentes images dans le temps. 
+%La segmentation vidéo comprend à la fois la segmentation sémantique (objets dans l'image) et la segmentation temporelle, propre à la vidéo, qui segmente les différentes images dans le temps. 
 
 %déjà rédigé plus haut
-La segmentation vidéo sémantique se divise en deux branches : segmentation d'objets vidéos, et segmentation sémantique.\footcite{zhou2022}
+%La segmentation vidéo sémantique se divise en deux branches : segmentation d'objets vidéos, et segmentation sémantique.\footcite{zhou2022}
 
 La segmentation d'objets vidéo se décline en trois mode : automatique, semi automatique, interactif. \footcite{zhou2022}
 
 %déjà rédigé plus haut
-La segmentation d'objets vidéo (video foreground/background segmentation) consiste à segmenter les objets dominants dans l'image. \footcite{zhou2022}
+%La segmentation d'objets vidéo (video foreground/background segmentation) consiste à segmenter les objets dominants dans l'image. \footcite{zhou2022}
 
 (en quoi est ce différent d'une image fixe ? ça ne peut pas être appliqué aux images fixes ?). C'est plutot utilisé pour le montage : retirer des objets dans l'image par ex. Ca ne concerne pas la signification des images dans l'image, seulement leur place. 
 
 %déjà mis dans la rédaction plus haut%
-La segmentation sémantique extraie des objets qui apparatiennent à de scatégories sémantqiues prédéfinies : "VSS aims to extract objects within predefined semantic categories (e.g., car, building, pedestrian, road) from videos" \footcite{zhou2022}
-Le but de la segmentation sémantique est d'assigner des étiquettes à chaque pixel extrait de l'image. 
+%La segmentation sémantique extraie des objets qui apparatiennent à de scatégories sémantqiues prédéfinies : "VSS aims to extract objects within predefined semantic categories (e.g., car, building, pedestrian, road) from videos" \footcite{zhou2022}
+%Le but de la segmentation sémantique est d'assigner des étiquettes à chaque pixel extrait de l'image. 
 
 %à rédiger 
 
-Les grandes familles de modèles de vidéo semantic segmentation :
- 
-\subitem les méthodes orientées précision
 
-Ces méthodes agrègent l'information temporelle entre les images pour améliorer la prédiction. Elles utilisent le flux optique ou des modles basés sur l'attention. Ex de méthodes : TDNET \footcite{zhou2022}
-
-\subitem méthodes orientées vitesse
-
-Elles réutilisent les features des images adjacentes au lieu de les recalculer à chaque fois, ex : approche des keyframes : calculer les features clés sur certaines images et les appliquer aux autres. Manque de précision. \footcite{zhou2022}
-
-Ex de résultats : Sur Cityscapes (VSS), la méthode EFC obtient les meilleures performances avec 83,5 pourcents d'IoUclass. \footcite{zhou2022}
-
-limites et manques : 
-Zhou et al identifient des secteurs manquants de la recherche sur la segmentation video sémantique : notamment la segmentation vidéo longue durée, la segmentation "open world" (les modèles actuels connaissent les catégories sémantqiues à l'avance et ne peuvent pas gérer ou reconnaitre des catégorie inconnues). Appliqué au contexte skinsoft, il faut faire un mapping des catégorie/champs.Les modèles atcuels sont entraînés sur des jeux de donénes qui comportent des catégories éloignées d'archives audiovisuelles. \footcite{zhou2022}
-Autre manque : solution d'anotations efficace : restent sous utilisées et explorées.\footcite{zhou2022}
-Il faudrait aussi adapter le calcul : adapter des parties du réseau selon le contenu de l'image pour éviter le gaspillage de calcul. \footcite{zhou2022}
-
-Segmentation guidée par le langage (LVOS)
 
 
 \item pourquoi segmenter ?
 
-"La première étape du processus d’analyse des documents audiovisuels est bien souvent une étape de segmentation temporelle qui consiste à identifier dans le document des séquences possédant des caractéristiques communes ou des ruptures entre ces séquences."\footcite{carrive2014}
+La segmentation découle d'une volonté d'indexer le contenu de l'image. En effet, selon Carrive, "La première étape du processus d’analyse des documents audiovisuels est bien souvent une étape de segmentation temporelle qui consiste à identifier dans le document des séquences possédant des caractéristiques communes ou des ruptures entre ces séquences."\footcite{carrive2014}. Segmenter ainsi l'image permet d'indexer non plus la vidéo au complet mais des fragments, rendant son analyse plus précise. 
+C'est également la manière dont sont analysés les films , plans par plans, ou séquences par séquence, pour en déceler le sens, à la fois une segmentation des éléments qui se trouve dans l'image, leur relations entre eux, et l'enchaîement des plans, les mouvements de caméra. L'entraînement de modèles pour l'indexation est donc calquée sur le regard humain qui permet d'analyser et d'indexr des films. 
+Une fois la segmentation effectuée, l'objet d'analyse n'est plus le film entier mais des plans ou des séquences. \footcite{cordell} La segmentation crée ainsi de nouveaux objets indexables.
+La segmentation est ainsi la premère étape de la compréhension d'un fichier vidéo : "One of the first tasks in understanding a video file is to break up the sequence of frames into distinct units" \footcite{arnold2019}
+Une fois le fichier vidéo segmenté, il est alors possible d'organiser le contenu, d'améliorer l'accès, et de produire des analyses sur des larges données vidéo. \footcite{attard2025}
+La segmentation permettrait d'analyser de larges quantités de données, tout en homogénéisant les pratiques documentaires, en augmentant la précision et la cohérence. \footcite{attard2025}.
 
-La segmentation comme logique documentaire : la segmentation d'une vidéo crée de nouveaux éléments indexables
-Cordell : "your object of study is no longer an entire film but shots or scenes" \footcite{cordell}
+%Proper segmentation facilitates content organisation, improves accessibility, and enhances the ability to perform analytics on large video datasets. »\footcite{attard2025}
+
+%La segmentation comme logique documentaire : la segmentation d'une vidéo crée de nouveaux éléments indexables
+%Cordell : "your object of study is no longer an entire film but shots or scenes" \footcite{cordell}
 
 Qu'est-ce que ça signifie pour l'institution de passer d'un objet-film à une collection de plans ? Quelles sont les implications pour le droit, pour l'accès public, pour la description archivistique ?
 
-La segmentation découle d'une logique et d'un objectif d'indexation : problématique principale pour indexer : il faut déjà séparer la vidéo en tous les plans qui la composent pour en extraire les éléments : 
-"One of the first tasks in understanding a video file is to break up the sequence of frames into distinct units known as shots—or uninterrupted footage between cuts—in a process known as shot boundary detection."\footcite{arnold2019}
+%La segmentation découle d'une logique et d'un objectif d'indexation : problématique principale pour indexer : il faut déjà séparer la vidéo en tous les plans qui la composent pour en extraire les éléments : 
+%"One of the first tasks in understanding a video file is to break up the sequence of frames into distinct units known as shots—or uninterrupted footage between cuts—in a process known as shot boundary detection."\footcite{arnold2019}
 
-Une vidéo doit être segmentée avant de pouvoir être indexée : 
-« One of the most common initial steps for video content organisation is segmenting the video into different meaningful parts. Proper segmentation facilitates content organisation, improves accessibility, and enhances the ability to perform analytics on large video datasets. »\footcite{attard2025}
+%Une vidéo doit être segmentée avant de pouvoir être indexée : 
+%« One of the most common initial steps for video content organisation is segmenting the video into different meaningful parts. Proper segmentation facilitates content organisation, improves accessibility, and enhances the ability to perform analytics on large video datasets. »\footcite{attard2025}
 
-Pour justifier la mise en place d'une segmentation : « Automated segmentation accelerates the processing of large volumes of video content and ensures consistency and accuracy in the segmentation process. » \footcite{attard2025} la mise en place d'une automatisation de la segmentation permettrait d'homogénéiser l'indexation documentataire : un algorithme segmente les vidéos de la même façon, pas les humains. Mais les vidéos sont toutes différentes : est ce qu'on peut garder la même pratique de segmentation sur des corpus vidéo différents ?
+%Pour justifier la mise en place d'une segmentation : « Automated segmentation accelerates the processing of large volumes of video content and ensures consistency and accuracy in the segmentation process. » \footcite{attard2025} 
+la mise en place d'une automatisation de la segmentation permettrait d'homogénéiser l'indexation documentataire : un algorithme segmente les vidéos de la même façon, pas les humains. Mais les vidéos sont toutes différentes : est ce qu'on peut garder la même pratique de segmentation sur des corpus vidéo différents ?
 
-\item Segmentation sémantique
+\item Segmentation sémantique ou segmentation d'images
  
  La segmentation sémantique est une tâche de la vision par ordinateur. 
  
