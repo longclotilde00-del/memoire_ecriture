@@ -3,22 +3,22 @@
 \contentsline {chapter}{Brouillon}{iii}{chapter*.2}%
 \contentsline {subsection}{\numberline {1.}Contexte skinsoft}{iii}{subsection.0.0.1}%
 \contentsline {subsection}{\numberline {2.}S-Movies}{vi}{subsection.0.0.2}%
-\contentsline {subsection}{\numberline {3.}Problématique}{vi}{subsection.0.0.3}%
-\contentsline {subsection}{\numberline {4.}analyse automatique de l'image}{ix}{subsection.0.0.4}%
-\contentsline {subsection}{\numberline {5.}Indexation automatique}{ix}{subsection.0.0.5}%
-\contentsline {subsection}{\numberline {6.}indexation iconographique}{xii}{subsection.0.0.6}%
-\contentsline {subsection}{\numberline {7.}indexation audio}{xiv}{subsection.0.0.7}%
-\contentsline {subsection}{\numberline {8.}notions IA}{xiv}{subsection.0.0.8}%
-\contentsline {subsection}{\numberline {9.}machine learning}{xiv}{subsection.0.0.9}%
-\contentsline {subsection}{\numberline {10.}computer vision}{xix}{subsection.0.0.10}%
-\contentsline {subsection}{\numberline {11.}IA appliquée à la vidéo}{xxi}{subsection.0.0.11}%
-\contentsline {subsection}{\numberline {12.}segmentation}{xxv}{subsection.0.0.12}%
-\contentsline {subsection}{\numberline {13.}Limites et critiques}{xxxiv}{subsection.0.0.13}%
-\contentsline {subsection}{\numberline {14.}Archives audiovisuelles}{xxxviii}{subsection.0.0.14}%
-\contentsline {subsection}{\numberline {15.}Experience utilisateur}{xli}{subsection.0.0.15}%
-\contentsline {subsection}{\numberline {16.}Limites et critiques}{xliii}{subsection.0.0.16}%
-\contentsline {chapter}{Remerciements}{xlvii}{chapter*.6}%
-\contentsline {chapter}{Introduction}{lvii}{chapter*.10}%
+\contentsline {subsection}{\numberline {3.}Problématique}{viii}{subsection.0.0.3}%
+\contentsline {subsection}{\numberline {4.}analyse automatique de l'image}{xi}{subsection.0.0.4}%
+\contentsline {subsection}{\numberline {5.}Indexation automatique}{xi}{subsection.0.0.5}%
+\contentsline {subsection}{\numberline {6.}indexation iconographique}{xiii}{subsection.0.0.6}%
+\contentsline {subsection}{\numberline {7.}indexation audio}{xv}{subsection.0.0.7}%
+\contentsline {subsection}{\numberline {8.}notions IA}{xvi}{subsection.0.0.8}%
+\contentsline {subsection}{\numberline {9.}machine learning}{xvi}{subsection.0.0.9}%
+\contentsline {subsection}{\numberline {10.}computer vision}{xx}{subsection.0.0.10}%
+\contentsline {subsection}{\numberline {11.}IA appliquée à la vidéo}{xxiii}{subsection.0.0.11}%
+\contentsline {subsection}{\numberline {12.}segmentation}{xxvi}{subsection.0.0.12}%
+\contentsline {subsection}{\numberline {13.}Limites et critiques}{xxxvi}{subsection.0.0.13}%
+\contentsline {subsection}{\numberline {14.}Archives audiovisuelles}{xxxix}{subsection.0.0.14}%
+\contentsline {subsection}{\numberline {15.}Experience utilisateur}{xlii}{subsection.0.0.15}%
+\contentsline {subsection}{\numberline {16.}Limites et critiques}{xlv}{subsection.0.0.16}%
+\contentsline {chapter}{Remerciements}{xlix}{chapter*.6}%
+\contentsline {chapter}{Introduction}{lix}{chapter*.10}%
 \contentsline {part}{I\hspace {1em}Une partie}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Mon premier chapitre}{3}{chapter.1}%
 \contentsline {part}{II\hspace {1em}Une autre partie}{5}{part.2}%
