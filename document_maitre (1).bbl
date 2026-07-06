@@ -954,7 +954,6 @@
       \field{urlyear}{2026}
       \field{year}{2022}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.fiafnet.org/pages/E-Resources/Manuel-Catalogage-FIAF.html
       \endverb
@@ -2842,6 +2841,38 @@
       \endverb
       \verb{url}
       \verb https://reelmind.ai/blog/automated-video-scene-detection-ai-for-seamless-editing
+      \endverb
+    \endentry
+    \entry{zotero-item-653}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9fc276c3d1b5704b5d61e411f1a67701}{%
+           family={{Tillett, Barbara B.}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Library of Congress}%
+      }
+      \strng{namehash}{9fc276c3d1b5704b5d61e411f1a67701}
+      \strng{fullhash}{9fc276c3d1b5704b5d61e411f1a67701}
+      \strng{fullhashraw}{9fc276c3d1b5704b5d61e411f1a67701}
+      \strng{bibnamehash}{9fc276c3d1b5704b5d61e411f1a67701}
+      \strng{authorbibnamehash}{9fc276c3d1b5704b5d61e411f1a67701}
+      \strng{authornamehash}{9fc276c3d1b5704b5d61e411f1a67701}
+      \strng{authorfullhash}{9fc276c3d1b5704b5d61e411f1a67701}
+      \strng{authorfullhashraw}{9fc276c3d1b5704b5d61e411f1a67701}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{{{FRBR}} Model}
+      \field{year}{4}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.loc.gov/catdir/cpso/frbreng.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.loc.gov/catdir/cpso/frbreng.pdf
       \endverb
     \endentry
     \entry{zotero-item-53}{misc}{}{}

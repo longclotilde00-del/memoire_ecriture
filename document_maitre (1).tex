@@ -13,7 +13,7 @@
 \setmainlanguage{french}%indiquer la langue principale du document
 %\setotherlanguage{} %indiquer les autres langues utilisée
 
-
+\usepackage{comment}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PACKAGES UTILISÉS
 
 \usepackage{csquotes} % les guillemets français
@@ -22,7 +22,7 @@
 \usepackage[style=enc,sorting=nyt,maxbibnames=10]{biblatex}%charger le style de l'EnC (téléchargeable ici https://ctan.org/pkg/biblatex-enc)
 \addbibresource{memoire_tnah.bib} %le fichier bibliograhique. Exemple de chemin à partir du dossier où se trouve le document maître:Exemple ./dossierA/fichier.bib
 %\defbibheading{}{\subsection*{}} Si l'on veut changer le titre de la/les bibliographie(s)
-
+\includeonly{chapitres/introduction.tex}
 
 %%%Faire un ou plusieurs index
 
@@ -156,6 +156,7 @@
 \title{Titre du mémoire}
 
 %%%%%%%%%%%%%%%%%%%%%% DOCUMENT
+
 \begin{document}
 	\begin{titlepage}
 		\begin{center}
@@ -224,32 +225,36 @@
 	
 	\textbf{Informations bibliographiques:} Prénom Nom, \textit{Titre du mémoire. Sous-titre du mémoire}, mémoire de master \enquote{Technologies numériques appliquées à l'histoire}, dir. [Noms des directeurs.trices], École nationale des chartes, 20245.
 	
+	
+	
 		\newpage{\pagestyle{empty}\cleardoublepage}
-		\chapter{Brouillon}
+		%\chapter{Brouillon}
 	
-	\input{chapitres/skinsoft.tex}
-	\input{chapitres/s_movies.tex}
-	\input{chapitres/problematique.tex}
+	\include{chapitres/introduction.tex}
+	\include{chapitres/frbr.tex}
+	\include{chapitres/skinsoft.tex}
+	\include{chapitres/s_movies.tex}
+	\include{chapitres/problematique.tex}
 	
-	\input{chapitres/notions_indexation.tex}
-	\input{{chapitres/analyse_automatique.tex}}
-	\input{chapitres/indexation_automatique.tex}
-	\input{chapitres/indexation_iconographique.tex}
-	\input{chapitres/indexation_audio.tex}
+	\include{chapitres/notions_indexation.tex}
+	\include{{chapitres/analyse_automatique.tex}}
+	\include{chapitres/indexation_automatique.tex}
+	\include{chapitres/indexation_iconographique.tex}
+	\include{chapitres/indexation_audio.tex}
 	
-	\input{chapitres/IA_generale.tex}
-	\input{chapitres/machine_learning.tex}
-	\input{chapitres/computer_vision.tex}
-	\input{chapitres/IA_video.tex}
-	\input{chapitres/segmentation.tex}
+	\include{chapitres/IA_generale.tex}
+	\include{chapitres/machine_learning.tex}
+	\include{chapitres/computer_vision.tex}
+	\include{chapitres/IA_video.tex}
+	\include{chapitres/segmentation.tex}
 	
-	\input{chapitres/limites_critiques.tex}
+	\include{chapitres/limites_critiques.tex}
 	
-	\input{chapitres/archives_audiovisuelles.tex}
-	\input{chapitres/notions_NLP.tex}
-	\input{chapitres/experience_utilisateur.tex}
+	\include{chapitres/archives_audiovisuelles.tex}
+	\include{chapitres/notions_NLP.tex}
+	\include{chapitres/experience_utilisateur.tex}
 	
-	\input{chapitres/limites_critiques.tex}
+	\include{chapitres/limites_critiques.tex}
 	
 	
 	\chapter{Remerciements}
