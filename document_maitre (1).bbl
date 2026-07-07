@@ -563,6 +563,76 @@
       \endverb
       \keyw{à lire,Collections patrimoniales,Computer vision,Coopération humain-machine,Heritage collections,Humanmachine cooperation,Musée,Museum,Vision par ordinateur}
     \endentry
+    \entry{boeuf2008}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=22746dc4437bff09075f4ef651e8ba75}{%
+           family={Boeuf},
+           familyi={B\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=efa761fdb2310bb1f915fd818a3ebe97}{%
+           family={Tillett},
+           familyi={T\bibinitperiod},
+           given={Barbara\bibnamedelima B.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=79d49336b468903b223d7671c7c6235a}{%
+           family={{de Klerk}},
+           familyi={d\bibinitperiod},
+           given={Tienie},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2b8a934c669fcb32b2c426a35cfd7e61}{%
+           family={{van der Walt}},
+           familyi={v\bibinitperiod},
+           given={Hester},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6c6b9972d91f5e09f3142acad5936168}{%
+           family={Cristán},
+           familyi={C\bibinitperiod},
+           given={Ana\bibnamedelima Lupe},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {K. G. Saur}%
+      }
+      \strng{namehash}{22746dc4437bff09075f4ef651e8ba75}
+      \strng{fullhash}{22746dc4437bff09075f4ef651e8ba75}
+      \strng{fullhashraw}{22746dc4437bff09075f4ef651e8ba75}
+      \strng{bibnamehash}{22746dc4437bff09075f4ef651e8ba75}
+      \strng{authorbibnamehash}{22746dc4437bff09075f4ef651e8ba75}
+      \strng{authornamehash}{22746dc4437bff09075f4ef651e8ba75}
+      \strng{authorfullhash}{22746dc4437bff09075f4ef651e8ba75}
+      \strng{authorfullhashraw}{22746dc4437bff09075f4ef651e8ba75}
+      \strng{editorbibnamehash}{16f47b0c2a2efa277beedb05dea5988b}
+      \strng{editornamehash}{1f2f10dd0437276864a3aeba54e2790f}
+      \strng{editorfullhash}{16f47b0c2a2efa277beedb05dea5988b}
+      \strng{editorfullhashraw}{16f47b0c2a2efa277beedb05dea5988b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{{IFLA Cataloguing Principles}}: {{Steps}} towards an {{International Cataloguing Code}}, 5: {{Report}} from the 5th {{IFLA Meeting}} of {{Experts}} on an {{International Cataloguing Code}}, {{Pretoria}}, {{South Africa}}, 2007}
+      \field{isbn}{978-3-598-44102-8}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{Brave New {{FRBR}} World}
+      \field{urlday}{7}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{131\bibrangedash 142}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb https://www.degruyterbrill.com/unauthorizedDownload/10.1515/9783598441028.2.131?action=Downloading+PDF&countDenial=true&download=true&lang=en
+      \endverb
+      \verb{url}
+      \verb https://www.degruyterbrill.com/unauthorizedDownload/10.1515/9783598441028.2.131?action=Downloading+PDF&countDenial=true&download=true&lang=en
+      \endverb
+    \endentry
     \entry{brachmann2017}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c11f4ab746855d0f43916ac5b4fbfb9a}{%
@@ -1237,6 +1307,40 @@
       \verb https://dumas.ccsd.cnrs.fr/dumas-05387482
       \endverb
     \endentry
+    \entry{zotero-item-657}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28779e73e39b8f172976137884fc4095}{%
+           family={{IFLA Study Group on the Functional Requirements for Bibliographic Records}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Bibliothèque Nationale de France}%
+      }
+      \strng{namehash}{28779e73e39b8f172976137884fc4095}
+      \strng{fullhash}{28779e73e39b8f172976137884fc4095}
+      \strng{fullhashraw}{28779e73e39b8f172976137884fc4095}
+      \strng{bibnamehash}{28779e73e39b8f172976137884fc4095}
+      \strng{authorbibnamehash}{28779e73e39b8f172976137884fc4095}
+      \strng{authornamehash}{28779e73e39b8f172976137884fc4095}
+      \strng{authorfullhash}{28779e73e39b8f172976137884fc4095}
+      \strng{authorfullhashraw}{28779e73e39b8f172976137884fc4095}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fonctionnalités Requises Des Notices Bibliographiques: Rapport Final (2e Édition)}
+      \field{urlday}{7}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://repository.ifla.org/items/7303960c-35d1-41c0-9a50-a1ce3136b03b
+      \endverb
+      \verb{url}
+      \verb https://repository.ifla.org/items/7303960c-35d1-41c0-9a50-a1ce3136b03b
+      \endverb
+    \endentry
     \entry{zotero-item-572}{misc}{}{}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
@@ -1452,12 +1556,12 @@
     \endentry
     \entry{liu2023}{misc}{}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=a580d4b27cb901a9aa355d400bd9c16e}{%
+        {{un=1,uniquepart=given,hash=a580d4b27cb901a9aa355d400bd9c16e}{%
            family={Liu},
            familyi={L\bibinitperiod},
            given={Haotian},
            giveni={H\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=307cd2ff14b0ecd5a0ae2ca42e7c71b2}{%
            family={Li},
            familyi={L\bibinitperiod},
@@ -1520,6 +1624,34 @@
       \verb http://arxiv.org/abs/2304.08485
       \endverb
       \keyw{à lire,Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
+    \endentry
+    \entry{liu}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=3e7b14197b2d1424bb0d6add759677ee}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ying-Hsang},
+           giveni={Y\bibinithyphendelim H\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{3e7b14197b2d1424bb0d6add759677ee}
+      \strng{fullhash}{3e7b14197b2d1424bb0d6add759677ee}
+      \strng{fullhashraw}{3e7b14197b2d1424bb0d6add759677ee}
+      \strng{bibnamehash}{3e7b14197b2d1424bb0d6add759677ee}
+      \strng{authorbibnamehash}{3e7b14197b2d1424bb0d6add759677ee}
+      \strng{authornamehash}{3e7b14197b2d1424bb0d6add759677ee}
+      \strng{authorfullhash}{3e7b14197b2d1424bb0d6add759677ee}
+      \strng{authorfullhashraw}{3e7b14197b2d1424bb0d6add759677ee}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Navigating the {{AI-Driven Metadata Landscape}}: {{A Human Centered Approach}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/4ZLGJ6ZS/Liu - Navigating the AI-Driven Metadata Landscape A Human Centered Approach.pdf
+      \endverb
     \endentry
     \entry{longpre2025}{misc}{}{}
       \name{author}{43}{}{%
@@ -2867,7 +2999,6 @@
       \field{month}{10}
       \field{title}{{{FRBR}} Model}
       \field{year}{4}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.loc.gov/catdir/cpso/frbreng.pdf
       \endverb

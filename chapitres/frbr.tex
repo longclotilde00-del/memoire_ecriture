@@ -1,36 +1,33 @@
-\subsection{FRBR}
+\subsection{lE FRBR, modèle d'indexation conçu pour les bibliothèques}
 
-"Le modèle FRBR (Functional Requirements for Bibliographic Records / Fonctionnalités requises des notices bibliographiques) est un modèle conceptuel de données bibliographiques élaboré par un groupe d’experts de l’IFLA de 1992 à 1997." \footcite{zotero-item-651}
+Commençons par définir le modèle de données qu'est le FRBR. Le FRBR, Functional Requirements for Bibliographic Records, est un modèle conceptuel de données bibliographiques élaboré par l'IFLA de 1992 à 1996. \footcite{zotero-item-651} Ce modèle établit quatre niveaux d'informations de production catalographique portant sur le document : ses caractéristiques individuelles en tant qu'exemplaire (item), les caractéristiques de sa publication (manifestation), les caractéristiques de son contenu intellectuel expression), et les caractéristiques de la création abstraite à laquelle il se rattache (oeuvre). \footcite{zotero-item-651} Ce modèle prétend répondre à quatre besoins utilisateur : trouver, identifier, sélectionner, obtenir. \footcite{zotero-item-653}. Aisi, l'utilisateur localise la ressource, identifie si elle correspond à ce qu'il cherche, sélectionne la ressource selon ses besoins, et accède finalement à la ressource. Barbara Tillett ajoute un besoin eventuel, celui de pouvoir relier les ressources trouvées par l'utilisateur à d'autres ressources pertinentes ou qui lui sont reliées par le FRBR. \footcite{zotero-item-653}
 
-"Ce modèle analyse la notice catalographique comme un ensemble d’informations portant sur quatre aspects distincts du document décrit :
-ses caractéristiques individuelles en tant qu’exemplaire,
-les caractéristiques de la publication à laquelle il appartient,
-les caractéristiques de son contenu intellectuel ou artistique,
-et les caractéristiques de la création abstraite à laquelle se rattache ce contenu (par exemple : le texte original d’un roman et une traduction de ce roman se rattachent à une même création abstraite).
-Ces quatre aspects sont dénommés :
-Item
-Manifestation
-Expression
-Œuvre." \footcite{zotero-item-651}
+À ces entités du premier groupe du FRBR (oeuvre, expression, manifestation, item), s'ajoutent des entités de deuxième groupe : personnes et collectivités, qui expriment le rôle joué par ce entités avec une ou plusieurs entités du premier groupe. \footcite{zotero-item-657}. Ce modèle entité-relation permet donc de mieux identifier le rôle des entités créatrice de chaque niveau bibliographique. 
+Les entités du troisième groupe sont les sujets des oeuvres, pouvant correspondre à des concepts, objets, évènements ou lieux. Les sujets peuvent également prendre la forme d'entités des premier et deuxième groupes. \footcite{zotero-item-657}
 
-Le FRBR répond à 4 tâches utilisateur : trouver, identifier, slectionner, obtenir \footcite{zotero-item-653}
+Aujourd'hui, plus utilisé par les bibliothèques (?)
 
-"In the Functional Requirements for Bibliographic Records, we address “user tasks” - things we feel
-a user wants to do relative to the bibliographic universe:
-Find an entity or entities in a database using attributes or relationships -Elaine Svenonius has
-suggested this should actually be in two parts - to locate and to collocate entities. The user does
-this by searching the catalog and in some models that Tom Delsey has prepared for groups since
-FRBR, he has named this task “search.” I still think the user is trying to find, so I’ll keep this as is.
-Identify - to confirm that the entity found corresponds to the entity that you are looking for
-Select - to choose an entity meeting the user requirements for content, physical format, etc.
-Obtain - to acquire an entity or to access an item
-and we could add a task to relate or to navigate- that is to relate the materials a user finds to others
-that may be in the collection. And FRBR describes individual elements or attributes, indicating
-how each contributes to achieving each task." \footcite{zotero-item-653}
 
+Si nous définissons ici le FRBR comme un modèle de données, il est remis en question comme tel, en raison de ses entités au caractère trop "générique". \footcite{boeuf2008} Ainsi, il ne peut pas être implémenté tel quel et suppose d'être redéfinit en tant que modèle à chaque implémentation. En revanche, il devrait toujours servir les tâches utilisateurs que nous avions définit ci-dessus, en plaçant la navigation comme véritable besoin et non plus comme une tâche annexe. 
+
+Il est justement nécessaire de définir les FRBR comme un modèle plutôt que comme un cadre normatif pour l'affichage et la description des données. L'aspect important du modèle est qu'il préconise l'explicitation des "interrelations" entre les notices. \footcite{boeuf2008} Cette mise en avant des relations pousse les institutions à réfléchir à l'affichage fondamental des résultats de recherche tout en prenant en compte l'affichage de leurs liens. 
+
+Cependant, que signifie au juste l’expression « implémenter
+les FRBR » ? Je viens de dire à l’instant que les FRBR n’étaient pas un modèle de données, comment pourraient-ils donc être « implémentés » ? Au mieux, en concevant
+un modèle de données intermédiaire, fondé sur les FRBR ; au pire, en prenant les
+FRBR pour un modèle de données ; dans tous les cas de figure, en « mappant » soit
+un format existant vers les FRBR, soit les FRBR vers un nouveau format.\footcite{boeuf2008}
+
+Tout « contenu » est-il
+une « Œuvre » ? \footcite{boeuf2008}
+
+
+
+Transition entre le modèle de données et l'automatisation : 
 justification de la clarté du modèle FRBR pour la mise en place d'un modèle automatique : 
 
 impact de l'indexation automatique sur les données :
-"Comme le repérage d’entités visuelles demande énormément d’informations locales, les bases de données d’indexation constituées à partir de la reconnaissance des entités sont conséquentes (elles peuvent avoir une taille supérieure à celle des vidéos elles-mêmes) et font l’objet de recherches au sein de l’établissement pour en optimiser les temps de calcul.
 
-Dans ce contexte, la qualité et la modélisation des données jouent un rôle fondamental car c’est sur les bases de données que les algorithmes sont entrainés."\footcite{moiraghi2018}
+"Comme le repérage d’entités visuelles demande énormément d’informations locales, les bases de données d’indexation constituées à partir de la reconnaissance des entités sont conséquentes (elles peuvent avoir une taille supérieure à celle des vidéos elles-mêmes) et font l’objet de recherches au sein de l’établissement pour en optimiser les temps de calcul. Dans ce contexte, la qualité et la modélisation des données jouent un rôle fondamental car c’est sur les bases de données que les algorithmes sont entrainés."\footcite{moiraghi2018}
+
+Nous prenons ici la pensée inverse, ce n'est pas seulement l'indexation automatique qui nécessite un modèle de données qualitatif, mais nous réfléchissons justement à la manière dont le modèle de données façonne l'indexation automatique et la manière dont l'indexation automatique permet de repenser le modèle de données dans lequel est implémentée. 
