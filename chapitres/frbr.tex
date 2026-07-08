@@ -1,33 +1,55 @@
-\subsection{lE FRBR, modèle d'indexation conçu pour les bibliothèques}
+\subsection{Le FRBR, modèle d'indexation conçu pour les bibliothèques}
 
-Commençons par définir le modèle de données qu'est le FRBR. Le FRBR, Functional Requirements for Bibliographic Records, est un modèle conceptuel de données bibliographiques élaboré par l'IFLA de 1992 à 1996. \footcite{zotero-item-651} Ce modèle établit quatre niveaux d'informations de production catalographique portant sur le document : ses caractéristiques individuelles en tant qu'exemplaire (item), les caractéristiques de sa publication (manifestation), les caractéristiques de son contenu intellectuel expression), et les caractéristiques de la création abstraite à laquelle il se rattache (oeuvre). \footcite{zotero-item-651} Ce modèle prétend répondre à quatre besoins utilisateur : trouver, identifier, sélectionner, obtenir. \footcite{zotero-item-653}. Aisi, l'utilisateur localise la ressource, identifie si elle correspond à ce qu'il cherche, sélectionne la ressource selon ses besoins, et accède finalement à la ressource. Barbara Tillett ajoute un besoin eventuel, celui de pouvoir relier les ressources trouvées par l'utilisateur à d'autres ressources pertinentes ou qui lui sont reliées par le FRBR. \footcite{zotero-item-653}
+Le FRBR, Functional Requirements for Bibliographic Records, est un modèle conceptuel de données bibliographiques élaboré par l'IFLA de 1992 à 1996 et fondé sur le ISBD (à définir). \footcite{zotero-item-651} Ce modèle établit la mise en place de quatre niveaux hiérarchiques pour le catalogage d'un document: le niveau décrivant les caractéristiques individuelles du document en tant qu'exemplaire (item), le niveau décrivant les caractéristiques de sa publication (manifestation), le niveau décrivant les caractéristiques de son contenu intellectuel expression), et le niveau décrivant les caractéristiques de la création abstraite à laquelle il se rattache (oeuvre). \footcite{zotero-item-651} (donner un exemple? schéma) 
+Il s'agit d'un modèle entité-relation qui modélise précisément les relations qui peuvent exister entre les éléments d'une base de données pour pouvoir ainsi les retrouver plus facilement.
+De plus, à ces entités du premier groupe au sein du modèle (oeuvre, expression, manifestation, item), s'ajoutent des entités de deuxième groupe : personnes et collectivités. Elles expriment le rôle joué par ces entités sur la production ou le contenu d'une ou plusieurs entités du premier groupe. \footcite{zotero-item-657} (ajouter au schéma les entités de 2e groupe) 
+Enfin, il existe des entités de troisième groupe intégrées au modèle, qui correspondent à des concepts, objets, évènements ou lieux liés aux entités de premier et de second groupe. \footcite{zotero-item-657}
 
-À ces entités du premier groupe du FRBR (oeuvre, expression, manifestation, item), s'ajoutent des entités de deuxième groupe : personnes et collectivités, qui expriment le rôle joué par ce entités avec une ou plusieurs entités du premier groupe. \footcite{zotero-item-657}. Ce modèle entité-relation permet donc de mieux identifier le rôle des entités créatrice de chaque niveau bibliographique. 
-Les entités du troisième groupe sont les sujets des oeuvres, pouvant correspondre à des concepts, objets, évènements ou lieux. Les sujets peuvent également prendre la forme d'entités des premier et deuxième groupes. \footcite{zotero-item-657}
-
-Aujourd'hui, plus utilisé par les bibliothèques (?)
+Ce modèle entité-relation, nous l'avons évoqué, a été mis en place afin de faciliter la navigation de l'utilisateur au sein d'un catalogue, entre les liens qui régissent les différents éléments d'une collection. Ainsi, le FRBR  prétend répondre à quatre principaux besoins utilisateur : trouver, identifier, sélectionner, obtenir. \footcite{zotero-item-653}. Il permet donc à l'utilisateur de localiser la ressource, d'identifier si elle correspond à bien ce qu'il cherche, de sélectionner la ressource selon ses besoins, et d'accèder finalement à son contenu. Nous ajouterons que le besoin fondateur de la création d'un tel modèle est surtout celui de pouvoir visualiser et explorer les liens de la ressource identifiée avec d'autres ressources pertinentes qui y sont directement associées. \footcite{zotero-item-653} Nous pouvons ainsi établir que le modèle FRBR se situe à l'intersection de deux besoins principaux : celui d'améliorer la connaissance sur une ressource donnée en visibilisant ses relations (et d'assurer sa conformité, à terme, avec le web sémantique), et celui d'améliorer l'expérience utilisateur  en proposant une interface navigable et intuitive. Notons que ces besoins s'appliquent non seulement à l'utilisateur faisant partir d'un "public", au sein d'un catalogue ou d'une base de données en ligne, mais aussi à l'utilisateur métier, interne à l'institution. C'est précisément sur les besoins métier de ce dernier que se concentre l'analyse de ce mémoire de recherche. De fait, les enjeux de l'implémentation et de l'adaptation du modèle FRBR se situent au coeur des ambitions d'un logiciel de gestion des collections tel que celui proposé par skinsoft.  
 
 
-Si nous définissons ici le FRBR comme un modèle de données, il est remis en question comme tel, en raison de ses entités au caractère trop "générique". \footcite{boeuf2008} Ainsi, il ne peut pas être implémenté tel quel et suppose d'être redéfinit en tant que modèle à chaque implémentation. En revanche, il devrait toujours servir les tâches utilisateurs que nous avions définit ci-dessus, en plaçant la navigation comme véritable besoin et non plus comme une tâche annexe. 
 
-Il est justement nécessaire de définir les FRBR comme un modèle plutôt que comme un cadre normatif pour l'affichage et la description des données. L'aspect important du modèle est qu'il préconise l'explicitation des "interrelations" entre les notices. \footcite{boeuf2008} Cette mise en avant des relations pousse les institutions à réfléchir à l'affichage fondamental des résultats de recherche tout en prenant en compte l'affichage de leurs liens. 
+%L'adoption de ces modèles dans les catalogues est réalisé dans l'objectif d'améliorer la visibilité des données au sein du web de données et donner accès au public aux données produites, même si ce mémoire se concentre sur l'utilisateur métier. (définir le web de données?) \footcite{zotero-item-661}
 
-Cependant, que signifie au juste l’expression « implémenter
-les FRBR » ? Je viens de dire à l’instant que les FRBR n’étaient pas un modèle de données, comment pourraient-ils donc être « implémentés » ? Au mieux, en concevant
-un modèle de données intermédiaire, fondé sur les FRBR ; au pire, en prenant les
-FRBR pour un modèle de données ; dans tous les cas de figure, en « mappant » soit
-un format existant vers les FRBR, soit les FRBR vers un nouveau format.\footcite{boeuf2008}
+Le FRBR comme modèle : 
+
+Le FRBR, nous l'avons définit, est bien un modèle. Il se place comme un cadre d'affichage des données, sans prétendre à normaliser leur description. C'est pourquoi les entités qu'il propose sont remises en question pour leur caractère trop "générique". \footcite{boeuf2008} Ainsi, comme tout modèle, faute de pouvoir être implémenté tel quel, il est soumis à une redéfinition à chaque implémentation selon le contexte donné. Cette flexibilité ne doit toutefois pas nuire à l'objectif principal, celui de faciliter la navigation de l'utilisateur, en explicitant les "interrelations" entres les notices et les données produites.\footcite{boeuf2008}
+
+Notons en effet que le modèle FRBR est un modèle conçu par et pour les bibliothèques, du moins au départ. À ce jour, les bibliothèques n'utilisent plus seulement le modèle FRBR mais la somme du FRBR et de ses modèles étendus : le FRAD pour les autorités, et le FRSAD pour les sujets.\footcite{zotero-item-651}. La somme de ces modèles constituent finalement le modèle IFLA-LRM, présenté en successeur du FRBR. Or, dans le contexte de ce mémoire de recherche, notre objet d'étude est celui des archives audiovisuelles. Ainsi, comment adapter un modèle de données conçu pour les bibliothèques à un contexte de gestion des collections d'archives et plus spécifiquement d'archives audiovisuelles ?
+
+Le FRBR adapté au milieu archivistique :
+
+La difficulté principale de l'adaptation du modèle FRBR au collections d'archives est que le niveau Oeuvre (work) ne peut contenir le plus haut niveau archivistique : le fonds d'archives. En effet, un fonds d'archive ne peut pas être considéré systématiquement comme une oeuvre, puisque dans la plupart des cas, il s'agit plutôt d'une aggrégation naturelle d'éléments quotidiens produits par une personne morale ou physique. Ainsi, un fonds d'archives ne peut pas être intégré à la définition d'une oeuvre come une création intellectuelle et artistique distincte. \footcite{fick2015}. Un fonds d'archives correspondrait alors plutot à un aggrégat d'oeuvres ou de travaux, niveau intermédiaire décrit dans le modèle FRBR qui mentionne le fonds darchives : "un ensemble de documents privés classés par des archives en un seul fonds"(traduction). \footcite{fick2015}
+
+%à rédiger : 
 
 Tout « contenu » est-il
 une « Œuvre » ? \footcite{boeuf2008}
 
+comment ce modèle, issu des bibliothèque, a-t-il été adapté aux systèmes de gestion des collections d'archives ? Comment peut on conserver ce modèle alors même que le type d'objet catalogué ets de nature fondamentalement différente ? L'archive est régie par cette notion d'unicité et d'originalité. 
 
+le modèle de référence des musées : CIDOC CRM : fusion avec le FRBR qui a donné : object oriented FRBR \footcite{gillis2015}
+pour le catalogage basé sur le FRBR : dépend des collections : le temps peut être pris en compte, où la nature de l'objet créé peut être pris en compte.
+pour la peinture : l'item devient l'oeuvre. CE système s'adapte aux collections qui font l'objet d'une reprodyctibilité technique comme le cinéma (Benjamin)
+le FRBRoo (oreinted object) est conçu spécifiquement pour être codé en RDF 
 
+Pour la sous partie d'après : présenter les spécifictés des archives audiovisuelles, spécificités de création et dans quelle mesure ces spécificités 
+
+%à replacer : 
 Transition entre le modèle de données et l'automatisation : 
 justification de la clarté du modèle FRBR pour la mise en place d'un modèle automatique : 
 
-impact de l'indexation automatique sur les données :
+Impact de l'indexation automatique sur les données :
 
 "Comme le repérage d’entités visuelles demande énormément d’informations locales, les bases de données d’indexation constituées à partir de la reconnaissance des entités sont conséquentes (elles peuvent avoir une taille supérieure à celle des vidéos elles-mêmes) et font l’objet de recherches au sein de l’établissement pour en optimiser les temps de calcul. Dans ce contexte, la qualité et la modélisation des données jouent un rôle fondamental car c’est sur les bases de données que les algorithmes sont entrainés."\footcite{moiraghi2018}
 
 Nous prenons ici la pensée inverse, ce n'est pas seulement l'indexation automatique qui nécessite un modèle de données qualitatif, mais nous réfléchissons justement à la manière dont le modèle de données façonne l'indexation automatique et la manière dont l'indexation automatique permet de repenser le modèle de données dans lequel est implémentée. 
+
+
+Normes descriptives audiovisuelles utilisées par skinsoft :
+- norme EN 15744
+- norme EN15907
+- formats DCP/DPX
+
+Refonte du frbr : navigation entre entités liées
+

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  7 JUL 2026 08:33
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  8 JUL 2026 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -879,68 +879,63 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 
  (./chapitres/frbr.tex
 
-LaTeX Warning: Citation 'zotero-item-651' on page 13 undefined on input line 3.
-
-
-
-LaTeX Warning: Citation 'zotero-item-651' on page 13 undefined on input line 3.
-
-
-
-
 [13
-
-
-
-])
-
-[14]
-\openout2 = `chapitres/skinsoft.aux'.
-
- (./chapitres/skinsoft.tex
-
-[15
 
 
 
 ]
 
+[14]
+
+[15])
+
 [16]
+\openout2 = `chapitres/skinsoft.aux'.
 
-[17]
+ (./chapitres/skinsoft.tex
 
-[18])
+[17
+
+
+
+]
+
+[18]
 
 [19]
+
+[20])
+
+[21]
 \openout2 = `chapitres/s_movies.aux'.
 
  (./chapitres/s_movies.tex
-
-[20
-
-
-
-])
-
-[21]
-\openout2 = `chapitres/problematique.aux'.
-
- (./chapitres/problematique.tex
 
 [22
 
 
 
+])
+
+[23]
+\openout2 = `chapitres/problematique.aux'.
+
+ (./chapitres/problematique.tex
+
+[24
+
+
+
 ]
 
-[23])
+[25])
 
-[24]
+[26]
 \openout2 = `chapitres/notions_indexation.aux'.
 
  (./chapitres/notions_indexation.tex)
 
-[25
+[27
 
 
 
@@ -949,7 +944,7 @@ LaTeX Warning: Citation 'zotero-item-651' on page 13 undefined on input line 3.
 
  (./chapitres/analyse_automatique.tex)
 
-[26
+[28
 
 
 
@@ -958,31 +953,31 @@ LaTeX Warning: Citation 'zotero-item-651' on page 13 undefined on input line 3.
 
  (./chapitres/indexation_automatique.tex
 
-[27
+[29
 
 
 
 ]
 
-[28])
+[30])
 
-[29]
+[31]
 \openout2 = `chapitres/indexation_iconographique.aux'.
 
  (./chapitres/indexation_iconographique.tex
 
-[30
+[32
 
 
 
 ])
 
-[31]
+[33]
 \openout2 = `chapitres/indexation_audio.aux'.
 
  (./chapitres/indexation_audio.tex)
 
-[32
+[34
 
 
 
@@ -991,7 +986,7 @@ LaTeX Warning: Citation 'zotero-item-651' on page 13 undefined on input line 3.
 
  (./chapitres/IA_generale.tex)
 
-[33
+[35
 
 
 
@@ -1000,19 +995,19 @@ LaTeX Warning: Citation 'zotero-item-651' on page 13 undefined on input line 3.
 
  (./chapitres/machine_learning.tex
 
-[34
+[36
 
 
 
 ]
 
-[35]
-
-[36]
-
-[37])
+[37]
 
 [38]
+
+[39])
+
+[40]
 \openout2 = `chapitres/computer_vision.aux'.
 
  (./chapitres/computer_vision.tex
@@ -1023,49 +1018,49 @@ e de l’information d’images
 
 
 
-[39
+[41
 
 
 
 ]
 
-[40])
+[42])
 
-[41]
+[43]
 \openout2 = `chapitres/IA_video.aux'.
 
  (./chapitres/IA_video.tex
 
-[42
+[44
 
 
 
 ]
 
-[43]
-
-[44])
-
 [45]
+
+[46])
+
+[47]
 \openout2 = `chapitres/segmentation.aux'.
 
  (./chapitres/segmentation.tex
 
-[46
+[48
 
 
 
 ]
-
-[47]
-
-[48]
 
 [49]
 
 [50]
 
 [51]
+
+[52]
+
+[53]
 Overfull \hbox (8.0635pt too wide) in paragraph at lines 166--168
 []\TU/lmr/m/n/12 MMRM : Motion magnitude refine module les features extraites p
 ar le TFRM contiennent
@@ -1073,46 +1068,46 @@ ar le TFRM contiennent
 
 
 
-[52]
-
-[53]
-
-[54])
+[54]
 
 [55]
+
+[56])
+
+[57]
 \openout2 = `chapitres/limites_critiques.aux'.
 
  (./chapitres/limites_critiques.tex
 
-[56
+[58
 
 
 
 ]
 
-[57]
-
-[58])
-
 [59]
+
+[60])
+
+[61]
 \openout2 = `chapitres/archives_audiovisuelles.aux'.
 
  (./chapitres/archives_audiovisuelles.tex
 
-[60
+[62
 
 
 
 ]
 
-[61])
+[63])
 
-[62]
+[64]
 \openout2 = `chapitres/notions_NLP.aux'.
 
  (./chapitres/notions_NLP.tex)
 
-[63
+[65
 
 
 
@@ -1121,43 +1116,43 @@ ar le TFRM contiennent
 
  (./chapitres/experience_utilisateur.tex
 
-[64
+[66
 
 
 
 ]
 
-[65])
+[67])
 
-[66]
+[68]
 \openout2 = `chapitres/limites_critiques.aux'.
 
  (./chapitres/limites_critiques.tex
 
-[67
+[69
 
 
 
 ]
 
-[68]
-
-[69])
-
 [70]
+
+[71])
+
+[72]
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (M);
 (lettrine.sty)             reported on input line 262.
 
 
-[71
+[73
 
 
 
 ]
 
-[72
+[74
 
 ]
 Overfull \hbox (13.40034pt too wide) in paragraph at lines 268--268
@@ -1168,7 +1163,7 @@ Overfull \hbox (13.40034pt too wide) in paragraph at lines 268--268
 
 
 
-[73
+[75
 
 ]
 Overfull \hbox (2.77263pt too wide) in paragraph at lines 268--268
@@ -1186,7 +1181,7 @@ Overfull \hbox (4.37076pt too wide) in paragraph at lines 268--268
 
 
 
-[74]
+[76]
 Overfull \hbox (11.73682pt too wide) in paragraph at lines 268--268
 [][][]\TU/lmr/m/sc/12 IFLA Study Group on the Functional Requirements for Bibli
 ographic Records[]\TU/lmr/m/n/12 ​,
@@ -1194,7 +1189,7 @@ ographic Records[]\TU/lmr/m/n/12 ​,
 
 
 
-[75]
+[77]
 Overfull \hbox (6.02444pt too wide) in paragraph at lines 268--268
 [][][]\TU/lmr/m/sc/12 Longpre[]\TU/lmr/m/n/12 ​ (Shayne), []\TU/lmr/m/sc/12 Sin
 gh[]\TU/lmr/m/n/12 ​ (Nikhil), []\TU/lmr/m/sc/12 Cherep[]\TU/lmr/m/n/12 ​ (Manu
@@ -1204,9 +1199,9 @@ aterzynska[]\TU/lmr/m/n/12 ​
 
 
 
-[76]
+[78]
 
-[77]
+[79]
 Overfull \hbox (5.9788pt too wide) in paragraph at lines 268--268
 \TU/lmr/m/n/12 Etienne, 2006, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][
 ] [] [] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][] [][] [][][][][][]
@@ -1214,6 +1209,8 @@ Overfull \hbox (5.9788pt too wide) in paragraph at lines 268--268
  []
 
 
+
+[80]
 Overfull \hbox (17.96452pt too wide) in paragraph at lines 268--268
 [][][]\TU/lmr/m/sc/12 Wang[]\TU/lmr/m/n/12 ​ (Yiyuan), []\TU/lmr/m/sc/12 Johnst
 on[]\TU/lmr/m/n/12 ​ (Andrew), []\TU/lmr/m/sc/12 Sadokierski[]\TU/lmr/m/n/12 ​ 
@@ -1222,8 +1219,6 @@ c/12 Ahyong[]\TU/lmr/m/n/12 ​
  []
 
 
-
-[78]
 Overfull \hbox (1.22043pt too wide) in paragraph at lines 268--268
 [][][]\TU/lmr/m/sc/12 Yoon[]\TU/lmr/m/n/12 ​ (Sangwoong), []\TU/lmr/m/sc/12 Kan
 g[]\TU/lmr/m/n/12 ​ (Woo Young), []\TU/lmr/m/sc/12 Jeon[]\TU/lmr/m/n/12 ​ (Sung
@@ -1233,9 +1228,9 @@ n[]\TU/lmr/m/n/12 ​ (Chang-
 
 
 
-[79]
+[81]
 
-[80
+[82
 
 ]
 
@@ -1246,15 +1241,15 @@ LaTeX Warning: Empty bibliography on input line 275.
 
 
 
-[81]
-
-[82
-
-]
-
 [83]
 
 [84
+
+]
+
+[85]
+
+[86
 
 ]
 
@@ -1296,18 +1291,38 @@ Annexe A.
 [10
 
 ] (./document_maitre (1).toc
-Overfull \hbox (3.27597pt too wide) detected at line 20
- []\TU/lmr/m/n/12 xxvi
+Overfull \hbox (0.33597pt too wide) detected at line 16
+ []\TU/lmr/m/n/12 xvii
  []
 
 
-Overfull \hbox (3.27597pt too wide) detected at line 21
+Overfull \hbox (0.33597pt too wide) detected at line 17
+ []\TU/lmr/m/n/12 xxii
+ []
+
+
+Overfull \hbox (3.27597pt too wide) detected at line 18
+ []\TU/lmr/m/n/12 xxiv
+ []
+
+
+Overfull \hbox (9.80397pt too wide) detected at line 19
+ []\TU/lmr/m/n/12 xxviii
+ []
+
+
+Overfull \hbox (3.27597pt too wide) detected at line 20
  []\TU/lmr/m/n/12 xxix
  []
 
 
-Overfull \hbox (3.27597pt too wide) detected at line 22
- []\TU/lmr/m/n/12 xxxi
+Overfull \hbox (6.53996pt too wide) detected at line 21
+ []\TU/lmr/m/n/12 xxxii
+ []
+
+
+Overfull \hbox (9.47997pt too wide) detected at line 22
+ []\TU/lmr/m/n/12 xxxiv
  []
 
 
@@ -1316,33 +1331,38 @@ Overfull \hbox (3.27597pt too wide) detected at line 22
 
 
 ]
-Overfull \hbox (6.53996pt too wide) detected at line 23
- []\TU/lmr/m/n/12 xxxii
+Overfull \hbox (6.21596pt too wide) detected at line 23
+ []\TU/lmr/m/n/12 xxxv
  []
 
 
-Overfull \hbox (9.80397pt too wide) detected at line 24
- []\TU/lmr/m/n/12 xxxiii
+Overfull \hbox (9.47997pt too wide) detected at line 24
+ []\TU/lmr/m/n/12 xxxvi
  []
 
 
-Overfull \hbox (16.00797pt too wide) detected at line 25
- []\TU/lmr/m/n/12 xxxviii
+Overfull \hbox (0.33597pt too wide) detected at line 26
+ []\TU/lmr/m/n/12 xliv
+ []
+
+
+Overfull \hbox (6.86397pt too wide) detected at line 27
+ []\TU/lmr/m/n/12 xlviii
  []
 
 
 Overfull \hbox (0.33597pt too wide) detected at line 28
- []\TU/lmr/m/n/12 lxvi
+ []\TU/lmr/m/n/12 lxix
  []
 
 
-Overfull \hbox (0.65996pt too wide) detected at line 30
- []\TU/lmr/m/n/12 lxiii
+Overfull \hbox (0.33597pt too wide) detected at line 30
+ []\TU/lmr/m/n/12 lxvi
  []
 
 
 Overfull \hbox (0.33597pt too wide) detected at line 31
- []\TU/lmr/m/n/12 lxvi
+ []\TU/lmr/m/n/12 lxix
  []
 
 )
@@ -1379,12 +1399,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25818 strings out of 468389
- 515473 string characters out of 5440619
- 1392444 words of memory out of 5000000
- 53954 multiletter control sequences out of 15000+600000
- 631041 words of font info for 78 fonts, out of 8000000 for 9000
+ 25854 strings out of 468389
+ 516399 string characters out of 5440619
+ 1390873 words of memory out of 5000000
+ 53992 multiletter control sequences out of 15000+600000
+ 631033 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,13n,85p,2020b,5523s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (98 pages).
+Output written on document_maitre (1).pdf (100 pages).

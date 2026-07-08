@@ -623,7 +623,6 @@
       \field{urlyear}{2026}
       \field{year}{2008}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{131\bibrangedash 142}
       \range{pages}{12}
       \verb{urlraw}
@@ -1055,6 +1054,81 @@
       \verb https://fiatifta.org/awards-editions/awards-2019/
       \endverb
     \endentry
+    \entry{fick2015}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=2f74c15800f44f8691e4d3994f32e81e}{%
+           family={Fick},
+           familyi={F\bibinitperiod},
+           given={Hanna},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=316c678679a01d647a4b01701c3f4b67}{%
+           family={Fredriksson},
+           familyi={F\bibinitperiod},
+           given={Anneli},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35d345951cbd71c2f7fd3daa58422e13}{%
+           family={Lindblom},
+           familyi={L\bibinitperiod},
+           given={Helena},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=316c678679a01d647a4b01701c3f4b67}{%
+           family={Fredriksson},
+           familyi={F\bibinitperiod},
+           given={Anneli},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35d345951cbd71c2f7fd3daa58422e13}{%
+           family={Lindblom},
+           familyi={L\bibinitperiod},
+           given={Helena},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Society for Imaging Science and Technology}%
+      }
+      \strng{namehash}{7234249a795c4050595c3f7301a99e7e}
+      \strng{fullhash}{df56e47d2ca424f8cb48187fb24e3555}
+      \strng{fullhashraw}{df56e47d2ca424f8cb48187fb24e3555}
+      \strng{bibnamehash}{df56e47d2ca424f8cb48187fb24e3555}
+      \strng{authorbibnamehash}{df56e47d2ca424f8cb48187fb24e3555}
+      \strng{authornamehash}{7234249a795c4050595c3f7301a99e7e}
+      \strng{authorfullhash}{df56e47d2ca424f8cb48187fb24e3555}
+      \strng{authorfullhashraw}{df56e47d2ca424f8cb48187fb24e3555}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{RDA (Resource Description \&amp; Access) is a new cataloging standard that has been implemented in libraries in several countries over the world. It is based on the conceptual model FRBR (Functional Requirements for Bibliographical Records) and its rules have been influenced by archival descriptive rules. Thus RDA provides an opportunity for collaboration between archives and libraries. Ume\&\#xE5; University Library is currently running the project RDA \&\#x2013; An Opportunity for Archive and Library Collaboration, with support from Lund University Library, the National Library of Sweden and the National Archives. The aim of this project is to explore how RDA can be applied on archival materials and how FRBR entities can be related to aforementioned materials. RIMMF (RDA in Many Metadata Formats) is a cataloging training tool and has been used to visualize RDA and FRBR. RDA Toolkit has been used as a support tool in the cataloging process. Different models for applying RDA on archival materials have been developed in the project. The models have separate advantages and disadvantages, for example when it comes to creating searchability and to link archival materials with published materials. Using RDA brings possibilities to create linked data useful for archives, libraries and other interested parties. RDA has the potential to work as a standard for describing both archival and bibliographic materials.}
+      \field{issn}{2161-8798}
+      \field{journaltitle}{Archiving Conference}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{{{RDA}}; {{An Opportunity}} for {{Library}} and {{Archive Collaboration}}}
+      \field{urlday}{8}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{22\bibrangedash 26}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.2352/issn.2168-3204.2015.12.1.art00006
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/64RJDJNZ/Fick et al. - 2015 - RDA; An Opportunity for Library and Archive Collaboration.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://library.imaging.org/archiving/articles/12/1/art00006
+      \endverb
+      \verb{url}
+      \verb https://library.imaging.org/archiving/articles/12/1/art00006
+      \endverb
+    \endentry
     \entry{zotero-item-636}{misc}{}{}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
@@ -1125,6 +1199,43 @@
       \verb https://shs.cairn.info/voir-comprendre-analyser-les-images--9782348060229
       \endverb
       \keyw{à lire}
+    \endentry
+    \entry{gillis2015}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c44ce5ee814487e7addbd43b885c8dd7}{%
+           family={Gillis},
+           familyi={G\bibinitperiod},
+           given={Sarah\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c44ce5ee814487e7addbd43b885c8dd7}
+      \strng{fullhash}{c44ce5ee814487e7addbd43b885c8dd7}
+      \strng{fullhashraw}{c44ce5ee814487e7addbd43b885c8dd7}
+      \strng{bibnamehash}{c44ce5ee814487e7addbd43b885c8dd7}
+      \strng{authorbibnamehash}{c44ce5ee814487e7addbd43b885c8dd7}
+      \strng{authornamehash}{c44ce5ee814487e7addbd43b885c8dd7}
+      \strng{authorfullhash}{c44ce5ee814487e7addbd43b885c8dd7}
+      \strng{authorfullhashraw}{c44ce5ee814487e7addbd43b885c8dd7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract This is an updated version of a paper, “FRBR and TMS: Applying a Conceptual Organizational Model for Cataloguing Photographic Archives,” presented at Collective Imagination 2014 in Vienna, Austria. In order to manage the visual archive, containing analog photographic material as well as born-digital images, the Worcester Art Museum has been cataloguing images of objects from the permanent collection into the Media Module of TMS following the guidance of several conceptual models of organization. By referencing the digital preservation guidelines of the Digital Curation Center Lifecycle Model (DCC) and conceptual organizational models of the OAIS Reference Model and the Functional Requirements of Bibliographic Reference (FRBR) method of organization, an organizational model was implemented to better assist with the cataloguing to represent digital assets with their analogue parents. This paper looks at the archival cataloguing workflow and areas of CIDOC Conceptual Reference model's application in a collection management system, including advantages in clarity of metadata for analog and born-digital images.}
+      \field{month}{5}
+      \field{shorttitle}{{{FRBR}} and {{TMS}}}
+      \field{title}{{{FRBR}} and {{TMS}}: {{Applying}} a {{Conceptual Organizational Model}} for {{Cataloguing Photographic Archives}}}
+      \field{urlday}{8}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.semanticscholar.org/paper/FRBR-and-TMS%3A-Applying-a-Conceptual-Organizational-Gillis/f306103f1832cda79e27676bfce58a5329098cf2
+      \endverb
+      \verb{url}
+      \verb https://www.semanticscholar.org/paper/FRBR-and-TMS%3A-Applying-a-Conceptual-Organizational-Gillis/f306103f1832cda79e27676bfce58a5329098cf2
+      \endverb
     \endentry
     \entry{gong2021}{misc}{}{}
       \name{author}{3}{}{%
@@ -1333,7 +1444,6 @@
       \field{urlmonth}{7}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://repository.ifla.org/items/7303960c-35d1-41c0-9a50-a1ce3136b03b
       \endverb
@@ -2022,6 +2132,25 @@
       \verb http://arxiv.org/abs/1412.4470
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{zotero-item-651}{misc}{}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{abstract}{BnF - Site institutionnel}
+      \field{journaltitle}{BnF - Site institutionnel}
+      \field{langid}{french}
+      \field{title}{{Modèles FRBR, FRAD et FRSAD}}
+      \field{urlday}{30}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bnf.fr/fr/modeles-frbr-frad-et-frsad
+      \endverb
+      \verb{url}
+      \verb https://www.bnf.fr/fr/modeles-frbr-frad-et-frsad
+      \endverb
     \endentry
     \entry{moiraghi2018}{misc}{}{}
       \name{author}{1}{}{%
@@ -2887,6 +3016,29 @@
       \verb https://publications-prairial.fr/arabesques/index.php?id=605
       \endverb
       \keyw{Indexation}
+    \endentry
+    \entry{zotero-item-661}{misc}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cette rubrique offre des moyens pour aider les bibliothèques à préparer leur catalogue local dans le cadre d’un dialogue renforcé avec les éditeurs de SIGB.}
+      \field{journaltitle}{Transition bibliographique - Programme national}
+      \field{langid}{french}
+      \field{title}{{Systèmes et données}}
+      \field{urlday}{8}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/65LDTI4W/systemes-et-donnees.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.transition-bibliographique.fr/systemes-et-donnees/
+      \endverb
+      \verb{url}
+      \verb https://www.transition-bibliographique.fr/systemes-et-donnees/
+      \endverb
     \endentry
     \entry{tannier2006}{thesis}{}{}
       \name{author}{1}{}{%
