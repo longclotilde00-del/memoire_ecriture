@@ -1,4 +1,4 @@
-\subsection{Le FRBR, modèle d'indexation conçu pour les bibliothèques}
+\subsection{I.1 Le FRBR, modèle d'indexation conçu pour les bibliothèques}
 
 Le FRBR, Functional Requirements for Bibliographic Records, est un modèle conceptuel de données bibliographiques élaboré par l'IFLA de 1992 à 1996 et fondé sur le ISBD (à définir). \footcite{zotero-item-651} Ce modèle établit la mise en place de quatre niveaux hiérarchiques pour le catalogage d'un document: le niveau décrivant les caractéristiques individuelles du document en tant qu'exemplaire (item), le niveau décrivant les caractéristiques de sa publication (manifestation), le niveau décrivant les caractéristiques de son contenu intellectuel expression), et le niveau décrivant les caractéristiques de la création abstraite à laquelle il se rattache (oeuvre). \footcite{zotero-item-651} (donner un exemple? schéma) 
 Il s'agit d'un modèle entité-relation qui modélise précisément les relations qui peuvent exister entre les éléments d'une base de données pour pouvoir ainsi les retrouver plus facilement.
@@ -19,23 +19,25 @@ Notons en effet que le modèle FRBR est un modèle conçu par et pour les biblio
 
 Le FRBR adapté au milieu archivistique :
 
-La difficulté principale de l'adaptation du modèle FRBR au collections d'archives est que le niveau Oeuvre (work) ne peut contenir le plus haut niveau archivistique : le fonds d'archives. En effet, un fonds d'archive ne peut pas être considéré systématiquement comme une oeuvre, puisque dans la plupart des cas, il s'agit plutôt d'une aggrégation naturelle d'éléments quotidiens produits par une personne morale ou physique. Ainsi, un fonds d'archives ne peut pas être intégré à la définition d'une oeuvre come une création intellectuelle et artistique distincte. \footcite{fick2015}. Un fonds d'archives correspondrait alors plutot à un aggrégat d'oeuvres ou de travaux, niveau intermédiaire décrit dans le modèle FRBR qui mentionne le fonds darchives : "un ensemble de documents privés classés par des archives en un seul fonds"(traduction). \footcite{fick2015}
+La difficulté principale de l'adaptation du modèle FRBR au collections d'archives est que le niveau Oeuvre (work) ne peut contenir le plus haut niveau archivistique : le fonds d'archives. En effet, un fonds d'archive ne peut pas être considéré systématiquement comme une oeuvre, puisque dans la plupart des cas, il s'agit plutôt d'une aggrégation naturelle d'éléments quotidiens produits par une personne morale ou physique. Ainsi, un fonds d'archives ne peut pas être intégré à la définition d'une oeuvre comme création intellectuelle et artistique distincte. \footcite{fick2015}. Un fonds d'archives correspondrait plutot à un aggrégat d'oeuvres ou de travaux, niveau intermédiaire décrit par le modèle FRBR : "un ensemble de documents privés classés par des archives en un seul fonds"(traduction). \footcite{fick2015}
+Le modèle de données FRBR a également été adapté dans le milieu muséal à travers une version orientée objet (FRBRoo), issue d'une fusion avec le modèle de données spécifique aux milieu muséal, le CIDOC-CRM (object-oriented Conceptual Reference Model). \footcite{gillis2015} Ce dernier modélise la temporalité de la vie de l'objet de collection avec les évènements et l'espace temps qui lui sont liés. Ainsi, le FRBRoo est adopté en fonction de la nature de la collection. En effet, le modèle s'adapte mal à une collection picturale par exemple, puisque l'oeuvre et l'item se réalisent dans le même support, unique. Ce type de collection s'inscrit plutôt dans une modélisation du CICODC-CRM.
+Notons que le modèle FRBR est particulièrement bien adapté aux médiums artistiques qui font l'objet d'une reproductibilité technique, comme c'est le cas du cinéma. \footcite{zotero-item-669} En effet, une distinction claire peut être établie entre l'expression de l'oeuvre cinématographique au moment du tournage et du montage, et sa reproduction en différents exemplaires selon différents contextes de diffusion. Ce processus de reproduction, propre au caractère industriel du cinéma, peut notamment s'apparenter à celui du milieu littéraire. C'est pourquoi les centres d'archives audiovisuelles se tournent vers le FRBR comme modèle privilégié pour leurs données.  
+Toutefois, l'adéquation du modèle FRBR dépend de la nature du corpus audiovisuel appréhendé. En effet, le modèle s'applique particulièrement bien aux corpus de cinéma "classiques" dont la chaîne de production industrielle est respectée : un film est réalisé à l'issue d'un tournage et d'un montage (oeuvre), distribué (manifestation), et visionné (item). Or, dans le cas de corpus spécialisés, expérimentaux, personnels, amateurs, la modélisation FRBR s'assimile difficilement. Ce type de films n'est souvent pas distribué, rendant ainsi le niveau de manifestation obsolète. 
+C'est pour répondre à ces particularités propres au médium cinématographiques que la Fédération internationale des archives du film (FIAF) rédige un manuel de catalogage qui adapte le modèle FRBR aux collections audiovisuelles. Le manuel explique ainsi la valeur ajoutée de l'adaptation d'un modèle issu des bibliothèques : 
+
+\begin{quote}
+	"Alors que ce modèle bibliographique commun fonctionne bien pour les bibliothèques, puisque beaucoup d’entre elles archivent des copies exactes de la même publication, [...] les archives d'images animées conservent souvent des fonds uniques ou rares, tels que des éléments de travail, des masters et du matériel non publié en plus des copies d’exploitation, elles ont besoin de fonctions supplémentaires à celles d'un catalogue de bibliothèque pour répondre à bon nombre des besoins de gestion de leurs collections" \footcite{zotero-item-646}
+\end{quote}
+
+le but ultime de la modélisation des données et de leur structuration est leur interopérabilité et leur verement sur le web de données par les isntitutions qui le souhaitent. Permet de passer de la donnée brute à l'information intelligible. dès l'inventaire des données, la mdoélisation doit être prise en compte et également le multilinguisime pour faciliter l'ouverture des données. \footcite{chambonnet}
+Nécessité d'uniformiser même si les corpus sont hétérogènes pour assurer l'intéropérabilité des données. 
+avant la FIAF, quelle pratiques ?
+
+Transition vers la deuxième sous partie : adapter le FRBR aux archives audiovisuelles
 
 %à rédiger : 
 
-Tout « contenu » est-il
-une « Œuvre » ? \footcite{boeuf2008}
-
-comment ce modèle, issu des bibliothèque, a-t-il été adapté aux systèmes de gestion des collections d'archives ? Comment peut on conserver ce modèle alors même que le type d'objet catalogué ets de nature fondamentalement différente ? L'archive est régie par cette notion d'unicité et d'originalité. 
-
-le modèle de référence des musées : CIDOC CRM : fusion avec le FRBR qui a donné : object oriented FRBR \footcite{gillis2015}
-pour le catalogage basé sur le FRBR : dépend des collections : le temps peut être pris en compte, où la nature de l'objet créé peut être pris en compte.
-pour la peinture : l'item devient l'oeuvre. CE système s'adapte aux collections qui font l'objet d'une reprodyctibilité technique comme le cinéma (Benjamin)
-le FRBRoo (oreinted object) est conçu spécifiquement pour être codé en RDF 
-
-Pour la sous partie d'après : présenter les spécifictés des archives audiovisuelles, spécificités de création et dans quelle mesure ces spécificités 
-
-%à replacer : 
+%à replacer - fin de la deuxième sous partie : 
 Transition entre le modèle de données et l'automatisation : 
 justification de la clarté du modèle FRBR pour la mise en place d'un modèle automatique : 
 
@@ -46,10 +48,7 @@ Impact de l'indexation automatique sur les données :
 Nous prenons ici la pensée inverse, ce n'est pas seulement l'indexation automatique qui nécessite un modèle de données qualitatif, mais nous réfléchissons justement à la manière dont le modèle de données façonne l'indexation automatique et la manière dont l'indexation automatique permet de repenser le modèle de données dans lequel est implémentée. 
 
 
-Normes descriptives audiovisuelles utilisées par skinsoft :
-- norme EN 15744
-- norme EN15907
-- formats DCP/DPX
+
 
 Refonte du frbr : navigation entre entités liées
 

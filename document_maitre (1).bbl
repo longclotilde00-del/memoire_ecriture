@@ -32,6 +32,7 @@
       \field{urlyear}{2026}
       \field{year}{2021}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/S2F9IITH/2021 - AI in Audiovisual Archives Sound & Vision.html
       \endverb
@@ -130,6 +131,7 @@
       \field{urlyear}{2026}
       \field{year}{2021}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2103.15691
       \endverb
@@ -192,6 +194,7 @@
       \field{month}{6}
       \field{title}{Livre Blanc {{L}}'apprentissage Automatique Dans Les Archives : L'indexation En Profondeur Au Service de l'accès Aux Archives}
       \field{year}{2024}
+      \true{nocite}
       \verb{urlraw}
       \verb https://vsa-aas.ch/wp-content/uploads/2024/08/MachineLearning_im_Archiv_Whitepaper_2024-08-08_fr.pdf
       \endverb
@@ -248,6 +251,7 @@
       \field{volume}{4}
       \field{year}{2019}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.22148/16.043
       \endverb
@@ -374,6 +378,7 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2503.21848
       \endverb
@@ -475,6 +480,30 @@
       \endverb
       \keyw{Audiovisuel,Bases de données,Bibliothèque,Collections patrimoniales,Document audiovisuel,Documentation,Institut national de l'audiovisuel,Institution culturelle,Institution patrimoniale,Intelligence artificielle,Internet,Interopérabilité,Télévision,Web}
     \endentry
+    \entry{zotero-item-669}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5d39b16d16760e0e4573a45fc6f9f97}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{fullhash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{fullhashraw}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{bibnamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorbibnamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authornamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorfullhash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorfullhashraw}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{L'oeuvre d'art à l'époque de Sa Reproductibilité Technique}
+      \field{year}{1935}
+    \endentry
     \entry{bergmann2025}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fb71d3b9a4c9e4abb8da0034e197db9a}{%
@@ -509,6 +538,7 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/fr-fr/think/topics/transformer-model
       \endverb
@@ -674,6 +704,7 @@
       \field{volume}{11}
       \field{year}{2017}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.3389/fncom.2017.00102
       \endverb
@@ -701,6 +732,7 @@
       \field{urlyear}{2026}
       \field{year}{2021}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/KM9PXNAU/2021 - Bringing AI into the Audiovisual Archive Sound &.html
       \endverb
@@ -758,6 +790,7 @@
       \field{volume}{30}
       \field{year}{2009}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{88\bibrangedash 97}
       \range{pages}{10}
       \verb{doi}
@@ -848,6 +881,7 @@
       \field{langid}{english}
       \field{title}{Deep {{Clustering}} for {{Unsupervised Learning}} of {{Visual Features}}}
       \field{year}{2018}
+      \true{nocite}
       \field{pages}{139\bibrangedash 156}
       \range{pages}{18}
       \verb{doi}
@@ -887,6 +921,7 @@
       \field{urlyear}{2026}
       \field{year}{2014}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{61\bibrangedash 76}
       \range{pages}{16}
       \verb{doi}
@@ -898,6 +933,32 @@
       \verb{url}
       \verb https://shs-cairn-info.portail.psl.eu/big-data--9782804189150-page-61
       \endverb
+    \endentry
+    \entry{chambonnet}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dbacefa8fd38c6faf31849fce9076b79}{%
+           family={Chambonnet},
+           familyi={C\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dbacefa8fd38c6faf31849fce9076b79}
+      \strng{fullhash}{dbacefa8fd38c6faf31849fce9076b79}
+      \strng{fullhashraw}{dbacefa8fd38c6faf31849fce9076b79}
+      \strng{bibnamehash}{dbacefa8fd38c6faf31849fce9076b79}
+      \strng{authorbibnamehash}{dbacefa8fd38c6faf31849fce9076b79}
+      \strng{authornamehash}{dbacefa8fd38c6faf31849fce9076b79}
+      \strng{authorfullhash}{dbacefa8fd38c6faf31849fce9076b79}
+      \strng{authorfullhashraw}{dbacefa8fd38c6faf31849fce9076b79}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{{Définir une architecture de l'information pour la sauvegarde du patrimoine scientifique et technique contemporain (Patstec), à l'heure du web de données}}
+      \field{year}{2015}
+      \true{nocite}
     \endentry
     \entry{cordell}{article}{}{}
       \name{author}{1}{}{%
@@ -923,6 +984,7 @@
       \field{abstract}{Final-2020-02-13.pdf. 4Newspaper Navigator experiment: https://labs.loc.gov/work/experiments/newspaper-navigator/.}
       \field{langid}{english}
       \field{title}{Machine {{Learning}} + {{Libraries}}}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/TR3FPU8D/Cordell - Machine Learning + Libraries.pdf
       \endverb
@@ -959,6 +1021,7 @@
       \field{urlyear}{2026}
       \field{year}{2024}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning
       \endverb
@@ -995,6 +1058,7 @@
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{Teachable {{AI}} for the {{Archival Professions}} – {{Module}} 4:}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/3Z9KR8XN/Fewster and Arias - Teachable AI for the Archival Professions – Module 4.pdf
       \endverb
@@ -1141,6 +1205,7 @@
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/5UVVFI8N/france-2030.html
       \endverb
@@ -1199,6 +1264,81 @@
       \verb https://shs.cairn.info/voir-comprendre-analyser-les-images--9782348060229
       \endverb
       \keyw{à lire}
+    \endentry
+    \entry{gill2024}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=987f45d0ccf2d656eff8c620d9ebffd2}{%
+           family={Gill},
+           familyi={G\bibinitperiod},
+           given={Sandrine},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=07dfffeba55c12d85ec7dd4994c402ed}{%
+           family={Scopsi},
+           familyi={S\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+        {{hash=503076178a300a5f3a609abdabedc5ec}{%
+           family={Roullier},
+           familyi={R\bibinitperiod},
+           given={Clothilde},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b6bcb144a940603a8298f78d3a3b46d5}{%
+           family={{Sin Blima-Barru}},
+           familyi={S\bibinitperiod},
+           given={Martine},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5461edba191f8be76a45dc1ca3e78c0c}{%
+           family={Vasseur},
+           familyi={V\bibinitperiod},
+           given={Édouard},
+           giveni={É\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Pierrefitte-sur-Seine}%
+      }
+      \list{publisher}{1}{%
+        {Publications des Archives nationales}%
+      }
+      \strng{namehash}{987f45d0ccf2d656eff8c620d9ebffd2}
+      \strng{fullhash}{987f45d0ccf2d656eff8c620d9ebffd2}
+      \strng{fullhashraw}{987f45d0ccf2d656eff8c620d9ebffd2}
+      \strng{bibnamehash}{987f45d0ccf2d656eff8c620d9ebffd2}
+      \strng{authorbibnamehash}{987f45d0ccf2d656eff8c620d9ebffd2}
+      \strng{authornamehash}{987f45d0ccf2d656eff8c620d9ebffd2}
+      \strng{authorfullhash}{987f45d0ccf2d656eff8c620d9ebffd2}
+      \strng{authorfullhashraw}{987f45d0ccf2d656eff8c620d9ebffd2}
+      \strng{editorbibnamehash}{970fc667dcc2ace8a659daf0201ab0ad}
+      \strng{editornamehash}{75103642b042df91a261e725dfe2ef74}
+      \strng{editorfullhash}{970fc667dcc2ace8a659daf0201ab0ad}
+      \strng{editorfullhashraw}{970fc667dcc2ace8a659daf0201ab0ad}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Les nouveaux paradigmes de l'archive}}
+      \field{isbn}{978-2-86000-390-2}
+      \field{langid}{french}
+      \field{series}{{Actes}}
+      \field{title}{{Les archives audiovisuelles au tamis des archivistes}}
+      \field{urlday}{9}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/books.pan.7249
+      \endverb
+      \verb{urlraw}
+      \verb https://books.openedition.org/pan/7249
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/pan/7249
+      \endverb
+      \keyw{archives audiovisuelles}
     \endentry
     \entry{gillis2015}{inproceedings}{}{}
       \name{author}{1}{}{%
@@ -1360,6 +1500,7 @@
       \field{urlyear}{2026}
       \field{year}{2015}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{709\bibrangedash 712}
       \range{pages}{4}
       \verb{doi}
@@ -1406,6 +1547,7 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{xviii}
       \range{pages}{1}
       \verb{file}
@@ -1482,6 +1624,7 @@
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/TIA8UF27/lunesco-lance-un-dialogue-mondial-sur-lintelligence-artificielle-et-lavenir-des-musees.html
       \endverb
@@ -1505,6 +1648,7 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/STQKXGDF/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables.html
       \endverb
@@ -1649,6 +1793,7 @@
       \field{urlyear}{2026}
       \field{year}{2015}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{661\bibrangedash 664}
       \range{pages}{4}
       \verb{doi}
@@ -2360,6 +2505,7 @@
       \field{month}{1}
       \field{title}{Automatic {{Annotations}} and {{Enrichments}} for {{Audiovisual Archives}}}
       \field{year}{2021}
+      \true{nocite}
       \field{pages}{633\bibrangedash 640}
       \range{pages}{8}
       \verb{doi}
@@ -2403,6 +2549,7 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://dumas.ccsd.cnrs.fr/dumas-04255677
       \endverb
@@ -2608,6 +2755,7 @@
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.fatml.org/resources/principles-for-accountable-algorithms
       \endverb
@@ -2630,6 +2778,7 @@
       \field{urlyear}{2026}
       \field{year}{2021}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/fr-fr/think/topics/convolutional-neural-networks
       \endverb
@@ -2820,6 +2969,7 @@
       \field{urlyear}{2026}
       \field{year}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/5AQB9DFX/convolutional-neural-network.html
       \endverb
@@ -2856,6 +3006,7 @@
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/4YQUQEDE/41117180_Analyse_automatique_de_film_-_Des_sequences_d'images_aux_sequences_d'actions.html
       \endverb
@@ -2910,6 +3061,44 @@
       \endverb
       \keyw{à lire}
     \endentry
+    \entry{stockinger2011}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bb705b56b5bd7357e15cad329ae16bb5}{%
+           family={Stockinger},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Hermès science publications-Lavoisier}%
+      }
+      \strng{namehash}{bb705b56b5bd7357e15cad329ae16bb5}
+      \strng{fullhash}{bb705b56b5bd7357e15cad329ae16bb5}
+      \strng{fullhashraw}{bb705b56b5bd7357e15cad329ae16bb5}
+      \strng{bibnamehash}{bb705b56b5bd7357e15cad329ae16bb5}
+      \strng{authorbibnamehash}{bb705b56b5bd7357e15cad329ae16bb5}
+      \strng{authornamehash}{bb705b56b5bd7357e15cad329ae16bb5}
+      \strng{authorfullhash}{bb705b56b5bd7357e15cad329ae16bb5}
+      \strng{authorfullhashraw}{bb705b56b5bd7357e15cad329ae16bb5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-2-7462-3219-8}
+      \field{langid}{french}
+      \field{series}{{Traité des Sciences et Techniques de l'Information}}
+      \field{shorttitle}{{Les archives audiovisuelles}}
+      \field{title}{{Les archives audiovisuelles: description, indexation et publication}}
+      \field{year}{2011}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/77JZ5KLH/Stockinger - 2011 - Les archives audiovisuelles description, indexation et publication.pdf
+      \endverb
+    \endentry
     \entry{sullivan2025}{misc}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a71ffc2f326830319d0d1854f53626d6}{%
@@ -2951,6 +3140,7 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2507.08768
       \endverb
@@ -3001,6 +3191,7 @@
       \field{urlyear}{2026}
       \field{year}{2019}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{21\bibrangedash 23}
       \range{pages}{3}
       \verb{doi}
@@ -3222,6 +3413,7 @@
       \field{volume}{80}
       \field{year}{2021}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{17487\bibrangedash 17513}
       \range{pages}{27}
       \verb{doi}
@@ -3509,6 +3701,7 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2308.00210
       \endverb
@@ -3577,6 +3770,7 @@
       \field{urlyear}{2026}
       \field{year}{2024}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2305.00264
       \endverb
@@ -3607,6 +3801,7 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.v7darwin.com/blog/yolo-object-detection
       \endverb
@@ -3749,6 +3944,7 @@
       \field{volume}{686}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{121335}
       \range{pages}{1}
       \verb{doi}
@@ -3824,6 +4020,7 @@
       \field{urlyear}{2026}
       \field{year}{2022}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2107.01153
       \endverb
