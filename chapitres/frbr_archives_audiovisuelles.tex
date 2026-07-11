@@ -1,69 +1,69 @@
 \subsection{I.2 Adapter le FRBR aux archives audiovisuelles}
 
-\subsubsection{l'espace de travail S-Movies}
+\subsubsection{Un espace de travail dédié à la gestion de collections audiovisuelles : S-Movies}
 
-Si le manuel de la FIAF pose les fondations de l'adaptation du modèle FRBR aux archives audiovisuelles, il s'agit désormais d'en analyser une implémentation concrète, celle proposée par skinsoft dans son logiciel de gestion des collections à travers l'espace de travail S-Movies.  L'enjeu de cet espace de travail, dédié à la gestion des collections audiovisuelles est de proposer une adaptation cohérente des préconisations de la FIAF concernant le modèle FRBR. 
+Si le manuel de la FIAF pose les fondations de l'adaptation du modèle FRBR aux archives audiovisuelles, il s'agit désormais d'en analyser une implémentation concrète, celle proposée par Skinsoft dans son logiciel de gestion des collections à travers l'espace de travail S-Movies.  L'enjeu de cet espace de travail, dédié à la gestion des collections audiovisuelles est de proposer une adaptation cohérente des préconisations de la FIAF concernant le modèle FRBR. 
 
-L'application développée par skinsoft divisée en espaces de travail dédiés à chaque type de collection permet justement d'adapter le modèle à chaque type de données. De plus, au sein de la structure de chaque espace de travail, skinsoft permet une haute configurabilité impliquant le paramétrage des champs de saisie pour chaque type de notice, de l'organisation de ces champs dans des grilles de résultats de recherche, et de l'assemblage de ces champs et de ces grilles de recherche dans des menus navigables pour chaque type de notice. (schémas explicatifs ?)
+L'application développée par Skinsoft, divisée en espaces de travail dédiés à chaque type de collection, permet justement d'adapter le modèle à chaque type de données. De plus, au sein de la structure de chaque espace de travail, Skinsoft permet une haute configurabilité impliquant le paramétrage des champs de saisie pour chaque type de notice, de l'organisation de ces champs dans des grilles de résultats de recherche, et de l'assemblage de ces champs et de ces grilles de recherche dans des menus navigables pour chaque type de notice. (schémas explicatifs ?)
 Ainsi, une double adaptabilité est proposée : un espace conforme à la nature des données issue de l'indexation des collections (espaces de travail : S-Movies), et un paramétrage propre au type de corpus géré par l'institution cliente (la collection audiovisuelle d'une institution spécifique, avec ses caractéristiques propres). 
-PLus précisément, les archives audiovisuelles possèdent un socle normatif commun, celui du modèle FRBR qui conditionne la structure des données produites mais également leur description. Ce socle est stable et inchangé dans la gestion de collections d'une institution à l'autre, ce qui permet à skinsoft de proposer un espace de travail prédéfinit. En revanche, les corpus audiovisuels entre les institutions peuvent être de toutes sortes, sur différentes thématiques, sous différents formats. Cette hétérogénéité suppose des règles métiers différentes entre institutions, qui sont la conséquence de besoins eux aussi bien différents. Ainsi, par exemple, une collection audiovisuelle expérimentale n'aura pas besoin des mêmes champs de saisie, des mêmes thésaurus, ou de la même disposition des résultats de recherche, qu'une collection audiovisuelle commerciale. 
+Plus précisément, les archives audiovisuelles possèdent un socle normatif commun, nous l'avons évoqué, celui du modèle FRBR qui conditionne la structure des données produites mais également leur description. Ce socle est stable et inchangé dans la gestion de collections d'une institution à l'autre, ce qui permet à Skinsoft de proposer un espace de travail prédéfinit. En revanche, les corpus audiovisuels entre les institutions peuvent être de toutes sortes, sur différentes thématiques, sous différents formats. Cette hétérogénéité suppose des règles métiers différentes entre institutions, qui sont la conséquence de besoins, eux aussi, bien différents. Ainsi, par exemple, une collection audiovisuelle expérimentale n'aura pas besoin des mêmes champs de saisie, des mêmes thésaurus, ou de la même disposition des résultats de recherche, qu'une collection audiovisuelle commerciale.  
+Nous avons mentionné la possibilité de paramétrer des champs de saisie adaptés pour chaque type de collection audiovisuelle. Ces champs, s'ils sont paramétrables individuellement, font en réalité partie d'une structure plus large, à l'échelle de l'espace de travail dans lequel ils se situent. En effet, ces champs sont regroupés dans des masques, qui correspondent à des formulaires de saisie spécifiques au type de notice concerné. Par exemple, une notice "Restauration" pourra contenir un masque "Description", contenant des champs de saisie liés à la description : titre, numéro d'identification, responsable(s) interne(s), intervenant(s), etc. Ce masque pourra ensuite être assemblé dans le menu d'une notice de restauration, qui comportera alors un onglet "Description", permettant à l'utilisateur d'y remplir les champs que nous avons mentionnés. Tous les espaces de travail sont fondés sur l'organisation des champs de saisie en différents masques, afin de pouvoir configurer les notices. 
+Toutefois, les espaces de travail structurés sur le modèle FRBR, comme c'est le cas de S-Movies, requièrent un niveau de configuration supplémentaire, afin d'illustrer le découpage de la description en quatre niveaux hiérarchiques. C'est le rôle des méta-masques, des formulaires qui peuvent pointer sur les champs de plusieurs types de notices à la fois afin d'imbriquer ces niveaux de description. Ce système permet à l'utilisateur de saisir, sans qu'il s'en rende compte, des informations sur plusieurs niveaux du FRBR en une seule notice. Concrètement, dans S-Movies, la notice d'Oeuvre/Expression pointe sur les champs de l'Oeuvre et de l'Expression, la notice de Manifestation pointe sur les champs de l'Oeuvre, l'Expression et la Manifestation, la notice de l'Item pointe sur l'Oeuvre, l'Expression, la Manifestation et l'Item. \textbf{(Faire un schéma explicatif) (citer le mode d'emploi interne ?)}
+D'autres types de notices font appel aux méta masques, comme les notices de médias, nous y reviendront. 
+%(: média (notice du fichier numérique, média), accessoire (modèle d'accessoire, accessoire), contenant (mdèle de contenant, contenant).)
 
-Première adaptabilité : configuration de l'espace de travail conformément au FRBR : 
+Nous l'avons évoqué, ces masques et métamasques constituent une structure pérenne qui fait l'objet d'un paramétrage individuel, en fonction du type de collection et des usages métiers du client institutionnel. Dans le cas d'une migration de données depuis une autre base de données, un travail de mapping s'effectue alors afin de touver un accord sur les nouveaux champs qui remplaceront les anciens. L'équipe de skinsoft organise ensuite ces champs dans des formulaires de saisie (masques et méta masques), eux-mêmes organisés pour constituer des menus de notice et des grilles de résultats de recherche. L'équipe produit également des imports de thésaurus propres aux usages de l'institution en question, afin d'assurer l'interopérabilité des données saisies.
+Entre autres fonctionnalités, S-Movies permet spécifiquement de gérer les entrées des colections films (via la table Entrées), de gérer les médias numériques, de regrouper les collections par thématiques, de gérer les projets et mouvements. Mais surtout, l'espace de travail contient trois tables, correspondant chacune à un niveau de description du modèle FRBR : Films (items), Manifestations, Oeuvres. Dans chacune de ces tables l'utilisateur peut créer des notices, et y associer des notices des autres tables. Par exemple, depuis la table des Oeuvres, l'utilisateur peut créer une notice d'oeuvre et y associer les notices de Manifestations et d'Items qui y sont directement liées.
+Les bases de la structure S-Movies ainsi décrite, nous pouvons déjà établir que cette architecture normée, synthèse du modèle FRBR et des normes en vigueur, ainsi que le paramétrage personnalisé, sont la condition de la qualité de l'expérience utilisateur et ainsi de celle des données. L'enjeu de l'espace de travail est d'offrir une interface qui permette à l'utilisateur de comprendre les délimitations entre les niveaux du FRBR et les liens qu'ils entretiennent, afin de saisir les données pertinentes au bon endroit. Une expérience utilisateur intuitive permet une meilleure structure des données et assure leur intéropérabilité. Tout au long de cette étude, l'expérience utilisateur sera d'ailleurs au coeur des enjeux fonctionnels de l'application. Toutefois, l'analyse, en stage, de corpus audiovisuels spécifiques ajoute une difficulté supplémentaire à rendre l'espace de travail intuitif et navigable selon sa structure propre. 
+Ce n'est pas seulement une question d'adaptabilité du paramétrage ou de l'interface utiliateur, c'est une question de la capacité du FBR à s'adapter à de corpus audiovisuels hétérogènes. 
 
-Nous avons mentionné la possibilité de paramétrer des champs de saisie adaptés pour chaque type de collection audiovisuelle. Ces champs, s'ils sont paramétrables individuellement, font en réalité partie d'une structure plus large, à l'échelle de l'espace de travail dans lequel ils se situent. En effet, ces champs sont regroupés dans des masques, qui correspondent à des formulaires de saisie regroupant les champs d'un type de notice. Par exemple, une notice "Restauration" pourra contenir un masque "Description" contenant des champs de saisie lié à la description : titre, numéro d'identification, responsable(s) interne(s), intervenant(s), etc... Ce masque pourra ensuite être assemblé dans le menu d'une notice de restauration, qui comportera alors un onglet "Description", permettant à l'utilisateur d'y remplir les champs que nous avons mentionnés. 
-Tous les espaces de travail sont fondés sur cette organisation des champs de saisie en masques afin de pouvoir configurer les notices. Toutefois, les espaces de travail structurés sur le modèle FRBR, comme c'est le cas de S-Movies, requièrent un niveau de configuration supplémentaire, afin d'illustrer le découpage en quatre niveaux hiérarchiques. C'est le rôle des méta-masques, des formulaires qui peuvent pointer sur les champs de plusieurs types de notices à la fois afin d'implémenter la descriptions des niveaux hiérarchiques du FRBR. Ce système permet à l'utilisateur de saisir, sans qu'il s'en rende compte, des informations sur plusieurs niveaux du FRBR en une seule notice. Concrètement, dans S-Movies, la notice d'oeuvre/Expression pointe sur les champs de l'oeuvre et de l'expression, la notice de manifestation pointe sur les champs de l'oeuvre, l'expression et la manifestation, la notice de l'item film pointe sur l'oeuvre, l'expression, la manifestation et l'item film. (Faire un schéma explicatif) (citer le mode d'emploi interne ?)
+%Présentation espace S-Movies : aperçu des fonctionnalités communes et spécifiques (à placer en annexe ?): ces fonctionnalités sont chacune rattachées à un ou plusieurs niveaux du FRBR
+%- gestion des entrées : création d'un objet de collection via l'import de son média
+%- gestion des médias : associer un nouveau média à une notice de film ou un média existant
+%définir des vignettes sur les notices de films à l'aide des médias importés 
+%- documents associés 
+%- table collections/thématiques : regroupement des collections par thématiques : décrit le contexte de la collection, de l'assemblage des films, et présentent les items présents dans cette collection
+%- projets et mouvements : intervention, conservation, acquisitions, entrées, expositions, prêts, diffusion/programmation
 
-(autres notices qui font appel aux méta masques : média (notice du fichier numérique, média), accessoire (modèle d'accessoire, accessoire), contenant (mdèle de contenant, contenant).)
-
-2e adaptabilité : 
-NOus l'avons évoqué, ces masques et métamasques font l'objet d'un paramétrage individuel, en fonction du type de collection. Ces masques et métamasques peuvent être configurés et adaptés elon le type de corpus. Dans le cas d'une migration de données depuis une autre base de données, un travail de mapping s'effectue pour configurer les masques et métamasques afin de trouver un accord avec le client et de retrouver les usages métier en vigueur dans l'institution à travers un paramétrage effectué par skinsoft. 
-Grilles de recherche
-Menus des notices 
-Import des thésaurus
-Import des médias 
-
-
-Présentation espace S-Movies : aperçu des fonctionnalités communes et spécifiques : 
-- gestion des entrées : création d'un objet de collection via l'import de son média
-- gestion des médias : associer un nouveau média à une notice de film ou un média existant
-définir des vignettes sur les notices de films à l'aide des médias importés 
-- documents associés 
-- table collections/thématiques : regroupement des collections par thématiques : décrit le contexte de la collection, de l'assemblage des films, et présentent les items présents dans cette collection
-- projets et mouvements : intervention, conservation, acquisitions, entrées, expositions, prêts, diffusion/programmation
-
-fonctionnalités communes : gestion des contrats, évènements, interventions, expositions
+%fonctionnalités communes : gestion des contrats, évènements, interventions, expositions
 
 
-Concrétisation des niveaux WEMI avec des notices liées entre elles
+%Lien de la FIAF à S-Movies : mise en application du manuel de la FIAF, remodélisation, adaptable selon les corpus. tension public/privé
 
-Lien de la FIAF à S-Movies : mise en application du manuel de la FIAF, remodélisation, adaptable selon les corpus. tension public/privé
+%à bouger dans la première sous partie
+%S- Movies s'appuie sur deux normes descriptives audiovisuelles européennes : la norme EN 15744, qui définit le contenu obligatoire de description pour l'identification d'un film, ainsi que la norme EN 15907 qui découle du manuel de la FIAF et décrit une structure en couches et niveaux de données. Ces normes définisent les métadonnées essentielles pour faciliter l'échange de données et l'identification des films. \footcite{zotero-item-646}
 
-S- Movies s'appuie sur deux Normes descriptives audiovisuelles européennes utilisées par skinsoft :
-La norme EN 15744 et EN 15907 sont indissociables l'une de l'autre. EN 15744 définit le contenu obligatoire de description pour l'identification d'un film.La norme EN 15907 découle du manuel de la FIAF et décrit une structure ne couches/niveaux. 
-15907 : traduction du manuel de la FIAF en structure de données 
+%AU niveau de la description des archives, il s'appuie sur la normes RDA pour la description et l'accès aux ressources. \footcite{zotero-item-646}
+%
+%Afin d'assurer l'intéropérabilité des données, l'indexation des champs est liées à des thésaurus et des référentiels contrôlés qui ont importés au moment de la configuration de l'espace de travail pour le client. 
 
-(formats DCP/DPX : formats utilisés pour la description de formats au niveu de l'item)
+%mentionner les données techniques? : type de serveur, type de base de données
 
-Indexation également liée à des thésaurus et référentiels contrôlés 
-mentionner les données techniques? : type de serveur, type de base de données, fonctionnlités principales, 
-
-l'enjeu de S-Movies est surtout d'offrir une expérience utilisateur qui permette de comprendre les niveaux du WEMI et de pouvoir créer des notices au bon endroit pour chaque cas d'indexation. Une expérience utilisateur navigable et intuitive permet ensuite une modélisation de données adéquate et assure l'intéropérabilité des données. 
-pas seulement une question d'ergonomie mais une question de qualité des données. Tout au long de cette étude, l'expérience utilisateur sera au coeur des enjeux, comme composante essentielle des recherches effectuées. 
 
 \subsubsection{L'inscription des corpus de données dans la remodélisation du FRBR}
 
-Confrontation du modèle aux différents corpus : dans quelle mesure les différents corpus s'inscrivent dans ce modèle ? Description des corpus de données vus en stage et lien avec la modélisation FRBR 
+Complexifie l'adaptation de la structure en place et du paramtétrage métier. Structure rigide : ne bouge pas : peut être limitée. mais le paramétrage individuel permet de retrouver de la flexibilité. 
+Afin d'analyser l'adaptabilité du FRBR aux archives audiovisuelles, nous analyserons ici deux corpus de données différents. Notons que pour des raisons de confidentialité, nous décrirons les corpus de ces institutions sans les nommer de manière explicite. (mettre une note de bas de page)
+Skinsoft permet à plusieurs institutions spécilisées dans les collections audiovisuelles de gérer leurs données. Parmi elles, nous prendrons l'exemple de deux corpus différents, qui permettent d'illustrer la mesure dans laquelle les archives audiovisuelles s'inscrivent au sein du modèle FRBR. 
+Premièrement, analysons l'implémentation d'un corpus de cinéma "classique" au sein de l'espace de travail S-Movies. Ce corpus est géré par une institution qui préserve essentiellement des films de fiction issus d'une production industrielle et commerciale depuis les débuts du cinéma. 
+Comme la production cinématographique est une production industrielle, elle est encadrée et définie : s'adapte bien à un modèle par niveaux : qui correspondent aux étapes de production. 
+Oeuvre/expression > variante > manifestation > items
+dire à quoi correspond chaque niveau concrètement dans le corpus.
+
+Deuxièmement, analysons l'implémentation d'un corpus plus spécifique, celui d'une collection de films documentaires muets et non montés, tournées des années 1910 à 1920.
+Oeuvre/expression > items 
+l'absence de montage et de distribution commerciale rend difficile l'adaptation au modèle. Le niveau manifestation est éclipsé. Il n'existe pas de variante non plus, car ce sont des séquences non montées, donc chaque bobine est une oeuvre unique sur un sujet différent. 
+Nous nous concentrerons sur ce corpus tout au long de notre étude pour mettre à l'épreuve le modèle FRBR. 
+
+
 intégrer une modélisation des relations FRBR selon le corpus 
 
-deux types de ca : corpus classique / corpus spécifique
-
-représentation visuelle de deux structures de données différentes. 
-
-ces différences soulèvent des questionnements sur l'emploi du FRBR : le niveau variante, le niveau manifestation. 
 
 \subsubsection{refonte et réflexions sur S-Movies et le FRBR + Le projet d'introduction de l'IA}
 
-refonte de la navigation entre les niveaux du FRBR : fait l'objet d'un projet en cours chez skinsoft. L'utilisateur ne peut pas visualiser l'ensemble des liens de sa collection, à naviguer entre les notices, et des difficultés lors de la création de ces liens. 
+Lister les problèmes de navigation qui font débat en ce moment et qui feront l'objet d'un chantier 
+
+Refonte de la navigation entre les niveaux du FRBR : fait l'objet d'un projet en cours chez skinsoft. L'utilisateur ne peut pas visualiser l'ensemble des liens de sa collection, à naviguer entre les notices, et des difficultés lors de la création de ces liens. 
 
 condition préalable d'un autre chantier en cours : projet IA et spécifiquement d'une indexation automatique des archives audiovisuelles. 
 

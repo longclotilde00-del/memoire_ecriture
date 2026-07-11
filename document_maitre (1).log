@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  10 JUL 2026 12:24
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  11 JUL 2026 11:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,44 +878,51 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 ]
 
 [14]
-Overfull \hbox (5.35683pt too wide) in paragraph at lines 29--30
-\TU/lmr/m/n/12 publication, [...] les archives d’images animées conservent souv
-ent des fonds uniques
- []
 
+[15]
 
+[16])
 
-[15])
-
-[16]
+[17]
 \openout2 = `chapitres/frbr_archives_audiovisuelles.aux'.
 
  (./chapitres/frbr_archives_audiovisuelles.tex
+Underfull \vbox (badness 1831) has occurred while \output is active []
 
-[17
+
+
+[18
 
 
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[18]
 
-[19])
 
-[20]
+[19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[20])
+
+[21]
+
+[22
+
+
+
+]
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (M);
 (lettrine.sty)             reported on input line 264.
 
 
-[21
+[23]
 
-
-
-]
-
-[22
+[24
 
 ]
 Overfull \hbox (13.40034pt too wide) in paragraph at lines 270--270
@@ -926,7 +933,7 @@ Overfull \hbox (13.40034pt too wide) in paragraph at lines 270--270
 
 
 
-[23
+[25
 
 ]
 Overfull \hbox (2.77263pt too wide) in paragraph at lines 270--270
@@ -944,7 +951,7 @@ Overfull \hbox (4.37076pt too wide) in paragraph at lines 270--270
 
 
 
-[24]
+[26]
 Overfull \hbox (11.73682pt too wide) in paragraph at lines 270--270
 [][][]\TU/lmr/m/sc/12 IFLA Study Group on the Functional Requirements for Bibli
 ographic Records[]\TU/lmr/m/n/12 ​,
@@ -952,7 +959,7 @@ ographic Records[]\TU/lmr/m/n/12 ​,
 
 
 
-[25]
+[27]
 Overfull \hbox (6.02444pt too wide) in paragraph at lines 270--270
 [][][]\TU/lmr/m/sc/12 Longpre[]\TU/lmr/m/n/12 ​ (Shayne), []\TU/lmr/m/sc/12 Sin
 gh[]\TU/lmr/m/n/12 ​ (Nikhil), []\TU/lmr/m/sc/12 Cherep[]\TU/lmr/m/n/12 ​ (Manu
@@ -962,9 +969,9 @@ aterzynska[]\TU/lmr/m/n/12 ​
 
 
 
-[26]
+[28]
 
-[27]
+[29]
 Overfull \hbox (5.9788pt too wide) in paragraph at lines 270--270
 \TU/lmr/m/n/12 Etienne, 2006, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][
 ] [] [] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][] [][] [][][][][][]
@@ -973,7 +980,7 @@ Overfull \hbox (5.9788pt too wide) in paragraph at lines 270--270
 
 
 
-[28]
+[30]
 Overfull \hbox (17.96452pt too wide) in paragraph at lines 270--270
 [][][]\TU/lmr/m/sc/12 Wang[]\TU/lmr/m/n/12 ​ (Yiyuan), []\TU/lmr/m/sc/12 Johnst
 on[]\TU/lmr/m/n/12 ​ (Andrew), []\TU/lmr/m/sc/12 Sadokierski[]\TU/lmr/m/n/12 ​ 
@@ -991,9 +998,9 @@ n[]\TU/lmr/m/n/12 ​ (Chang-
 
 
 
-[29]
+[31]
 
-[30
+[32
 
 ]
 
@@ -1004,15 +1011,15 @@ LaTeX Warning: Empty bibliography on input line 277.
 
 
 
-[31]
-
-[32
-
-]
-
 [33]
 
 [34
+
+]
+
+[35]
+
+[36
 
 ]
 
@@ -1054,13 +1061,13 @@ Annexe A.
 [10
 
 ] (./document_maitre (1).toc
-Overfull \hbox (0.33597pt too wide) detected at line 16
- []\TU/lmr/m/n/12 xvii
+Overfull \hbox (3.59996pt too wide) detected at line 16
+ []\TU/lmr/m/n/12 xviii
  []
 
 
-Overfull \hbox (0.33597pt too wide) detected at line 17
- []\TU/lmr/m/n/12 xvii
+Overfull \hbox (3.59996pt too wide) detected at line 17
+ []\TU/lmr/m/n/12 xviii
  []
 
 
@@ -1094,12 +1101,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25156 strings out of 468389
- 496120 string characters out of 5440619
- 1349032 words of memory out of 5000000
- 53412 multiletter control sequences out of 15000+600000
+ 25154 strings out of 468389
+ 496079 string characters out of 5440619
+ 1354026 words of memory out of 5000000
+ 53410 multiletter control sequences out of 15000+600000
  631033 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,12n,85p,2020b,5489s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,12n,85p,2020b,5487s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (48 pages).
+Output written on document_maitre (1).pdf (50 pages).

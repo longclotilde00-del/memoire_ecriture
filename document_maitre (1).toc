@@ -13,12 +13,12 @@
 \contentsline {section}{\numberline {VIII.}La difficulté d’adaptation au modèle de données, même avec un entraînement adéquat }{ix}{section.0.8}%
 \contentsline {section}{\numberline {IX.}Vers une indexation augmentée plutôt qu’automatisée }{x}{section.0.9}%
 \contentsline {subsection}{\numberline {1.}I.1 Le FRBR, modèle d'indexation conçu pour les bibliothèques}{xiii}{subsection.0.9.1}%
-\contentsline {subsection}{\numberline {2.}I.2 Adapter le FRBR aux archives audiovisuelles}{xvii}{subsection.0.9.2}%
-\contentsline {subsubsection}{\numberline {a.}l'espace de travail S-Movies}{xvii}{subsubsection.0.9.2.1}%
-\contentsline {subsubsection}{\numberline {b.}L'inscription des corpus de données dans la remodélisation du FRBR}{xix}{subsubsection.0.9.2.2}%
-\contentsline {subsubsection}{\numberline {c.}refonte et réflexions sur S-Movies et le FRBR + Le projet d'introduction de l'IA}{xix}{subsubsection.0.9.2.3}%
-\contentsline {chapter}{Remerciements}{xxi}{chapter*.7}%
-\contentsline {chapter}{Introduction}{xxxiii}{chapter*.11}%
+\contentsline {subsection}{\numberline {2.}I.2 Adapter le FRBR aux archives audiovisuelles}{xviii}{subsection.0.9.2}%
+\contentsline {subsubsection}{\numberline {a.}Un espace de travail dédié à la gestion de collections audiovisuelles : S-Movies}{xviii}{subsubsection.0.9.2.1}%
+\contentsline {subsubsection}{\numberline {b.}L'inscription des corpus de données dans la remodélisation du FRBR}{xx}{subsubsection.0.9.2.2}%
+\contentsline {subsubsection}{\numberline {c.}refonte et réflexions sur S-Movies et le FRBR + Le projet d'introduction de l'IA}{xxi}{subsubsection.0.9.2.3}%
+\contentsline {chapter}{Remerciements}{xxiii}{chapter*.7}%
+\contentsline {chapter}{Introduction}{xxxv}{chapter*.11}%
 \contentsline {part}{I\hspace {1em}Une partie}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Mon premier chapitre}{3}{chapter.1}%
 \contentsline {part}{II\hspace {1em}Une autre partie}{5}{part.2}%
