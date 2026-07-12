@@ -16,9 +16,12 @@
 \contentsline {subsection}{\numberline {2.}I.2 Adapter le FRBR aux archives audiovisuelles}{xviii}{subsection.0.9.2}%
 \contentsline {subsubsection}{\numberline {a.}Un espace de travail dédié à la gestion de collections audiovisuelles : S-Movies}{xviii}{subsubsection.0.9.2.1}%
 \contentsline {subsubsection}{\numberline {b.}L'inscription des corpus de données dans la remodélisation du FRBR}{xx}{subsubsection.0.9.2.2}%
-\contentsline {subsubsection}{\numberline {c.}refonte et réflexions sur S-Movies et le FRBR + Le projet d'introduction de l'IA}{xxi}{subsubsection.0.9.2.3}%
-\contentsline {chapter}{Remerciements}{xxiii}{chapter*.7}%
-\contentsline {chapter}{Introduction}{xxxv}{chapter*.11}%
+\contentsline {subsubsection}{\numberline {c.}Vers une refonte de S-Movies}{xxiii}{subsubsection.0.9.2.3}%
+\contentsline {subsection}{\numberline {3.}I.3 Le projet d'une indexation automatisée des archives audiovisuelles, conditionnée par le modèle en place}{xxv}{subsection.0.9.3}%
+\contentsline {subsubsection}{\numberline {a.}Projet SKAI}{xxv}{subsubsection.0.9.3.1}%
+\contentsline {subsubsection}{\numberline {b.}Indexation et segmentation}{xxv}{subsubsection.0.9.3.2}%
+\contentsline {chapter}{Remerciements}{xxvii}{chapter*.7}%
+\contentsline {chapter}{Introduction}{xxxix}{chapter*.11}%
 \contentsline {part}{I\hspace {1em}Une partie}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Mon premier chapitre}{3}{chapter.1}%
 \contentsline {part}{II\hspace {1em}Une autre partie}{5}{part.2}%

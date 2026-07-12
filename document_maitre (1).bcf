@@ -2166,7 +2166,9 @@
     <bcf:citekey order="18" intorder="1">zotero-item-646</bcf:citekey>
     <bcf:citekey order="19" intorder="1">zotero-item-646</bcf:citekey>
     <bcf:citekey order="20" intorder="1">zotero-item-646</bcf:citekey>
-    <bcf:citekey order="21" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">zotero-item-646</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">zotero-item-584</bcf:citekey>
+    <bcf:citekey order="23" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
