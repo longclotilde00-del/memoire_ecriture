@@ -194,7 +194,6 @@
       \field{month}{6}
       \field{title}{Livre Blanc {{L}}'apprentissage Automatique Dans Les Archives : L'indexation En Profondeur Au Service de l'accès Aux Archives}
       \field{year}{2024}
-      \true{nocite}
       \verb{urlraw}
       \verb https://vsa-aas.ch/wp-content/uploads/2024/08/MachineLearning_im_Archiv_Whitepaper_2024-08-08_fr.pdf
       \endverb
@@ -2331,6 +2330,7 @@
       \field{urlyear}{2026}
       \field{year}{2018}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.58079/m3cp
       \endverb
@@ -2662,6 +2662,25 @@
       \verb https://www.francenum.gouv.fr/guides-et-conseils/intelligence-artificielle/agents-conversationnels-et-assistants-virtuels/comment
       \endverb
       \keyw{chatbot,NLP}
+    \endentry
+    \entry{zotero-item-675}{misc}{}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FranceArchives}
+      \field{langid}{french}
+      \field{title}{{Outils pour l'indexation des archives à l'heure du web}}
+      \field{urlday}{13}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://francearchives.gouv.fr/fr/article/37832
+      \endverb
+      \verb{url}
+      \verb https://francearchives.gouv.fr/fr/article/37832
+      \endverb
     \endentry
     \entry{patton2024}{misc}{}{}
       \name{author}{1}{}{%
@@ -3006,7 +3025,6 @@
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/4YQUQEDE/41117180_Analyse_automatique_de_film_-_Des_sequences_d'images_aux_sequences_d'actions.html
       \endverb

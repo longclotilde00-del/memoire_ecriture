@@ -1,15 +1,15 @@
-[0] Config.pm:328> INFO - This is Biber 2.21
+[1] Config.pm:328> INFO - This is Biber 2.21
 [1] Config.pm:331> INFO - Logfile is 'document_maitre (1).blg'
-[227] biber:342> INFO - === Thu Jul  9, 2026, 12:31:24
-[272] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
-[450] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[488] Biber.pm:4487> INFO - Processing section 0
-[520] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
-[533] bibtex.pm:1713> INFO - LaTeX decoding ...
-[868] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
-[2404] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2404] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2405] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
-[2405] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
-[2673] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
-[2793] bbl.pm:779> INFO - Output to document_maitre (1).bbl
+[216] biber:342> INFO - === Mon Jul 13, 2026, 07:39:03
+[263] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
+[460] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[492] Biber.pm:4487> INFO - Processing section 0
+[516] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
+[527] bibtex.pm:1713> INFO - LaTeX decoding ...
+[874] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
+[2462] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2462] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2462] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[2462] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
+[2747] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
+[2870] bbl.pm:779> INFO - Output to document_maitre (1).bbl
