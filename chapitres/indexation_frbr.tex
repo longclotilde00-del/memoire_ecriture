@@ -1,82 +1,57 @@
-\subsection{I.3 Le projet d'une indexation automatisée des archives audiovisuelles, conditionnée par le modèle en place}
+\subsection{Le projet d'une indexation automatisée des archives audiovisuelles, conditionnée par le modèle en place}
 
-le catalogage et l'indexation des archives audiovisuelles est une opération laborieuse et longue, particulièremet sur des archives spécifiques telles que nous vons décrites 
+Le catalogage et l'indexation des archives audiovisuelles est une opération laborieuse et longue, particulièremet sur des archives spécifiques telles que nous vons décrites 
+
+La mise en place éventuelle d'une indexation automatique fondée sur une segmentation automatique s'inscrit, nous l'avons évoqué, dans un projet de mise en place de l'intelligence artificielle àune plus large échelle au sein de l'application Skinsoft, afin d'automatiser et de faciliter les pratiques de gestion des collections. 
+
+"Par IA, on entend, dans une acception large et ouverte, la tentative de construire des
+machines et des systèmes capables de penser et d'agir rationnellement"
+\footcite{zotero-item-584}
+donc à terme, de pouvoir effectuer exactement les mêmes actions spécialisées que l'homme, telles que l'indexation, qui est une tâche certes répétitive, mais complexe, qui varie selon le type de corpus. 
 
 \subsubsection{Projet SKAI}
-La mise en place de l'IA est justifiée par des éléments que nous avons déjà évoqué : les marqueurs temporels. Elle répond à un besoin concret d'un corpus précis, mais pourra être étendu à toutes les institutions préservatrices de collections audiovisuelles. 
-
-réponse aux problèmes du modèle en place ? pas vraiment, ajout e nouvelles fonctionnalités pour expérience utilisateur globale
-
-parmi les fonctionnalités évoquées : indexation audiovisuelle > segmentation temporelle 
-
-issue d'une demande client, marqueurs temporels déjà présents dans les données. La segmentation viendrait automatiser cette pratique et l'étendre à des archives non annotées
-
-répondre à des besins utilisateurs concrets et non pas seulement à une logique produit 
+L'implémentation de l'IA au sein de l'application n'est pas seulement issue d'une logique produit mais est centrée sur l'amélioration de l'expérience utilisateur. Le projet prévoie notamment la mise en place d'une recherche en langage naturel, c'est-à-dire permettre à l'utilisateur d'effectuer des recherches plus facilement en utilisant un langage naturel plutôt qu'un langage contrôlé. L'objectif est ainsi de rendre l'utilisation de l'application plus simple, et d'améliorer l'efficacité de la gestion de collections. 
+Toutefois, l'implémentation de l'IA en contexte patrimonial soulève des questions éthiques pour la transmission de connaissance auprès du public. Ainsi, Skinsoft porte des points d'attention au projet. Les moteurs d'intelligence artificielle implémentés doivent faciliter le travail des utilisateurs et être des outils de proposition, sans réaliser eux-même la production de connaissance. L'humain est toujours intégré au sein de la chaîne de travail dans la définiton du projet, en portant la décision sur ce que produit l'IA. 
+Concrètement, Skinsoft souhaite mettre en place différents moteurs d'intelligence artificielle dédiés à l'automatisation partielle de tâches métier dans l'application. Parmi ces tâches, il est prévu l'automatisation de l'indexation au sens large au sein de l'application, et notamment appliquée aux archives audiovisuelles, dans S-Movies. Si, pour les images fixes, peut être mise en place une analyse automatique de ce qu'elles contiennent pour l'indexer, 
+l'indexation automatique des archives audiovisuelles se découpe en plusieurs sous-tâches, propres à la nature du médium cinématographique. Ainsi, le moteur d'intelligence artificielle dédié à l'indexation des archives audiovisuelles devra effectuer une transcription automatique du son et son analyse, la segmentation et l'analyse des images en mouvement, qui induit à elle-même, nous le verrons d'autres sous-tâches, une reconnaissance des voix des interlocuteurs, une reconnaissance de textes présents dans l'image. Les données extraites de ces tâches automatiques devront être reliées à des référentiels (thésaurus) afin d'assurer leur interopérabilité. Par exemple, lors de la reconnaissance d'un locuteur, son nom doit pouvoir être relié à sa notice d'autorité dans l'application. À l'image fixe, deux modalités d'analyse s'ajoutent à l'archive audiovisuelle : le son et le mouvement. Pour le son, Skinsoft souhaite mettre en place la reconnaissanc de voix et l'analyse du contenu sonore. Pour les images en mouvement, Skinsoft souhaite mettre en place le séquencage vidéo en différentes séquences, pour pouvoir indexer chacune de ces séquences. Cette fonctionnalité est issue d'un besoin client, celui du second corpus d'archives audiovisuelles que nous avons décrit. En effet, ce corpus contient essentiellement des \textit{rushes}, donc des images en mouvement brutes dépourvues de montage. Le client souhaiterait ainsi avoir un outil qui détecterait automatiquement les changement de séquences, pour pouvoir décrire ces séquences au lieu de devoir décrire des \textit{rushes} entiers. Des marqueurs temporels sur les rushes du corpus sont déjà présents dans les données d'indexation. L'objectif est alors d'automatiser l'apposition de marqueurs automatiques sur la vidéo en détectant les changements de scènes, l'apparition d'objets, etc. Si elle est dédiée au besoin d'un client précis, cette fonctionnalité pourra être étendu à toutes les institutions préservatrices de collections audiovisuelles. 
 
 
-- moteurs IA 
-- objectif de transparence 
-- clients qui refusent l'IA 
-- projets en cours 
+réponse aux problèmes du modèle en place ? pas vraiment, ajout de nouvelles fonctionnalités pour expérience utilisateur globale
+
 - répondre à un besoin utilisateur et non seulement à une logique produit (tension public/privé) (voir fichier contraintes institution)
 
-"Alors que l'utilisation du ML	va déjà de soi dans certains domaines, il y a des domaines dans lesquels nous devons	rendre son utilisation transparente pour les utilisateur·rice·s et leur donner la possibilité
-d'option de retrait, par exemple lorsqu'il s'agit de données personnelles. La transparence est également requise lorsqu'il s'agit d'adapter l'offre concrète aux besoins des utilisateur·rice·s	sur la base de profils d'utilisateur·rice·s (obtenus par le biais de demandes, d'autodéclaration ou de « traces d'utilisation », comme le classement d'une liste de résultats ou	des propositions par des systèmes de recommandation)."
-\footcite{zotero-item-584}
 
-ce projet doit être intégré dans une pratique d'indexation, nécessaire à l'intéropérbilité des données et au bon foctionnement du modèle. 
+
+ce projet doit être intégré dans une pratique d'indexation, nécessaire à l'intéropérbilité des données et au bon fonctionnement du modèle. 
+La segmentation n'est qu'une étape au sein d'une pratique documentaire plus large, celle de l'indexation. POur pouvoir comprendre comment elle peut être automatisée, il faut d'abord comprendre ce qu'elle implique en terme de pratiques humaines. 
 
 \subsubsection{Indexation}
-définition > finalité pour l'expérience utilisateur > a pour condition la segmentation et la description 
+Ce projet d'automatisation s'inscrit dans une pratique documentaire normée, elle même implantée au sein du modèle FRBR que nous avons décrit. Les tâches qui font l'objet d'une automatisation convergent vers un objectif d'indexation au sein de l'application, pouvant être définie ainsi :  
 
-définition de l'indexation :
-"L'indexation est cette technique consistant à caractériser le contenu d'un document et l'information qu'il détient de manière à le retrouver quand on effectue des recherches sur l'un des sujets dont il traite. La difficulté est donc de savoir caractériser et représenter l'information documentaire pour qu'il soit aisé de la mettre en rapport avec des sujets d'investigation. Mise en rapport d'une requête et d'un contenu représenté et synthétisé, l'indexation permet de s'orienter dans la masse des documents et d'organiser ses connaissances. L'indexation appartient donc à ce qu'on appelle depuis quelques années les techniques intellectuelles Indexation et archivage de contenus multimédias"\footcite{zotero-item-582}
+"L'indexation est cette technique consistant à caractériser le contenu d'un document et l'information qu'il détient de manière à le retrouver quand on effectue des recherches sur l'un des sujets dont il traite. La difficulté est donc de savoir caractériser et représenter l'information documentaire pour qu'il soit aisé de la mettre en rapport avec des sujets d'investigation. [...] L'indexation permet de s'orienter dans la masse des documents et d'organiser ses connaissances. "\footcite{zotero-item-582}
 
-Définition : "Elle est tout d abord la condition préalable pour fournir un point d accès sûr et vérifié à l information en utilisant des notions clairement définies, représentées par des termes eux-mêmes soigneusement choisis et contrôlés, formant des vocabulaires contrôlés (listes d autorité, thésaurus) ou des notices d autorité publics, accessibles à tout un chacun et maintenus, complémentaires du langage « naturel » des descriptions archivistiques, voire des documents eux-mêmes." \footcite{zotero-item-675}
+Afin de "fournir un point d'accès sûr et vérifié à l'information", l'indexation implique la mise en relation des termes produits avec des référentiels, des thésaurus et des listes d'autorité. \footcite{zotero-item-675} Cette pratique permet ainsi d'améliorer notamment la découvrabilité des données et la navigation entre les différentes connaissances produites.\footcite{zotero-item-675} Une indexation conforme est aisi al condition de la mise en place de nouvelles fonctionnalités telles que l'implémentation de l'intelligence artificielle. À terme, elle permet le partage et la publication des donénes sur le web. \footcite{zotero-item-675}
+L'indexation suppose aussi l'inscription dans un modèle de données : le FRBR. 
 
-"En permettant d affiner les recherches, elle améliore la
-découvrabilité des données. Elle rend possible la création de formulaires pertinents, base pour la construction d accès plus sophistiqués : modes de navigation intuitifs dans les instruments de recherche (filtres, facettes), nouveaux services reposant sur
-la visualisation de données (à commencer par l accès géographique tant réclamé par le public). (cf améliorations s movies + recherche)"\footcite{zotero-item-675}
+L'indexation présuppose un travail d'analyse et du contenu du document. Or, l'image animée est conçue comme une boite noire : il faut lire ce qu'elle contient pour pouvoir la décrire. 
+Pour les archives audiovisuelles, cette analyse préalable prend la forme d'une segmentation pour permettre une description du contenu. La segmentation permet de rendre le contenu d'un \textit{rush} intelligible et diffusable à terme auprès du public. 
+La segmentation crée des points de repères sur lesquels l'indexation va pouvoir se focaliser.
 
-"l'indexation est un outil de partage et de publication des données sur le web" \footcite{zotero-item-675}
-
-L'indexation se fait en deux étapes : segmentatin et description du contenu 
-
-l'indexation manuelle est u travail long et laborieux étant donn la nature de l'image en mouvement 
 
 \subsubsection{Segmentation}
 segmentation virtuelle vs physique > les différentes segmentations possibles en audiovisuel > 
 
-La segmentation appliquée à l'image en général, y compris l'image fixe, consiste à diviser l'image en groupes de pixels selon certains critères. 
+des questions préalables se posent : 
+"comment regarde-t-on un ﬁlm ? Quels sont les mécanismes qui permettent d’in-terpréter cette longue séquence d’images (prenons le cas d’un ﬁlm muet pour simpliﬁer) enune séquence d’actions dramatiques, reliées entre elles par des liens de causalité, et qui nouspermettent d’en comprendre le sens (l’histoire) ? Et comment reproduire cette capacité dans un programme informatique de vision par ordinateur ?"\footcite{zotero-item-644}
 
-définition de la segmentation auiovisuelle : 
-"Il s’agit d’un découpage conceptuel et non d’un montage technique: le fichier vidéo n’est pas modifié physiquement ; seules des balises temporelles délimitent les segments retenus.
-Cette approche garantit la souplesse de l’analyse, permet des lectures multiples d’un même document et rend possible la production de descriptions structurées" \footcite{stockinger2011}
-
-"la segmentation ne se limite pas à un simple acte technique : elle représente un moment clé de la transformation d’un document audiovisuel" \footcite{stockinger2011}
-
-"La segmentation est définie comme une étape préalable à toute analyse, qui consiste à délimiter des sous-ensembles homogènes à l’intérieur d’un texte audiovisuel." \footcite{stockinger2011}
-
-la segmentation est étroitement liée à l'interprétation
-
-la segmentation est issue d'une problématique qui pose le contexte et l'objectif donné. Elle définit également le type d'action que permet la segmentation : par exemple l'indexation, la description, l'analyse... \footcite{stockinger2011}
-
-Il faut aussi définir la nature de la segmentation, sa granularité, la nature des segments, le niveau de description attendu \footcite{stockinger2011}
-
-Une distinction est également établie entre "segmentation virtuelle", le fait de poser des repères sur l'image pour en déceler les séquences pertinentes, et le "découpage physique" qui crée de nouveaux documents, scindés depuis l'archive originale. Cela permettrait de mettre en logne des passages autonomes d'une oeuvre par exemple. \footcite{stockinger2011}
-
-"La segmentation agit comme un filtre de pertinence : elle configure le champ d’observation en sélectionnant ce qui deviendra objet d’analyse sémiotique, d’indexation ou de publication. [...] segmenter, c’est déjà choisir un point de vue sur le document." \footcite{stockinger2011}
+La segmentation, au sens large, peut être définie par la division de l'image en groupes de pixels selon certains critères. Or, pour l'image animée, la segmentation prend uen diemsnion temporelle, puisqu'il s'agit plutôt de découper la vidéo en différentes mouvements selon certains critères. Il s'agit d'un "découpage conceptuel" et non d'un montage technique qui modifie l'image animée. Dans ce contexte la segmentation serait la condition d'une indexation puisqu'en apposant sur des séquences, des balises temporelles, elle permettrait de rendre possible "la production de descriptions structurées". \footcite{stockinger2011} Ces balises temporelles délimitent des ensembles homogènes au sein d'une archive audiovisuelle, un peu à la manière de chapitres dans un ouvrage textuel.\footcite{stockinger2011}
+La segmentation est issue de l'objectif donné de son indexation, définissant les thèmes et l'analyse que l'on souhate produire de tel ou tel document. Pour pouvoir pratiquer la segmentation, il faut également pouvoir définir sa granularité (niveau du plan, du changement de plan, de scènes, de séquences...), le niveau de description attendu.\footcite{stockinger2011} Ainsi, en définissant des critères de segmentation, l'utilisateur choisit un point de vue sur l'image, en choisissant à quel niveau agit la segmentation et sur quels éléments elle doit pointer, ce qui deviendra l'objet d'analyse et de description. (l'IA devra pouvoir choisir ces niveaux de granularité ? ou toujours la décision de l'utilisateur?)  La segmentation "agit comme un fitre de pertinence" sur les éléments indexables. \footcite{stockinger2011}
+Par ailleurs, la segmentation, nous l'avons dit, suppose de découper conceptuellement une vidéo. La suite logique de cette étape est celle d'un "découpage" physique, qui crée de nouvelles séquences  partie de la vidéo "mère", permettant de mettre en avant des séquences qui se suffisent à elle même, par exemple.\footcite{stockinger2011}
+Ainsi, la segmentation modélise l'archive audiovisuelle et ainsi les données qui en découlent, en en faisant un "objet de connaissance".\footcite{stockinger2011}
+Cette segmentation temporelle ne s'applique pas seulement à l'image, mais également au son et au langage. On parlera notamment de segmentation audio pour la parle ou la musique par exemple. \footcite{carrive2014}
+La segmentation temporelle amène ensuite une segmentation spatiale, analysant la place des éléments dans l'image, égalemet applicable à l'image fixe.\footcite{zhou2022} Pusi, une dernière segmentation, sémantique, qui pose une signification et une description sur ces objets. \footcite{zhou2022} Les catégories sémantiques sont prédéfinies et peuvent être de plusieurs sortes concernant l'image animée : technique, contenu, relation
 
 
-"la segmentation apparaît comme un premier niveau de
-modélisation, à la frontière entre observation empirique et structuration conceptuelle. Elle engage une série de décisions qui feront de la vidéo non plus seulement un enregistrement, mais un objet de connaissance" \footcite{stockinger2011}
-
-les perspectives de segmentation souhaitées : "la possibilité d’exercer plusieurs segmentations parallèles (visuelle,
-sonore, linguistique) sur un même fichier" \footcite{stockinger2011}
-
-Appliquée à la vidéo, la segmentation peut alors être de deux formes : une division en plusieurs segments ou objets. \footcite{zhou2022}. La division d'une image animée en séquences ou en différents plans correspond à une segmentation temporelle. La segmentation d'objets dominants dans l'image \footcite{zhou2022}
-selon des critères visuels\footcite{carrive2014}, désigne plutôt une segmentation spatiale, analysant la place des objets dans l'image, pas encore leur signification.\footcite{zhou2022}. 
-C'est au moment d'apposer une signification sur ces objets qu'on parle de segmentation sémantique. En effet, la segmentation sémantique consiste à extraire des objets de l'image selon des catégories sémantiques prédefinies. \footcite{zhou2022} Ce type de segmentation prépare l'indexation en assignant des étiquettes à chaque pixel extrait de l'image. 
 Parmi ces trois types de segmentation, seule la segmentation temporelle est spécifique à l'image animée, puisqu'elle analyse la différence temporelle et sémantique entre les plans et leur relations pour pouvoir en extraire des séquences distnctes. Les segmentation d'objets et sémantiques sont en revanche également applicables à l'image fixe. 
 
-Enfin, peut être appliquée à une vidéo une segmentation de la bande sonore, qu'on désignera sous le nom de segmentation audio, utilisée par exemple, pour segmenter les paroles de la musique das une même séquence vidéo. \footcite{carrive2014}
+Si la structuration d'éléments vidéos tels que les journaux télévisés, le sport, sont "relativement stable et explicite de leur structure",\footcite{carrive2014}, et peuvent alors facilement être segmentés, les archives audiovisuelles regroupent des corpus divers et variés, allant de films expérimentaux à des bandes annonces, en passant par des films de famille. Ces archives sont parfois en noir et blanc et muettes. 

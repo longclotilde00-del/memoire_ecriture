@@ -230,10 +230,10 @@
 		\newpage{\pagestyle{empty}\cleardoublepage}
 		%\chapter{Brouillon}
 	
-	\include{chapitres/introduction.tex}
-	\include{chapitres/frbr.tex}
-	\include{chapitres/frbr_archives_audiovisuelles.tex}
-	\include{chapitres/indexation_frbr.tex}
+%	\include{chapitres/introduction.tex}
+%	\include{chapitres/frbr.tex}
+%	\include{chapitres/frbr_archives_audiovisuelles.tex}
+%	\include{chapitres/indexation_frbr.tex}
 %	\include{chapitres/analyse_video.tex}
 %	\include{chapitres/skinsoft.tex}
 %	\include{chapitres/s_movies.tex}
@@ -282,7 +282,7 @@ title={NLP}]
 
 	
 \chapter{Introduction}	
-Mon introduction 
+\input{chapitres/introduction.tex}
 %si l'introduction est longue, elle peut être importée avec input
 
 \newpage{\pagestyle{empty}\cleardoublepage}
@@ -293,8 +293,12 @@ Mon introduction
 
 	
 
-	\part{Une partie}
-\chapter{Mon premier chapitre}
+	\part{Indexer les archives audiovisuelles}
+%\chapter{Mon premier chapitre}
+\input{chapitres/frbr.tex}
+\input{chapitres/frbr_archives_audiovisuelles.tex}
+\input{chapitres/indexation_frbr.tex}
+
 %\input{exemple_section1.tex} %Input: importer un fichier
 
 
@@ -312,7 +316,7 @@ Mon introduction
 	\chapter*{Conclusion}
 	\addcontentsline{toc}{chapter}{Conclusion}
 \newpage{\pagestyle{empty}\cleardoublepage}
-	
+	\include{chapitres/conclusion.tex}
 
 
 

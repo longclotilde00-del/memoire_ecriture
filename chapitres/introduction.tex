@@ -1,4 +1,3 @@
-\chapter*{Introduction}
 
 	\begin{quote}
 		[L'indexation] est le fait de dresser un répertoire ou une liste, généralement alphabétique, des sujets traités, des noms cités dans un ouvrage, suivis des références aux pages, aux paragraphes (Rolland-Coul. 1969).
@@ -23,158 +22,148 @@
 
  
 
-\chapter{Partie 1 - Indexer les archives audiovisuelles}  
+%\chapter{Partie 1 - Indexer les archives audiovisuelles}  
+%
+%\begin{itemize}
+%
+%\section{Le FRBR, modèle d’indexation conçu pour les bibliothèques}
+%
+%
+%
+%\item {Un modèle entité-relation qui permet la description de concepts reliés entre eux. Avant ce modèle, une notice bibliographique correspondait à un objet physique. Il permet par ailleurs de mieux décrire les objets complexes comme les archives audiovisuelles.}  
+%
+%\item{La structure WEMI, qui permet de décrire chaque niveau : Oeuvre, expression, manifestation, item. C’est une structure pensée pour des oeuvres textuelles, avec une verticalité limitée }
+%
+%\item{Les objectifs du FRBR sont les besoins utilisateurs. Il doit pouvoir répondre à quatre tâches utilisateurs : trouver, identifier, sélectionner, obtenir. Afin de remplir ces objectifs, une interface intuitive doit pouvoir accueillir le modèle FRBR.  
+%}
+%
+%\end{itemize}
+%
+%
+%\section{Adapter le FRBR aux archives audiovisuelles}
+%
+%\begin{itemize}
+%
+%
+%\item{Remodéliser le FRBR sur les caractéristiques complexes du médium cinématographique. L’exemple de S-Movies : un espace de travail pour la gestion des archives audiovisuelles, fondé sur une remodélisation du FRBR, adaptable selon les corpus de données} 
+%
+%\item{L'inscription de différents types de corpus audiovisuels dans ce modèle repensé du FRBR : la cause d’une expérience utilisateur complexe et non-intuitive }
+%
+%\item{Le projet d’ajouter sur cette remodélisation du FRBR, une indexation augmentée et automatisée des collections audiovisuelles}
+%	
+%\end{itemize}
+%
+%\section{Automatiser l’indexation des collections audiovisuelles basée sur le FRBR} 
+%
+%\begin{itemize}
+%
+%
+%\item{L’automatisation de l’indexation des archives audiovisuelles, motivée par les caractéristiques physiques de ce type de collection.  En effet, les collections audiovisuelles sont indexées par leur contenu puisque leur support physique est qualifié de “boite noire”. Leur indexation est donc un travail long et fastidieux. } 
+%
+%\item{Les possibilités d’automatisation de l’indexation sur les collections audiovisuelles : 
+%
+%Analyse d’objets, (segmentation sémantique) 
+%
+%Analyse et transcription de texte  
+%
+%Analyse et tanscription audio  
+%
+%Reconnaissance vocale et reconnaissance des locuteurs 
+%
+%Extraction d’entités nommées (lier ces analyses automatiques à des référentiels) }
+%
+%\item{Séquençage (segmentation temporelle)  : une fonctionnalité spécifique aux archives audiovisuelles puisqu’il s’agit de comprendre les relations entre les plans pour pouvoir adéquatement les séquencer.  
+%
+%Faire de l’adaptation de cette automatisation au modèle FRBR dédiée aux archives audiovisuelles, un objectif } 
+%
+%
+%\end{itemize}
+%
+%\chapter{Partie 2 -  Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR} 
+%
+%
+%
+%\section{Le projet d’implémentation de l’IA chez Skinsoft (projet Skai), dont l'analyse vidéo est une composante majeure} 
+%
+%\begin{itemize}
+%
+%\item{L’objectif du projet est de proposer différents moteurs IA spécialisés dans différents tâches automatisées, entraînés sur des données ouvertes patrimoniales (POP, Joconde, Europeana). Cela permettrait aux modèles d'être adaptés au contexte patrimonial et de produire des métadonnées conformes aux normes bibliographiques. En revanche, ces bases de données contiennent majoritairement des archives textuelles et iconographiques. }
+%
+%\item{L’orientation donnée est de proposer des modèles force de proposition, et facilitateurs pour l’utilisateur : l’utilisateur doit pouvoir garder le contrôle sur ses données }
+%
+%\item{Parmi les moteurs IA en cours de développement : un moteur spécialisé pour l’analyse vidéo multimodale, adapté aux collections audiovisuelles. Une des composantes principales de ce moteur, issue d’une demande client, est la segmentation temporelle, c’est-à-dire le séquençage vidéo. L’objectif est, à partir des séquences produites, d’apposer des mots clés sur le contenu de l’image.  }
+%
+%
+%\end{itemize}
+%
+%
+%
+%\section{Séquençage et analyse d’un corpus audiovisuel (exemple du corpus de musée Albert Kahn)}
+%
+%\begin{itemize}
+%
+%\item{Séquençage des archives audiovisuelles en unités analysables, la première étape complexe d’un pipeline multimodal, dépendante du type de corpus analysé : la détection des coupures permet une classification des segments uis une vérification humaine.}  
+%
+%\item{Combinaison des approches syntaxique et sémantique pour la segmentation de scènes : réseaux de neurones récurrents (RNN), réseaux de neurones convolutifs (CNN) ou Transformers ? }
+%
+%\item{L’adaptation de ces outils au corpus Albert Kahn, archives audiovisuelles des années 1920, documentaires et muettes : un séquençage facilement identifiable mais difficilement classifiable d’un point de vue sémantique.} 
+%
+%\end{itemize}
+%
+%
+%\section{Reversement des métadonnées dans le modèle FRBR : dans quelle mesure les résultats produits peuvent-ils s’inscrire au sein de ce modèle d’indexation ? } 
+%
+%\begin{itemize}
+%
+%
+%\item{Cartographie du reversement des métadonnées : quels résultats pour quels niveaux du FRBR ? Cette cartographie dépend de l’utilisation du FRBR par l’institution concernée. }
+%
+%\item{Le reversement adéquat des métadonnées produites sur différents niveaux du FRBR ne peut se produire sans une interface navigable et intuitive entre ces différents niveaux. Une refonte est ainsi nécessaire pour la mise en place d’un reversement automatique. Actuellement, il existe une confusion des liens entre les niveaux, qui fait l’objet d’un projet de refonte dans l’espace de travail S-Movies. } 
+%
+%\item{La mise en place d’une interface dans laquelle l’utilisateur pourrait valider les données produites, et décider de leur reversement de tel ou tel niveau du FRBR. Le moteur d’IA aurait alors bien ce rôle de “facilitateur” en proposant des solutions, tout en laissant le choix final à l’utilisateur. Cette solution pourrait rendre la compréhenion du FRBR plus claire. } 
+%
+%
+%\end{itemize}
+%
+%
+%\chapter{Partie 3 - Biais, limites et enjeux }
+%
+%
+%
+%\section{Les archives audiovisuelles comme données d’entraînement} 
+%
+%\begin{itemize}
+%
+%\item{La sous-représentation des archives audiovisuelles anciennes dans les corpus d’entraînement. Il faudrait entraîner le modèle sur les corpus individuels de chaque institution pour pouvoir produire des résultats pertinents. L’inadaptation des corpus d’entraînement entraîne des biais d’indexation.}  
+%
+%\item{le manque de temps et d’argent dédié à l’entraînement d’un modèle sur de multiples corpus. Quelles solutions ? Fine tuning, transfert learning, données synthétiques. }
+%
+%\item{Trouver le juste milieu entre un pipeline complexe multimodal qui demande beaucoup de puissance de calcul, et un pipeline léger mais moins performant. Ce choix dépend effectivement du type d’archives à indexer. }
+%
+%
+%\end{itemize}
+%
+%\section{La difficulté d’adaptation au modèle de données, même avec un entraînement adéquat  }
+%
+%\begin{itemize}
+%
+%
+%\item{L’utilisation des niveaux du FRBR varie pour chaque institution, puisqu’elle dépend de la nature du corpus audiovisuel. Le modèle est donc interprété par des règles métiers internes et propres à chaque institution. Il faudrait ainsi entraîner un modèle IA sur ces règles métier liées à l’utilisation du FRBR. Par exemple, la collection du musée Albert Kahn s’adapte mal au FRBR puisqu’il s’agit d’archives documentaires, sans réelle diffusion. Un reversement automatique suppose que le modèle d’IA soit entraîné sur le contexte spécifique de chaque institution. }
+%
+%\item{S’impose alors la mise en place d'une indexation semi automatisée où l’utilisateur choisit, décide pour respecter la cohérence de l’usage du modèle de données. }
+%
+%
+%\end{itemize}
+%
+%\section{Vers une indexation augmentée plutôt qu’automatisée }
+%
+%\begin{itemize}
+%
+%\item{L’interactivité et le dialogue entre le modèle et l’utilisateur comme réponse aux biais et aux manques des données d’entraînement. Il faudrait rendre le processus transparent comme le préconise Skinsoft dans son projet Skai, en rendant accessible les données sur lequelles le modèle a été entraîné, la réflexion effectuée... }
+%
+%\item{La transparence comme éthique de la transmission du savoir au public : la diffusion des connaissances est facilitée et augmentée par le modèle d’IA. La mise en place d’une interface de dialogue entre le modèle et l’utilisateur en est la condition essentielle }
+%
+%\end{itemize}	
 
-\begin{itemize}
 
-\section{Le FRBR, modèle d’indexation conçu pour les bibliothèques}
-
-
-\item {Un modèle entité-relation qui permet la description de concepts reliés entre eux. Avant ce modèle, une notice bibliographique correspondait à un objet physique. Il permet par ailleurs de mieux décrire les objets complexes comme les archives audiovisuelles.}  
-
-\item{La structure WEMI, qui permet de décrire chaque niveau : Oeuvre, expression, manifestation, item. C’est une structure pensée pour des oeuvres textuelles, avec une verticalité limitée }
-
-\item{Les objectifs du FRBR sont les besoins utilisateurs. Il doit pouvoir répondre à quatre tâches utilisateurs : trouver, identifier, sélectionner, obtenir. Afin de remplir ces objectifs, une interface intuitive doit pouvoir accueillir le modèle FRBR.  
-}
-
-\end{itemize}
-
-
-\section{Adapter le FRBR aux archives audiovisuelles}
-
-\begin{itemize}
-
-
-\item{Remodéliser le FRBR sur les caractéristiques complexes du médium cinématographique. L’exemple de S-Movies : un espace de travail pour la gestion des archives audiovisuelles, fondé sur une remodélisation du FRBR, adaptable selon les corpus de données} 
-
-\item{L'inscription de différents types de corpus audiovisuels dans ce modèle repensé du FRBR : la cause d’une expérience utilisateur complexe et non-intuitive }
-
-\item{Le projet d’ajouter sur cette remodélisation du FRBR, une indexation augmentée et automatisée des collections audiovisuelles}
-	
-\end{itemize}
-
-\section{Automatiser l’indexation des collections audiovisuelles basée sur le FRBR} 
-
-\begin{itemize}
-
-
-\item{L’automatisation de l’indexation des archives audiovisuelles, motivée par les caractéristiques physiques de ce type de collection.  En effet, les collections audiovisuelles sont indexées par leur contenu puisque leur support physique est qualifié de “boite noire”. Leur indexation est donc un travail long et fastidieux. } 
-
-\item{Les possibilités d’automatisation de l’indexation sur les collections audiovisuelles : 
-
-Analyse d’objets, (segmentation sémantique) 
-
-Analyse et transcription de texte  
-
-Analyse et tanscription audio  
-
-Reconnaissance vocale et reconnaissance des locuteurs 
-
-Extraction d’entités nommées (lier ces analyses automatiques à des référentiels) }
-
-\item{Séquençage (segmentation temporelle)  : une fonctionnalité spécifique aux archives audiovisuelles puisqu’il s’agit de comprendre les relations entre les plans pour pouvoir adéquatement les séquencer.  
-
-Faire de l’adaptation de cette automatisation au modèle FRBR dédiée aux archives audiovisuelles, un objectif } 
-
-
-\end{itemize}
-
-\chapter{Partie 2 -  Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR} 
-
-
-
-\section{Le projet d’implémentation de l’IA chez Skinsoft (projet Skai), dont l'analyse vidéo est une composante majeure} 
-
-\begin{itemize}
-
-\item{L’objectif du projet est de proposer différents moteurs IA spécialisés dans différents tâches automatisées, entraînés sur des données ouvertes patrimoniales (POP, Joconde, Europeana). Cela permettrait aux modèles d'être adaptés au contexte patrimonial et de produire des métadonnées conformes aux normes bibliographiques. En revanche, ces bases de données contiennent majoritairement des archives textuelles et iconographiques. }
-
-\item{L’orientation donnée est de proposer des modèles force de proposition, et facilitateurs pour l’utilisateur : l’utilisateur doit pouvoir garder le contrôle sur ses données }
-
-\item{Parmi les moteurs IA en cours de développement : un moteur spécialisé pour l’analyse vidéo multimodale, adapté aux collections audiovisuelles. Une des composantes principales de ce moteur, issue d’une demande client, est la segmentation temporelle, c’est-à-dire le séquençage vidéo. L’objectif est, à partir des séquences produites, d’apposer des mots clés sur le contenu de l’image.  }
-
-
-\end{itemize}
-
-
-
-\section{Séquençage et analyse d’un corpus audiovisuel (exemple du corpus de musée Albert Kahn)}
-
-\begin{itemize}
-
-\item{Séquençage des archives audiovisuelles en unités analysables, la première étape complexe d’un pipeline multimodal, dépendante du type de corpus analysé : la détection des coupures permet une classification des segments uis une vérification humaine.}  
-
-\item{Combinaison des approches syntaxique et sémantique pour la segmentation de scènes : réseaux de neurones récurrents (RNN), réseaux de neurones convolutifs (CNN) ou Transformers ? }
-
-\item{L’adaptation de ces outils au corpus Albert Kahn, archives audiovisuelles des années 1920, documentaires et muettes : un séquençage facilement identifiable mais difficilement classifiable d’un point de vue sémantique.} 
-
-\end{itemize}
-
-
-\section{Reversement des métadonnées dans le modèle FRBR : dans quelle mesure les résultats produits peuvent-ils s’inscrire au sein de ce modèle d’indexation ? } 
-
-\begin{itemize}
-
-
-\item{Cartographie du reversement des métadonnées : quels résultats pour quels niveaux du FRBR ? Cette cartographie dépend de l’utilisation du FRBR par l’institution concernée. }
-
-\item{Le reversement adéquat des métadonnées produites sur différents niveaux du FRBR ne peut se produire sans une interface navigable et intuitive entre ces différents niveaux. Une refonte est ainsi nécessaire pour la mise en place d’un reversement automatique. Actuellement, il existe une confusion des liens entre les niveaux, qui fait l’objet d’un projet de refonte dans l’espace de travail S-Movies. } 
-
-\item{La mise en place d’une interface dans laquelle l’utilisateur pourrait valider les données produites, et décider de leur reversement de tel ou tel niveau du FRBR. Le moteur d’IA aurait alors bien ce rôle de “facilitateur” en proposant des solutions, tout en laissant le choix final à l’utilisateur. Cette solution pourrait rendre la compréhenion du FRBR plus claire. } 
-
-
-\end{itemize}
-
-
-\chapter{Partie 3 - Biais, limites et enjeux }
-
-
-
-\section{Les archives audiovisuelles comme données d’entraînement} 
-
-\begin{itemize}
-
-\item{La sous-représentation des archives audiovisuelles anciennes dans les corpus d’entraînement. Il faudrait entraîner le modèle sur les corpus individuels de chaque institution pour pouvoir produire des résultats pertinents. L’inadaptation des corpus d’entraînement entraîne des biais d’indexation.}  
-
-\item{le manque de temps et d’argent dédié à l’entraînement d’un modèle sur de multiples corpus. Quelles solutions ? Fine tuning, transfert learning, données synthétiques. }
-
-\item{Trouver le juste milieu entre un pipeline complexe multimodal qui demande beaucoup de puissance de calcul, et un pipeline léger mais moins performant. Ce choix dépend effectivement du type d’archives à indexer. }
-
-
-\end{itemize}
-
-\section{La difficulté d’adaptation au modèle de données, même avec un entraînement adéquat  }
-
-\begin{itemize}
-
-
-\item{L’utilisation des niveaux du FRBR varie pour chaque institution, puisqu’elle dépend de la nature du corpus audiovisuel. Le modèle est donc interprété par des règles métiers internes et propres à chaque institution. Il faudrait ainsi entraîner un modèle IA sur ces règles métier liées à l’utilisation du FRBR. Par exemple, la collection du musée Albert Kahn s’adapte mal au FRBR puisqu’il s’agit d’archives documentaires, sans réelle diffusion. Un reversement automatique suppose que le modèle d’IA soit entraîné sur le contexte spécifique de chaque institution. }
-
-\item{S’impose alors la mise en place d'une indexation semi automatisée où l’utilisateur choisit, décide pour respecter la cohérence de l’usage du modèle de données. }
-
-
-\end{itemize}
-
-\section{Vers une indexation augmentée plutôt qu’automatisée }
-
-\begin{itemize}
-
-\item{L’interactivité et le dialogue entre le modèle et l’utilisateur comme réponse aux biais et aux manques des données d’entraînement. Il faudrait rendre le processus transparent comme le préconise Skinsoft dans son projet Skai, en rendant accessible les données sur lequelles le modèle a été entraîné, la réflexion effectuée... }
-
-\item{La transparence comme éthique de la transmission du savoir au public : la diffusion des connaissances est facilitée et augmentée par le modèle d’IA. La mise en place d’une interface de dialogue entre le modèle et l’utilisateur en est la condition essentielle }
-
-\end{itemize}	
-
-
-
-\chapter*{Conclusion}
-
-Le modèle de données et la manière dont il est modélisé dans un système de gestion des collections dirige l'implémentation de nouvelles fonctionnalités applicatives. Dans le cadre de ce mémoire de recherche, nous avons mesuré la complexité de la mise en place de l'indexation automatisée par IA, alors même que le modèle de données adapté aux collections audiovisuelles (FRBR) pose des difficultés de navigation et de compréhension documentaires pour les utilisateurs. 
-L'analyse de l'adaptation du modèle FRBR aux archives audiovisuelles a notamment permis de pointer sa verticalité, conçue pour les notices bibliographiques, qui écarte les spécificités et les différences de corpus vidéo. En effet, nombreuses sont les institutions qui conservent des archives documentaires, non diffusées, issues de films amateurs ou expérimentaux, auxquelles les niveaux du FRBR restent mal adaptés. Ainsi, l'utilisation du FRBR et la navigation entre ses différents niveaux dépend de la nature du corpus audiovisuel et est, de fait, hétérogène.  Dans ce contexte, le projet de la mise en place d'une indexation automatique des archives audiovisuelles multimodale pose question.
-
-Dans le cadre du projet IA chez Skinsoft, nous avons tenté de proposer la mise en place d'un pipeline d'indexation automatique au sein de l'espace de travail S-Movies. Nous nous sommes toutefois confrontés à la complexité du reversement des métadonnées produites au sein du modèle FRBR, au delà des difficultés posées par un corpus audiovisuel historique et vieillissant. 
-
-Dès lors, nous en avons conclu que la modélisation du FRBR selon le contexte institutionnel constitue un frein à la mise en place de l'indexation automatique, puisqu'elle repose sur des règles métier d'usage selon le corpus indexé. La refonte de la navigation entre les niveau du FRBR constitue alors un tournant essentiel et nécessaire à la mise en place d'une telle automatisation, permettant aux modèles d'apprentissage et à l'utilisateur de mieux comprendre les liens entre les différents niveaux d'indexation. 
-
-Finalement, il s'agit de centrer notre approche sur l'expérience utilisateur en raison des difficultés d'entraîner un modèle d'intelligence artificielle adapté aux corpus audiovisuels et au modèle de données associé. Nous proposons alors la mise en place d'une aide à l'indexation, d'une indexation augmentée, qui suggèrerait à l'utilisateur des choix en les explicitant, sans pour autant automatiser l'ensemble du processus.  Par ses choix de validation, l'utilisateur entraînerait lui-même le modèle à la fois sur les corpus utilisés et à la fois sur l'utilisation du modèle FRBR. Une telle interface d'échange pourrait permettre de rendre l'indexation plus efficace et d'améliorer la compréhension des liens entre les niveaux d'indexation du FRBR. 
 
