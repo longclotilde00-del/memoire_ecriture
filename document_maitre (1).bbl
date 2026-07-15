@@ -920,7 +920,6 @@
       \field{urlyear}{2026}
       \field{year}{2014}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{61\bibrangedash 76}
       \range{pages}{16}
       \verb{doi}
@@ -1611,6 +1610,52 @@
       \verb https://www.cnrtl.fr/definition/indexation
       \endverb
       \keyw{Indexation}
+    \endentry
+    \entry{journot2008}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a241c75cdf35f4b977a98cd962fe24df}{%
+           family={Journot},
+           familyi={J\bibinitperiod},
+           given={Marie-Thérèse},
+           giveni={M\bibinithyphendelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Armand Colin}%
+      }
+      \strng{namehash}{a241c75cdf35f4b977a98cd962fe24df}
+      \strng{fullhash}{a241c75cdf35f4b977a98cd962fe24df}
+      \strng{fullhashraw}{a241c75cdf35f4b977a98cd962fe24df}
+      \strng{bibnamehash}{a241c75cdf35f4b977a98cd962fe24df}
+      \strng{authorbibnamehash}{a241c75cdf35f4b977a98cd962fe24df}
+      \strng{authornamehash}{a241c75cdf35f4b977a98cd962fe24df}
+      \strng{authorfullhash}{a241c75cdf35f4b977a98cd962fe24df}
+      \strng{authorfullhashraw}{a241c75cdf35f4b977a98cd962fe24df}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-2-200-35506-7 978-2-200-25670-8}
+      \field{langid}{french}
+      \field{month}{1}
+      \field{title}{{Le vocabulaire du cinéma}}
+      \field{urlday}{15}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.14375/NP.9782200355067
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/2YETLZCV/Journot - 2008 - Le vocabulaire du cinéma.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.numeriquepremium.com/doi/book/10.14375/NP.9782200355067
+      \endverb
+      \verb{url}
+      \verb https://www.numeriquepremium.com/doi/book/10.14375/NP.9782200355067
+      \endverb
     \endentry
     \entry{zotero-item-640}{misc}{}{}
       \field{sortinit}{L}
@@ -2674,12 +2719,46 @@
       \field{urlmonth}{7}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://francearchives.gouv.fr/fr/article/37832
       \endverb
       \verb{url}
       \verb https://francearchives.gouv.fr/fr/article/37832
+      \endverb
+    \endentry
+    \entry{zotero-item-684}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a96c32d38351f6cfe08abb6680a0cd25}{%
+           family={Paillard},
+           familyi={P\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ENSSIB}%
+      }
+      \strng{namehash}{a96c32d38351f6cfe08abb6680a0cd25}
+      \strng{fullhash}{a96c32d38351f6cfe08abb6680a0cd25}
+      \strng{fullhashraw}{a96c32d38351f6cfe08abb6680a0cd25}
+      \strng{bibnamehash}{a96c32d38351f6cfe08abb6680a0cd25}
+      \strng{authorbibnamehash}{a96c32d38351f6cfe08abb6680a0cd25}
+      \strng{authornamehash}{a96c32d38351f6cfe08abb6680a0cd25}
+      \strng{authorfullhash}{a96c32d38351f6cfe08abb6680a0cd25}
+      \strng{authorfullhashraw}{a96c32d38351f6cfe08abb6680a0cd25}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Comprendre Le Modèle {{FRBR}} et Ses Extensions}
+      \field{year}{2014}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.enssib.fr/bibliotheque-numerique/documents/65520-comprendre-le-modele-frbr-et-ses-extensions.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.enssib.fr/bibliotheque-numerique/documents/65520-comprendre-le-modele-frbr-et-ses-extensions.pdf
       \endverb
     \endentry
     \entry{patton2024}{misc}{}{}
@@ -3035,6 +3114,34 @@
       \verb https://www.researchgate.net/publication/41117180_Analyse_automatique_de_film_-_Des_sequences_d'images_aux_sequences_d'actions
       \endverb
     \endentry
+    \entry{signoles}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=caa3c3ad51465382d2eeaf7d99f3bc8c}{%
+           family={Signoles},
+           familyi={S\bibinitperiod},
+           given={Aurélie\bibnamedelima Bergonnier},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{caa3c3ad51465382d2eeaf7d99f3bc8c}
+      \strng{fullhash}{caa3c3ad51465382d2eeaf7d99f3bc8c}
+      \strng{fullhashraw}{caa3c3ad51465382d2eeaf7d99f3bc8c}
+      \strng{bibnamehash}{caa3c3ad51465382d2eeaf7d99f3bc8c}
+      \strng{authorbibnamehash}{caa3c3ad51465382d2eeaf7d99f3bc8c}
+      \strng{authornamehash}{caa3c3ad51465382d2eeaf7d99f3bc8c}
+      \strng{authorfullhash}{caa3c3ad51465382d2eeaf7d99f3bc8c}
+      \strng{authorfullhashraw}{caa3c3ad51465382d2eeaf7d99f3bc8c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{{Mise en œuvre d'une nouvelle structuration des données pour valoriser le fonds documentaire de l'IIPE UNESCO: l'expérience FRBR}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/ZSUZ8N93/Signoles - Mise en œuvre d'une nouvelle structuration des données pour valoriser le fonds documentaire de l'IIP.pdf
+      \endverb
+    \endentry
     \entry{staff2025}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0647960ed41328f21b9e478d684a86d5}{%
@@ -3112,7 +3219,6 @@
       \field{shorttitle}{{Les archives audiovisuelles}}
       \field{title}{{Les archives audiovisuelles: description, indexation et publication}}
       \field{year}{2011}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/77JZ5KLH/Stockinger - 2011 - Les archives audiovisuelles description, indexation et publication.pdf
       \endverb
@@ -4038,7 +4144,6 @@
       \field{urlyear}{2026}
       \field{year}{2022}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2107.01153
       \endverb
