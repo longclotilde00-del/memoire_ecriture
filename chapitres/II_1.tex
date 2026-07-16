@@ -8,7 +8,9 @@ Rappeller les problème identifiés
 Propositions développées en stage pour y répondre
 
 Si les liens entre niveaux sont confus pour l'utilisateur, ils le seront pour un algorithme d'intelligence artificielle, et pour la vérification humaine derrière. 
+Si les liens entre niveaux sont confus pour l'utilisateur, ils le seront pour un algorithme d'intelligence artificielle, et pour la vérification humaine derrière. 
 L'amélioration des liens et la modification de l'affichage de la hiérarchie : conditions du reversement automatique des métadonnées
+Double aspect : l'amélioration de l'interface fondée sur le FRBR permettra une meilleur mise en place de l'automatisation, pour la machine mais aussi pour l'utilisateur. la vérification des données produites et leur reversement au sein des niveaux FRBR pourra être plus intuitive et ainsi plus efficace. 
 
 deux familles : 
 Améliorer la compréhension du FRBR pour l'utilisateur
@@ -20,20 +22,174 @@ présenter chaque amélioration avec le problème qu'elle résoud , en lien avec
 
 \subsubsection{Améliorer la compréhension du FRBR}
 
-Modifier affichage de la hiérarchie
-Corrections terminologiques
-affichage des niveaux dans les onglets
-repérage couleur
-questionnaire/guide au catalogage
-visualisation en graphe : pouvoir visualiser le réseau de données 
+\textbf{Modifier affichage de la hiérarchie :}
+
+Actuellement, la hiérarchie d’affichage des niveaux dans le menu burger se fait du plus
+petit niveau en haut (films) au plus grand niveau en bas (œuvres). Cet affichage est
+contre intuitif puisqu’il induit une hiérarchie inversée. Il faudrait que l’œuvre soit affichée
+comme le niveau le plus haut de la hiérarchie, suivi par la manifestation et enfin, par
+l’item-film.
+Il pourrait également être plus intuitif de contraindre l’affichage correct de la hiérarchie
+dans les menus des notices. Par exemple dans une notice œuvre, l’onglet
+“manifestations liées” apparait au-dessus de l’onglet “items-films liés”. Cela pourrait
+prendre la forme d’une fenêtre de suggestion à l’utilisateur lors de la configuration du
+menu d’une notice afin de produire un affichage conforme à la hiérarchie du modèle
+FRBR.
+Par ailleurs, la page d’accueil de S-Movies a été configurée de telle sorte que ce sont
+toutes les œuvres cinématographiques qui apparaissent. Or, ce sont bien les items qui
+composent véritablement la collection. Il serait pertinent de proposer une amélioration,
+en proposant par exemple d’afficher les items contenus dans chaque œuvre, pour avoir
+un aperçu réaliste de la collection. 
+
+\textbf{Corrections terminologiques :}
+
+Cela peut paraitre anodin, mais corriger la terminologie à certains endroits permettrait d’améliorer la compréhension des nuances et des liens entre les niveaux du FRBR.
+Par exemple, actuellement depuis une notice film (item), le bouton d’action propose à l’utilisateur d’ajouter “des œuvres/expressions”. Il faudrait modifier la conjugaison pour
+mettre le terme au singulier : un item ne peut être lié qu’à une seule œuvre/expression. Par ailleurs, il peut y avoir confusion de compréhension autour du terme film. En effet dans un contexte cinématographique, le film peut désigner à la fois l’œuvre, la
+manifestation et l’exemplaire. Il faudrait proposer un terme qui pointe cette notion d’exemplaire individuel qui découle d’une œuvre puis d’une manifestation, tel qu'itemfilm par exemple.
+De plus, à plusieurs endroits, le terme d’œuvre est privilégié alors qu’à d’autres c’est
+celui d’expression qui est utilisé. Il faudrait normaliser l’emploi d’œuvre/expression ou
+d’œuvre en tout temps. C’est le cas dans certains masques comme celui d’expression
+référente, qui peut être utilisé au détriment de celui d’œuvre associée. 
+Cette proposition rejoint l’idée de supprimer la table œuvre cinématographique dans la
+gestion des masques alors que c’est la table œuvre/expression qui est couramment
+utilisée.
+Enfin, une confusion peut également s’installer entre les termes “œuvre liée” et “œuvre
+associée” dans les masques qui décrivent la manifestation par exemple. Le terme
+d’œuvre liée pourrait être corrigé en “œuvre parente” pour que la nature du lien soit plus
+claire entre les deux entités. 
+
+\textbf{affichage des niveaux dans les onglets :}
+
+Dans l’onglet d’une notice, apparaissent les imbrications de niveaux dont fait partie la
+notice. Ex : si l’utilisateur a ouvert une notice d’item, l’onglet, ou un encart en haut de la
+notice indique son œuvre et sa manifestation, comme une frise. (voir détails dans spec mac)
+
+\textbf{Repérage couleur :}
+
+Ce code couleur doit pouvoir être présent partout : menu burger, menus de notices pour les liens, onglets de notices, résultats de recherche.
+
+\textbf{Questionnaire/guide au catalogage} :
+
+Le modèle FRBR reste assez complexe à appréhender selon les différents types de cas
+de figure et de collections. Pour éviter à l’utilisateur de devoir chercher le cas auquel il a
+affaire au sein du manuel de catalogage de la FIAF, il serait pertinent de guider davantage
+le parcours dans l’application. Pour cela, la mise en place d’un questionnaire/guide,
+fondé sur le manuel de la FIAF serait intéressant, lors de la création de notices depuis
+les tables des niveaux du WEMI : Œuvres, Manifestations, Films. Cela permettrait
+d’associer les niveaux à des cas concrets et de faciliter les choix à effectuer. Par exemple
+:
+- À l’acquisition d’un item film, un utilisateur souhaite le cataloguer. Au clic sur la
+table des items films, une fenêtre s’ouvre du même type que celle qui permet à
+l’utilisateur de choisir entre item physique et numérique. Après sélection du type
+de l’item (physique ou numérique), plusieurs questions sont posées à l’utilisateur
+:
+o Une distribution commerciale de cet item existe-t-elle ?
+▪ Si oui : l’application propose à l’utilisateur de la créer, directement
+reliée à l’item, ou alors lui propose de lier une manifestation
+existante par l’ouverture d’une grille de recherche
+▪ Si non : l’application crée automatiquement une manifestation
+vide, sans que l’utilisateur soit obligé de la remplir
+Cet item se rattache-t-il à une œuvre cinématographique déjà enregistrée
+dans l’application ?
+▪ Si oui : l’application ouvre la grille de recherche pour que
+l’utilisateur puisse sélectionner l’œuvre correspondante
+▪ Si non : l’application propose à l’utilisateur d’en créer une
+directement liée à l’item
+La même chose doit être prévue pour la création de notices depuis les tables
+Manifestations et Œuvres. La création de notices depuis les tables prend le risque que
+l’utilisateur crée un objet seul, sans qu’il soit relié aux autres niveaux du WEMI. Cela pose
+problème pour l’architecture des données.
+Pour la table Œuvres, le questionnaire doit pouvoir prévoir la question de la variante.
+Ainsi, il s’agirait de questionner l’utilisateur si l’élément qu’il souhaite cataloguer est une
+œuvre ou une variante d’une œuvre déjà existante. Par exemple :
+- L'œuvre est-elle une œuvre originale ou une variante d’une œuvre préexistante ?
+o Le montage est-il significativement différent de l’œuvre originale ?
+o Des images ont-elles été ajoutées ?
+o Les dialogues ont-ils été modifiés ?
+o Certains acteurs ont-ils été remplacés ?
+À chaque étape, il pourrait être pertinent d’ajouter des infobulles avec des exemples
+issus du manuel de la FIAF pour illustrer les délimitations entre les niveaux.
+Un assistant IA spécialisé dans les niveaux du WEMI et entraîné sur le manuel de la FIAF
+pourrait, à terme, être développé pour assister les utilisateurs et guider de manière plus
+précise : items restaurés, numérisés, agrégat d’œuvres, variantes multiples... 
+
+\textbf{Visualisation en graphe : pouvoir visualiser le réseau de données :}
+
+NB : Cette idée s’inspire notamment de la “balade intuitive” proposée par labibliothèque Kandinsky 
+Lorsque l’utilisateur ouvre S-Movies, ce sont les œuvres qui apparaissent sous la forme
+de résultats de recherche. Les liens avec d’autres notices (manifestations et items)
+n’apparaissent pas à première vue. Il faut ouvrir une notice pour voir la liste des entités
+qui y sont liées. Or, la visualisation de liens entre les entités d’une collection est
+primordiale dans la logique d’une structuration selon le modèle FRBR. Pouvoir avoir un
+aperçu de ces liens pourrait améliorer la compréhension de la hiérarchie entre les
+niveaux du FRBR et leur délimitation, et ainsi améliorer les pratiques de saisie selon les
+cas d’indexation. De plus, visualiser rapidement les liens entre entités permettrait
+d’identifier les incohérences et els erreurs plus facilement, comme par exemple, des
+éléments vides ou isolés.
+Les entités principales du FRBR étant au nombre de trois, la représentation choisie
+pourrait être celle d’une représentation en graphes de connaissances, modélisant ainsi
+les relations entre entités (https://www.ibm.com/fr-fr/think/topics/knowledge-graph).
+Cette représentation s’appuie sur le modèle de graphe RDF (sujet-prédicat-objet) qui  
 
 \subsubsection{Améliorer les liens et la navigation entre les notices}
-amélioration des liens
-conserver le niveau du méta masque en mode saisie
+
+\textbf{Amélioration des liens}
+
+Actuellement, le parcours utilisateur de navigation entre les niveaux du WEMI dans SMovies pourrait être amélioré. Plusieurs éléments faisant l’objet de liens sont ici
+proposés et soumis à des améliorations :
+1) Contraindre les liens entre les niveaux depuis les tables
+Actuellement, lorsque l’utilisateur crée un élément du WEMI depuis une table (films,
+manifestation, œuvre), la création supplémentaire d’un lien avec les autres niveaux du
+WEMI n’est pas rendue obligatoire par l’application.
+Par exemple, lorsque l’utilisateur crée une manifestation depuis la table dédiée –bien
+qu’il ne s’agisse pas du parcours le plus courant, la création d’un lien entre cette
+manifestation et une œuvre ou un item film n’est pas obligatoire. Or, une manifestation
+est toujours reliée, a minima, à une œuvre cinématographique. Il faudrait pouvoir
+contraindre l’utilisateur à relier la notice de manifestation à une œuvre, et que les
+champs œuvre de la notice manifestation héritent automatiquement des données de
+l’œuvre liée (titre, auteur, contexte de création...).
+C’est le même problème pour la création d’un item film et pour la création d’une œuvre.
+L’encart qui apparait en haut à droite de la notice pour proposer à l’utilisateur de créer
+un lien avec une autre notice n’est pas suffisant. Il faudrait contraindre l’association de
+liens entre les niveaux du WEMI par une fenêtre pop-up qui bloquerait la saisie
+momentanément. Ainsi, à la création d’un item film par exemple, une fenêtre pop-up
+s’ouvrirait pour demander à l’utilisateur de lier cet item à une manifestation et/ou une
+œuvre.
+Si la collection est particulière, par exemple le musée Albert Kahn ne décrit pas la
+manifestation, il faut permettre la possibilité d’enlever cette obligation de lien entre les
+trois niveaux et laisser seulement l’encart existant.
+2) Améliorer les liens depuis les notices
+Les liens rendus possibles depuis les menus des notices pourraient aussi être
+améliorés.
+Par exemple, depuis une notice œuvre, il faudrait proposer un bouton d’action qui
+permette de créer un item et une manifestation liés, et non plus seulement un item. En
+effet, proposer à l’utilisateur de créer un item et sa manifestation serait conforme à la
+logique déjà mise en place dans l’application du lien indissociable entre un item et sa
+manifestation (quand une notice d’item film est créée, une manifestation est aussi
+automatiquement créée).
+Par ailleurs, sur ce dernier point, la création automatique d’une manifestation à la
+création d'un item film est également à améliorer, puisque la manifestation liée n’est
+pas visible par l’utilisateur.
+Quand on supprime une œuvre, l’application ne signale pas qu’on supprime également
+ses éléments liés
+Quand on crée un item depuis la table dédiée une manifestation est automatiquement
+créée mais elle n’apparait pas dans le menu de la notice > grille de recherche >
+manifestations
+
+\textbf{Conserver le niveau du méta masque en mode saisie}
+
+Actuellement, lors de la configuration des méta masques, les champs glissés et déposés
+dans la table concernée perdent la mention du niveau FRBR auquel ils appartiennent.
+L’utilisateur n’a plus le moyen de savoir, une fois dans la notice, que tel champ
+appartient à tel niveau. Conserver la mention du niveau du FRBR sur les métas masques
+au sein de la saisie de la notice permettrait une meilleure compréhension et visibilité
+pour l’utilisateur. Ainsi, par exemple, dans une notice de manifestation, le champ Titre
+afficherait : Œuvre – Titre.
 
 \subsubsection{Préparer l'intégration de l'IA}
-tranition de pratiques utilisateur vers la mise en placede l'automatisation
+transition de pratiques utilisateur vers la mise en place de l'automatisation
 
-annotation de séquences 
+annotation de séquences : créer déjà des données temporelles permettra d'etraîner l'IA directement sur ces données (introduire que l'IA a besoin d'entrainement)
 recherche de média par format 
 automatisation du catalogage 

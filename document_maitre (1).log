@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  15 JUL 2026 11:37
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  16 JUL 2026 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -944,14 +944,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [5]
 
 [6]) (./chapitres/frbr_archives_audiovisuelles.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [7]
-Underfull \vbox (badness 1831) has occurred while \output is active []
-
-
 
 [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -963,76 +957,208 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [10]
 
 [11]
+
+[12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-[12]
 
 [13]) (./chapitres/indexation_frbr.tex
 
 [14]
 
 [15]
+Underfull \vbox (badness 3724) has occurred while \output is active []
+
+
 
 [16]
 
 [17]
+Underfull \vbox (badness 3579) has occurred while \output is active []
 
-[18])
 
-[19]
 
-[20
+[18]
+
+[19])
+
+[20]
+
+[21
 
 ]
 
-[21]
-
-[22] (./chapitres/II_1.tex)
+[22] (./chapitres/II_1.tex
 
 [23]
+Missing character: There is no ▪ (U+25AA) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ▪ (U+25AA) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ▪ (U+25AA) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ▪ (U+25AA) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
-[24
+
+[24]
+! You can't use `macro parameter character #' in horizontal mode.
+l.120 ...e?id=23c50bed-1ab2-47eabfc8-26e84403cf0b#
+                                                  #syrtis_search_page. (voir...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.120 ...?id=23c50bed-1ab2-47eabfc8-26e84403cf0b##
+                                                  syrtis_search_page. (voir ...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.120 ...50bed-1ab2-47eabfc8-26e84403cf0b##syrtis_
+                                                  search_page. (voir les cap...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.135 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no œ ("153) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no à ("E0) in font cmmi12!
+Missing character: There is no è ("E8) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no è ("E8) in font cmmi12!
+Missing character: There is no ç ("E7) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no ê ("EA) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+Missing character: There is no è ("E8) in font cmmi12!
+Missing character: There is no é ("E9) in font cmmi12!
+
+Overfull \hbox (113.1088pt too wide) in paragraph at lines 118--135
+\TU/lmr/m/n/12 thèque Kandinsky dont voici un exemple : https ://bibliothequeka
+ndinsky.centrepompidou.fr/graphe?id=23c50bed-
+ []
+
+
+Overfull \hbox (93.53952pt too wide) in paragraph at lines 118--135
+\TU/lmr/m/n/12 1ab2-47eabfc8-26e84403cf0bsyrtis$[]\OML/cmm/m/it/12 earch[]age:\
+OT1/cmr/m/n/12 (\OML/cmm/m/it/12 voirlescapturesd[]cranci \OMS/cmsy/m/n/12 ^^@ 
+\OML/cmm/m/it/12 dessous\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 Lorsquel[]utilisateur
+ouvreS \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (4059.94478pt too wide) in paragraph at lines 118--135
+\OML/cmm/m/it/12 Movies; cesontlesuvresquiapparaissentsouslaformedersultatsdere
+cherche:Lesliensavecd[]autresnotices\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 manifesta
+tionsetitems\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 n[]apparaissentpaspremirevue:Ilfa
+utouvrirunenoticepourvoirlalistedesentitsquiysontlies:Or; lavisualisationdelien
+sentrelesentitsd[]unecollectionestprimordialedanslalogiqued[]unestructurationse
+lonlemodleFRBR:Pouvoiravoirunaperudeceslienspourraitamliorerlacomprhensiondelah
+irarchieentrelesniveauxduFRBRetleurdlimitation; etainsiamliorerlespratiquesdesa
+isieselonlescasd[]indexation:Deplus; visualiserrapidementlesliensentreentitsper
+mettraitd[]identifierlesincohrencesetelserreursplusfacilement; commeparexemple;
+ deslmentsvidesouisols:LesentitsprincipalesduFRBRtantaunombredetrois; lareprsen
+tationchoisiepourraittrecelled[]unereprsentationengraphesdeconnaissances; modli
+santainsilesrelationsentreentits\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 https \OT1/cm
+r/m/n/12 :
+ []
+
+
+Overfull \hbox (151.18584pt too wide) in paragraph at lines 118--135
+\OT1/cmr/m/n/12 //\OML/cmm/m/it/12 www:ibm:com\OT1/cmr/m/n/12 /\OML/cmm/m/it/12
+ fr \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 fr\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 t
+hink\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 topics\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 k
+nowledge \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 graph\OT1/cmr/m/n/12 )\OML/cmm/m
+/it/12 :Cettereprsentations[]appuiesurlemodledegrapheRDF\OT1/cmr/m/n/12 (\OML/c
+mm/m/it/12 sujet \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+
+[25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[26])
+
+[27]
+
+[28
 
 ]
 
-[25]
+[29]
 
-[26
+[30
 
 ]
 \openout2 = `chapitres/conclusion.aux'.
 
  (./chapitres/conclusion.tex
 
-[27
+[31
 
 
 ])
 
-[28]
+[32]
 Annexe A.
 
 
-[29
+[33
 
 
 
 ]
 
-[30
+[34
 
-] (./document_maitre (1).toc)
+] (./document_maitre (1).toc
+
+[35
+
+
+])
 \tf@toc=\write5
 \openout5 = `"document_maitre (1).toc"'.
 
 
 
-[31
-
-
-] (./document_maitre (1).aux (./chapitres/conclusion.aux))
+[36] (./document_maitre (1).aux (./chapitres/conclusion.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1051,12 +1177,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25187 strings out of 468389
- 496265 string characters out of 5440619
- 1345331 words of memory out of 5000000
- 53442 multiletter control sequences out of 15000+600000
+ 25202 strings out of 468389
+ 496519 string characters out of 5440619
+ 1352593 words of memory out of 5000000
+ 53457 multiletter control sequences out of 15000+600000
  631033 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,12n,83p,2180b,5494s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,12n,83p,2139b,5494s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (49 pages).
+Output written on document_maitre (1).pdf (54 pages).

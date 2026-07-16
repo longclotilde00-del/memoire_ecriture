@@ -7,18 +7,18 @@
 \contentsline {subsubsection}{\numberline {a.}Un modèle conceptuel fondé sur les besoins utilisateurs}{3}{subsubsection.0.0.1.1}%
 \contentsline {subsubsection}{\numberline {b.}Son adaptation à l'archivistique et au contexte muséal}{4}{subsubsection.0.0.1.2}%
 \contentsline {subsubsection}{\numberline {c.}Un modèle adapté aux archives audiovisuelles}{5}{subsubsection.0.0.1.3}%
-\contentsline {subsection}{\numberline {2.}Adapter le FRBR aux archives audiovisuelles}{8}{subsection.0.0.2}%
+\contentsline {subsection}{\numberline {2.}Adapter le FRBR aux archives audiovisuelles}{7}{subsection.0.0.2}%
 \contentsline {subsubsection}{\numberline {a.}Un espace de travail dédié à la gestion de collections audiovisuelles : S-Movies}{8}{subsubsection.0.0.2.1}%
 \contentsline {subsubsection}{\numberline {b.}L'inscription des corpus de données dans la remodélisation du FRBR}{10}{subsubsection.0.0.2.2}%
-\contentsline {subsubsection}{\numberline {c.}Vers une refonte de S-Movies}{13}{subsubsection.0.0.2.3}%
+\contentsline {subsubsection}{\numberline {c.}Vers une refonte de S-Movies}{12}{subsubsection.0.0.2.3}%
 \contentsline {subsection}{\numberline {3.}Le projet d'une indexation automatisée des archives audiovisuelles, conditionnée par le modèle en place}{14}{subsection.0.0.3}%
 \contentsline {subsubsection}{\numberline {a.}Projet SKAI}{15}{subsubsection.0.0.3.1}%
 \contentsline {subsubsection}{\numberline {b.}Segmentation}{17}{subsubsection.0.0.3.2}%
-\contentsline {subsubsection}{\numberline {c.}Indexation}{18}{subsubsection.0.0.3.3}%
-\contentsline {part}{II\hspace {1em}Une autre partie}{21}{part.2}%
+\contentsline {subsubsection}{\numberline {c.}Indexation}{19}{subsubsection.0.0.3.3}%
+\contentsline {part}{II\hspace {1em}Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}{21}{part.2}%
 \contentsline {subsection}{\numberline {4.}La nécessaire refonte de S-Movies pour la mise en place d'un tel projet}{23}{subsection.0.0.4}%
 \contentsline {subsubsection}{\numberline {a.}Améliorer la compréhension du FRBR}{23}{subsubsection.0.0.4.1}%
-\contentsline {subsubsection}{\numberline {b.}Améliorer les liens et la navigation entre les notices}{23}{subsubsection.0.0.4.2}%
-\contentsline {subsubsection}{\numberline {c.}Préparer l'intégration de l'IA}{23}{subsubsection.0.0.4.3}%
-\contentsline {chapter}{Conclusion}{25}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Titre court}{29}{appendix.A}%
+\contentsline {subsubsection}{\numberline {b.}Améliorer les liens et la navigation entre les notices}{25}{subsubsection.0.0.4.2}%
+\contentsline {subsubsection}{\numberline {c.}Préparer l'intégration de l'IA}{27}{subsubsection.0.0.4.3}%
+\contentsline {chapter}{Conclusion}{29}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Titre court}{33}{appendix.A}%
