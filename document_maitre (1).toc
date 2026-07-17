@@ -17,8 +17,8 @@
 \contentsline {subsubsection}{\numberline {c.}Indexation}{19}{subsubsection.0.0.3.3}%
 \contentsline {part}{II\hspace {1em}Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}{21}{part.2}%
 \contentsline {subsection}{\numberline {4.}La nécessaire refonte de S-Movies pour la mise en place d'un tel projet}{23}{subsection.0.0.4}%
-\contentsline {subsubsection}{\numberline {a.}Améliorer la compréhension du FRBR}{23}{subsubsection.0.0.4.1}%
-\contentsline {subsubsection}{\numberline {b.}Améliorer les liens et la navigation entre les notices}{25}{subsubsection.0.0.4.2}%
+\contentsline {subsubsection}{\numberline {a.}Améliorer la compréhension du FRBR}{24}{subsubsection.0.0.4.1}%
+\contentsline {subsubsection}{\numberline {b.}Améliorer les liens et la navigation entre les notices}{26}{subsubsection.0.0.4.2}%
 \contentsline {subsubsection}{\numberline {c.}Préparer l'intégration de l'IA}{27}{subsubsection.0.0.4.3}%
-\contentsline {chapter}{Conclusion}{29}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Titre court}{33}{appendix.A}%
+\contentsline {chapter}{Conclusion}{31}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Titre court}{35}{appendix.A}%

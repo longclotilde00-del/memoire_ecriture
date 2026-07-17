@@ -1,195 +1,107 @@
 \subsection{La nécessaire refonte de S-Movies pour la mise en place d'un tel projet}
+La question de l'automatisation d'une indexation fondée sur le FRBR n'est pas nouvelle, comme le pose Signoles en 2012, face à la complexité d'adapter une interface au modèle : "Suffira-t-il « un jour » d’appuyer sur un bouton pour extraire d’une notice des données automatiquement FRBRrisées ?" \footcite{signoles}. La mise en place d'une telle automatisation se précise à travers le projet IA chez Skinsoft. Toutefois, l'automatisation est conditionnée par une interface utilisateur fluide et navigable, surtout lorsque celle-ci s'appuie sur le modèle FRBR. Or, nous avons vu que l'espace de travail S-MOvies faisait l'objet d'un projet pour améliorer la navigation de l'utilisateur au sein du modèle de données afin d'en comprendre les liens. Ce projet permettra, à terme, d'éviter une diffusion d'erreurs à trop grande échelle liées à l'automatisation. Étant donné la complexité des liens induits par le modèle de données FRBR, l'interface doit prévoir les complexités et les confusions. Si les liens entre niveaux sont confus pour l'utilisateur, ils le seront pour un algorithme d'intelligence artificielle, et pour la vérification humaine derrière. 
+Rapellons les complexités d'interface auxquelle fait face l'espace S-Movies. IL n'existe pas actuellement d'affichage des liens entre les entités du FRBR et de leur hiérarchie. Par ailleurs, la conception d'un espace de travail divisé en tables au sein desquelles l'utilisateurs peut créer des notices limite notamment la porosité des liens entre les notices et rend la création de celles-ci hermétique. 
+Durant notre stage, nous avons proposé des propositions d'optimisation de l'interface en lien avec le FRBR sous la forme d'une spécification fonctionnelle (Voir la spécification détaillée en annexe). 
+L'amélioration des liens et la modification de l'affichage adéquat de la hiérarchie FRBR sont les conditions d'un reversement automatique des métadonnées.
+Ces propositions s'inscrivent, d'une part, en amont de la mise en place de l'intelligence artificielle, afin d'instaurer une interface lisible entre l'utilisateur et la machine. La vérification des données produites et leur reversement au sein des niveaux FRBR pourra être plus intuitive et ainsi plus efficace. La mise en place d'une interface appropriée prépare la mise en place de l'intellogence artificielle dans laquelle elle pourra s'inscrire. L'interface peut être un outil pédagogique et un guide pour l'utilisateur dans un moment de transition tehcnologique. D'autre part, si les études sur l'UI/UX en contexte patrimonial se concentrent sur la contruction d'une interface intuitive pour l'utilisateur faisant partie d'un public, en ligne, il est également important de construire une interface intuitive, navigable et visuelle pur les professionnels métier. La mise en place d'une interface intuitive permet à l'utilisateur de se concentrer sur sa tâche. mettre en place des repères que les utilisateurs peuvent suivre pour atteindre leur objectif et prendre de meilleures décisions plus rapidement 
 
-"Suffira-t-il « un jour » d’appuyer sur un bouton pour extraire d’une notice des données automatiquement FRBRrisées ?" \footcite{signoles}
+Nous présenterons des améliorations en trois temps. Tout d'abord nous présenterons des nouvelles fonctionnalités afin d'améliorer la compréhension du FRBR pour l'utilisateur, puis des fonctionnalités pour améliorer les liens et la navigation entre les notices plus spécifiquement. Enfin, nous proposerons des fonctionnalité qui visent notamment à préparer l'intégration de l'intelligence artificielle au sein de l'interface. 
 
-%spécification item et média ?
 
-Rappeller les problème identifiés
-Propositions développées en stage pour y répondre
 
-Si les liens entre niveaux sont confus pour l'utilisateur, ils le seront pour un algorithme d'intelligence artificielle, et pour la vérification humaine derrière. 
-Si les liens entre niveaux sont confus pour l'utilisateur, ils le seront pour un algorithme d'intelligence artificielle, et pour la vérification humaine derrière. 
-L'amélioration des liens et la modification de l'affichage de la hiérarchie : conditions du reversement automatique des métadonnées
-Double aspect : l'amélioration de l'interface fondée sur le FRBR permettra une meilleur mise en place de l'automatisation, pour la machine mais aussi pour l'utilisateur. la vérification des données produites et leur reversement au sein des niveaux FRBR pourra être plus intuitive et ainsi plus efficace. 
-
-deux familles : 
-Améliorer la compréhension du FRBR pour l'utilisateur
-Améliorer les liens et la navigatin entre notices 
-Préparer l'intégration de l'IA
-
-présenter chaque amélioration avec le problème qu'elle résoud , en lien avec la prblématique 
 %recherches à effectuer sur l'ergonomie d'un système de gestion de collections 
+
+%pour chaque amélioration présentée : présentation rapide, problème qu'elle résoud, lien avec la problématique
+%justification des modifications, en annexe : tous les dérails sur comment implémenter ces fonctionnalités. 
+
+Pour des raisons de concision, l'implémentation concrète de ces améliorations dans l'interface sont déaillées en annexe.
 
 \subsubsection{Améliorer la compréhension du FRBR}
 
-\textbf{Modifier affichage de la hiérarchie :}
+\textbf{Modifier l'affichage de la hiérarchie :}
 
-Actuellement, la hiérarchie d’affichage des niveaux dans le menu burger se fait du plus
-petit niveau en haut (films) au plus grand niveau en bas (œuvres). Cet affichage est
-contre intuitif puisqu’il induit une hiérarchie inversée. Il faudrait que l’œuvre soit affichée
-comme le niveau le plus haut de la hiérarchie, suivi par la manifestation et enfin, par
-l’item-film.
-Il pourrait également être plus intuitif de contraindre l’affichage correct de la hiérarchie
-dans les menus des notices. Par exemple dans une notice œuvre, l’onglet
-“manifestations liées” apparait au-dessus de l’onglet “items-films liés”. Cela pourrait
-prendre la forme d’une fenêtre de suggestion à l’utilisateur lors de la configuration du
-menu d’une notice afin de produire un affichage conforme à la hiérarchie du modèle
-FRBR.
-Par ailleurs, la page d’accueil de S-Movies a été configurée de telle sorte que ce sont
-toutes les œuvres cinématographiques qui apparaissent. Or, ce sont bien les items qui
-composent véritablement la collection. Il serait pertinent de proposer une amélioration,
-en proposant par exemple d’afficher les items contenus dans chaque œuvre, pour avoir
-un aperçu réaliste de la collection. 
+Premièrement, améliorer l'affichage de la hiérarchie des niveaux FRBR pourrait permettre une meilleure intuitivité au sein de l'interface. Faire apparaitre une hiérarchie avec le plus haut niveau en haut, duquel découle les autres niveaux serait plus clair pour les utilisateurs. A plusieurs endroits, la hiérarchie est affichée de manière inversée, comme dans le menu burger où l'affichage des tables se fait du plus bas niveau (film) en haut, au plus haut niveau (oeuvres) en bas. Par ailleurs, dans le menu des notices, les onglets peuvent être paramétrés comme l'utilisateur le souhaite, laissant ainsi libre cours à la possibilité d'afficher une hiérarchie incohérente. Rétablir une hiérarchie conforme au modèle FRBR permettrait de lever les ambiguités sur les niveaux de descriptions où l'utilisateur doit inscrire ses données. (Un développement plus précis de cette amélioration est développée en annexe). 
 
 \textbf{Corrections terminologiques :}
 
-Cela peut paraitre anodin, mais corriger la terminologie à certains endroits permettrait d’améliorer la compréhension des nuances et des liens entre les niveaux du FRBR.
-Par exemple, actuellement depuis une notice film (item), le bouton d’action propose à l’utilisateur d’ajouter “des œuvres/expressions”. Il faudrait modifier la conjugaison pour
-mettre le terme au singulier : un item ne peut être lié qu’à une seule œuvre/expression. Par ailleurs, il peut y avoir confusion de compréhension autour du terme film. En effet dans un contexte cinématographique, le film peut désigner à la fois l’œuvre, la
-manifestation et l’exemplaire. Il faudrait proposer un terme qui pointe cette notion d’exemplaire individuel qui découle d’une œuvre puis d’une manifestation, tel qu'itemfilm par exemple.
-De plus, à plusieurs endroits, le terme d’œuvre est privilégié alors qu’à d’autres c’est
-celui d’expression qui est utilisé. Il faudrait normaliser l’emploi d’œuvre/expression ou
-d’œuvre en tout temps. C’est le cas dans certains masques comme celui d’expression
-référente, qui peut être utilisé au détriment de celui d’œuvre associée. 
-Cette proposition rejoint l’idée de supprimer la table œuvre cinématographique dans la
-gestion des masques alors que c’est la table œuvre/expression qui est couramment
-utilisée.
-Enfin, une confusion peut également s’installer entre les termes “œuvre liée” et “œuvre
-associée” dans les masques qui décrivent la manifestation par exemple. Le terme
-d’œuvre liée pourrait être corrigé en “œuvre parente” pour que la nature du lien soit plus
-claire entre les deux entités. 
+Dans le même objectif de construire l'interface la plus claire possible, quelques corrections terminologiques seraient à apporter. Par exemple, nous l'avions évoqué, le niveau Item est matérialisé dans l'application par le terme "film". Or, dans un contexte cinématographique, le film peut désigner plusieurs éléments à la fois. Selon la définition de Journot, il désigne à la fois le support matériel et l'oeuvre : "Le film, [...] désigne d’abord la pellicule photographique, puis la bande perforée recouverte d’émulsion photographique qui permet d’enregistrer et de conserver les images. Par extension, il désigne l’œuvre cinématographique et l’ensemble des œuvres considérées par domaines" \footcite{journot2008}. Dans le contexte du FRBR, le terme pourrait désigner les trois niveaux, puisqu'il ne contient pas ne lui-même la notion d'exemplaire. Mettre en place un terme plus précis comme celui d'"item-film" par exemple, serait plus intuitif pour le utilisateurs, puisqu'il induit cette notion d'exemplaire unique qui caractérise le niveau item. Par ailleurs, le terme expression est encore utilisée à certains endorits de l'interface, notamment au sein des configurations possibles. Or, les reccommandatiins de la FIAF évoquent la fusion du niveau expression avec celui d'oeuvre. Conserver uniquement le terme d'oeuvre permettrait à l'utilisateur d'identifier un modle FRBR propre à la gestion de collections cinématographiques, pour ne pas le confondre avec celui des bibliothèques par exemple. Rappelons que certains utilisateurs alternent entre différents espaces de travail qui peuvent être fondés sur le même modèle de données, mais différents car appliqués à uen collection différentes, comme c'est le cas avec les colelctions filmiques et les collections bibliographiques. Il est important que l'interface signale et mette en avant ces différences pour ne pas induire l'utilisateur en erreur. 
+De plus, afin d'améliorer l'affichage hiérarchique et la navigation au sein de l'interface, nous proposons la mise en place de points de repère afin d'aider l'utilisateur à se situer au sein du modèle FRBR. Par exemple, l'affichage, dans l'onglet d'une notice, des niveaux dans lesquels elle est imbriquée, permettrait à l'utilisateur de se repérer en tout temps au sein des liens d'une notice. Par exemple, l'onglet d'une notice d'item-film mentionnerait l'oeuvre et la manifestation dont elle découle. Des précisions sur les modalités d'affichage de cette amélioration sont précisées en annexe. Cet affichage produirait un affichage de la hiérarchie et des liens auxquels appartiendrait une notice.
+Par ailleurs, un repérage par couleurs sur les niveaux pourrait être mis en place afin d'améliorer l'intuitivité de l'interface. Ainsi, chaque niveau du FRBR serait associé à une couleur spécifique au sein de l'interface, rendant, pour l'utilisateur, un repérage visuel rapide et une navigation plus efficace. 
+Plus largement, nous proposons une refonte du parcours utilisateur  pour davantage guider ses choix documentaires en accord avec le modèle FRBR. Nous avons par exemple pensé à la mise en place d'un questionnaire d'assistance au catalogage lors de la création de notices au sein de l'espace de travail. CE questionnaire serait nourrit par les définition et les exemples du manuel de le FIAF, afin d'aider l'utilisateur à décrire les données au bon endroit de l'interface selon les cas. Par exemple, lorsque l'utilisateur crée une notice dans un des niveaux du FRBR (oeuvre, manifestation, item-film), il devrait répondre à plusieurs questions qui affinent le choix de lien à effectuer avec ladite notice. Par exemple, le questionnaire devrait pouvoir répondre aux incertitudes suivantes : faut-il créer une manifestation en lien avec cet item ? Cet item découle-t-il d'une variante de l'oeuvre ? Le questionnaire devrait ainsi prévoir les différents cas de figure à documenter et les liens qui doievnt être établis entre les notices. Le détail des questions possibles et  du parcours utilisateur sont décrit en annexe. De plus, il semble que les notions de variante et de manifestation soient assez floues et poreuses pour els utilisateurs. Afin de les aider dans leurs choix : créer, à partir d'une oeuvre, une variate ou une manifestation, le questionnaire pourrait inclure des infobulles contennt les différents types de variantes et de manifestation, évitant ainsi davantage les confusions. Cette modification du parcours utilisateur afin de clarifier les différents niveaux du FRBR permettraient également aux utilisateurs de davantage utilsier les niveaux de variante et de manifestations qui sont actuellement peu utilisés. 
 
-\textbf{affichage des niveaux dans les onglets :}
-
-Dans l’onglet d’une notice, apparaissent les imbrications de niveaux dont fait partie la
-notice. Ex : si l’utilisateur a ouvert une notice d’item, l’onglet, ou un encart en haut de la
-notice indique son œuvre et sa manifestation, comme une frise. (voir détails dans spec mac)
-
-\textbf{Repérage couleur :}
-
-Ce code couleur doit pouvoir être présent partout : menu burger, menus de notices pour les liens, onglets de notices, résultats de recherche.
-
-\textbf{Questionnaire/guide au catalogage} :
-
-Le modèle FRBR reste assez complexe à appréhender selon les différents types de cas
-de figure et de collections. Pour éviter à l’utilisateur de devoir chercher le cas auquel il a
-affaire au sein du manuel de catalogage de la FIAF, il serait pertinent de guider davantage
-le parcours dans l’application. Pour cela, la mise en place d’un questionnaire/guide,
-fondé sur le manuel de la FIAF serait intéressant, lors de la création de notices depuis
-les tables des niveaux du WEMI : Œuvres, Manifestations, Films. Cela permettrait
-d’associer les niveaux à des cas concrets et de faciliter les choix à effectuer. Par exemple
-:
-- À l’acquisition d’un item film, un utilisateur souhaite le cataloguer. Au clic sur la
-table des items films, une fenêtre s’ouvre du même type que celle qui permet à
-l’utilisateur de choisir entre item physique et numérique. Après sélection du type
-de l’item (physique ou numérique), plusieurs questions sont posées à l’utilisateur
-:
-o Une distribution commerciale de cet item existe-t-elle ?
-▪ Si oui : l’application propose à l’utilisateur de la créer, directement
-reliée à l’item, ou alors lui propose de lier une manifestation
-existante par l’ouverture d’une grille de recherche
-▪ Si non : l’application crée automatiquement une manifestation
-vide, sans que l’utilisateur soit obligé de la remplir
-Cet item se rattache-t-il à une œuvre cinématographique déjà enregistrée
-dans l’application ?
-▪ Si oui : l’application ouvre la grille de recherche pour que
-l’utilisateur puisse sélectionner l’œuvre correspondante
-▪ Si non : l’application propose à l’utilisateur d’en créer une
-directement liée à l’item
-La même chose doit être prévue pour la création de notices depuis les tables
-Manifestations et Œuvres. La création de notices depuis les tables prend le risque que
-l’utilisateur crée un objet seul, sans qu’il soit relié aux autres niveaux du WEMI. Cela pose
-problème pour l’architecture des données.
-Pour la table Œuvres, le questionnaire doit pouvoir prévoir la question de la variante.
-Ainsi, il s’agirait de questionner l’utilisateur si l’élément qu’il souhaite cataloguer est une
-œuvre ou une variante d’une œuvre déjà existante. Par exemple :
-- L'œuvre est-elle une œuvre originale ou une variante d’une œuvre préexistante ?
-o Le montage est-il significativement différent de l’œuvre originale ?
-o Des images ont-elles été ajoutées ?
-o Les dialogues ont-ils été modifiés ?
-o Certains acteurs ont-ils été remplacés ?
-À chaque étape, il pourrait être pertinent d’ajouter des infobulles avec des exemples
-issus du manuel de la FIAF pour illustrer les délimitations entre les niveaux.
-Un assistant IA spécialisé dans les niveaux du WEMI et entraîné sur le manuel de la FIAF
-pourrait, à terme, être développé pour assister les utilisateurs et guider de manière plus
-précise : items restaurés, numérisés, agrégat d’œuvres, variantes multiples... 
-
-\textbf{Visualisation en graphe : pouvoir visualiser le réseau de données :}
-
-NB : Cette idée s’inspire notamment de la “balade intuitive” proposée par labibliothèque Kandinsky 
-Lorsque l’utilisateur ouvre S-Movies, ce sont les œuvres qui apparaissent sous la forme
-de résultats de recherche. Les liens avec d’autres notices (manifestations et items)
-n’apparaissent pas à première vue. Il faut ouvrir une notice pour voir la liste des entités
-qui y sont liées. Or, la visualisation de liens entre les entités d’une collection est
-primordiale dans la logique d’une structuration selon le modèle FRBR. Pouvoir avoir un
-aperçu de ces liens pourrait améliorer la compréhension de la hiérarchie entre les
-niveaux du FRBR et leur délimitation, et ainsi améliorer les pratiques de saisie selon les
-cas d’indexation. De plus, visualiser rapidement les liens entre entités permettrait
-d’identifier les incohérences et els erreurs plus facilement, comme par exemple, des
-éléments vides ou isolés.
-Les entités principales du FRBR étant au nombre de trois, la représentation choisie
-pourrait être celle d’une représentation en graphes de connaissances, modélisant ainsi
-les relations entre entités (https://www.ibm.com/fr-fr/think/topics/knowledge-graph).
-Cette représentation s’appuie sur le modèle de graphe RDF (sujet-prédicat-objet) qui  
+Par ailleurs, afin de permettre à l'utilisateur de visualiser les liens entre les notices, et la pluricité de liens qu'induit le modèle FRBR, nous proposons une visualisation en graphe. En effet, atcuellement, l'interface permet seulement de visualiser les liens entre les tables à l'intérieur d'une notice, par le biais d'oglets séparés. Par exemple, une notice d'item contiendra d'une part les manifestations liées et d'autre part, l'oeuvre liée.  Mais il n'est pas possible de visualiser l'interconnexion de ces liens et de visualiser l'ensemble des liens dont fait l'objet une entité. Une visualisation d'ensemble serait pertinente notamment au niveau oeuvre, afin de pouvoir visualiser ses variantes, ses manifestations, ses exemplaires. De plus, visualiser rapidement les liens entre entités permettrait d’identifier les incohérences et els erreurs plus facilement, comme par exemple, des éléments vides ou isolés. POur cette idée de visualisation en graphes, nous nous sommes inspirés de la “balade intuitive” proposée par la bibliothèque Kandinsky, qui propose, à partir d'une notice, une visualisation en graphe arborescente autour du niveau concerné. Le choix du graphe est justifié ici puisque les entités principales du FRBR sont au nombre de trois. En effet, la représentation en graphe découle du modèle RDF (Resource description framework : sujet-prédicat-objet) qui permet l’interopérabilité des données au sein du web sémantique. \textbf{(à sourcer et à développer le lien entre les deux)}
+Les modalités d'implémentation de cette fonctionnalité au sein de l'interface est détaillée en annexe. 
 
 \subsubsection{Améliorer les liens et la navigation entre les notices}
 
-\textbf{Amélioration des liens}
-
-Actuellement, le parcours utilisateur de navigation entre les niveaux du WEMI dans SMovies pourrait être amélioré. Plusieurs éléments faisant l’objet de liens sont ici
-proposés et soumis à des améliorations :
-1) Contraindre les liens entre les niveaux depuis les tables
-Actuellement, lorsque l’utilisateur crée un élément du WEMI depuis une table (films,
-manifestation, œuvre), la création supplémentaire d’un lien avec les autres niveaux du
-WEMI n’est pas rendue obligatoire par l’application.
-Par exemple, lorsque l’utilisateur crée une manifestation depuis la table dédiée –bien
-qu’il ne s’agisse pas du parcours le plus courant, la création d’un lien entre cette
-manifestation et une œuvre ou un item film n’est pas obligatoire. Or, une manifestation
-est toujours reliée, a minima, à une œuvre cinématographique. Il faudrait pouvoir
-contraindre l’utilisateur à relier la notice de manifestation à une œuvre, et que les
-champs œuvre de la notice manifestation héritent automatiquement des données de
-l’œuvre liée (titre, auteur, contexte de création...).
-C’est le même problème pour la création d’un item film et pour la création d’une œuvre.
-L’encart qui apparait en haut à droite de la notice pour proposer à l’utilisateur de créer
-un lien avec une autre notice n’est pas suffisant. Il faudrait contraindre l’association de
-liens entre les niveaux du WEMI par une fenêtre pop-up qui bloquerait la saisie
-momentanément. Ainsi, à la création d’un item film par exemple, une fenêtre pop-up
-s’ouvrirait pour demander à l’utilisateur de lier cet item à une manifestation et/ou une
-œuvre.
-Si la collection est particulière, par exemple le musée Albert Kahn ne décrit pas la
-manifestation, il faut permettre la possibilité d’enlever cette obligation de lien entre les
-trois niveaux et laisser seulement l’encart existant.
-2) Améliorer les liens depuis les notices
-Les liens rendus possibles depuis les menus des notices pourraient aussi être
-améliorés.
-Par exemple, depuis une notice œuvre, il faudrait proposer un bouton d’action qui
-permette de créer un item et une manifestation liés, et non plus seulement un item. En
-effet, proposer à l’utilisateur de créer un item et sa manifestation serait conforme à la
-logique déjà mise en place dans l’application du lien indissociable entre un item et sa
-manifestation (quand une notice d’item film est créée, une manifestation est aussi
-automatiquement créée).
-Par ailleurs, sur ce dernier point, la création automatique d’une manifestation à la
-création d'un item film est également à améliorer, puisque la manifestation liée n’est
-pas visible par l’utilisateur.
-Quand on supprime une œuvre, l’application ne signale pas qu’on supprime également
-ses éléments liés
-Quand on crée un item depuis la table dédiée une manifestation est automatiquement
-créée mais elle n’apparait pas dans le menu de la notice > grille de recherche >
-manifestations
-
-\textbf{Conserver le niveau du méta masque en mode saisie}
-
-Actuellement, lors de la configuration des méta masques, les champs glissés et déposés
-dans la table concernée perdent la mention du niveau FRBR auquel ils appartiennent.
-L’utilisateur n’a plus le moyen de savoir, une fois dans la notice, que tel champ
-appartient à tel niveau. Conserver la mention du niveau du FRBR sur les métas masques
-au sein de la saisie de la notice permettrait une meilleure compréhension et visibilité
-pour l’utilisateur. Ainsi, par exemple, dans une notice de manifestation, le champ Titre
+Dans un second temps, il s'agit d'méliorer la création de liens entre les niveaux du FRBR au sein de l'espace de travail. En effet, nous l'avions évoqué, les liens ne sont pas rendus obligatoires par l'interface au moment de la création d'une notice. Or, le FRBR prévoit une description en plusieurs niveaux qui doit être matérialisée par un lien indissociable entre les notices. La création de notices au sein de tables distinctes et individuelles n'incite pas l'utilisateur à créer des liens avec les autres tables. AU moment de la création d'une notice item dans la table ddes items, un "message" apparait pour suggérer à l'utilisateur de l'associer à une manifestation. Le lien est ici optionnel. Or, un item est relié soit à une manifestation, soit à une oeuvre, soit les deux. Nous proposons plutôt de contraindre l'utilisateur à relier la notice à un ou plusieurs niveaux supérieurs en bloquant la saisie tant que le lien n'est pas établit. Nous proposons ici de placer le lien comme une condition préalable à celle de la notice. 
+Finalement, dans le même objectif de contraindre la création de lien au sein de l'interface, nous proposons même de repenser la création de notices dans des tables individuelles, voire de la supprimer. Cela rendrait nos idées sur la mise en place d'un questionnaire et la précédente caduces. 
+En effet, la création de notices au sein de tables individuelles n’encourage pas l’utilisateur à lier les notices entre elles, sur plusieurs niveaux. Le risque est ainsi que l’utilisateur crée des notices individuelles, elles aussi, sans les relier à d’autres niveaux du FRBR. Pour éviter cela, il pourrait être intéressant de proposer la création de liens prédéfinis, au lieu de créer au sein de tables. Les tables pourraient être alors réservées à la consultation et à l’affichage des notices créées. Cette idée rapprocherait S-Movies d’une interface où l’utilisateur crée un réseau de liens, propre à une collection cinématographique.
+Au risque de surcharger l’interface, on peut également imaginer qu’au sein de chacune des tables, la possibilité de créer une notice de manière simple soit remplacée par la création de liens. Par exemple, au sein de la table oeuvre, l'utilisateur pourrait lier une oeuvre à une manifestation, lier une oeuvre à une manifestation, lier une oeuvre à un item, lier une oeuvre à une variante. AU sein de ce lien, l'utilisateur pourrait soit lier l'entité à une notice déjà existante, soit en créer une nouvelle dont le lien indissocible serait automatiquement mis en place. 
+La limite de cette idée est qu’elle est contre intuitive : la création d’une notice de chaque entité se fait dans d’autres tables que celle qui lui est dédiée. 
+Cette refonte du mode de création des notices assure toutefois un lien indissociable entre les entités, qui permettra notamment d’empêcher la suppression d’une entité et des éléments qui lui sont liés par exemple. Cela faciliterait aussi la mise en place de visualisation des liens, si les entités sont toutes interconnectées. Surtout, ces nouvelles modalités suppriment la possibilité de créer des notices individuelles, sans lien avec les niveaux du FRBR. Les modalités précises des liens proposés sont détaillés en annexe. 
+Par ailleurs, l'interface pourrait permettre une meilleure visibilité sur l'héritage des données prévue par les méta masques dont nous avons évoqué la configuration en première partie. Actuellement, les champs issus des méta masques glissés et déposés dans la table concernée perdent la mention du niveau FRBR auquel ils appartiennent. L’utilisateur n’a plus le moyen de savoir, une fois dans la notice, que tel champ appartient à tel niveau. Conserver la mention du niveau du FRBR sur les métas masques au sein de la saisie de la notice permettrait une meilleure compréhension et visibilité pour l’utilisateur. Ainsi, par exemple, dans une notice de manifestation, le champ Titre
 afficherait : Œuvre – Titre.
 
 \subsubsection{Préparer l'intégration de l'IA}
 transition de pratiques utilisateur vers la mise en place de l'automatisation
 
-annotation de séquences : créer déjà des données temporelles permettra d'etraîner l'IA directement sur ces données (introduire que l'IA a besoin d'entrainement)
-recherche de média par format 
-automatisation du catalogage 
+\textbf{Annotation de séquences} : créer déjà des données temporelles permettra d'etraîner l'IA directement sur ces données (introduire que l'IA a besoin d'entrainement)
+
+La table média actuelle permet seulement de visualiser une photo ou une vidéo, au clic sur la notice. Toutefois, il serait intéressant de développer une visionneuse spécifique à la vidéo qui permettrait non seulement de la visionner, mais également d’y placer des repères, des marqueurs, et de pouvoir l’annoter.  
+
+Tout d’abord, deux possibilités de “séquençage” manuel seraient possibles :  
+
+L’utilisateur saisit des repères temporels sur la vidéo sans la modifier. Ces repères sont reversés dans des champs prévus pour accueillir les “time codes” dans la notice de l’objet numérique. À l’ouverture du fichier numérique, les marqueurs laissés par l’utilisateur apparaissent, visibles sur la barre de défilement de la vidéo. L’utilisateur peut alors cliquer sur ces marqueurs pour naviguer au sein de la vidéo comme il le souhaite, et y voir les annotations associées.  
+
+L’utilisateur pourrait aussi vouloir segmenter le fichier vidéo en plusieurs séquences distinctes à partir de time codes précis. Dans ce cas-là, à la manière d’un logiciel de montage, l’utilisateur peut créer des cuts sur la vidéo et ainsi créer plusieurs fichiers numériques à partir de celle-ci, mais qui lui sont toujours liés. En effet, ces nouveaux objets, fragments du fichier vidéo d’origine, auraient leur propre notice de description mais resteraient rattachés à la notice principale, à la manière d’un ensemble.  
+
+Cette nouvelle fonctionnalité permettrait d’apprécier l’hétérogénéité des collections, et s’avèrerait utile dans le cas, par exemple, de rushes documentaires non édités que l’utilisateur souhaiterait diviser par mots clés ou thématiques. La description des médias vidéo n’en serait que plus affinée et précisée.  
+
+Par ailleurs, ce séquençage devra être effectué dans une optique d’annotation “sur” l’image, permettant ainsi d’associer des séquences plus précises à une description thématique. Concrètement, deux cas d’annotation sont possibles :  
+
+L’utilisateur pourrait être capable de placer des tags sur des éléments de l’image (objets, personnes, éléments techniques, contenu...) et d’en décrire le contenu dans les champs prévus. La notice du média prévoit alors l’affichage d’une description par time codes, sur lesquels l’utilisateur peut cliquer pour accéder directement à l'image en question.  
+
+L’utilisateur peut également vouloir décrire une séquence dans sa globalité, à l’intérieur d’un time code précis. Dans ce cas, les champs sont saisis à partir d’un tag sur le time code, et non plus sur un élément précis de l’image.  L’affichage de la description dans la notice peut rester le même que le précédent.  
+
+À l’ouverture du fichier vidéo, les annotations saisies apparaissent à droite de la visionneuse, et les times codes superposés à la barre de défilement de la vidéo.  
+
+La description précise sur des séquences vidéo permettrait à la recherche d’être plus performante : l’utilisateur pourrait, en cherchant certains mots clés, tomber directement sur les séquences numériques associées, aux time codes correspondants. 
+
+Il est intéressant de penser également à la mise en place d’une recherche par mots clés au sein du fichier numérique vidéo. La recherche d’un mot clé amène l’utilisateur à une séquence décrite par ce mot clé.   
+
+\textbf{Recherche de média par format} : à supprimer ?
+
+Il serait pratique de mettre en place, dans la table médias, une recherche par type de formats.  
+
+L'application pourrait détecter automatiquement le format du média créé par l’utilisateur et l'indexer pour le proposer comme critère de tri/de recherche à l’utilisateur.  
+
+Cela permettrait notamment de pouvoir rapidement visualiser les fichiers vidéo présents dans la table, au lieu de devoir faire des albums par types de médias.  
+
+Deux types de filtres seraient pertinents à proposer :  
+
+Type de média : vidéo, image, son 
+
+Format : mp4, mpeg, jpeg, mov... 
+
+\textbf{}Automatisation du catalogage 
+
+Il serait pertinent de mettre en place une automatisation de la hiérarchie FRBR à partir de la création d’une notice. Cette fonctionnalité serait assistée par l’IA. Par exemple, depuis l’item, l’application détecterait la hiérarchie supérieure à créer depuis les actions suivantes :  
+
+Description de l’item 
+
+Scan du code-barres  
+
+Création d’une notice item depuis la table films 
+
+Création d’une notice item depuis la table des entrées  
+
+L’assistant IA détecterait les liens à effectuer entre l’item en question et des notices de manifestation et d’œuvre si elles existent. Si elles n’existent pas, il créerait automatiquement les notices manifestation et œuvre et proposerait à l’utilisateur de les remplir. Ces notices seraient automatiquement liées. 
+
+Dans le cadre de la mise en place d’un chatbot, l’utilisateur pourrait simplement décrire l’item et son contenu, et l’intelligence artificielle suggèrerait à l’utilisateur ce qu’il faut créer, ou la marche à suivre. Par exemple :  
+
+Cet item est issu de la manifestation de telle oeuvre. Les deux notices existent déjà, il faut y lier cet item 
+
+Cet item est issu d’une nouvelle manifestation de telle oeuvre, il faut la créer et la lier à l’item 
+
+Cet item est issu de la variante de telle oeuvre, il faut la créer et la lier à l’item. Pas besoin de créer une manifestation, cet item est l’exemplaire unique de la variante de cette oeuvre.  

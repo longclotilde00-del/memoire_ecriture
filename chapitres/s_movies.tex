@@ -30,3 +30,16 @@ Problématique : les métadonnées issues de la segmentation automatique seraien
 
 Avant de pouvoir mettre en place la segmentation automatique, beaucoup de problèmes résident dans les entremêlements de liens entre les niveaux hiérarchiques du FRBR. Il faudrait pouvoir régler les confusions sur les liens entre les notices dans l'application avant de mettre en place une autre fonctionnalité. Sans avoir l'ambition de régler ces problèmes, nous proposerons ici toutefois une mise en place d'un processus de segmentation adapté et conforme au modèle FRBR. 
 
+spécification sur l'item numérique : 
+un item numérique est indexé dans la liste des objets de collection, et visible dans la liste des médias. les deux notices otn des champs partagés et des champs complémentaires. dans le cas d'une architecture fondée sur le FRBR, l'objet numérique est lié à une manifestation, une oeuvre. 
+l'application doit permettre la création automatique d'un item numérique à l'ingest d'un fichier numérique, la lecture depuis l'item des données portées par le média/fichier, la lecture depuis le média des données portées par l'item. 
+le fichier numérique formant un tout avec l'objet numérique est consultable dans le DAM avec possibilté de lire les données du FRBR
+réutiliser sur le média le même métamasque que celui de l'objet. quand on paramètre le menu d'une notice média, card spécifique dédié pour apeller les métamasques de l'item. 
+sur l'entité média je dois pouvoir utiliser les champs des cibles suivantes : média et notice de média, item, manifestation, oeuvre, 
+
+à intégrer : 
+lien entre le fichier numérique brut et la notice descriptive 
+fichier numérique : métadonnées techniques
+notice : métadonnées sémantiques 
+ici fusion : le fichier numériue et la notice forment un tout 
+facilite la mise en place de l'IA : analyse du fichier numérique et versement des métadonnées dans sa notice descriptive.
