@@ -14,9 +14,10 @@
 	
 	autre constat : 
 	"« Digital tools for paper resources have tended not to consider the strong presence of visual elements in them. Due to the lack of practically available AVP tools to digital humanities, scholarly research has ‘grossly neglected visual content, causing a lopsided representation of all sorts of digitized archives’. »
-	Sous représentation des éléments visuels dans l'indexation, même pour une collection audidiovisuelle. Les métadonnées textuelles liéees aux films sont nsuffisantes pour enrichir leurs métadonnées : titre, synopsis...
+	Sous représentation des éléments visuels dans l'indexation, même pour une collection audiovisuelle. Les métadonnées textuelles liéees aux films sont nsuffisantes pour enrichir leurs métadonnées : titre, synopsis...
 	\footcite{noord2021}
-	
+
+
 	\item Cas d'usage 
 	
 	\subitem Reconnaissance et extraction d'objets
@@ -92,5 +93,36 @@ Diginpix produti une sorte de segmentation : "When dealing with videos, keyframe
 
 \item Amalia.js
 \footcite{herve2015}
+
+
+Limites et disccusion sur les données d'entrainement 
+
+"The majority of video analysis are trained using supervised learning, where training a large deep-learning system requires a
+large dataset. There are several challenges associated with this
+standard paradigm. First, labeling a large number of video samples is very time consuming. Second, training an end-toend system on a large number of samples can be very slow, requiring significant computational resources. The majority of current video analysis systems are trained on a relatively small number of samples over a limited number
+of human activities." \footcite{pattichis2023}
+
+"Temporal Segment Network (TSN): TSN [4] attempts
+to model long-term activities. It uses fixed sparse temporal
+sampling. TSN achieved good performance over HMDB51
+(69.4 percent) and UCF101 (94.2 percent). The use of sparse sampling performs well on video activities with unique temporal patterns" \footcite{pattichis2023}
+
+Self-supervised learning : " use a large unlabeled dataset to train a deep learning model with a large number of parameters that can be proven useful for a simpler task." \footcite{pattichis2023}
+
+Semi-supervised learning : "combine supervised
+and unsupervised learning methods to generate better classifiers. Typically, we assume that we are given a small number
+of labeled samples and a large number of unlabeled samples." \footcite{pattichis2023}
+
+Active learning : "aims to reduce the amount of required data
+annotation through sample selection. The goal here is to select
+samples that can substantially improve the performance of the
+classifier. Thus, the basic idea is to identify new (possibly
+unlabeled) samples for which we cannot confidently predict
+the right label" \footcite{pattichis2023}
+
+Zero-shot learning : "methods that do not require any training (zero training) on specific video datasets associated with the task that needs to be learned. [...]  the basic idea is to use semantic information to come up with a textual description of an activity in terms of known categories." \footcite{pattichis2023}
+
+"The standard use of supervised learning methods requires expensive labeling of large video datasets. As a result, the majority of the methods for human activity recognition are trained and tested on relatively small datasets. As an alternative, we have introduced low-parameter models that can be trained over candidate video segments" \footcite{pattichis2023}
+
 
 \end{itemize}

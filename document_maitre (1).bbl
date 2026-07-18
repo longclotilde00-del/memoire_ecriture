@@ -65,6 +65,28 @@
       \verb https://drive.google.com/file/d/1WS4iZ2Wi_wft5x54RG-hYb45sf10W8nV/view?usp=embed_facebook
       \endverb
     \endentry
+    \entry{zotero-item-692}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{abstract}{L’apprentissage profond est un procédé d’apprentissage automatique utilisant des réseaux de neurones possédant plusieurs couches de neurones cachées.}
+      \field{langid}{french}
+      \field{title}{{Apprentissage profond (deep learning)}}
+      \field{urlday}{18}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/73JETAEI/apprentissage-profond-deep-learning.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cnil.fr/fr/definition/apprentissage-profond-deep-learning
+      \endverb
+      \verb{url}
+      \verb https://www.cnil.fr/fr/definition/apprentissage-profond-deep-learning
+      \endverb
+    \endentry
     \entry{arnab2021}{misc}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=a4cc19a9b2b2a4333ac5365d6f7c40a5}{%
@@ -377,7 +399,6 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2503.21848
       \endverb
@@ -1203,7 +1224,6 @@
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/5UVVFI8N/france-2030.html
       \endverb
@@ -1692,7 +1712,6 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/STQKXGDF/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables.html
       \endverb
@@ -2508,6 +2527,52 @@
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
     \endentry
+    \entry{morse2022/mars/01}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9f6aa1114ce135515641e26a319ccee}{%
+           family={Morse},
+           familyi={M\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b9f6aa1114ce135515641e26a319ccee}
+      \strng{fullhash}{b9f6aa1114ce135515641e26a319ccee}
+      \strng{fullhashraw}{b9f6aa1114ce135515641e26a319ccee}
+      \strng{bibnamehash}{b9f6aa1114ce135515641e26a319ccee}
+      \strng{authorbibnamehash}{b9f6aa1114ce135515641e26a319ccee}
+      \strng{authornamehash}{b9f6aa1114ce135515641e26a319ccee}
+      \strng{authorfullhash}{b9f6aa1114ce135515641e26a319ccee}
+      \strng{authorfullhashraw}{b9f6aa1114ce135515641e26a319ccee}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dans un paysage muséographique qui fait la part belle aux dispositifs immersifs, l’équipe d’Universcience a produit une exposition qui mise sur l’immersion~via~la narration. L’exposition~Renaissances~exploite habilement l’aptitude du cerveau humain à tirer parti des émotions suscitées par les récits, non seulement pour mieux comprendre les bouleversements du monde, mais aussi pour engager une réflexion sur les solutions potentielles et rechercher des formes de résilience.}
+      \field{issn}{0994-1908}
+      \field{journaltitle}{La Lettre de l’OCIM. Musées, Patrimoine et Culture scientifiques et techniques}
+      \field{langid}{french}
+      \field{number}{200}
+      \field{title}{{Les musées et l’expérience utilisateur (UX)}}
+      \field{urlday}{17}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2022/mars/01}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{38\bibrangedash 43}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.4000/ocim.4777
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.openedition.org/ocim/4777
+      \endverb
+      \verb{url}
+      \verb https://journals.openedition.org/ocim/4777
+      \endverb
+      \keyw{Muséographie}
+    \endentry
     \entry{noord2021}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=9ca204e1ae2afc3202253ec54b1f797c}{%
@@ -2753,13 +2818,74 @@
       \field{month}{3}
       \field{title}{Comprendre Le Modèle {{FRBR}} et Ses Extensions}
       \field{year}{2014}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.enssib.fr/bibliotheque-numerique/documents/65520-comprendre-le-modele-frbr-et-ses-extensions.pdf
       \endverb
       \verb{url}
       \verb https://www.enssib.fr/bibliotheque-numerique/documents/65520-comprendre-le-modele-frbr-et-ses-extensions.pdf
       \endverb
+    \endentry
+    \entry{pattichis2023}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=89dc43b07ca52494038415699b632bb4}{%
+           family={Pattichis},
+           familyi={P\bibinitperiod},
+           given={Marios\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60c7695d28570a9359b365fb469e196e}{%
+           family={Jatla},
+           familyi={J\bibinitperiod},
+           given={Venkatesh},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7113a9f2dd6d1aa0e9b4b51bab008bc5}{%
+           family={Cerna},
+           familyi={C\bibinitperiod},
+           given={Alvaro\bibnamedelimb E.\bibnamedelimi Ullao},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{f48e64497d4890c0e32a27a36f2fba02}
+      \strng{fullhash}{f48e64497d4890c0e32a27a36f2fba02}
+      \strng{fullhashraw}{f48e64497d4890c0e32a27a36f2fba02}
+      \strng{bibnamehash}{f48e64497d4890c0e32a27a36f2fba02}
+      \strng{authorbibnamehash}{f48e64497d4890c0e32a27a36f2fba02}
+      \strng{authornamehash}{f48e64497d4890c0e32a27a36f2fba02}
+      \strng{authorfullhash}{f48e64497d4890c0e32a27a36f2fba02}
+      \strng{authorfullhashraw}{f48e64497d4890c0e32a27a36f2fba02}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The paper provides a survey of the development of machine-learning techniques for video analysis. The survey provides a summary of the most popular deep learning methods used for human activity recognition. We discuss how popular architectures perform on standard datasets and highlight the differences from real-life datasets dominated by multiple activities performed by multiple participants over long periods. For real-life datasets, we describe the use of low-parameter models (with 200X or 1,000X fewer parameters) that are trained to detect a single activity after the relevant objects have been successfully detected. Our survey then turns to a summary of machine learning methods that are specifically developed for working with a small number of labeled video samples. Our goal here is to describe modern techniques that are specifically designed so as to minimize the amount of ground truth that is needed for training and testing video analysis systems. We provide summaries of the development of self-supervised learning, semi-supervised learning, active learning, and zero-shot learning for applications in video analysis. For each method, we provide representative examples.}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{month}{12}
+      \field{number}{arXiv:2312.05352}
+      \field{title}{A {{Review}} of {{Machine Learning Methods Applied}} to {{Video Analysis Systems}}}
+      \field{urlday}{18}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2312.05352
+      \endverb
+      \verb{eprint}
+      \verb 2312.05352
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2312.05352
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2312.05352
+      \endverb
+      \keyw{audiovisual processing,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Image and Video Processing}
     \endentry
     \entry{patton2024}{misc}{}{}
       \name{author}{1}{}{%
@@ -3137,7 +3263,6 @@
       \field{labeltitlesource}{title}
       \field{langid}{french}
       \field{title}{{Mise en œuvre d'une nouvelle structuration des données pour valoriser le fonds documentaire de l'IIPE UNESCO: l'expérience FRBR}}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/ZSUZ8N93/Signoles - Mise en œuvre d'une nouvelle structuration des données pour valoriser le fonds documentaire de l'IIP.pdf
       \endverb
@@ -3825,7 +3950,6 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2308.00210
       \endverb
@@ -4068,7 +4192,6 @@
       \field{volume}{686}
       \field{year}{2025}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{121335}
       \range{pages}{1}
       \verb{doi}

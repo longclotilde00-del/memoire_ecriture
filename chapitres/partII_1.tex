@@ -1,0 +1,88 @@
+\subsection{Traitement audiovisuel}
+
+mémoire jade norindr : 
+réseaux de neurones et computer vision > neurones et deep learning > CNN 
+modèles de détection > outils libres > comment entrainer > 
+autre sous partie : construire une plateforme pour la détection : outils interface et modèle de données  
+
+d'abord présenter les outils et les méthodes d'IA dispo pour l'audiovisuel : son, image, mouvement, temporalité 
+
+ 
+
+Les chercheurs qui analysent les objets visuels s'attachent de plus en plus à l'analyse vidéo car la détection du mouvement aide d'autres tâches d'analyse automatique de détection et de reconnaissance d'objets.  \footcite{brostow2009}
+Les technologies appliquées à l'analyse de contenus vidéo et audio, comprenant la computer vision et la reconnaissance de discours automatique (ASR) sont désignées sous le terme de Audiovisual Processing (AVP). \footcite{noord2021}
+aussi désigné sous les termes suivants : Audiovisual Processing technologies, Automatic Metadata Extraction, Metadata Generation Mechanisms, Machine Learning Applications for Visual/Audio Data Annotation.
+Malgré de grandes avancées dans le processing audiovisuel, avec des outils comme la computer vision appliquée à la vidéo, et la reconnaissance de discours automatique (ASR), ces outils restent largement inaccessibles et hors de portée pour les institutions patrimoniales. \footcite{noord2021}. Ils sont utilisés par des entreprises commerciales pour du montage vidéo par exemple. Le manque d'utilisation de ces outils dans le domaine des sciences humaines expliquent l'inexistance de données d'entraînement adaptées au secteur. \footcite{noord2021} 
+l'analyse vidéo par un processus humain prend un temps considérable, puiqu'il faut lire le fichier audiovisuel et en analyser les composants, le langage. Ainsi, l'indexation des archives audiovisuelles se cantonne souvent aux métadonnées, sans en exposer les données, le contenu. 
+De plus, les outils de traitement audiovisuel, appliqués à un grand nombre de données permettent de passer du "close" au "distant" viewing. \footcite{noord2021} En effet, au lieu d'analyser quelques archives audiovisuelles de manière isolée, les chercheurs/archivistes auraient l'opportunité d'obtenir une vue d'ensemble sur les données et d'en observer les tendances. L'application du traitement audiovisuel permet donc de changer notre rapport aux archives audiovisuelles. 
+
+\subsubsection{Machine learning et deep learning}
+
+Ces technologies reposent sur le machine learning, qui désigne un domaine de l'intelligence artificielle regroupant les techniques, méthodes et processus nécessaires afin de rendre une machine ou un système informatique plus intelligent. \footcite{zotero-item-584} Le machine learning désigne donc l'entraînement d'une machine à pouvoir "raisonner" à partir d'un jeu de données. Les techniques de traitement audiovisuels auraient donc besoin d'être entrainées sur des données, ici patrimoniale, afin de produire une analyse pertinente. 
+
+Ces techniques utilisent pour la plupart une des méthodes du machine learning, celle du deep learning, est fondée sur la mise en place de réseaux de neurones. Mais cette méthode requiert un large jeu de données d'entraînement. \footcite{pattichis2023}
+
+"L’apprentissage profond est un procédé d’apprentissage automatique utilisant des réseaux de neurones possédant plusieurs couches de neurones cachées. Ces algorithmes possédant de très nombreux paramètres, ils demandent un nombre très important de données afin d’être entraînés." \footcite{zotero-item-692} 
+
+ensuite : quelle méthodes /outils pour segmenter ? 
+méthodes :
+CNN, vision transformer et mécaisme d'auto attention
+segmentation sémantique vidéo adaptative TDNet et TDSNet 
+low parameter models 
+
+outils : 
+shot boundary detection : pyscene detect, 2SDS + amaliajs
+framework de computer vision : diginpix, detectron, imageJ
+modèles d'action reconigtion standards : TSN, slowfast
+
+
+transition vers la prochaine sous partie : parler des données d'entrainement (cf fichier IAvideo pattichis)
+
+
+\subsubsection{outils et modèles disponibles}
+Et donc en pratique, comment appliquer le traitement audiovisuel à des corpus d'archives audiovisuelles patrimoniales ? 
+
+La segmentation en pratique (Le cas du corpus Albert Kahn  DigInPix) : Pour analyser ce corpus, la première tâche est de briser le flux vidéo en unités distinctes appelées shots (plans) (Arnold  Tilton, 2019). C'est ici que vous intégrez le fonctionnement de DigInPix (développé par l'INA pour les images fixes et animées) : pour gérer la dimension temporelle, le système extrait des keyframes (images clés) dès que le contenu change significativement (nouveau plan, mouvement de caméra, nouvel objet) grâce à des histogrammes basés sur les descripteurs LBP (Local Binary Patterns) (Letessier et al., 2015). Une fois ces unités analysables isolées, on peut y appliquer de la reconnaissance (visages, objets) (Arnold  Tilton, 2019 ; Letessier et al., 2015).
+
+segmentation spatiale, temporelle, sémantique, audio
+
+ex du corpus albert kahn 
+
+\subsubsection{entraîner ces outils et ces modèles}
+
+les modèles de détection neuronaux sont entrainés sur des datasets de clips courts. Or, la réalité auiovisuelle est bien différente. \footcite{pattichis2023} Des approches algorithmiques non neuronales ou hybrides seraient donc plus adaptées car fondée sur des calculs et des seuils matéhmatiques : plus stable. 
+
+détection des coupures : 
+approche algorithmique non neuronale (2SDS, pyscenedetect), (xin et attard) pipeline technique en 4 étapes (down sampling (miniaturisation), conversion en niveaux de gris, calcul d'empreinte numérique par hachage binaire des pixels, et calcul de la distance de Hamming pour marquer la rupture visuelle (xin2023)
+
+efficace sur les plans fixes et mvts lents 
+
+mettre en rapport avec les travaux d'Arnold  Tilton (2019), qui utilisent une méthode similaire combinant différences d'histogrammes et réduction de résolution des pixels (downsampling) pour mesurer les ruptures de palettes de couleurs et de luminosité d'une frame à l'autre, complétée par des règles logiques pour éviter les faux positifs lors des fondus (fade-in/fade-out).
+
+L'apport de l'IA (Vers la classification sémantique) : La détection brute des coupures ne suffit plus ; l'enjeu actuel est la Shot semantics (décrire le contenu d'un plan et sa typologie) (Arnold  Tilton, 2019).
+
+Le rôle des modèles (CNN et Détecteurs) : Pour analyser le contenu de ces plans, on utilise l'apprentissage supervisé (Supervised Learning), où des algorithmes apprennent à partir de données labellisées par l'humain (DeLua, 2024). C'est le cas des réseaux de neurones convolutifs (CNN) comme Faster R-CNN ou YOLO (un détecteur de type Single Shot qui prédit et classifie "en une seule fois") pour la détection d'objets ou de visages (Arnold  Tilton, 2019 ; Robert, 2026).
+
+Le méta-algorithme de classification : Arnold  Tilton (2019) montrent qu'en combinant la position des visages détectés et les coupures de plans, on peut créer un méta-algorithme capable de classifier automatiquement le type de plan (gros plan/close-up, plan amorce/over the shoulder), permettant de comprendre comment le cadrage construit le récit.
+
+\subsubsection{analyse du mouvement}
+
+au lieu d'utiliser des larges modèles qui tentent de tout classifier, plutot utiliser des modèles "low parameter", c'est-à-dire des modèles 3D-CNN légers, avec moins de paramètres dédiés à la reconnaissance d'une seule activité précise. prenennt moins de mémoire vidéo. \footcite{pattichis2023}
+
+stratégie de réduction de l'annotation humaine : slf supervised learning, semi supervised, active learning, zero shot \footcite{pattichis2023}
+
+confronter les architectures de réseaux de neurones (CNN vs. Transformers), introduire l'apprentissage non supervisé (Unsupervised Learning / DeepCluster),
+
+Les limites des CNN 2D classiques (comme ResNet) : ils analysent la vidéo comme des images discrètes et indépendantes, ignorant la continuité du mouvement \footcite{xin2023}. Se tourner vers les vision transformers : CLIP, ViViT (bergmann et al), mécanismes d'auto attention qui analysent l'intégralité d'une séquence
+
+Les modèles de Video Semantic Segmentation (VSS) et le dilemme entre les méthodes orientées "vitesse" (approche par keyframes peu précise) et orientées "précision" (TDNet, flux optique, mécanismes d'auto-attention) \footcite{zhou2022}.
+
+La gestion du coût de calcul : présentation de TDSNet (TFRM pour extraire les zones dynamiques par soustraction d'images consécutives, et MMRM pour pondérer selon la magnitude réelle du mouvement) \footcite{yuan2025}. règle ce dilemme 
+
+alternatives non supervisées : la supervision demande des données annotées (caron et al), l'apprentissage non supervisé (Unsupervised Learning) comme DeepCluster (Caron et al., 2018). Ce type de modèle regroupe les images ou frames similaires en "clusters" algorithmiques (via K-means) pour s'auto-entraîner sans intervention humaine (Caron et al., 2018). Si DeepCluster s'avère robuste face à des changements de distribution d'images (ce qui est prometteur pour des archives spécifiques), il présente deux limites majeures : il introduit des biais imprévisibles en remplaçant les labels par des métadonnées brutes (inacceptable pour la rigueur historienne) et a été conçu sur des bases gigantesques (ImageNet, 1.28 million d'images), le rendant difficilement transposable à des collections d'archives réduites (Caron et al., 2018 ; Norindr, 2023).
+
+infrastructure locale : amener l'algorithme aux données : C'est la discussion centrale de votre partie. Les outils d'AVP commerciaux (souvent basés sur le Cloud) sont inutilisables pour les archives en raison des droits de propriété intellectuelle et de la sécurité des données (van Noord et al., 2021). La solution réside dans des architectures locales comme DANE (projet CLARIAH), basées sur un système décentralisé de workers (van Noord et al., 2021). Ce type d'infrastructure produit des métadonnées exploitables, mais aussi des vecteurs de caractéristiques (représentations abstraites) ouvrant la voie à la recherche par similarité visuelle ou sonore (van Noord et al., 2021).
+
+La note finale sur l'explosion des données : L'indexation automatique par IA (comme avec DigInPix ou les modèles de type VLM) génère une masse d'informations locales phénoménale : les bases de données constituées peuvent être plus lourdes en taille que les fichiers vidéos d'origine (Moiraghi  Letessier, 2018).
+
+transition : nécessité d'un mapping vers le FRBR : faire correspondre la sortie de ces pipelines avec un modèle de données. 
