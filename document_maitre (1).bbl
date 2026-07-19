@@ -558,7 +558,6 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/fr-fr/think/topics/transformer-model
       \endverb
@@ -724,7 +723,6 @@
       \field{volume}{11}
       \field{year}{2017}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.3389/fncom.2017.00102
       \endverb
@@ -810,7 +808,6 @@
       \field{volume}{30}
       \field{year}{2009}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{88\bibrangedash 97}
       \range{pages}{10}
       \verb{doi}
@@ -2341,6 +2338,90 @@
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
     \endentry
+    \entry{mahony2020}{book}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=772d342489e9020bf4a91ed6146ba87a}{%
+           family={Mahony},
+           familyi={M\bibinitperiod},
+           given={Niall\bibnamedelima O'},
+           giveni={N\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3610783d90e6f33dd2825fba18530c85}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6c6043c7f099e12414c35f022c46dfd}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Anderson},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1f762bc2171cfad70c98da2ce1542e9}{%
+           family={Harapanahalli},
+           familyi={H\bibinitperiod},
+           given={Suman},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1b3bd460d47986764c0333d780d3952}{%
+           family={{Velasco-Hernandez}},
+           familyi={V\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3797f2c968cc507cbbe92ca103399e7}{%
+           family={Krpalkova},
+           familyi={K\bibinitperiod},
+           given={Lenka},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c218dde295b64e98278c09e600dfdb0}{%
+           family={Riordan},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2016abe7bd371587d0d74f7864ae1ef9}{%
+           family={Walsh},
+           familyi={W\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e969afbe6dd1fa836d4c5bf47e2d96eb}
+      \strng{fullhash}{0545d4aa490ba25dfa262066831ee140}
+      \strng{fullhashraw}{0545d4aa490ba25dfa262066831ee140}
+      \strng{bibnamehash}{0545d4aa490ba25dfa262066831ee140}
+      \strng{authorbibnamehash}{0545d4aa490ba25dfa262066831ee140}
+      \strng{authornamehash}{e969afbe6dd1fa836d4c5bf47e2d96eb}
+      \strng{authorfullhash}{0545d4aa490ba25dfa262066831ee140}
+      \strng{authorfullhashraw}{0545d4aa490ba25dfa262066831ee140}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Deep Learning has pushed the limits of what was possible in the domain of Digital Image Processing. However, that is not to say that the traditional computer vision techniques which had been undergoing progressive development in years prior to the rise of DL have become obsolete. This paper will analyse the benefits and drawbacks of each approach. The aim of this paper is to promote a discussion on whether knowledge of classical computer vision techniques should be maintained. The paper will also explore how the two sides of computer vision can be combined. Several recent hybrid methodologies are reviewed which have demonstrated the ability to improve computer vision performance and to tackle problems not suited to Deep Learning. For example, combining traditional computer vision techniques with Deep Learning has been popular in emerging domains such as Panoramic Vision and 3D vision for which Deep Learning models have not yet been fully optimised}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Deep {{Learning}} vs. {{Traditional Computer Vision}}}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{943}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 1910.13796
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1910.13796
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1910.13796
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
+    \endentry
     \entry{zotero-item-651}{misc}{}{}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
@@ -2615,7 +2696,6 @@
       \field{month}{1}
       \field{title}{Automatic {{Annotations}} and {{Enrichments}} for {{Audiovisual Archives}}}
       \field{year}{2021}
-      \true{nocite}
       \field{pages}{633\bibrangedash 640}
       \range{pages}{8}
       \verb{doi}
@@ -2872,7 +2952,6 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2312.05352
       \endverb
@@ -3193,7 +3272,6 @@
       \field{urlyear}{2026}
       \field{year}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/5AQB9DFX/convolutional-neural-network.html
       \endverb
@@ -3239,6 +3317,73 @@
       \verb{url}
       \verb https://www.researchgate.net/publication/41117180_Analyse_automatique_de_film_-_Des_sequences_d'images_aux_sequences_d'actions
       \endverb
+    \endentry
+    \entry{schiappa2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bd8f2e7aed7dd6649d25d502504b4fa2}{%
+           family={Schiappa},
+           familyi={S\bibinitperiod},
+           given={Madeline\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d5002f17116365c257d0e4ad5a11d8f}{%
+           family={Rawat},
+           familyi={R\bibinitperiod},
+           given={Yogesh\bibnamedelima S.},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c75751f493070716733608d20f74e3af}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Mubarak},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d5998d8b4999f844befb98c87ad49441}
+      \strng{fullhash}{d5998d8b4999f844befb98c87ad49441}
+      \strng{fullhashraw}{d5998d8b4999f844befb98c87ad49441}
+      \strng{bibnamehash}{d5998d8b4999f844befb98c87ad49441}
+      \strng{authorbibnamehash}{d5998d8b4999f844befb98c87ad49441}
+      \strng{authornamehash}{d5998d8b4999f844befb98c87ad49441}
+      \strng{authorfullhash}{d5998d8b4999f844befb98c87ad49441}
+      \strng{authorfullhashraw}{d5998d8b4999f844befb98c87ad49441}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The remarkable success of deep learning in various domains relies on the availability of large-scale annotated datasets. However, obtaining annotations is expensive and requires great effort, which is especially challenging for videos. Moreover, the use of human-generated annotations leads to models with biased learning and poor domain generalization and robustness. As an alternative, self-supervised learning provides a way for representation learning which does not require annotations and has shown promise in both image and video domains. Different from the image domain, learning video representations are more challenging due to the temporal dimension, bringing in motion and other environmental dynamics. This also provides opportunities for video-exclusive ideas that advance self-supervised learning in the video and multimodal domain. In this survey, we provide a review of existing approaches on self-supervised learning focusing on the video domain. We summarize these methods into four different categories based on their learning objectives: 1) pretext tasks, 2) generative learning, 3) contrastive learning, and 4) cross-modal agreement. We further introduce the commonly used datasets, downstream evaluation tasks, insights into the limitations of existing works, and the potential future directions in this area.}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0360-0300, 1557-7341}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{month}{12}
+      \field{number}{13s}
+      \field{shorttitle}{Self-{{Supervised Learning}} for {{Videos}}}
+      \field{title}{Self-{{Supervised Learning}} for {{Videos}}: {{A Survey}}}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{55}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 37}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1145/3577925
+      \endverb
+      \verb{eprint}
+      \verb 2207.00419
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/4MINSPCT/Schiappa et al. - 2023 - Self-Supervised Learning for Videos A Survey.pdf;/home/clotilde/Zotero/storage/IX2NRM8A/2207.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2207.00419
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2207.00419
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition,Computer Science - Multimedia}
     \endentry
     \entry{signoles}{article}{}{}
       \name{author}{1}{}{%
@@ -3662,7 +3807,6 @@
       \field{volume}{80}
       \field{year}{2021}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{17487\bibrangedash 17513}
       \range{pages}{27}
       \verb{doi}
